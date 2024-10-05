@@ -1,0 +1,20 @@
+title = "mileshilliard"
+# logo  = "img/logo.svg"
+
+[[menu]]
+  text        = "Home"
+  description = "Miles Hilliard"
+  link        = "/"
+  target      = "_self"
+
+[[menu]]
+  text        = "Posts"
+  description = "See my latest posts"
+  link        = "/posts"
+  target      = "_self"
+
+[button]
+  enabled = true
+  text    = "Get my CV"
+  link    = "files/cv.pdf"
+  target  = "_blank"
