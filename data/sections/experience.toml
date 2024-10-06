@@ -1,28 +1,27 @@
 # The list of companies
 [[company]]
-  name = "Company 1"
-  date = "2022 - present"
-  role = "Team Lead"
+  name = "Sunk Robotics"
+  date = "2024 - present"
+  role = "Electrical Engineering Head"
   text = [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
-  ]
+    "This year, Sunk Robotics aims to place in the MATE ROV World Championship once again, keeping the tradition afloat!",
+    "With the use of new hardware, and more advanced technologies, I am reworking many hardware aspects of the robot to increase reliability and maneuverability for the pilot, and operators involved. With the reconstitution the control board isolation, JONA ROV will be less susceptible to high frequency EMF radiation, improving the sensitive electronic operation under various loads."]
 
 [[company]]
-  name = "Company 2"
-  date = "2020 - 2022"
-  role = "Backend Developer"
-  text = [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Cras elementum ultrices diam.",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.",
-  ]
-
-[[company]]
-  name = "Company 3"
-  date = "2020"
+  name = "MATE ROV"
+  date = "2024"
   role = "Software Engineer"
   text = [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
+    "'The MATE ROV Competition is excited to partner with NOAA Ocean Exploration again this year to offer up this challenge to students from around the world!'",
+    "By training a custom YOLO v8 model on the underwater starfish species known as the Brittle Star, Matty Harris and I were able to successfully acheive more than 90% detection accuracy with various underwater videos showcasing the species.",
+    "With a fully functioning artifical Convolutional Neural Network (CNN) to be submitted, we placed third overall in the 2024 Ocean Exploration Video Challenge hosted by MATE ROV."
+  ]
+
+[[company]]
+  name = "Sunk Robotics"
+  date = "2023 - 2024"
+  role = "Electrical Engineer"
+  text = [
+    "Sunk Robotics transferred and re-designed aspects from STEVE ROV to the more modern and robust JONA ROV. Thanks to our devoted team and funding from our sponsors, we were able to achieve first place in the regional competition, and ninth place overall in the MATE ROV World Championship while placing third in terms of robotics.",
+    "The custom PCB layouts required additional work and configuring to create a successful, near drop-in replacement, for JONA ROV. The creation of the new JENA Float began in 2023, with a finalized product scoring highest in the MATE ROV World Championship in 2024.",
   ]

@@ -2,11 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Miles Hilliard</title>
-    <link>https://www.mileshilliard.com/posts/</link>
+    <link>http://0.0.0.0:8080/posts/</link>
     <description>Recent content in Posts on Miles Hilliard</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://www.mileshilliard.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Oct 2024 23:10:19 -0400</lastBuildDate>
+    <atom:link href="http://0.0.0.0:8080/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://0.0.0.0:8080/posts/my-first-post/</link>
+      <pubDate>Fri, 04 Oct 2024 23:10:19 -0400</pubDate>
+      <guid>http://0.0.0.0:8080/posts/my-first-post/</guid>
+      <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello world!&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;This is my first post using this new theme!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>http://0.0.0.0:8080/posts/first-post/</link>
+      <pubDate>Thu, 25 Apr 2024 16:58:51 +0300</pubDate>
+      <guid>http://0.0.0.0:8080/posts/first-post/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet,&#xA;adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue,&#xA;euismod non, mi.&lt;/p&gt;&#xA;&lt;p&gt;Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

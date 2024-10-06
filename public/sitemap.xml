@@ -2,14 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.mileshilliard.com/</loc>
+    <loc>http://0.0.0.0:8080/</loc>
     <lastmod>2024-10-04T23:10:19-04:00</lastmod>
   </url><url>
-    <loc>https://www.mileshilliard.com/posts/</loc>
+    <loc>http://0.0.0.0:8080/posts/my-first-post/</loc>
     <lastmod>2024-10-04T23:10:19-04:00</lastmod>
   </url><url>
-    <loc>https://www.mileshilliard.com/categories/</loc>
+    <loc>http://0.0.0.0:8080/posts/</loc>
+    <lastmod>2024-10-04T23:10:19-04:00</lastmod>
   </url><url>
-    <loc>https://www.mileshilliard.com/tags/</loc>
+    <loc>http://0.0.0.0:8080/tags/project/</loc>
+    <lastmod>2024-10-04T23:10:19-04:00</lastmod>
+  </url><url>
+    <loc>http://0.0.0.0:8080/tags/</loc>
+    <lastmod>2024-10-04T23:10:19-04:00</lastmod>
+  </url><url>
+    <loc>http://0.0.0.0:8080/tags/test/</loc>
+    <lastmod>2024-10-04T23:10:19-04:00</lastmod>
+  </url><url>
+    <loc>http://0.0.0.0:8080/tags/hello/</loc>
+    <lastmod>2024-04-25T16:58:51+03:00</lastmod>
+  </url><url>
+    <loc>http://0.0.0.0:8080/posts/first-post/</loc>
+    <lastmod>2024-04-25T16:58:51+03:00</lastmod>
+  </url><url>
+    <loc>http://0.0.0.0:8080/tags/world/</loc>
+    <lastmod>2024-04-25T16:58:51+03:00</lastmod>
+  </url><url>
+    <loc>http://0.0.0.0:8080/categories/</loc>
   </url>
 </urlset>

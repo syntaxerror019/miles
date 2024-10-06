@@ -2,10 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Miles Hilliard</title>
-    <link>https://www.mileshilliard.com/tags/</link>
+    <link>http://0.0.0.0:8080/tags/</link>
     <description>Recent content in Tags on Miles Hilliard</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://www.mileshilliard.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Oct 2024 23:10:19 -0400</lastBuildDate>
+    <atom:link href="http://0.0.0.0:8080/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project</title>
+      <link>http://0.0.0.0:8080/tags/project/</link>
+      <pubDate>Fri, 04 Oct 2024 23:10:19 -0400</pubDate>
+      <guid>http://0.0.0.0:8080/tags/project/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>http://0.0.0.0:8080/tags/test/</link>
+      <pubDate>Fri, 04 Oct 2024 23:10:19 -0400</pubDate>
+      <guid>http://0.0.0.0:8080/tags/test/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hello</title>
+      <link>http://0.0.0.0:8080/tags/hello/</link>
+      <pubDate>Thu, 25 Apr 2024 16:58:51 +0300</pubDate>
+      <guid>http://0.0.0.0:8080/tags/hello/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>World</title>
+      <link>http://0.0.0.0:8080/tags/world/</link>
+      <pubDate>Thu, 25 Apr 2024 16:58:51 +0300</pubDate>
+      <guid>http://0.0.0.0:8080/tags/world/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

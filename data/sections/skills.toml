@@ -1,16 +1,37 @@
+title = "Don't measure your skills in percentages"
 
 [[skill]]
-  title = "Cloud Computing"
-  text  = "Deep qualified with AWS cloud services. Capable of develop serverless, containerized, and traditional services. As well as, experienced with writing infrastructure as code with Terraform."
-  icon  = "bx-cloud"
+  title = "Underwater Robotics"
+  text  = "Experience with hardware on underwater ROVs and Vertically Profiling Floats along with custom PCB design. Two years of qualified engineering with Sunk Robotics. Capable of designing custom schematics and boards for robotics."
+  icon  = "bx-water"
+  link  = "https://sunkrobotics.com/"
 
 [[skill]]
-  title = "Docker & Kubernetes"
-  text  = "Utilizing Docker, Swarm, and Kubernetes for developing and deploying applications. Proficient in multi-stage and multi-architecture builds, inclusive of docker-compose."
-  icon  = "bxl-docker"
+  title = "MCUs & SBCs"
+  text  = "Skilled in advanced usage of various makes and models of MCU and SBCs, including ARM SoC and ATMEGA. Knowledge in Libre Computer AML-S905 boards for modular, lightweight, and efficient solutions."
+  icon  = "bx-microchip"
+  link  = "/tags/rpi/"
 
 [[skill]]
-  title = "Node.js & React.js"
-  text  = "Proficient in using JavaScript and TypeScript for both frontend and backend services, including RESTful and GraphQL APIs. Well-versed in frameworks such as React.js, Express.js, Nest.js, and others."
-  icon  = "bxl-nodejs"
+  title = "Front-end & Back-end"
+  text  = "Proficient in Python and C++, along with advanced skills in JavaScript, CSS, and .NET languages. Many projects utilizing front-end static pages, back-end APIs, and fullstack developments."
+  icon  = "bx-code-block"
+  link  = "/tags/software/"
 
+[[skill]]
+  title = "Renewable Energy"
+  text  = "Experimental tests in solar energy for operating powerful computing servers and smaller scale micro computers. Familiarity with micro wind turbine systems for residential applications, including installation, distribution, and monitoring."
+  icon  = "bx-leaf"
+  link  = "/tags/energy/"
+
+[[skill]]
+  title = "Artificial Intelligence"
+  text  = "Involvement in multiple artificial intelligence projects, including MATE ROV: NOAA Ocean Exploration Video challenge (Placed 3rd world-wide). Adequate experience with YOLO and SSMD for fast, effective, and efficient object identifying, tracking, and recognition."
+  link  = "/tags/NOAA/"
+  icon  = "bx-bot"
+
+[[skill]]
+  title = "Fullstack Website Design"
+  text  = "An evergrowing inventory of both front-end static pages, back-end APIs, and full stack website capable of suiting any and all needs. Capable web development skills and proficient back-of-the-house server operation and management."
+  icon  = "bx-server" 
+  link  = "https://sntx.dev/"
