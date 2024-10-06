@@ -3,3 +3,7 @@ copyright = "© 2024 Miles Hilliard. All rights reserved."
 [[social]]
   type = "github"
   id   = "syntaxerror019"
+
+[[social]]
+  type = "email"
+  id   = "contact@mileshilliard.com"

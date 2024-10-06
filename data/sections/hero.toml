@@ -1,0 +1,11 @@
+title1 = "STUDENT"
+text1 = "A passionate student at Medford Vocational Technical High School in Medford, MA. partaking in the Robotics Team and Engineering vocational shop."
+
+title2 = "DEVELOPER"
+text2 = "Miles Hilliard"
+avatar = "img/default-avatar.png"
+
+title3 = "ENGINEER"
+text3  = "A budding engineer with a love for problem-solving and design, consistently applying technical skills to real-world projects in robotics, electronics, and programming."
+
+description = "I am an electrical engineering student with an evergrowing passion for programming, artificial intelligence, and robotic autonomy. As a high school student, I work as the electrical hardware lead to design, create, and test innovative ROVs and profiling floats for the annual MATE ROV Competition." 
