@@ -13,22 +13,22 @@
   enabled = true
   weight  = 3
 
-[[section]]
-  id      = "custom"
-  enabled = true
-  weight  = 4
+#[[section]]
+#  id      = "custom"
+#  enabled = true
+#  weight  = 4
 
-[[section]]
-  id      = "education"
-  enabled = true
-  weight  = 5
+#[[section]]
+#  id      = "education"
+#  enabled = true
+#  weight  = 5
 
 [[section]]
   id      = "projects"
   enabled = true
-  weight  = 6
+  weight  = 4
 
-[[section]]
-  id      = "testimonials"
-  enabled = true
-  weight  = 7
+#[[section]]
+#  id      = "testimonials"
+#  enabled = true
+#  weight  = 7
