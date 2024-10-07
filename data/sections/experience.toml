@@ -5,7 +5,7 @@
   role = "Electrical Engineering Head"
   text = [
     "This year, Sunk Robotics aims to place in the MATE ROV World Championship once again, keeping the tradition afloat!",
-    "With the use of new hardware, and more advanced technologies, I am reworking many hardware aspects of the robot to increase reliability and maneuverability for the pilot, and operators involved. With the reconstitution the control board isolation, JONA ROV will be less susceptible to high frequency EMF radiation, improving the sensitive electronic operation under various loads."]
+    "With the use of new hardware, and more advanced technologies, I am reworking many hardware aspects of the robot to increase reliability and maneuverability for the pilot, and operators involved. With the reconstitution of the control board isolation, JONA ROV will be less susceptible to high-frequency EMF radiation, improving the sensitive electronic operation under various loads."]
 
 [[company]]
   name = "MATE ROV"
@@ -13,8 +13,8 @@
   role = "Software Engineer"
   text = [
     "'The MATE ROV Competition is excited to partner with NOAA Ocean Exploration again this year to offer up this challenge to students from around the world!'",
-    "By training a custom YOLO v8 model on the underwater starfish species known as the Brittle Star, Matty Harris and I were able to successfully acheive more than 90% detection accuracy with various underwater videos showcasing the species.",
-    "With a fully functioning artifical Convolutional Neural Network (CNN) to be submitted, we placed third overall in the 2024 Ocean Exploration Video Challenge hosted by MATE ROV."
+    "By training a custom YOLO v8 model on the underwater starfish species known as the Brittle Star, Matty Harris and I were able to successfully achieve more than 90% detection accuracy with various underwater videos showcasing the species.",
+    "With a fully functioning artificial Convolutional Neural Network (CNN) to be submitted, we placed third overall in the 2024 Ocean Exploration Video Challenge hosted by MATE ROV."
   ]
 
 [[company]]
