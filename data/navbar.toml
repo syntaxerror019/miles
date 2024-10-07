@@ -1,17 +1,17 @@
 title = "mileshilliard"
-# logo  = "img/logo.svg"
+logo  = "img/miles-logo.png"
 
 [[menu]]
   text        = "Home"
   description = "Miles Hilliard"
   link        = "/"
-  target      = "_self"
+  target      = "_blank"
 
 [[menu]]
   text        = "Posts"
   description = "See my latest posts"
   link        = "/posts"
-  target      = "_self"
+  target      = "_blank"
 
 [button]
   enabled = true
