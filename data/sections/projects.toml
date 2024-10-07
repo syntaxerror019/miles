@@ -8,8 +8,28 @@ title = "Latest work"
   link = "https://sunkrobotics.com/"
 
 [[project]]
-  title = "Project Two"
+  title = "Github Package Manager (GHPM)"
   text = [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nisl nec nunc. Nullam nec nisl nec nunc. Nullam nec nisl nec nunc. Nullam nec nisl nec nunc. Nullam nec nisl nec nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc.",
+    "'GHPM was developed to address various challenges encountered by GitHub users. We achieve this by focusing on the client side of the GitHub interface. Instead of using the standard git clone command, we leverage the Git framework to ensure a standardized and efficient repository download process. Upon successfully obtaining the repository, our system offers invaluable support for building and configuring it through our integrated Dependency Manager (DM) and, most notably, our Entry Point Detection (EPD) feature.'",
+    "Between mid 2022 and to late 2023, I helped develop and test the Microsoft Windows side of the software, to ensure compatible and reliable usage across platforms.",
+    "Much of the updating software was rewritten to be more efficient and documented during this time, making it easier for future development and overall user experience."
   ]
-  link = "https://github.com/johndoe/project-two"
+  link = "https://github.com/smoke-wolf/GitHub-Package-Manager"
+  
+[[project]]
+  title = "WordBot"
+  text = [
+    "Utilizing advanced websocket and SocketIO communication, WordBot was created for multiplayer competitions on the popular word game, BombParty, by Sparklin Labs (JKLM.FUN). With consistent improvements being made, WordBot was dubbed an 'Official JKLM Bot.'",
+    "As a side-mission, WordBot was developed to be run efficiently on SBCs that can be easily powered strictly from solar energy by utilizing three 100W solar panels. With this, WordBot was the first carbon-neutral bot to be hosted with JKLM.FUN infrastructure.",
+    "With more than 3 complete overhauls in terms of software and hardware, WordBot has been constantly improving- with new and more advanced hardware and optimized software."
+  ]
+  link = "https://wordbot.sntx.dev"
+  
+[[project]]
+  title = "Digits of Pi"
+  text = [
+    "As a fun project, I decided to create a simple algorithm to calculate any amount of pi to the Nth digit. By running this script on a small VPS for multiple weeks, many digits of Pi were generated and recorded. Initially with over 5 million digits of pi calculated, the calculations were saved. Due to an unforeseen file corruption error, only 3 million digits were saved properly. By this time, I decided to end the project here.",
+    "During the calculation process, anybody could watch the digits being generated live by viewing the dedicated website. At this point, it serves as an archive and reference point for the 3 million digits of pi.",
+    "Downloadable versions of one, two, and three million digits are available on GitHub and on the website."
+  ]
+  link = "https://pi.sntx.dev/"
