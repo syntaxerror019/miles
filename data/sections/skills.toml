@@ -14,24 +14,24 @@ title = "Don't measure your skills in percentages"
 
 [[skill]]
   title = "Front-end & Back-end"
-  text  = "Proficient in Python and C++, along with advanced skills in JavaScript, CSS, and .NET languages. Many projects utilizing front-end static pages, back-end APIs, and fullstack developments."
+  text  = "Proficient in Python and C++, along with advanced skills in JavaScript, CSS, and .NET languages. Many projects, utilizing front-end static pages, back-end APIs, and full-stack developments."
   icon  = "bx-code-block"
   link  = "/tags/software/"
 
 [[skill]]
   title = "Renewable Energy"
-  text  = "Experimental tests in solar energy for operating powerful computing servers and smaller scale micro computers. Familiarity with micro wind turbine systems for residential applications, including installation, distribution, and monitoring."
+  text  = "Experimental tests in solar energy for operating powerful computing servers and smaller-scale microcomputers. Familiarity with micro wind turbine systems for residential applications, including installation, distribution, and monitoring."
   icon  = "bx-leaf"
   link  = "/tags/energy/"
 
 [[skill]]
   title = "Artificial Intelligence"
-  text  = "Involvement in multiple artificial intelligence projects, including MATE ROV: NOAA Ocean Exploration Video challenge (Placed 3rd world-wide). Adequate experience with YOLO and SSMD for fast, effective, and efficient object identifying, tracking, and recognition."
+  text  = "Involvement in multiple artificial intelligence projects, including MATE ROV: NOAA Ocean Exploration Video challenge (Placed 3rd worldwide). Adequate experience with YOLO and SSMD for fast, effective, and efficient object identifying, tracking, and recognition."
   link  = "/tags/NOAA/"
   icon  = "bx-bot"
 
 [[skill]]
-  title = "Fullstack Website Design"
-  text  = "An evergrowing inventory of both front-end static pages, back-end APIs, and full stack website capable of suiting any and all needs. Capable web development skills and proficient back-of-the-house server operation and management."
+  title = "full-stack Website Design"
+  text  = "An evergrowing inventory of both front-end static pages, back-end APIs, and full-stack websites capable of suiting any and all needs. Capable web development skills and proficient back-of-the-house server operation and management."
   icon  = "bx-server" 
   link  = "https://sntx.dev/"
