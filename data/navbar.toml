@@ -5,16 +5,16 @@ logo  = "img/miles-logo.png"
   text        = "Home"
   description = "Miles Hilliard"
   link        = "/"
-  target      = "_blank"
+  target      = "_self"
 
 [[menu]]
   text        = "Posts"
   description = "See my latest posts"
   link        = "/posts"
-  target      = "_blank"
+  target      = "_self"
 
 [button]
   enabled = true
-  text    = "Get my CV"
-  link    = "files/cv.pdf"
+  text    = "Support me"
+  link    = "https://ko-fi.com/sntxdev"
   target  = "_blank"
