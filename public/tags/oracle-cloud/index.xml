@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oracle Cloud on Miles Hilliard</title>
-    <link>http://0.0.0.0:8080/tags/oracle-cloud/</link>
+    <link>https://www.mileshilliard.com/tags/oracle-cloud/</link>
     <description>Recent content in Oracle Cloud on Miles Hilliard</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 25 Apr 2024 16:58:51 +0300</lastBuildDate>
-    <atom:link href="http://0.0.0.0:8080/tags/oracle-cloud/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.mileshilliard.com/tags/oracle-cloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Connecting to Oracle Cloud servers with VNC</title>
-      <link>http://0.0.0.0:8080/posts/vnc-oci/</link>
+      <link>https://www.mileshilliard.com/posts/vnc-oci/</link>
       <pubDate>Thu, 25 Apr 2024 16:58:51 +0300</pubDate>
-      <guid>http://0.0.0.0:8080/posts/vnc-oci/</guid>
-      <description>&lt;h2 id=&#34;what-is-oracle-cloud&#34;&gt;What is Oracle Cloud?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Oracle Cloud&lt;/strong&gt; is a cloud computing service offered by Oracle Corporation. It provides a range of cloud services, including:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Infrastructure as a Service (IaaS)&lt;/strong&gt;: This includes virtual machines, storage, and networking resources.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Platform as a Service (PaaS)&lt;/strong&gt;: Offers tools for developing, managing, and deploying applications, including databases, application development, and integration services.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Software as a Service (SaaS)&lt;/strong&gt;: Provides ready-to-use software applications hosted in the cloud, such as enterprise resource planning (ERP), human capital management (HCM), and customer relationship management (CRM) applications.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Oracle Cloud is known for its strong emphasis on database solutions, high-performance computing, and enterprise applications. It aims to help businesses reduce IT costs, scale their operations, and innovate faster by leveraging cloud technologies.&lt;/p&gt;</description>
+      <guid>https://www.mileshilliard.com/posts/vnc-oci/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Oracle Cloud&lt;/strong&gt; is a cloud computing service offered by Oracle Corporation. It provides a range of cloud services, including:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Infrastructure as a Service (IaaS)&lt;/strong&gt;: This includes virtual machines, storage, and networking resources.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Platform as a Service (PaaS)&lt;/strong&gt;: Offers tools for developing, managing, and deploying applications, including databases, application development, and integration services.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Software as a Service (SaaS)&lt;/strong&gt;: Provides ready-to-use software applications hosted in the cloud, such as enterprise resource planning (ERP), human capital management (HCM), and customer relationship management (CRM) applications.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Oracle Cloud is known for its strong emphasis on database solutions, high-performance computing, and enterprise applications. It aims to help businesses reduce IT costs, scale their operations, and innovate faster by leveraging cloud technologies.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

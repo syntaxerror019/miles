@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Miles Hilliard</title>
-    <link>http://0.0.0.0:8080/tags/</link>
+    <link>https://www.mileshilliard.com/tags/</link>
     <description>Recent content in Tags on Miles Hilliard</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 25 Apr 2024 16:58:51 +0300</lastBuildDate>
-    <atom:link href="http://0.0.0.0:8080/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.mileshilliard.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OCI</title>
-      <link>http://0.0.0.0:8080/tags/oci/</link>
+      <link>https://www.mileshilliard.com/tags/oci/</link>
       <pubDate>Thu, 25 Apr 2024 16:58:51 +0300</pubDate>
-      <guid>http://0.0.0.0:8080/tags/oci/</guid>
+      <guid>https://www.mileshilliard.com/tags/oci/</guid>
       <description></description>
     </item>
     <item>
       <title>Oracle Cloud</title>
-      <link>http://0.0.0.0:8080/tags/oracle-cloud/</link>
+      <link>https://www.mileshilliard.com/tags/oracle-cloud/</link>
       <pubDate>Thu, 25 Apr 2024 16:58:51 +0300</pubDate>
-      <guid>http://0.0.0.0:8080/tags/oracle-cloud/</guid>
+      <guid>https://www.mileshilliard.com/tags/oracle-cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Server</title>
-      <link>http://0.0.0.0:8080/tags/server/</link>
+      <link>https://www.mileshilliard.com/tags/server/</link>
       <pubDate>Thu, 25 Apr 2024 16:58:51 +0300</pubDate>
-      <guid>http://0.0.0.0:8080/tags/server/</guid>
+      <guid>https://www.mileshilliard.com/tags/server/</guid>
       <description></description>
     </item>
     <item>
       <title>SSH</title>
-      <link>http://0.0.0.0:8080/tags/ssh/</link>
+      <link>https://www.mileshilliard.com/tags/ssh/</link>
       <pubDate>Thu, 25 Apr 2024 16:58:51 +0300</pubDate>
-      <guid>http://0.0.0.0:8080/tags/ssh/</guid>
+      <guid>https://www.mileshilliard.com/tags/ssh/</guid>
       <description></description>
     </item>
     <item>
       <title>VNC</title>
-      <link>http://0.0.0.0:8080/tags/vnc/</link>
+      <link>https://www.mileshilliard.com/tags/vnc/</link>
       <pubDate>Thu, 25 Apr 2024 16:58:51 +0300</pubDate>
-      <guid>http://0.0.0.0:8080/tags/vnc/</guid>
+      <guid>https://www.mileshilliard.com/tags/vnc/</guid>
       <description></description>
     </item>
   </channel>
