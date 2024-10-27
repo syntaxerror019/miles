@@ -1,5 +1,5 @@
 ---
-    title: 'AI Meets the Deep: Our Journey to 3rd Place in the 2024 Exploration Challenge"'
+    title: 'AI Meets the Deep: Our Journey to 3rd Place in the 2024 Exploration Challenge'
     date: 2024-08-28T13:03:04-04:00
     tags: ['NOAA', 'AI', 'Software', 'Robotics']
     image: 'index.png'
