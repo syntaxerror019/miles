@@ -16,18 +16,18 @@
       <description>Introduction Between all the various tutorials online, there is no straight way to installing OpenCV on a RPI&amp;hellip;&#xA;Issue&amp;rsquo;s I have encountered personally include but are not limited to the following:&#xA;Building from source issues Various rare errors Garbage tutorials So in this simple guide, I have documented my installation of OpenCV on my Raspberry Pi, Model 3 B+&#xA;Other models should be quite similar.&#xA;Requirements For this project, I used a Raspberry Pi 3 B+ running Ubuntu Server 20.</description>
     </item>
     <item>
+      <title>AI Meets the Deep: Our Journey to 3rd Place in the 2024 Exploration Challenge&#34;</title>
+      <link>http://localhost:1313/posts/noaa-ocean-exploration/</link>
+      <pubDate>Wed, 28 Aug 2024 13:03:04 -0400</pubDate>
+      <guid>http://localhost:1313/posts/noaa-ocean-exploration/</guid>
+      <description>With the annual MATE ROV competition all finished up, Sunk Robotics placed 3rd worldwide in terms of robotics, and 9th overall including the marketing and advertising campaigns. A good run indeed. Our robot performed well, although reliability is our priority for next year’s attempt.&#xA;A New Competition Although MATE ROV offers its well-known underwater competition, there are other events they host as well. This year, Matty Harris and I undertook a secondary challenge, known as the 2024 Ocean Exploration Video Challenge (OER) where teams must create custom Artificial Intelligence models that can be used to identify underwater species from a provided video.</description>
+    </item>
+    <item>
       <title>Connecting to Oracle Cloud servers with VNC</title>
       <link>http://localhost:1313/posts/vnc-oci/</link>
       <pubDate>Thu, 25 Apr 2024 16:58:51 +0300</pubDate>
       <guid>http://localhost:1313/posts/vnc-oci/</guid>
       <description>Oracle Cloud is a cloud computing service offered by Oracle Corporation. It provides a range of cloud services, including:&#xA;Infrastructure as a Service (IaaS): This includes virtual machines, storage, and networking resources. Platform as a Service (PaaS): Offers tools for developing, managing, and deploying applications, including databases, application development, and integration services. Software as a Service (SaaS): Provides ready-to-use software applications hosted in the cloud, such as enterprise resource planning (ERP), human capital management (HCM), and customer relationship management (CRM) applications.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/posts/noaa-ocean-exploration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/noaa-ocean-exploration/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>

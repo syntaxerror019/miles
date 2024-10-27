@@ -2,12 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/camera/</loc>
-    <lastmod>2024-09-07T13:03:04-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/cv2/</loc>
-    <lastmod>2024-09-07T13:03:04-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/rpi-cv2/</loc>
     <lastmod>2024-09-07T13:03:04-04:00</lastmod>
   </url><url>
@@ -20,9 +14,6 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-09-07T13:03:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/raspberry-pi/</loc>
-    <lastmod>2024-09-07T13:03:04-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/rpi/</loc>
     <lastmod>2024-09-07T13:03:04-04:00</lastmod>
   </url><url>
@@ -31,6 +22,18 @@
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-09-07T13:03:04-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2024-08-28T13:03:04-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/noaa-ocean-exploration/</loc>
+    <lastmod>2024-08-28T13:03:04-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/noaa/</loc>
+    <lastmod>2024-08-28T13:03:04-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/robotics/</loc>
+    <lastmod>2024-08-28T13:03:04-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/vnc-oci/</loc>
     <lastmod>2024-04-25T16:58:51+03:00</lastmod>
@@ -50,8 +53,16 @@
     <loc>http://localhost:1313/tags/vnc/</loc>
     <lastmod>2024-04-25T16:58:51+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/noaa-ocean-exploration/</loc>
+    <loc>http://localhost:1313/tags/camera/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/cv2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/neural-network/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/raspberry-pi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/sunk-robotics/</loc>
   </url>
 </urlset>

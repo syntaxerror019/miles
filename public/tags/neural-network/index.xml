@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neural Network on Miles Hilliard</title>
+    <link>http://localhost:1313/tags/neural-network/</link>
+    <description>Recent content in Neural Network on Miles Hilliard</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/neural-network/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

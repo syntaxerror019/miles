@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Software on Miles Hilliard</title>
-    <link>http://localhost:1313/tags/software/</link>
-    <description>Recent content in Software on Miles Hilliard</description>
+    <title>AI on Miles Hilliard</title>
+    <link>http://localhost:1313/tags/ai/</link>
+    <description>Recent content in AI on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Sep 2024 13:03:04 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/software/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Installing OpenCV on RPi in 2024</title>
-      <link>http://localhost:1313/posts/rpi-cv2/</link>
-      <pubDate>Sat, 07 Sep 2024 13:03:04 -0400</pubDate>
-      <guid>http://localhost:1313/posts/rpi-cv2/</guid>
-      <description>Introduction Between all the various tutorials online, there is no straight way to installing OpenCV on a RPI&amp;hellip;&#xA;Issue&amp;rsquo;s I have encountered personally include but are not limited to the following:&#xA;Building from source issues Various rare errors Garbage tutorials So in this simple guide, I have documented my installation of OpenCV on my Raspberry Pi, Model 3 B+&#xA;Other models should be quite similar.&#xA;Requirements For this project, I used a Raspberry Pi 3 B+ running Ubuntu Server 20.</description>
-    </item>
+    <lastBuildDate>Wed, 28 Aug 2024 13:03:04 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI Meets the Deep: Our Journey to 3rd Place in the 2024 Exploration Challenge&#34;</title>
       <link>http://localhost:1313/posts/noaa-ocean-exploration/</link>
