@@ -31,7 +31,7 @@ title = "Don't measure your skills in percentages"
   icon  = "bx-bot"
 
 [[skill]]
-  title = "full-stack Website Design"
+  title = "Full-stack Website Design"
   text  = "An evergrowing inventory of both front-end static pages, back-end APIs, and full-stack websites capable of suiting any and all needs. Capable web development skills and proficient back-of-the-house server operation and management."
   icon  = "bx-server" 
   link  = "https://sntx.dev/"
