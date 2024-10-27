@@ -1,7 +1,7 @@
 ---
     title: 'Installing OpenCV on RPi in 2024'
     date: 2024-09-07T13:03:04-04:00
-    tags: ['RPi', 'CV2', 'OpenCV', 'Raspberry Pi', 'Camera']
+    tags: ['RPi', 'CV2', 'OpenCV', 'Raspberry Pi', 'Camera', 'Software']
     image: 'index.png'
     draft: false
 ---

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>RPi on Miles Hilliard</title>
-    <link>http://localhost:1313/tags/rpi/</link>
-    <description>Recent content in RPi on Miles Hilliard</description>
+    <title>Software on Miles Hilliard</title>
+    <link>http://localhost:1313/tags/software/</link>
+    <description>Recent content in Software on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 07 Sep 2024 13:03:04 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/rpi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installing OpenCV on RPi in 2024</title>
       <link>http://localhost:1313/posts/rpi-cv2/</link>

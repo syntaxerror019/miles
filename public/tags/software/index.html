@@ -7,7 +7,7 @@
 <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
 <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
 
-<title>Installing OpenCV on RPi in 2024 | Miles Hilliard</title>
+<title>Software | Miles Hilliard</title>
 
 <link rel="stylesheet" href="/css/tailwind.css" />
 
@@ -191,15 +191,25 @@
       <main>
         
   <div class="container max-w-screen-xl mx-auto px-4">
-    <div class="grid grid-cols-1 gap-6">
-      <div class="bg-gray-50 px-8 py-10 rounded-md post-content">
-        <img
-          class="rounded-md mb-4 w-full"
-          src="/posts/rpi-cv2//index.png"
-          alt="Installing OpenCV on RPi in 2024"
-          title="Installing OpenCV on RPi in 2024" />
-        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Installing OpenCV on RPi in 2024</h1>
-        
+    <h1 class="text-center font-medium text-gray-700 text-3xl md:text-4xl mb-5 font-poppins">Software</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      
+      
+      
+        <div class="bg-gray-50 px-8 py-10 rounded-md">
+          <a href="/posts/rpi-cv2/">
+            <img
+              class="rounded-md mb-4"
+              src="/posts/rpi-cv2//index.png"
+              alt="Installing OpenCV on RPi in 2024"
+              title="Installing OpenCV on RPi in 2024" />
+          </a>
+          <div class="relative">
+            <a href="/posts/rpi-cv2/">
+              <h2 class="font-medium text-gray-700 text-xl relative z-10">Installing OpenCV on RPi in 2024</h2>
+            </a>
+          </div>
+          
 
 
 
@@ -239,61 +249,20 @@
   </div>
 </div>
 
-
-        <hr>
-<h2 id="introduction">Introduction</h2>
-<p>Between all the various tutorials online, there is no straight way to installing OpenCV on a RPI&hellip;</p>
-<p>Issue&rsquo;s I have encountered personally include but are not limited to the following:</p>
-<ul>
-<li>Building from source issues</li>
-<li>Various rare errors</li>
-<li>Garbage tutorials</li>
-</ul>
-<p>So in this simple guide, I have documented my installation of OpenCV on my Raspberry Pi, Model 3 B+</p>
-<p>Other models should be quite similar.</p>
-<hr>
-<h2 id="requirements">Requirements</h2>
-<p>For this project, I used a Raspberry Pi 3 B+ running Ubuntu Server 20.04</p>
-<p>I&rsquo;ve stopped using the Raspbian image on my pi for numerous reasons, mainly due to the smaller community base and lack of support for software when compared to Ubuntu. I also use Ubuntu daily, and I am very familiar with it.</p>
-<p>You will also need an internet connection, a way to connect to your RPI (be it SSH, USB, VNC, etc.), and an SD card with some reasonable levels of (free) storage</p>
-<hr>
-<h2 id="getting-started">Getting Started</h2>
-<p>To begin, you should always start with the classic</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get update
-</span></span><span style="display:flex;"><span>sudo apt-get upgrade
-</span></span></code></pre></div><p>and once everything is up to date, you can install the necessary packages for OpenCV:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install build-essential cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev python3-dev
-</span></span></code></pre></div><hr>
-<h2 id="instlling-pip-package-manager">Instlling pip Package Manager</h2>
-<p>If you have not already done so, you can install pip the package manager for python using this command:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install python3-pip
-</span></span></code></pre></div><p>and once that finishes, you can use it to install Numpy:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip3 install numpy
-</span></span></code></pre></div><hr>
-<h2 id="getting-opencv">Getting OpenCV</h2>
-<p>Almost done! Now you can just install OpenCV. Before you start trying to install though, it is important you install the correct version.<br>
-If your RPI is running Ubuntu Server (or similar) and has no GUI (e.g. boots into a terminal screen with no GUI) you will want to install a different version than if your RPI has a GUI.</p>
-<p>If you don&rsquo;t have a GUI (or even if you do), run the following command. This will omit GUI functionality.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip3 install opencv-python-headless
-</span></span></code></pre></div><p>If you have a GUI on your RPI, you can try installing the normal OpenCV version.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip3 install opencv-python
-</span></span></code></pre></div><p><strong>Important Note:</strong> If you have a GUI and the GUI installation doesn&rsquo;t work (or importing cv2 in python throws an error) it may be worth trying the headless version. Be sure you use pip3 to uninstall the existing version before trying to install a different one!</p>
-<hr>
-<h2 id="importing-and-testing">Importing and Testing</h2>
-<p>If the installation (which may take a while depending on hardware and internet speed) completed without error, now is the time to test everything!</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python3
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>&gt;&gt;&gt; import cv2
-</span></span><span style="display:flex;"><span>&gt;&gt;&gt; print<span style="color:#f92672">(</span>cv2.__version__<span style="color:#f92672">)</span>
-</span></span></code></pre></div><p>if the basic <code>import cv2</code> throws an error, read the note on the above step and try again.<br>
-If you still can&rsquo;t figure it out, leave a comment!</p>
-<hr>
-<h2 id="wrapping-up">Wrapping Up</h2>
-<p>You have now installed OpenCV on your RPI running Ubuntu (or similar OS) congratulations! 🎉</p>
-<p>If you have any questions or comments, please let me know in the comment section below and I&rsquo;ll be happy to help you out if you provide your situation. If you would prefer to email me (more direct and reliable contact) shoot me an email at <code>miles@mileshilliard.com</code> and I&rsquo;ll get back to you shortly!</p>
-<p>Thank you!</p>
-
-      </div>
+          <div class="post-card">
+            Introduction Between all the various tutorials online, there is no straight way to installing OpenCV on a RPI&hellip;
+Issue&rsquo;s I have encountered personally include but are not limited to the following:
+Building from source issues Various rare errors Garbage tutorials So in this simple guide, I have documented my installation of OpenCV on my Raspberry Pi, Model 3 B+
+Other models should be quite similar.
+Requirements For this project, I used a Raspberry Pi 3 B+ running Ubuntu Server 20.
+            <div class="block text-right mt-4 font-light text-lg">
+              <a href="/posts/rpi-cv2/" class="text-blue-500">Read more...</a>
+            </div>
+          </div>
+        </div>
+      
     </div>
+    
   </div>
 
       </main>
