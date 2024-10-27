@@ -2,33 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.mileshilliard.com/posts/vnc-oci/</loc>
+    <loc>http://localhost:8080/tags/camera/</loc>
+    <lastmod>2024-09-07T13:03:04-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/tags/cv2/</loc>
+    <lastmod>2024-09-07T13:03:04-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/posts/rpi-cv2/</loc>
+    <lastmod>2024-09-07T13:03:04-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/</loc>
+    <lastmod>2024-09-07T13:03:04-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/tags/opencv/</loc>
+    <lastmod>2024-09-07T13:03:04-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/posts/</loc>
+    <lastmod>2024-09-07T13:03:04-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/tags/raspberry-pi/</loc>
+    <lastmod>2024-09-07T13:03:04-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/tags/rpi/</loc>
+    <lastmod>2024-09-07T13:03:04-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/tags/</loc>
+    <lastmod>2024-09-07T13:03:04-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/posts/vnc-oci/</loc>
     <lastmod>2024-04-25T16:58:51+03:00</lastmod>
   </url><url>
-    <loc>https://www.mileshilliard.com/</loc>
+    <loc>http://localhost:8080/tags/oci/</loc>
     <lastmod>2024-04-25T16:58:51+03:00</lastmod>
   </url><url>
-    <loc>https://www.mileshilliard.com/tags/oci/</loc>
+    <loc>http://localhost:8080/tags/oracle-cloud/</loc>
     <lastmod>2024-04-25T16:58:51+03:00</lastmod>
   </url><url>
-    <loc>https://www.mileshilliard.com/tags/oracle-cloud/</loc>
+    <loc>http://localhost:8080/tags/server/</loc>
     <lastmod>2024-04-25T16:58:51+03:00</lastmod>
   </url><url>
-    <loc>https://www.mileshilliard.com/posts/</loc>
+    <loc>http://localhost:8080/tags/ssh/</loc>
     <lastmod>2024-04-25T16:58:51+03:00</lastmod>
   </url><url>
-    <loc>https://www.mileshilliard.com/tags/server/</loc>
+    <loc>http://localhost:8080/tags/vnc/</loc>
     <lastmod>2024-04-25T16:58:51+03:00</lastmod>
   </url><url>
-    <loc>https://www.mileshilliard.com/tags/ssh/</loc>
-    <lastmod>2024-04-25T16:58:51+03:00</lastmod>
-  </url><url>
-    <loc>https://www.mileshilliard.com/tags/</loc>
-    <lastmod>2024-04-25T16:58:51+03:00</lastmod>
-  </url><url>
-    <loc>https://www.mileshilliard.com/tags/vnc/</loc>
-    <lastmod>2024-04-25T16:58:51+03:00</lastmod>
-  </url><url>
-    <loc>https://www.mileshilliard.com/categories/</loc>
+    <loc>http://localhost:8080/categories/</loc>
   </url>
 </urlset>

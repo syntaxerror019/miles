@@ -2,45 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Miles Hilliard</title>
-    <link>https://www.mileshilliard.com/tags/</link>
+    <link>http://localhost:8080/tags/</link>
     <description>Recent content in Tags on Miles Hilliard</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Apr 2024 16:58:51 +0300</lastBuildDate>
-    <atom:link href="https://www.mileshilliard.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Sep 2024 13:03:04 -0400</lastBuildDate>
+    <atom:link href="http://localhost:8080/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Camera</title>
+      <link>http://localhost:8080/tags/camera/</link>
+      <pubDate>Sat, 07 Sep 2024 13:03:04 -0400</pubDate>
+      <guid>http://localhost:8080/tags/camera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CV2</title>
+      <link>http://localhost:8080/tags/cv2/</link>
+      <pubDate>Sat, 07 Sep 2024 13:03:04 -0400</pubDate>
+      <guid>http://localhost:8080/tags/cv2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenCV</title>
+      <link>http://localhost:8080/tags/opencv/</link>
+      <pubDate>Sat, 07 Sep 2024 13:03:04 -0400</pubDate>
+      <guid>http://localhost:8080/tags/opencv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Raspberry Pi</title>
+      <link>http://localhost:8080/tags/raspberry-pi/</link>
+      <pubDate>Sat, 07 Sep 2024 13:03:04 -0400</pubDate>
+      <guid>http://localhost:8080/tags/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RPi</title>
+      <link>http://localhost:8080/tags/rpi/</link>
+      <pubDate>Sat, 07 Sep 2024 13:03:04 -0400</pubDate>
+      <guid>http://localhost:8080/tags/rpi/</guid>
+      <description></description>
+    </item>
     <item>
       <title>OCI</title>
-      <link>https://www.mileshilliard.com/tags/oci/</link>
+      <link>http://localhost:8080/tags/oci/</link>
       <pubDate>Thu, 25 Apr 2024 16:58:51 +0300</pubDate>
-      <guid>https://www.mileshilliard.com/tags/oci/</guid>
+      <guid>http://localhost:8080/tags/oci/</guid>
       <description></description>
     </item>
     <item>
       <title>Oracle Cloud</title>
-      <link>https://www.mileshilliard.com/tags/oracle-cloud/</link>
+      <link>http://localhost:8080/tags/oracle-cloud/</link>
       <pubDate>Thu, 25 Apr 2024 16:58:51 +0300</pubDate>
-      <guid>https://www.mileshilliard.com/tags/oracle-cloud/</guid>
+      <guid>http://localhost:8080/tags/oracle-cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Server</title>
-      <link>https://www.mileshilliard.com/tags/server/</link>
+      <link>http://localhost:8080/tags/server/</link>
       <pubDate>Thu, 25 Apr 2024 16:58:51 +0300</pubDate>
-      <guid>https://www.mileshilliard.com/tags/server/</guid>
+      <guid>http://localhost:8080/tags/server/</guid>
       <description></description>
     </item>
     <item>
       <title>SSH</title>
-      <link>https://www.mileshilliard.com/tags/ssh/</link>
+      <link>http://localhost:8080/tags/ssh/</link>
       <pubDate>Thu, 25 Apr 2024 16:58:51 +0300</pubDate>
-      <guid>https://www.mileshilliard.com/tags/ssh/</guid>
+      <guid>http://localhost:8080/tags/ssh/</guid>
       <description></description>
     </item>
     <item>
       <title>VNC</title>
-      <link>https://www.mileshilliard.com/tags/vnc/</link>
+      <link>http://localhost:8080/tags/vnc/</link>
       <pubDate>Thu, 25 Apr 2024 16:58:51 +0300</pubDate>
-      <guid>https://www.mileshilliard.com/tags/vnc/</guid>
+      <guid>http://localhost:8080/tags/vnc/</guid>
       <description></description>
     </item>
   </channel>
