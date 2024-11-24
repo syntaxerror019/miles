@@ -1,0 +1,330 @@
+<!doctype html>
+<html
+  lang="en-us"
+  dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=8080&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
+
+<title>Baofeng UV5R DIY direct to computer audio cable | Miles Hilliard</title>
+
+<link rel="stylesheet" href="/css/tailwind.css" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;600&display=swap"
+  rel="stylesheet" />
+
+<meta property="og:title" content="Homepage | hugo-porto theme" />
+
+<meta property="og:locale" content="en_US" />
+
+<meta property="og:url" content="//" />
+
+<meta
+  name="description"
+  content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+
+<meta name="theme-color" content="#5540af" />
+
+<meta property="og:site_name" content="hugo-porto theme" />
+
+<meta property="og:image" content="//assets/img/social.jpg" />
+
+<meta name="twitter:card" content="summary_large_image" />
+
+<meta name="twitter:site" content="@tailwindmade" />
+
+
+
+
+
+
+  
+
+
+
+<link rel="icon" href="/img/default-favicon_hu8d258ab55b6d0b5dfecbad37f235c98d_876415_32x0_resize_box_3.png" />
+
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+
+
+
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+
+
+
+
+
+
+  </head>
+  <body :class="{ 'overflow-hidden max-h-screen': mobileMenu }" class="relative" x-data="{ mobileMenu: false }">
+    <div id="main" class="relative max-w-screen-xl mx-auto px-5">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+  
+
+
+
+
+
+
+<div class="flex items-center justify-between py-5">
+  <div class="flex items-center">
+    <a href="/">
+      <img src="/img/miles-logo.png" class="py-5 w-10 lg:w-14 min-w-10" alt="mileshilliard" title="mileshilliard" />
+    </a>
+    <a href="/">
+      <h1 class="text-lg lg:text-xl px-2 lg:px-3 font-medium">mileshilliard</h1>
+    </a>
+  </div>
+  <div class="hidden lg:block">
+    <ul class="flex items-center">
+      
+        <li class="px-5">
+          <a
+            href="/"
+            alt="Miles Hilliard"
+            title="Miles Hilliard"
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            Home
+          </a>
+        </li>
+      
+        <li class="px-5">
+          <a
+            href="/posts"
+            alt="See my latest posts"
+            title="See my latest posts"
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            Posts
+          </a>
+        </li>
+      
+      
+        <li class="px-5">
+          <a href="https://ko-fi.com/sntxdev" target="_blank">
+            <button
+              class="px-10 py-4 bg-white hover:bg-gray-600 hover:text-white rounded-lg font-normal text-base transition duration-300">
+              Support me
+            </button>
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="block lg:hidden mt-2">
+    <button @click="mobileMenu = true">
+      <i class="bx bx-menu text-3xl"></i>
+    </button>
+  </div>
+</div>
+
+<div
+  class="pointer-events-none fixed inset-0 min-h-screen bg-black bg-opacity-75 opacity-0 lg:hidden"
+  :class="{ 'opacity-100 pointer-events-auto': mobileMenu }">
+  <div class="absolute right-0 min-h-screen bg-gray-200 py-5 px-10 w-2/3 sm:w-1/3">
+    <button class="absolute top-0 right-0 mt-9 mr-4" @click="mobileMenu = false">
+      <i class="bx bx-x text-4xl"></i>
+    </button>
+    <ul class="mt-12 flex flex-col">
+      
+        <li class="py-2">
+          <a
+            href="/"
+            alt="Miles Hilliard"
+            title="Miles Hilliard"
+            target="_self"
+            class="cursor-pointer font-normal">
+            Home
+          </a>
+        </li>
+      
+        <li class="py-2">
+          <a
+            href="/posts"
+            alt="See my latest posts"
+            title="See my latest posts"
+            target="_self"
+            class="cursor-pointer font-normal">
+            Posts
+          </a>
+        </li>
+      
+      <li class="py-2">
+        <a href="/files/Andrew Molyuk.pdf" target="_blank" class="cursor-pointer font-normal">Get my CV</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+      <main>
+        
+  <div class="container max-w-screen-xl mx-auto px-4">
+    <div class="grid grid-cols-1 gap-6">
+      <div class="bg-gray-50 px-8 py-10 rounded-md post-content">
+        <img
+          class="rounded-md mb-4 w-full"
+          src="/posts/uv5r-audio-pc//final-setup.jpeg"
+          alt="Baofeng UV5R DIY direct to computer audio cable"
+          title="Baofeng UV5R DIY direct to computer audio cable" />
+        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Baofeng UV5R DIY direct to computer audio cable</h1>
+        
+
+
+
+<div class="flex items-center">
+  <div class="my-2 flex whitespace-nowrap items-center">
+    <i class="bx bx-calendar text-gray-500 h-5"></i>
+    <span class="text-gray-500 text-sm mx-1"><time datetime="2024-11-24T10:28:04-04:00">November 24, 2024</time></span>
+  </div>
+  <div class="m-2 text-base flex whitespace-nowrap items-center">
+    <i class="bx bx-time-five text-gray-500"></i>
+    <span class="text-gray-500 text-sm mx-1 h-5">
+      3
+      minutes
+    </span>
+  </div>
+  <div class="my-2 flex whitespace-nowrap items-center">
+    <i class="bx bx-purchase-tag-alt text-gray-500 h-4"></i>
+    
+      
+      <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="http://localhost:8080/tags/ham" aria-label="HAM">HAM</a>
+    
+      
+      <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="http://localhost:8080/tags/radio" aria-label="Radio">Radio</a>
+    
+      
+      <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="http://localhost:8080/tags/hardware" aria-label="Hardware">Hardware</a>
+    
+      
+      <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="http://localhost:8080/tags/uv5r" aria-label="UV5R">UV5R</a>
+    
+      
+      <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="http://localhost:8080/tags/cw" aria-label="CW">CW</a>
+    
+  </div>
+</div>
+
+
+        <p>With my new HAM radio license in the books, I bought the Baofeng UV5R as my first HT. Between its low-cost and various features, I think its been a great radio to start out with. With an upgraded antenna (almost not optional) and a larger battery bank, I&rsquo;ve found the radio to be a pretty solid unit. Unfortunately, there is no direct way to plug in the radio&rsquo;s speaker and mic jacks to a computer soundcard to transmit and receive sounds to and from my PC, but with a simple cable modification, this can be done.</p>
+<p>The radio comes with a small headset/ earpiece and microphone cable that can be connected to the audio jacks. In truth, this little device is utterly useless. Between the deafening pop the earpiece makes at the beginning of every sound coming out the radio, and the loud and tactile PTT button, theres not much left to use it for. But luckily for us, this cable comes with the connector designed to plug into this radio, which is exactly what we need. By removing all of the other circuitry from the</p>
+<p>Alternatively, if you plan on using the earpiece or aren&rsquo;t in the mood to destroy the cable, you could grab a 2.5mm to 3.5mm cable and a 3.5mm to 3.5mm headphone cable. With this, you can directly plug the both audio cables into the radio, and on the other end, into your sound card. Do note that the way the PTT functions externally on the UV-5R is by shorting the 2 ground pins on the jacks, as shown in the diagram below. Many sound cards have a common ground between the mic input and the headphone output. This means that the radio will begin transmitting the second you plug both cables in. To combat this, <a href="https://www.ebay.com/sch/i.html?_from=R40&amp;_trksid=p2334524.m570.l1313&amp;_nkw=audio+jack+isolator+ground+loop&amp;_sacat=0&amp;_odkw=audio+jack+isolator&amp;_osacat=0">you can purchase an audio isolator</a> or make your own from <a href="https://www.epanorama.net/documents/groundloop/audio_isolator_building.html">this detailed guide.</a>.</p>
+<div>
+    <b style="padding: 10px; font-weight: 900;">Headset jack pinout</b>
+    <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%;" src="/posts/uv5r-audio-pc/wiring.jpg"/></img>
+    <br>
+</div>
+<p>I ended up putting a JST connector on the end of the audio lines to make it a little more versatile. This way, it can be plugged into many different boards. For now, I have it plugged into this board. The board has two, 3.5mm audio cables connected. These can be plugged into the input and output of a sound card. There is also a small 2k ohm potentiometer for volume control (from the radio) and an SPDT switch for PTT.</p>
+<div>
+    <b style="padding: 10px; font-weight: 900;">Final prototype board</b>
+    <div style="display: flex; gap: 10px;">
+        <img onclick="window.location.href=this.src;" style="width: 50%;" src="/posts/uv5r-audio-pc/board.jpeg"/>
+        <img onclick="window.location.href=this.src;" style="width: 50%;" src="/posts/uv5r-audio-pc/annotated-board.jpg"/>
+    </div>
+    <br>
+</div>
+<p>With this, I was able to successfully send and receive simplex signals, including CW and SSTV.</p>
+<p>And with it all connected, it looked a little like this:</p>
+<p>Here are a few pictures&hellip;</p>
+<div>
+    <b style="padding: 10px; font-weight: 900;">Working decoding CW</b>
+    <img onclick="window.location.href=this.src;" style="display: block; width: 50%;" src="/posts/uv5r-audio-pc/working.jpeg"/></img>
+    <br>
+</div>
+<div>
+    <b style="padding: 10px; font-weight: 900;">Final setup in terms of wiring</b>
+    <img onclick="window.location.href=this.src;" style="display: block; width: 50%;" src="/posts/uv5r-audio-pc/final-setup.jpeg"/></img>
+    <br>
+</div>
+<div>
+    <b style="padding: 10px; font-weight: 900;">Baofeng UV-5R Radio</b>
+    <img onclick="window.location.href=this.src;" style="display: block; width: 50%;" src="/posts/uv5r-audio-pc/radio.jpeg"/></img>
+    <br>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+      </main>
+      <footer>
+        
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+<div class=" text-center">
+  <div class="flex flex-wrap items-center justify-center">
+    
+      
+      
+        <a href="https://github.com/syntaxerror019/" target="_blank" class="p-5"><i class="bx bxl-github text-3xl"></i></a>
+      
+    
+      
+      
+        <a href="https://wa.me/7815397451/" target="_blank" class="p-5"><i class="bx bxl-whatsapp text-3xl"></i></a>
+      
+    
+  </div>
+</div>
+
+
+
+<div class="pb-5 text-center text-lg font-light">
+  <div title="hugo-porto v0.1.7">
+    © 2024 Miles Hilliard. All rights reserved.
+  </div>
+</div>
+
+      </footer>
+    </div>
+  </body>
+</html>

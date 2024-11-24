@@ -90,7 +90,7 @@ You may read our [finalized documentation](https://docs.google.com/document/d/1C
 
 Overall, it was great working with Matty, and I think we both learned so much. We weren’t expecting to place well (or even at all), considering that we had such limited time and resources to finish the project. I know I can speak for both of us here, because placing 3rd nationally was a great feeling. 
 
-Feel free to check out some of the additional resources on this project. I have made copies of important documents as perma-links as well
+Feel free to checkout some of the additional resources on this project. I have made copies of important documents as perma-links as well
 
 [MATE ROV Additional Challenges](https://materovcompetition.org/additional-challenges) \- [https://materovcompetition.org/additional-challenges](https://materovcompetition.org/additional-challenges)  
 [MATE ROV Additional Challenges](http://mileshilliard.com/files/materovcompetition.pdf) (PDF)  
