@@ -14,7 +14,7 @@ title = "Don't measure your skills in percentages"
 
 [[skill]]
   title = "Front-end & Back-end"
-  text  = "Proficient in Python and C++, along with advanced skills in JavaScript, CSS, and .NET languages. Many projects, utilizing front-end static pages, back-end APIs, and full-stack developments."
+  text  = "Proficient in Python and C++, along with growing skills in JavaScript, CSS, and .NET languages. Various projects, utilizing front-end static pages, back-end APIs, and full-stack developments, both online, offline, and non-networked."
   icon  = "bx-code-block"
   link  = "/tags/software/"
 
@@ -31,7 +31,7 @@ title = "Don't measure your skills in percentages"
   icon  = "bx-bot"
 
 [[skill]]
-  title = "Full-stack Website Design"
-  text  = "An evergrowing inventory of both front-end static pages, back-end APIs, and full-stack websites capable of suiting any and all needs. Capable web development skills and proficient back-of-the-house server operation and management."
-  icon  = "bx-server" 
+  title = "RF & Radios & Antennas"
+  text  = "Growing knowledge in radio frequency electronics. Interest in analog & digital communication modes such as CW (morse code), SSTV (slow-scan television) and FT8. A passionate DIY radio enthusiast. A licensed HAM radio operator."
+  icon  = "bx-radio" 
   link  = "https://sntx.dev/"
