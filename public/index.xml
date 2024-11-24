@@ -36,5 +36,12 @@
       <guid>http://localhost:8080/posts/vnc-oci/</guid>
       <description>Oracle Cloud is a cloud computing service offered by Oracle Corporation. It provides a range of cloud services, including:&#xA;Infrastructure as a Service (IaaS): This includes virtual machines, storage, and networking resources. Platform as a Service (PaaS): Offers tools for developing, managing, and deploying applications, including databases, application development, and integration services. Software as a Service (SaaS): Provides ready-to-use software applications hosted in the cloud, such as enterprise resource planning (ERP), human capital management (HCM), and customer relationship management (CRM) applications.</description>
     </item>
+    <item>
+      <title></title>
+      <link>http://localhost:8080/posts/diy-lipo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:8080/posts/diy-lipo/</guid>
+      <description>I have been flying FPV drones for nearly 2 years now, and one of the most frequent things to fail on them (besides the props) are LiPo batteries. Often times a couple of good crashes will do a number on a battery. Similarly, forgetting to take the voltage of them down to storage voltage has ruined multiple packs of mine. After testing my collection of &amp;ldquo;bad batteries&amp;rdquo; I realized that many of them only have 1 or 2 cells that seem to be damaged.</description>
+    </item>
   </channel>
 </rss>

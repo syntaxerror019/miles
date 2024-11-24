@@ -8,22 +8,10 @@
     <loc>http://localhost:8080/tags/cw/</loc>
     <lastmod>2024-11-24T10:28:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/posts/diy-lipo/</loc>
-    <lastmod>2024-11-24T10:28:04-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:8080/tags/drone/</loc>
-    <lastmod>2024-11-24T10:28:04-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:8080/tags/fpv/</loc>
-    <lastmod>2024-11-24T10:28:04-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:8080/tags/ham/</loc>
     <lastmod>2024-11-24T10:28:04-04:00</lastmod>
   </url><url>
     <loc>http://localhost:8080/tags/hardware/</loc>
-    <lastmod>2024-11-24T10:28:04-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:8080/tags/lipo/</loc>
     <lastmod>2024-11-24T10:28:04-04:00</lastmod>
   </url><url>
     <loc>http://localhost:8080/</loc>
@@ -33,9 +21,6 @@
     <lastmod>2024-11-24T10:28:04-04:00</lastmod>
   </url><url>
     <loc>http://localhost:8080/tags/radio/</loc>
-    <lastmod>2024-11-24T10:28:04-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:8080/tags/rc/</loc>
     <lastmod>2024-11-24T10:28:04-04:00</lastmod>
   </url><url>
     <loc>http://localhost:8080/tags/</loc>
@@ -85,6 +70,8 @@
   </url><url>
     <loc>http://localhost:8080/tags/vnc/</loc>
     <lastmod>2024-04-25T16:58:51+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/posts/diy-lipo/</loc>
   </url><url>
     <loc>http://localhost:8080/categories/</loc>
   </url>

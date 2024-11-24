@@ -16,20 +16,6 @@
       <description></description>
     </item>
     <item>
-      <title>Drone</title>
-      <link>http://localhost:8080/tags/drone/</link>
-      <pubDate>Sun, 24 Nov 2024 10:28:04 -0400</pubDate>
-      <guid>http://localhost:8080/tags/drone/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>FPV</title>
-      <link>http://localhost:8080/tags/fpv/</link>
-      <pubDate>Sun, 24 Nov 2024 10:28:04 -0400</pubDate>
-      <guid>http://localhost:8080/tags/fpv/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>HAM</title>
       <link>http://localhost:8080/tags/ham/</link>
       <pubDate>Sun, 24 Nov 2024 10:28:04 -0400</pubDate>
@@ -44,24 +30,10 @@
       <description></description>
     </item>
     <item>
-      <title>LiPo</title>
-      <link>http://localhost:8080/tags/lipo/</link>
-      <pubDate>Sun, 24 Nov 2024 10:28:04 -0400</pubDate>
-      <guid>http://localhost:8080/tags/lipo/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Radio</title>
       <link>http://localhost:8080/tags/radio/</link>
       <pubDate>Sun, 24 Nov 2024 10:28:04 -0400</pubDate>
       <guid>http://localhost:8080/tags/radio/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>RC</title>
-      <link>http://localhost:8080/tags/rc/</link>
-      <pubDate>Sun, 24 Nov 2024 10:28:04 -0400</pubDate>
-      <guid>http://localhost:8080/tags/rc/</guid>
       <description></description>
     </item>
     <item>
