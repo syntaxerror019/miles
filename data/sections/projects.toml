@@ -1,5 +1,15 @@
 title = "Latest work"
 [[project]]
+  title = "HAM Radio License"
+  text = [
+    "As of 11/23/2024, I am a registered HAM radio operator. This means I can use technology that nobody has even thought about since WWII.",
+    "HAM radio is a dying art, and I beleive it should be revived. The whole concept of communication without internet or networks or cables is fascinating, and still very important. Although HAM radio is now no longer as common as it once was, it can still be a necessity for some. People still rely on it as a form of communication (and entertainment) in less urbanized areas, and more recently, it has had an impact on natural disaster relief.",
+    "With growing interests in RF and the world of analog modes, I am learning about various technologies, both analog and digital, including CW (morse code), SSTV (slow-scan television), RTTY, et al.",
+    "73,",
+    "KC1VTJ"]
+  link = "/tags/ham/"
+
+[[project]]
   title = "Sunk Robotics"
   text = [
     "Sunk Robotics, a high school, student run, robotics team that operates out of Medford Vocational Technical High School, in Medford, Massachusetts.",

@@ -2,3 +2,8 @@ baseURL = 'https://www.mileshilliard.com/'
 languageCode = 'en-us'
 title = 'Miles Hilliard'
 theme = 'porto'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
