@@ -31,7 +31,7 @@ title = "Don't measure your skills in percentages"
   icon  = "bx-bot"
 
 [[skill]]
-  title = "RF & Radios & Antennas"
+  title = "RF, Radios & Antennas"
   text  = "Growing knowledge in radio frequency electronics. Interest in analog & digital communication modes such as CW (morse code), SSTV (slow-scan television) and FT8. A passionate DIY radio enthusiast. A licensed HAM radio operator."
   icon  = "bx-radio" 
   link  = "/tags/ham"

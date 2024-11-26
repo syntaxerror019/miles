@@ -198,6 +198,7 @@
           src="/posts/rpi-cv2//index.png"
           alt="Installing OpenCV on RPi in 2024"
           title="Installing OpenCV on RPi in 2024" />
+          
         <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Installing OpenCV on RPi in 2024</h1>
         
 
@@ -283,6 +284,33 @@ If you still can&rsquo;t figure it out, leave a comment!</p>
 <p>If you have any questions or comments, please let me know in the comment section below and I&rsquo;ll be happy to help you out if you provide your situation. If you would prefer to email me (more direct and reliable contact) shoot me an email at <code>miles@mileshilliard.com</code> and I&rsquo;ll get back to you shortly!</p>
 <p>Thank you!</p>
 
+        <hr>
+        <div style="display: block; padding: 10px;">
+          <img style="height: 30px; width: 30px;" id="counter" src=""></img>
+        </div>
+      </div>
+      <script>
+        function hashURLPath() {
+          const path = window.location.pathname;
+          let hash = 0;
+          for (let i = 0; i < path.length; i++) {
+              const char = path.charCodeAt(i);
+              hash = (hash * 31 + char) >>> 0; 
+          }
+          return hash;
+      }
+      const hash=hashURLPath();
+      console.log("generated hash: ", hash);
+      document.getElementById('counter').src = `https://smallcounter.com/count.php?c_style=1&id=${hash}`;
+      </script>
+      <hr>
+      <div class="bg-gray-50 px-8 py-10 rounded-md post-content">
+        <h1>Leave any questions or comments here</h1>
+        
+        <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+        <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+        <script type="text/javascript" id="hcb">   if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24sXRfCQ2ZmeM2z6.jSTA9W0"+"&opts=16798&num=10&ts=1732584427302");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})();   </script>
+        
       </div>
     </div>
   </div>

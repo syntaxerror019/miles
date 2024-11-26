@@ -198,6 +198,7 @@
           src="/posts/vnc-oci//index.png"
           alt="Connecting to Oracle Cloud servers with VNC"
           title="Connecting to Oracle Cloud servers with VNC" />
+          
         <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Connecting to Oracle Cloud servers with VNC</h1>
         
 
@@ -356,6 +357,33 @@ Click the Default Security List link. For example <a href="https://sntx.dev/">De
 <p>You should now see your Server&rsquo;s Desktop! Congratulations! You&rsquo;ve done it! 🥳😁🙌👌👏</p>
 <p><img src="https://content.instructables.com/FMI/TLFQ/LZ8FI2RY/FMITLFQLZ8FI2RY.png?auto=webp&amp;frame=1&amp;width=1024&amp;fit=bounds&amp;md=083c90968662776d295b9290acc85181" alt="VNCDESKTOP"></p>
 
+        <hr>
+        <div style="display: block; padding: 10px;">
+          <img style="height: 30px; width: 30px;" id="counter" src=""></img>
+        </div>
+      </div>
+      <script>
+        function hashURLPath() {
+          const path = window.location.pathname;
+          let hash = 0;
+          for (let i = 0; i < path.length; i++) {
+              const char = path.charCodeAt(i);
+              hash = (hash * 31 + char) >>> 0; 
+          }
+          return hash;
+      }
+      const hash=hashURLPath();
+      console.log("generated hash: ", hash);
+      document.getElementById('counter').src = `https://smallcounter.com/count.php?c_style=1&id=${hash}`;
+      </script>
+      <hr>
+      <div class="bg-gray-50 px-8 py-10 rounded-md post-content">
+        <h1>Leave any questions or comments here</h1>
+        
+        <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+        <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+        <script type="text/javascript" id="hcb">   if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24sXRfCQ2ZmeM2z6.jSTA9W0"+"&opts=16798&num=10&ts=1732584427302");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})();   </script>
+        
       </div>
     </div>
   </div>
