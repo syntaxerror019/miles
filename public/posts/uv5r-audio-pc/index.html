@@ -256,8 +256,24 @@
     <br>
 </div>
 <p>With this, I was able to successfully send and receive simplex signals, including CW and SSTV.</p>
-<p>And with it all connected, it looked a little like this:</p>
-<p>Here are a few pictures&hellip;</p>
+<p>I later revised the board and designed a 3D printed enclosure to house it. It was printed without support, on a Creality Ender 3 printer. Using black PLA worked well for this application, and took only 3 hours to print both the box and the lid together. The text is extruded by 1mm and will come out black (and hard to read) if you only have a single extruder printer like I do. To combat this, I used a white paint marker and carefully colored the letters which worked flawlessly.</p>
+<p>I also redesigned the circuit sligtly, by adding some filtration capacitors to help make the audio quality less static-ey. These capacitors block DC currents from flowing through them, but the AC audio signal can pass straight on through. Also, with this design, I found that you can short the two ground pins together without tripping the PTT function on the radio. This means both audio cables can be plugged into a sound card that share a common ground without any issues.</p>
+<p>With this, the final product was born!</p>
+<div>
+    <b style="padding: 10px; font-weight: 900;">Final product!</b>
+    <img onclick="window.location.href=this.src;" style="display: block; width: 50%;" src="/posts/uv5r-audio-pc/box.jpeg"/></img>
+    <br>
+</div>
+<div>
+    <b style="padding: 10px; font-weight: 900;">Box with the lid off</b>
+    <img onclick="window.location.href=this.src;" style="display: block; width: 50%;" src="/posts/uv5r-audio-pc/box-dis.jpeg"/></img>
+    <br>
+</div>
+<div>
+    <b style="padding: 10px; font-weight: 900;">Finalized circuit schematic</b>
+    <img onclick="window.location.href=this.src;" style="display: block; width: 50%;" src="/posts/uv5r-audio-pc/schematic.png"/></img>
+    <br>
+</div>
 <div>
     <b style="padding: 10px; font-weight: 900;">Working decoding CW</b>
     <img onclick="window.location.href=this.src;" style="display: block; width: 50%;" src="/posts/uv5r-audio-pc/working.jpeg"/></img>
