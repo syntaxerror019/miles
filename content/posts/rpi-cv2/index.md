@@ -41,7 +41,7 @@ sudo apt-get upgrade
 
 and once everything is up to date, you can install the necessary packages for OpenCV:
 ```bash
-sudo apt-get install build-essential cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev python3-dev
+sudo apt-get install build-essential cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev python3-dev libatlas-base-dev
 ```
 
 ----
@@ -63,14 +63,19 @@ pip3 install numpy
 Almost done! Now you can just install OpenCV. Before you start trying to install it, it's important you install the correct version.  
 If your raspberry pi is running Ubuntu Server (or similar) and has no GUI (e.g. boots into a terminal screen with no GUI) you will want to install a different version than if your RPI has a GUI.  
 
-If you don't have a GUI (or even if you do), run the following command. This will omit GUI functionality.
-```bash
-pip3 install opencv-python-headless
-```  
-
 If you have a GUI on your RPI, you can try installing the normal OpenCV version.
 ```bash
 pip3 install opencv-python
+```  
+
+If the above throws errors or fails to install, I recommend the use of the APT package manager to give it a go. This works on nearly every RPI distro and due to apt's stableness, you will likely get a working and compatible OpenCV version.
+```bash
+sudo apt install python3-opencv
+```
+
+If none of the above work, or you don't have a GUI (or even if you do), you may run the following command. This will omit GUI functionality in the software.
+```bash
+pip3 install opencv-python-headless
 ```  
 
 **Important Note:** If you have a GUI and the GUI installation doesn't work (or importing cv2 in python throws an error) it may be worth trying the headless version. Be sure you use pip3 to uninstall the existing version before trying to install a different one!  
