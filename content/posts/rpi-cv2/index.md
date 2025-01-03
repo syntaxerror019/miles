@@ -46,7 +46,7 @@ sudo apt-get install build-essential cmake git libgtk2.0-dev pkg-config libavcod
 
 ----
 
-## Instlling pip Package Manager
+## Installing pip Package Manager
 If you have not already done so, you can install pip the package manager for python using this command:
 ```bash
 sudo apt-get install python3-pip
@@ -60,8 +60,8 @@ pip3 install numpy
 ---
 
 ## Getting OpenCV
-Almost done! Now you can just install OpenCV. Before you start trying to install though, it is important you install the correct version.  
-If your RPI is running Ubuntu Server (or similar) and has no GUI (e.g. boots into a terminal screen with no GUI) you will want to install a different version than if your RPI has a GUI.  
+Almost done! Now you can just install OpenCV. Before you start trying to install it, it's important you install the correct version.  
+If your raspberry pi is running Ubuntu Server (or similar) and has no GUI (e.g. boots into a terminal screen with no GUI) you will want to install a different version than if your RPI has a GUI.  
 
 If you don't have a GUI (or even if you do), run the following command. This will omit GUI functionality.
 ```bash
