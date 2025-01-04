@@ -8,11 +8,17 @@ logo  = "img/miles-logo.png"
   target      = "_self"
 
 [[menu]]
-  text        = "Posts"
-  description = "See my latest posts"
-  link        = "/posts"
+  text        = "Robotics Posts"
+  description = "See robotics-only posts."
+  link        = "/tags/robotics-blog/"
   target      = "_self"
 
+[[menu]]
+  text        = "Blog"
+  description = "See all my latest posts"
+  link        = "/posts"
+  target      = "_self"
+  
 [button]
   enabled = true
   text    = "Support me"
