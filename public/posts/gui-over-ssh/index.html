@@ -7,7 +7,7 @@
 <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
 <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
 
-<title>SSH | Miles Hilliard</title>
+<title>GUI over SSH with X11 | Miles Hilliard</title>
 
 <link rel="stylesheet" href="/css/tailwind.css" />
 
@@ -188,25 +188,16 @@
       <main>
         
   <div class="container max-w-screen-xl mx-auto px-4">
-    <h1 class="text-center font-medium text-gray-700 text-3xl md:text-4xl mb-5 font-poppins">SSH</h1>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-      
-      
-      
-        <div class="bg-gray-50 px-8 py-10 rounded-md">
-          <a href="/posts/gui-over-ssh/">
-            <img
-              class="rounded-md mb-4"
-              src="/posts/gui-over-ssh//index.png"
-              alt="GUI over SSH with X11"
-              title="GUI over SSH with X11" />
-          </a>
-          <div class="relative">
-            <a href="/posts/gui-over-ssh/">
-              <h2 class="font-medium text-gray-700 text-xl relative z-10">GUI over SSH with X11</h2>
-            </a>
-          </div>
+    <div class="grid grid-cols-1 gap-6">
+      <div class="bg-gray-50 px-8 py-10 rounded-md post-content">
+        <img
+          class="rounded-md mb-4 w-full"
+          src="/posts/gui-over-ssh//index.png"
+          alt="GUI over SSH with X11"
+          title="GUI over SSH with X11" />
           
+        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">GUI over SSH with X11</h1>
+        
 
 
 
@@ -237,76 +228,61 @@
   </div>
 </div>
 
-          <div class="post-card">
-            SSH is awesome, but your options when trying to run a GUI application are a bit limited, especially on headless computers. Luckily there are a few ways to go about handling this problem, even if your computer has no monitor directly connected to it.
-SSH into the machine First of all, you need to ssh into your machine to get everything set up. Now you have a couple options. Some people may have a display (be it a full monitor, a TV screen, a touch display, etc) and others may have nothing it all.
-            <div class="block text-right mt-4 font-light text-lg">
-              <a href="/posts/gui-over-ssh/" class="text-blue-500">Read more...</a>
-            </div>
-          </div>
+
+        <hr>
+<p>SSH is awesome, but your options when trying to run a GUI application are a bit limited, especially on headless computers. Luckily there are a few ways to go about handling this problem, even if your computer has no monitor directly connected to it.</p>
+<br>
+<h1 id="ssh-into-the-machine">SSH into the machine</h1>
+<p>First of all, you need to ssh into your machine to get everything set up.
+Now you have a couple options. Some people may have a display (be it a full monitor, a TV screen, a touch display, etc) and others may have nothing it all.</p>
+<br>
+<h2 id="if-you-have-no-display">If you have NO display</h2>
+<p>If you have no display connected to your device such as a headless RPI or a remote server, you can run the following command.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh -X user@ip_address
+</span></span></code></pre></div><p>The <code>-X</code> flag tells the connection to forward all display requests to your own computer! This means if you try to run a GUI app on the device, the window will appear on your local machine.</p>
+<p>If you want real-time viewing and can&rsquo;t run locally, use X11 forwarding (ssh -X). This setup is straightforward and preserves the interactivity of the application at hand.</p>
+<br>
+<h2 id="if-you-do-have-a-display">If you DO have a display</h2>
+<p>If you do in fact have a display connected to your device, you can force the GUI app to run on that display instead.
+To do so, you need to check the &ldquo;display&rdquo; variable. <strong>Be sure to run the following NOT over ssh, but directly logged into the machine physically</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo $DISPLAY
+</span></span></code></pre></div><p>Typically, this will return something like <code>:0</code>.</p>
+<p>If you cannot run this command, you may assume the output to be <code>:0</code></p>
+<p>Now export this variable in your SSH client. Return to your SSH window and run the following command, replacing :0 with whatever you saw from the previous command.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>export DISPLAY<span style="color:#f92672">=</span>:0
+</span></span></code></pre></div><p>This method ensures that even though you’re SSHed into the Pi, the output is displayed on the physically connected monitor!</p>
+<hr>
+<hr>
+<hr>
+        <hr>
+        <div style="display: block; padding: 10px;">
+          <img style="height: 30px; width: 30px;" id="counter" src=""></img>
         </div>
-      
-        <div class="bg-gray-50 px-8 py-10 rounded-md">
-          <a href="/posts/vnc-oci/">
-            <img
-              class="rounded-md mb-4"
-              src="/posts/vnc-oci//index.png"
-              alt="Connecting to Oracle Cloud servers with VNC"
-              title="Connecting to Oracle Cloud servers with VNC" />
-          </a>
-          <div class="relative">
-            <a href="/posts/vnc-oci/">
-              <h2 class="font-medium text-gray-700 text-xl relative z-10">Connecting to Oracle Cloud servers with VNC</h2>
-            </a>
-          </div>
-          
-
-
-
-<div class="flex items-center">
-  <div class="my-2 flex whitespace-nowrap items-center">
-    <i class="bx bx-calendar text-gray-500 h-5"></i>
-    <span class="text-gray-500 text-sm mx-1"><time datetime="2024-04-25T16:58:51&#43;03:00">April 25, 2024</time></span>
-  </div>
-  <div class="m-2 text-base flex whitespace-nowrap items-center">
-    <i class="bx bx-time-five text-gray-500"></i>
-    <span class="text-gray-500 text-sm mx-1 h-5">
-      6
-      minutes
-    </span>
-  </div>
-  <div class="my-2 flex whitespace-nowrap items-center">
-    <i class="bx bx-purchase-tag-alt text-gray-500 h-4"></i>
-    
-      
-      <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/oracle-cloud" aria-label="Oracle Cloud">Oracle Cloud</a>
-    
-      
-      <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/vnc" aria-label="VNC">VNC</a>
-    
-      
-      <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/ssh" aria-label="SSH">SSH</a>
-    
-      
-      <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/oci" aria-label="OCI">OCI</a>
-    
-      
-      <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/server" aria-label="Server">Server</a>
-    
-  </div>
-</div>
-
-          <div class="post-card">
-            Oracle Cloud is a cloud computing service offered by Oracle Corporation. It provides a range of cloud services, including:
-Infrastructure as a Service (IaaS): This includes virtual machines, storage, and networking resources. Platform as a Service (PaaS): Offers tools for developing, managing, and deploying applications, including databases, application development, and integration services. Software as a Service (SaaS): Provides ready-to-use software applications hosted in the cloud, such as enterprise resource planning (ERP), human capital management (HCM), and customer relationship management (CRM) applications.
-            <div class="block text-right mt-4 font-light text-lg">
-              <a href="/posts/vnc-oci/" class="text-blue-500">Read more...</a>
-            </div>
-          </div>
-        </div>
-      
+      </div>
+      <script>
+        function hashURLPath() {
+          const path = window.location.pathname;
+          let hash = 0;
+          for (let i = 0; i < path.length; i++) {
+              const char = path.charCodeAt(i);
+              hash = (hash * 31 + char) >>> 0; 
+          }
+          return hash;
+      }
+      const hash=hashURLPath();
+      console.log("generated hash: ", hash);
+      document.getElementById('counter').src = `https://smallcounter.com/count.php?c_style=1&id=${hash}`;
+      </script>
+      <hr>
+      <div class="bg-gray-50 px-8 py-10 rounded-md post-content">
+        <h1>Leave any questions or comments here</h1>
+        
+        <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+        <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+        <script type="text/javascript" id="hcb">   if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24sXRfCQ2ZmeM2z6.jSTA9W0"+"&opts=16798&num=10&ts=1732584427302");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})();   </script>
+        
+      </div>
     </div>
-    
   </div>
 
       </main>

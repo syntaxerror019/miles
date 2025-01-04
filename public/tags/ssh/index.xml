@@ -6,8 +6,15 @@
     <description>Recent content in SSH on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Apr 2024 16:58:51 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2025 13:03:04 -0400</lastBuildDate>
     <atom:link href="https://www.mileshilliard.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GUI over SSH with X11</title>
+      <link>https://www.mileshilliard.com/posts/gui-over-ssh/</link>
+      <pubDate>Fri, 03 Jan 2025 13:03:04 -0400</pubDate>
+      <guid>https://www.mileshilliard.com/posts/gui-over-ssh/</guid>
+      <description>SSH is awesome, but your options when trying to run a GUI application are a bit limited, especially on headless computers. Luckily there are a few ways to go about handling this problem, even if your computer has no monitor directly connected to it.&#xA;SSH into the machine First of all, you need to ssh into your machine to get everything set up. Now you have a couple options. Some people may have a display (be it a full monitor, a TV screen, a touch display, etc) and others may have nothing it all.</description>
+    </item>
     <item>
       <title>Connecting to Oracle Cloud servers with VNC</title>
       <link>https://www.mileshilliard.com/posts/vnc-oci/</link>
