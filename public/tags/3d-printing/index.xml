@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3D Printing on Miles Hilliard</title>
-    <link>https://www.mileshilliard.com/tags/3d-printing/</link>
+    <link>http://localhost:8080/tags/3d-printing/</link>
     <description>Recent content in 3D Printing on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Jan 2025 13:03:04 -0400</lastBuildDate>
-    <atom:link href="https://www.mileshilliard.com/tags/3d-printing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:8080/tags/3d-printing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A simple paper bag holder</title>
-      <link>https://www.mileshilliard.com/posts/diy-bag-holder/</link>
+      <link>http://localhost:8080/posts/diy-bag-holder/</link>
       <pubDate>Wed, 01 Jan 2025 13:03:04 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/diy-bag-holder/</guid>
+      <guid>http://localhost:8080/posts/diy-bag-holder/</guid>
       <description>We often save paper bags for future uses, but right now our storage solution is less than ideal. Normally they are stored behind the recycling bin, but the big issue with that is when the recycling is moved, all the bags fall over. I then remembered I own a 3D printer and have the ability to do CAD. With that in mind, I sketched up some basic designs to get a concept in place of how I could overcome this issue.</description>
     </item>
   </channel>

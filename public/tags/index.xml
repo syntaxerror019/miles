@@ -6,8 +6,15 @@
     <description>Recent content in Tags on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Jan 2025 13:03:04 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2025 13:03:04 -0400</lastBuildDate>
     <atom:link href="https://www.mileshilliard.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics-Blog</title>
+      <link>https://www.mileshilliard.com/tags/robotics-blog/</link>
+      <pubDate>Mon, 06 Jan 2025 13:03:04 -0400</pubDate>
+      <guid>https://www.mileshilliard.com/tags/robotics-blog/</guid>
+      <description></description>
+    </item>
     <item>
       <title>RPi</title>
       <link>https://www.mileshilliard.com/tags/rpi/</link>
@@ -27,13 +34,6 @@
       <link>https://www.mileshilliard.com/tags/ssh/</link>
       <pubDate>Fri, 03 Jan 2025 13:03:04 -0400</pubDate>
       <guid>https://www.mileshilliard.com/tags/ssh/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Robotics-Blog</title>
-      <link>https://www.mileshilliard.com/tags/robotics-blog/</link>
-      <pubDate>Mon, 16 Dec 2024 13:03:04 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/tags/robotics-blog/</guid>
       <description></description>
     </item>
     <item>

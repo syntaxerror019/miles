@@ -6,8 +6,15 @@
     <description>Recent content in Robotics-Blog on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Dec 2024 13:03:04 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2025 13:03:04 -0400</lastBuildDate>
     <atom:link href="https://www.mileshilliard.com/tags/robotics-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics &amp; Engineering - Week of 1/6/25</title>
+      <link>https://www.mileshilliard.com/posts/1-6-25/</link>
+      <pubDate>Mon, 06 Jan 2025 13:03:04 -0400</pubDate>
+      <guid>https://www.mileshilliard.com/posts/1-6-25/</guid>
+      <description>While in robotics this week, I continued my work on the lightbox project. This week involved a lot of CAD and 3D printing for me, and ended up taking a bit more time than expected. Generally speaking, I am ahead of schedule so I don&amp;rsquo;t have to worry too much.&#xA;The light box is composed of two main parts that get 3D printed and screwed together. There is the base which is the outer shell and holds the button and power jack.</description>
+    </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 12/16/24</title>
       <link>https://www.mileshilliard.com/posts/12-16-24/</link>
