@@ -16,9 +16,9 @@ The second part is an "insert" that goes into the first piece. It's role is to h
 
 <div style="display:   flex">                                                                                                                          
 <br>
-<img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 30%;" src="/posts/1-6-25/base.png"/></img> 
-<img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 30%;" src="/posts/1-6-25/insert.png"/></img> 
-<img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 30%;" src="/posts/1-6-25/full.png"/></img>                                                                         
+<img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 30%; height: auto; " src="/posts/1-6-25/base.png"/></img> 
+<img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 30%; height: auto;" src="/posts/1-6-25/insert.png"/></img> 
+<img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 30%; height: auto;" src="/posts/1-6-25/full.png"/></img>                                                                         
  <br>    
  </div>   
 
