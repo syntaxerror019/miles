@@ -52,6 +52,8 @@
 
 
 <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="/css/dark-mode.css">
 
 
 
@@ -88,6 +90,8 @@
     
     
   
+
+
 
 
 
@@ -159,6 +163,7 @@
   </div>
 </div>
 
+
 <div
   class="pointer-events-none fixed inset-0 min-h-screen bg-black bg-opacity-75 opacity-0 lg:hidden"
   :class="{ 'opacity-100 pointer-events-auto': mobileMenu }">
@@ -168,42 +173,49 @@
     </button>
     <ul class="mt-12 flex flex-col">
       
-        <li class="py-2">
+        <li class="px-5">
           <a
             href="/"
             alt="Miles Hilliard"
             title="Miles Hilliard"
             target="_self"
-            class="cursor-pointer font-normal">
+            class="cursor-pointer font-normal text-base">
             Home
           </a>
         </li>
       
-        <li class="py-2">
+        <li class="px-5">
           <a
             href="/tags/robotics-blog/"
             alt="See robotics-only posts."
             title="See robotics-only posts."
             target="_self"
-            class="cursor-pointer font-normal">
+            class="cursor-pointer font-normal text-base">
             Robotics Posts
           </a>
         </li>
       
-        <li class="py-2">
+        <li class="px-5">
           <a
             href="/posts"
             alt="See all my latest posts"
             title="See all my latest posts"
             target="_self"
-            class="cursor-pointer font-normal">
+            class="cursor-pointer font-normal text-base">
             Blog
           </a>
         </li>
       
-      <li class="py-2">
-        <a href="/files/Andrew Molyuk.pdf" target="_blank" class="cursor-pointer font-normal">Get my CV</a>
-      </li>
+      
+        <li class="px-5">
+          <a href="https://ko-fi.com/sntxdev" target="_blank">
+            <button
+              class="px-10 py-4 bg-white hover:bg-gray-600 hover:text-white rounded-lg font-normal text-base transition duration-300">
+              Support me
+            </button>
+          </a>
+        </li>
+      
     </ul>
   </div>
 </div>

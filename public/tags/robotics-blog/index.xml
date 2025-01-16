@@ -6,8 +6,15 @@
     <description>Recent content in Robotics-Blog on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jan 2025 13:03:04 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jan 2025 13:03:04 -0400</lastBuildDate>
     <atom:link href="https://www.mileshilliard.com/tags/robotics-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics &amp; Engineering - Week of 1/31/25</title>
+      <link>https://www.mileshilliard.com/posts/1-13-25/</link>
+      <pubDate>Mon, 13 Jan 2025 13:03:04 -0400</pubDate>
+      <guid>https://www.mileshilliard.com/posts/1-13-25/</guid>
+      <description>The lightbox has been finished! I designed the acrylic and manufactured it on our laser engraver/cutter. The end result was better than expected, although I had to condense (shorten) the acrylic overall to meet the max acrylic dimensions of 70 square cm.&#xA;After the transparent acrylic was finished, I screwed it into the lightbox and &amp;ldquo;force fit&amp;rdquo; everything together as designed. Luckily my tolerances and dimensions matched perfectly.&#xA;The acrylic had to be custom designed to fit the screw holes and the box geometry.</description>
+    </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 1/6/25</title>
       <link>https://www.mileshilliard.com/posts/1-6-25/</link>
