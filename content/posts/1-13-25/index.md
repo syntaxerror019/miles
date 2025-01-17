@@ -1,5 +1,5 @@
 ---
-    title: 'Robotics & Engineering - Week of 1/31/25'
+    title: 'Robotics & Engineering - Week of 1/13/25'
     date: 2025-01-13T13:03:04-04:00
     tags: ['robotics-blog', 'hardware', '3d-printing']
     image: 'IMG_2426.gif'
