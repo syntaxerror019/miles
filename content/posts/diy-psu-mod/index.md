@@ -1,5 +1,5 @@
 ---
-    title: 'DIY Power Supply (PSU) Cover'
+    title: 'DIY Power Supply (PSU) Interface'
     date: 2025-01-19T13:03:04-04:00
     tags: ['hardware', '3d-printing']
     image: 'finalized.jpg'
@@ -39,6 +39,8 @@ First off, download the <a href="https://www.thingiverse.com/thing:6919496">3D m
 - Make the infill not too weak, but not excessively strong. I chose 10% which was more than enough. 5% would work too.
 - For adhesion, be sure to have your heated bed on. Or if you absolutely need it you could turn on raft.
 
+<br>
+
 <div style="display: flex;">
     <br>
     <img 
@@ -53,6 +55,8 @@ First off, download the <a href="https://www.thingiverse.com/thing:6919496">3D m
     </img>
 </div>
 
+<br>
+
 ### Wiring
 
 Get your power jack and solder some standard wire to each pin on it. I chose the standard colors of black for live, white for neutral and green for ground to keep it universal.
@@ -60,6 +64,8 @@ Get your power jack and solder some standard wire to each pin on it. I chose the
 As an optional bonus (not a terrible idea) you can tin the end of the wires that will go to the power supply screws. This makes sure they won't fray and touch anything.
 
 Afterwards, connect the respective wires to the screw terminals on the power supply. Be sure to tighten everything down properly!
+
+<br>
 
 <div style="display: flex;">
     <br>
@@ -75,11 +81,13 @@ Afterwards, connect the respective wires to the screw terminals on the power sup
     </img>
 </div>
 
+<br>
+
 ### Final Adjustments
 
 Before assembling everything with your screws, I would highly recommend you check the voltage output of your power supply to make sure it is pumping out what you expect. Although these are 12 volt power supplies, they often have small potentiometers in the corner allowing you to fine-tune their outputs. Mine happens to be adjustable from between 6 volts all the way to 20 volts. 
 
-
+<br>
 
 <div style="display: flex;">
     <br>
@@ -90,11 +98,15 @@ Before assembling everything with your screws, I would highly recommend you chec
     </img>
 </div>
 
+<br>
+
 ### Assembly
 
 Now, simply force all the wires into the extra space and screw the cover onto the case. There are 3 screw holes that line up by design. Those can be safely used without interfering with the operation of the power supply. 
 
 And now, you are done! Plug it in and try it out!
+
+<br>
 
 <div style="display: flex;">
     <br>

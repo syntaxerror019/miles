@@ -47,12 +47,19 @@
 
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    if (localStorage.getItem("dark-mode") === "enabled") {
+        document.head.appendChild(Object.assign(document.createElement('link'), { id: 'dark-mode-css', rel: 'stylesheet', href: '/css/dark-mode.css' }));
+    }
+});
+</script>
+
 
 
 
 <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<link rel="stylesheet" href="/css/dark-mode.css">
 
 
 
@@ -142,6 +149,9 @@
           </a>
         </li>
       
+      <li class="px-5">
+        <button class="button-no-bg" onclick="(localStorage.setItem('dark-mode', document.getElementById('dark-mode-css') ? 'disabled' : 'enabled'), document.getElementById('dark-mode-css') ? document.getElementById('dark-mode-css').remove() : document.head.appendChild(Object.assign(document.createElement('link'), { id: 'dark-mode-css', rel: 'stylesheet', href: '/css/dark-mode.css' })))">Toggle Theme</button>
+      </li>
       
         <li class="px-5">
           <a href="https://ko-fi.com/sntxdev" target="_blank">
@@ -182,6 +192,7 @@
             Home
           </a>
         </li>
+        <br>
       
         <li class="px-5">
           <a
@@ -193,6 +204,7 @@
             Robotics Posts
           </a>
         </li>
+        <br>
       
         <li class="px-5">
           <a
@@ -204,7 +216,12 @@
             Blog
           </a>
         </li>
+        <br>
       
+      <li class="px-5">
+        <button class="button-no-bg" onclick="(localStorage.setItem('dark-mode', document.getElementById('dark-mode-css') ? 'disabled' : 'enabled'), document.getElementById('dark-mode-css') ? document.getElementById('dark-mode-css').remove() : document.head.appendChild(Object.assign(document.createElement('link'), { id: 'dark-mode-css', rel: 'stylesheet', href: '/css/dark-mode.css' })))">Toggle Theme</button>
+      </li>
+      <br><br>
       
         <li class="px-5">
           <a href="https://ko-fi.com/sntxdev" target="_blank">
@@ -232,12 +249,12 @@
             <img
               class="rounded-md mb-4"
               src="/posts/diy-psu-mod//finalized.jpg"
-              alt="DIY Power Supply (PSU) Cover"
-              title="DIY Power Supply (PSU) Cover" />
+              alt="DIY Power Supply (PSU) Interface"
+              title="DIY Power Supply (PSU) Interface" />
           </a>
           <div class="relative">
             <a href="/posts/diy-psu-mod/">
-              <h2 class="font-medium text-gray-700 text-xl relative z-10">DIY Power Supply (PSU) Cover</h2>
+              <h2 class="font-medium text-gray-700 text-xl relative z-10">DIY Power Supply (PSU) Interface</h2>
             </a>
           </div>
           
@@ -256,16 +273,16 @@
       minutes
     </span>
   </div>
-  <div class="my-2 flex whitespace-nowrap items-center">
-    <i class="bx bx-purchase-tag-alt text-gray-500 h-4"></i>
+</div>
+<div class="my-2 flex whitespace-nowrap items-center">
+  <i class="bx bx-purchase-tag-alt text-gray-500 h-4"></i>
+  
     
-      
-      <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/hardware" aria-label="hardware">hardware</a>
+    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/hardware" aria-label="hardware">hardware</a>
+  
     
-      
-      <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/3d-printing" aria-label="3d-printing">3d-printing</a>
-    
-  </div>
+    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/3d-printing" aria-label="3d-printing">3d-printing</a>
+  
 </div>
 
           <div class="post-card">
@@ -306,19 +323,19 @@ Background Personally, I find these power supplies perfect for many use cases, e
       minute
     </span>
   </div>
-  <div class="my-2 flex whitespace-nowrap items-center">
-    <i class="bx bx-purchase-tag-alt text-gray-500 h-4"></i>
+</div>
+<div class="my-2 flex whitespace-nowrap items-center">
+  <i class="bx bx-purchase-tag-alt text-gray-500 h-4"></i>
+  
     
-      
-      <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/robotics-blog" aria-label="robotics-blog">robotics-blog</a>
+    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/robotics-blog" aria-label="robotics-blog">robotics-blog</a>
+  
     
-      
-      <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/hardware" aria-label="hardware">hardware</a>
+    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/hardware" aria-label="hardware">hardware</a>
+  
     
-      
-      <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/3d-printing" aria-label="3d-printing">3d-printing</a>
-    
-  </div>
+    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/3d-printing" aria-label="3d-printing">3d-printing</a>
+  
 </div>
 
           <div class="post-card">

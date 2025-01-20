@@ -1,11 +1,15 @@
- /* Dark Mode Styles */
-  @media (prefers-color-scheme: dark) {
+
     body {
       background-color: #121212;
       color: #e0e0e0;
     }
   
     .bg-gray-50 {
+      background-color: #171717;
+      color: #e0e0e0;
+    }
+
+    .bg-gray-200 {
       background-color: #171717;
       color: #e0e0e0;
     }
@@ -24,11 +28,34 @@
 
     a {
         color: #a1a1a1;
-        
     }
 
     .post-content p {
         color: #e0e0e0 !important;
+    }
+
+    .post-content li {
+      color: #c4c4c4 !important;
+    }
+
+    .post-content h2 {
+      color: #a3a2a2 !important;
+    }
+
+    .post-content h3 {
+      color: #a3a2a2 !important;
+    }
+
+    .post-content h4 {
+      color: #a3a2a2 !important;
+    }
+
+    .post-content h5 {
+      color: #a3a2a2 !important;
+    }
+
+    .post-content h6 {
+      color: #a3a2a2 !important;
     }
 
     .border-gray-300 {
@@ -43,6 +70,14 @@
     hr {
         border-top: 1px solid #333;
     }
+
+    .button-no-bg {
+      background-color: transparent !important;
+    }
+
+    .button-no-bg:hover {
+      background-color: transparent !important;
+    }
   
     button {
       background-color: #333 !important;
@@ -53,4 +88,4 @@
       background-color: #444 !important;
       color: white !important;
     }
-  }
+  
