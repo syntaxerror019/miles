@@ -6,8 +6,15 @@
     <description>Recent content in 3d-Printing on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jan 2025 13:03:04 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jan 2025 13:03:04 -0400</lastBuildDate>
     <atom:link href="https://www.mileshilliard.com/tags/3d-printing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DIY Power Supply (PSU) Cover</title>
+      <link>https://www.mileshilliard.com/posts/diy-psu-mod/</link>
+      <pubDate>Sun, 19 Jan 2025 13:03:04 -0400</pubDate>
+      <guid>https://www.mileshilliard.com/posts/diy-psu-mod/</guid>
+      <description>I have had this cheap 12V switching power supply that (claims) to be able to deliver 30 amps. It is a common power supply type, and are commonly used in consumer applications, especially in the LED lighting industry. In fact, the exact same model can be found mounted on my Creality Ender 3 3D printer.&#xA;Background Personally, I find these power supplies perfect for many use cases, especially when one considers their pricepoint.</description>
+    </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 1/13/25</title>
       <link>https://www.mileshilliard.com/posts/1-13-25/</link>

@@ -1,0 +1,444 @@
+<!doctype html>
+<html
+  lang="en-us"
+  dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
+
+<title>DIY Power Supply (PSU) Cover | Miles Hilliard</title>
+
+<link rel="stylesheet" href="/css/tailwind.css" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;600&display=swap"
+  rel="stylesheet" />
+
+<meta property="og:title" content="Homepage | hugo-porto theme" />
+
+<meta property="og:locale" content="en_US" />
+
+<meta property="og:url" content="//" />
+
+<meta
+  name="description"
+  content="Miles Hilliard's website and blog!" />
+
+<meta name="theme-color" content="#5540af" />
+
+<meta property="og:site_name" content="Miles Hilliard's website" />
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6464376326468911"
+     crossorigin="anonymous"></script>
+
+
+
+
+
+
+  
+
+
+
+<link rel="icon" href="/img/default-favicon_hu8d258ab55b6d0b5dfecbad37f235c98d_876415_32x0_resize_box_3.png" />
+
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+
+
+
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="/css/dark-mode.css">
+
+
+
+
+
+
+
+  </head>
+  <body :class="{ 'overflow-hidden max-h-screen': mobileMenu }" class="relative" x-data="{ mobileMenu: false }">
+    <div id="main" class="relative max-w-screen-xl mx-auto px-5">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+<div class="flex items-center justify-between py-5">
+  <div class="flex items-center">
+    <a href="/">
+      <img src="/img/miles-logo.png" class="py-5 w-10 lg:w-14 min-w-10" alt="mileshilliard" title="mileshilliard" />
+    </a>
+    <a href="/">
+      <h1 class="text-lg lg:text-xl px-2 lg:px-3 font-medium">mileshilliard</h1>
+    </a>
+  </div>
+  <div class="hidden lg:block">
+    <ul class="flex items-center">
+      
+        <li class="px-5">
+          <a
+            href="/"
+            alt="Miles Hilliard"
+            title="Miles Hilliard"
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            Home
+          </a>
+        </li>
+      
+        <li class="px-5">
+          <a
+            href="/tags/robotics-blog/"
+            alt="See robotics-only posts."
+            title="See robotics-only posts."
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            Robotics Posts
+          </a>
+        </li>
+      
+        <li class="px-5">
+          <a
+            href="/posts"
+            alt="See all my latest posts"
+            title="See all my latest posts"
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            Blog
+          </a>
+        </li>
+      
+      
+        <li class="px-5">
+          <a href="https://ko-fi.com/sntxdev" target="_blank">
+            <button
+              class="px-10 py-4 bg-white hover:bg-gray-600 hover:text-white rounded-lg font-normal text-base transition duration-300">
+              Support me
+            </button>
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="block lg:hidden mt-2">
+    <button @click="mobileMenu = true">
+      <i class="bx bx-menu text-3xl"></i>
+    </button>
+  </div>
+</div>
+
+
+<div
+  class="pointer-events-none fixed inset-0 min-h-screen bg-black bg-opacity-75 opacity-0 lg:hidden"
+  :class="{ 'opacity-100 pointer-events-auto': mobileMenu }">
+  <div class="absolute right-0 min-h-screen bg-gray-200 py-5 px-10 w-2/3 sm:w-1/3">
+    <button class="absolute top-0 right-0 mt-9 mr-4" @click="mobileMenu = false">
+      <i class="bx bx-x text-4xl"></i>
+    </button>
+    <ul class="mt-12 flex flex-col">
+      
+        <li class="px-5">
+          <a
+            href="/"
+            alt="Miles Hilliard"
+            title="Miles Hilliard"
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            Home
+          </a>
+        </li>
+      
+        <li class="px-5">
+          <a
+            href="/tags/robotics-blog/"
+            alt="See robotics-only posts."
+            title="See robotics-only posts."
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            Robotics Posts
+          </a>
+        </li>
+      
+        <li class="px-5">
+          <a
+            href="/posts"
+            alt="See all my latest posts"
+            title="See all my latest posts"
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            Blog
+          </a>
+        </li>
+      
+      
+        <li class="px-5">
+          <a href="https://ko-fi.com/sntxdev" target="_blank">
+            <button
+              class="px-10 py-4 bg-white hover:bg-gray-600 hover:text-white rounded-lg font-normal text-base transition duration-300">
+              Support me
+            </button>
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+
+      <main>
+        
+  <div class="container max-w-screen-xl mx-auto px-4">
+    <div class="grid grid-cols-1 gap-6">
+      <div class="bg-gray-50 px-8 py-10 rounded-md post-content">
+        <img
+          class="rounded-md mb-4 w-full"
+          src="/posts/diy-psu-mod//finalized.jpg"
+          alt="DIY Power Supply (PSU) Cover"
+          title="DIY Power Supply (PSU) Cover" />
+          
+        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">DIY Power Supply (PSU) Cover</h1>
+        
+
+
+
+<div class="flex items-center">
+  <div class="my-2 flex whitespace-nowrap items-center">
+    <i class="bx bx-calendar text-gray-500 h-5"></i>
+    <span class="text-gray-500 text-sm mx-1"><time datetime="2025-01-19T13:03:04-04:00">January 19, 2025</time></span>
+  </div>
+  <div class="m-2 text-base flex whitespace-nowrap items-center">
+    <i class="bx bx-time-five text-gray-500"></i>
+    <span class="text-gray-500 text-sm mx-1 h-5">
+      3
+      minutes
+    </span>
+  </div>
+  <div class="my-2 flex whitespace-nowrap items-center">
+    <i class="bx bx-purchase-tag-alt text-gray-500 h-4"></i>
+    
+      
+      <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/hardware" aria-label="hardware">hardware</a>
+    
+      
+      <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/3d-printing" aria-label="3d-printing">3d-printing</a>
+    
+  </div>
+</div>
+
+
+        <hr>
+<p>I have had this cheap 12V switching power supply that (claims) to be able to deliver 30 amps. It is a common power supply type, and are commonly used in consumer applications, especially in the LED lighting industry. In fact, the exact same model can be found mounted on my Creality Ender 3 3D printer.</p>
+<h2 id="background">Background</h2>
+<p>Personally, I find these power supplies perfect for many use cases, especially when one considers their pricepoint. I picked mine up for about 10 bucks from an online retailer. I found what looks to be the same one on Amazon <a href="https://www.amazon.com/ALITOVE-Universal-Regulated-Switching-Transformer/dp/B06XJVYDDW?dib=eyJ2IjoiMSJ9.QB9-bUMS1NGDNfUvXBX7vxPRzCbwLYuVICVy0_4xlLlFySt1Kc4FMpAVn52bCEAvRKPQvMEOmmr6dR63M9nLEm_BF1lXE1tcoumWUdBwtnki0CLVtC7jkATphvz0yid86lfeJLxUhpmheM5SrE2CIP-2nI1itoLytCCeFi8uY7KGr89-b3Zjmv84b4VOpKSYRis1ClUVDeeDbz9ucg9KvRGINyttoKpkALCnHAS7cNE.i3xHaMZ5Xa5T0RJIwA65w6ida0bhQ94bE-u7Pw6zAsE&dib_tag=se&keywords=12v%2B30a%2Bpower%2Bsupply&qid=1737343384&sr=8-3&th=1">here</a>.</p>
+<p>The one thing I dislike on these devices, is the connection layout. The live AC (120v or 230v) mains voltage is connected in the same screw terminal block as the low voltage DC output. Now, this in itself is not directly an issue. It does in fact work. However, if you aren&rsquo;t comfortable working with these voltages, there could be dangerous consequences in doing so. Although cutting a 3 wire cable, stripping the wires, and screwing them down isn&rsquo;t particularly difficult, it is still main voltage which can be deadly. One wrong move and you&rsquo;ve been cooked to perfection.</p>
+<h2 id="the-solution">The solution</h2>
+<p>Luckily, thats where my solution comes into play. With an easy power cable connection and fundamental banana plug output ports, you have just made your PSU infinetely more safe and attractive. The key player in this solution is a 3D printed box. It houses all the components required to wire everything up.</p>
+<h3 id="what-you-will-need">What you will need</h3>
+<ul>
+<li>3D Printer (<a href="https://store.creality.com/products/ender-3-3d-printer-4za7?official-website-product-ender-top=&amp;spm=..product_ce00868d-efe2-4fa8-9168-240e7c3b3cd1.nav_link_store_1.1">Creality Ender 3</a>)</li>
+<li>PLA Filament (<a href="https://a.co/d/bHw305S">PLA Black</a>)</li>
+<li>Power Supply PSU (<a href="https://a.co/d/e5euXp3">30A 12V PSU</a>)</li>
+<li>Computer Power Port (<a href="https://www.google.com/search?q=IEC+C14">Power Port IEC C14</a>)</li>
+<li>Computer Power Cable (<a href="https://www.google.com/search?q=IEC+C14">Power Cable IEC C14</a>)</li>
+<li>Banana Plugs (Size variants may differ) (<a href="https://a.co/d/aZgk560">Banana Ports</a>)</li>
+<li>Standard Multi-Strand Wire</li>
+</ul>
+<h3 id="3d-printing-instructions">3D Printing Instructions</h3>
+<p>First off, download the <a href="https://www.thingiverse.com/thing:6919496">3D model found here</a> on thingiverse and put it in your slicer. Now, you should configure a few settings before printing, although most could stay default if you really wanted.</p>
+<ul>
+<li>Set printing speed to something reasonable. 100 mm/s for my Ender 3.</li>
+<li>Set layer height to something respectable. I used 0.20mm personally.</li>
+<li>Make the infill not too weak, but not excessively strong. I chose 10% which was more than enough. 5% would work too.</li>
+<li>For adhesion, be sure to have your heated bed on. Or if you absolutely need it you could turn on raft.</li>
+</ul>
+<div style="display: flex;">
+    <br>
+    <img 
+        onclick="window.location.href=this.src;" 
+        style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
+        src="/posts/diy-psu-mod/box.jpg">
+    </img>
+    <img 
+        onclick="window.location.href=this.src;" 
+        style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
+        src="/posts/diy-psu-mod/showcase.jpg">
+    </img>
+</div>
+<h3 id="wiring">Wiring</h3>
+<p>Get your power jack and solder some standard wire to each pin on it. I chose the standard colors of black for live, white for neutral and green for ground to keep it universal.</p>
+<p>As an optional bonus (not a terrible idea) you can tin the end of the wires that will go to the power supply screws. This makes sure they won&rsquo;t fray and touch anything.</p>
+<p>Afterwards, connect the respective wires to the screw terminals on the power supply. Be sure to tighten everything down properly!</p>
+<div style="display: flex;">
+    <br>
+    <img 
+        onclick="window.location.href=this.src;" 
+        style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
+        src="/posts/diy-psu-mod/wiring.jpg">
+    </img>
+    <img 
+        onclick="window.location.href=this.src;" 
+        style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
+        src="/posts/diy-psu-mod/wired.jpg">
+    </img>
+</div>
+<h3 id="final-adjustments">Final Adjustments</h3>
+<p>Before assembling everything with your screws, I would highly recommend you check the voltage output of your power supply to make sure it is pumping out what you expect. Although these are 12 volt power supplies, they often have small potentiometers in the corner allowing you to fine-tune their outputs. Mine happens to be adjustable from between 6 volts all the way to 20 volts.</p>
+<div style="display: flex;">
+    <br>
+    <img 
+        onclick="window.location.href=this.src;" 
+        style="display: block; margin-left: auto; margin-right: auto; width: 400px;" 
+        src="/posts/diy-psu-mod/voltage_adjust.jpg">
+    </img>
+</div>
+<h3 id="assembly">Assembly</h3>
+<p>Now, simply force all the wires into the extra space and screw the cover onto the case. There are 3 screw holes that line up by design. Those can be safely used without interfering with the operation of the power supply.</p>
+<p>And now, you are done! Plug it in and try it out!</p>
+<div style="display: flex;">
+    <br>
+    <img 
+        onclick="window.location.href=this.src;" 
+        style="display: block; margin-left: auto; margin-right: auto; width: 30%;" 
+        src="/posts/diy-psu-mod/screw1.jpg">
+    </img>
+    <img 
+        onclick="window.location.href=this.src;" 
+        style="display: block; margin-left: auto; margin-right: auto; width: 30%;" 
+        src="/posts/diy-psu-mod/screw2.jpg">
+    </img>
+    <img 
+        onclick="window.location.href=this.src;" 
+        style="display: block; margin-left: auto; margin-right: auto; width: 30%;" 
+        src="/posts/diy-psu-mod/finalized.jpg">
+    </img>
+</div>
+<br>
+<div style="display: flex;">
+    <br>
+    <img 
+        onclick="window.location.href=this.src;" 
+        style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
+        src="/posts/diy-psu-mod/testing.jpg">
+    </img>
+    <img 
+        onclick="window.location.href=this.src;" 
+        style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
+        src="/posts/diy-psu-mod/psu.jpg">
+    </img>
+</div>
+        <hr>
+        <div style="display: block; padding: 10px;">
+          <img style="height: 30px; width: 30px;" id="counter" src=""></img>
+        </div>
+      </div>
+      <script>
+        function hashURLPath() {
+          const path = window.location.pathname;
+          let hash = 0;
+          for (let i = 0; i < path.length; i++) {
+              const char = path.charCodeAt(i);
+              hash = (hash * 31 + char) >>> 0; 
+          }
+          return hash;
+      }
+      const hash=hashURLPath();
+      console.log("generated hash: ", hash);
+      document.getElementById('counter').src = `https://smallcounter.com/count.php?c_style=1&id=${hash}`;
+      </script>
+      <hr>
+      <div class="bg-gray-50 px-8 py-10 rounded-md post-content">
+        <h1>Leave any questions or comments here</h1>
+        
+        <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+        <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+        <script type="text/javascript" id="hcb">   if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24sXRfCQ2ZmeM2z6.jSTA9W0"+"&opts=16798&num=10&ts=1732584427302");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})();   </script>
+        
+      </div>
+    </div>
+  </div>
+
+      </main>
+      <footer>
+        
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+<div class=" text-center">
+  <div class="flex flex-wrap items-center justify-center">
+    
+      
+      
+        <a href="https://github.com/syntaxerror019/" target="_blank" class="p-5"><i class="bx bxl-github text-3xl"></i></a>
+      
+    
+      
+      
+        <a href="https://wa.me/7815397451/" target="_blank" class="p-5"><i class="bx bxl-whatsapp text-3xl"></i></a>
+      
+    
+  </div>
+</div>
+
+
+
+<div class="pb-5 text-center text-lg font-light">
+  <div title="hugo-porto v0.1.7">
+    © 2024-2025 Miles Hilliard. All rights reserved.
+  </div>
+</div>
+
+      </footer>
+    </div>
+  </body>
+</html>
