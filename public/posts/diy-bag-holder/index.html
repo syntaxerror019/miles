@@ -301,6 +301,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <script>
         function hashURLPath() {
           const path = window.location.pathname;
+          console.log("path: ", path);
           let hash = 0;
           for (let i = 0; i < path.length; i++) {
               const char = path.charCodeAt(i);

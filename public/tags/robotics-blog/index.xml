@@ -2,31 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Robotics-Blog on Miles Hilliard</title>
-    <link>https://www.mileshilliard.com/tags/robotics-blog/</link>
+    <link>http://localhost:8080/tags/robotics-blog/</link>
     <description>Recent content in Robotics-Blog on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jan 2025 13:03:04 -0400</lastBuildDate>
-    <atom:link href="https://www.mileshilliard.com/tags/robotics-blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Jan 2025 16:37:13 -0500</lastBuildDate>
+    <atom:link href="http://localhost:8080/tags/robotics-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics &amp; Engineering - Week of 01/20/25</title>
+      <link>http://localhost:8080/posts/01-20-25/</link>
+      <pubDate>Thu, 23 Jan 2025 16:37:13 -0500</pubDate>
+      <guid>http://localhost:8080/posts/01-20-25/</guid>
+      <description>This week, I worked on the ROV for the robotics team as I had already completed the lightbox project as shown in the previous post. The robot has been experiencing some reliability issues, and they have something to do with the Raspberry Pi 5 we have onboard. The Pi would suddenly &amp;ldquo;crash&amp;rdquo; (meaning a loss of connection over ssh; ethernet port lights turned off; only red power light was illuminated) without warning.</description>
+    </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 1/13/25</title>
-      <link>https://www.mileshilliard.com/posts/1-13-25/</link>
+      <link>http://localhost:8080/posts/1-13-25/</link>
       <pubDate>Mon, 13 Jan 2025 13:03:04 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/1-13-25/</guid>
+      <guid>http://localhost:8080/posts/1-13-25/</guid>
       <description>The lightbox has been finished! I designed the acrylic and manufactured it on our laser engraver/cutter. The end result was better than expected, although I had to condense (shorten) the acrylic overall to meet the max acrylic dimensions of 70 square cm.&#xA;After the transparent acrylic was finished, I screwed it into the lightbox and &amp;ldquo;force fit&amp;rdquo; everything together as designed. Luckily my tolerances and dimensions matched perfectly.&#xA;The acrylic had to be custom designed to fit the screw holes and the box geometry.</description>
     </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 1/6/25</title>
-      <link>https://www.mileshilliard.com/posts/1-6-25/</link>
+      <link>http://localhost:8080/posts/1-6-25/</link>
       <pubDate>Mon, 06 Jan 2025 13:03:04 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/1-6-25/</guid>
+      <guid>http://localhost:8080/posts/1-6-25/</guid>
       <description>While in robotics this week, I continued my work on the lightbox project. This week involved a lot of CAD and 3D printing for me, and ended up taking a bit more time than expected. Generally speaking, I am ahead of schedule so I don&amp;rsquo;t have to worry too much.&#xA;The light box is composed of two main parts that get 3D printed and screwed together. There is the base which is the outer shell and holds the button and power jack.</description>
     </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 12/16/24</title>
-      <link>https://www.mileshilliard.com/posts/12-16-24/</link>
+      <link>http://localhost:8080/posts/12-16-24/</link>
       <pubDate>Mon, 16 Dec 2024 13:03:04 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/12-16-24/</guid>
+      <guid>http://localhost:8080/posts/12-16-24/</guid>
       <description>During my time in the Robotics Shop 5th and 6th period this week, I made significant headway on the lightbox project. For my lightbox, I will be making a transparent &amp;ldquo;EXIT&amp;rdquo; sign that you frequently see in modern office buildings. These signs are very expensive and can be found online for hundreds of dollars. My plan is to make it for much less. The most expensive component to the project would be the acrylic, which can be found for about 10 dollars for an appropriate size.</description>
     </item>
   </channel>
