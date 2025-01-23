@@ -1,7 +1,7 @@
 ---
 title: 'Robotics & Engineering - Week of 01/20/25'
 date: 2025-01-23T16:37:13-0500
-tags: ['robotics-blog']
+tags: ['robotics-blog', 'software', 'hardware']
 image: 'rov.jpg'
 draft: false
 ---
