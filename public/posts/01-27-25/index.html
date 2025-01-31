@@ -2,12 +2,12 @@
 <html
   lang="en-us"
   dir="ltr">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=8080&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8" />
 <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
 <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
 
-<title>Bag Holder Design | Miles Hilliard</title>
+<title>Robotics &amp; Engineering - Week of 01/27/25 | Miles Hilliard</title>
 
 <link rel="stylesheet" href="/css/tailwind.css" />
 
@@ -246,11 +246,11 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="bg-gray-50 px-8 py-10 rounded-md post-content">
         <img
           class="rounded-md mb-4 w-full"
-          src="/posts/diy-bag-holder//index.png"
-          alt="Bag Holder Design"
-          title="Bag Holder Design" />
+          src="/posts/01-27-25//board.png"
+          alt="Robotics &amp; Engineering - Week of 01/27/25"
+          title="Robotics &amp; Engineering - Week of 01/27/25" />
           
-        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Bag Holder Design</h1>
+        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Robotics &amp; Engineering - Week of 01/27/25</h1>
         
 
 
@@ -258,13 +258,13 @@ document.addEventListener("DOMContentLoaded", () => {
 <div class="flex items-center">
   <div class="my-2 flex whitespace-nowrap items-center">
     <i class="bx bx-calendar text-gray-500 h-5"></i>
-    <span class="text-gray-500 text-sm mx-1"><time datetime="2025-01-01T13:03:04-04:00">January 1, 2025</time></span>
+    <span class="text-gray-500 text-sm mx-1"><time datetime="2025-01-30T16:37:55-05:00">January 30, 2025</time></span>
   </div>
   <div class="m-2 text-base flex whitespace-nowrap items-center">
     <i class="bx bx-time-five text-gray-500"></i>
     <span class="text-gray-500 text-sm mx-1 h-5">
-      1
-      minute
+      3
+      minutes
     </span>
   </div>
 </div>
@@ -272,44 +272,97 @@ document.addEventListener("DOMContentLoaded", () => {
   <i class="bx bx-purchase-tag-alt text-gray-500 h-4"></i>
   
     
-    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="http://localhost:8080/tags/diy" aria-label="DIY">DIY</a>
+    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/robotics-blog" aria-label="robotics-blog">robotics-blog</a>
   
     
-    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="http://localhost:8080/tags/hardware" aria-label="Hardware">Hardware</a>
-  
-    
-    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="http://localhost:8080/tags/3d-printing" aria-label="3D printing">3D printing</a>
-  
-    
-    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="http://localhost:8080/tags/cad" aria-label="CAD">CAD</a>
+    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/hardware" aria-label="hardware">hardware</a>
   
 </div>
 
 
-        <p>Paper bags are great. They are much more sustainable than their plastic counterparts and they are reusable and recyclable. I often keep or collect these bags because they have so many uses.</p>
-<p>The issue I have is that I don&rsquo;t have a good place to put them. At the moment, they are stored behind my recycling bin, being propped up. When I take out the recycling they all fall down and make a mess.</p>
-<p>Considering that I had just done some modifications to my 3D printer, I thought it would be a reasonable idea to test it by printing a larger model.</p>
-<h2 id="drafting-some-ideas">Drafting some ideas</h2>
-<p>I first began to sketch out some ideas on paper of what I thought would work. Eventually, I came up with a low profile design that utilized bamboo skewers to support the bags.</p>
+        <hr>
+<p>This week consisted of a combination of activities both during shop-time and during robotics club. I spent the majority of my shop time helping my classmates with their light boxes. This included anything from crimping connectors to soldering small parts onto PCBs. I also spent some time optimizing the ROV in terms of performance and reliability, which included setting up a <code>systemd</code> service to automatically start the main ROV software. This eliminates the need to ssh into the RPi 5 and manually start the server.</p>
 <br>
-<div>
-<br><img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 30%;" src="/posts/diy-bag-holder/sketch.png"/></img><br>    
+<div style="align-contents: center; text-align: center;">
+    <br>
+    <img 
+        onclick="window.location.href=this.src;" 
+        style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
+        src="/posts/01-27-25/greasing-tube.jpg"
+        alt="Unable to load image. Please refresh.">
+    </img>
+    <sub>Greasing the tube in hopes of eliminating leakage.</sub>
+    <br>
 </div>
 <br>
-<p>The skewers used in the model are they typical ones you can find in your average grocery store.</p>
-<p>I finalized the model, and moved over to Fusion to design it in full.</p>
+<p>During our extended robotics time (the robotics club), Tim, Jonas, and I headed up to the pool to test out the ROV. We examined it for any possible flaws or potential bugs, which I did find in the form of some wet electronics. The trusty electronics tube did appear to have a leak somewhere, allowing water to get in. Miraculously, the electronics were unphased. Nonetheless, I had Jonas continue piloting it as the PCBs have reasonable clearance from the bottom of the tube where the water was collecting.</p>
+<p>In terms of performance, we found no issues. The only thing I noticed was that the whole Pi 5 took a (what seems like) long time to boot up. And even after it had, the independent cameras (Pi 4 and Pi Zero 2W) took even longer to appear on the dashboard&rsquo;s feed.</p>
 <br>
-<div>
-<br><img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 30%;" src="/posts/diy-bag-holder/cad.png"/></img><br>    
+<div style="align-contents: center; text-align: center; display:flex;">
+    <br>
+    <img 
+        onclick="window.location.href=this.src;" 
+        style="display: block; margin-left: auto; margin-right: auto; width: 48%;" 
+        src="/posts/01-27-25/pool-optimizations.webp"
+        alt="Unable to load image. Please refresh.">
+    </img>
+    <img 
+        onclick="window.location.href=this.src;" 
+        style="display: block; margin-left: auto; margin-right: auto; width: 48%;" 
+        src="/posts/01-27-25/tim-doing-a-thing.jpeg"
+        alt="Unable to load image. Please refresh.">
+    </img>
+    <br>
 </div>
+<sub>Using 3D printed parts to make the robot more hydro-dynamic (left). Re-constructing and greasing the robot's electronics tube (right).</sub>
+<br><br>
+<p>After concluding our tests, we focused the rest of the day on identifying the cause of the leak. We brought the robot back down to the stop and took the tube apart. Tim and I rebuilt it and I submerged it in a bucket of water for over 30 minutes without a drop of water entering. This confirmed our suspicions, and we thought it was likely coming from the rear penetrators, where the cables come into the electronics tube. An ethernet cable penetrator was recently redone for the rear-facing camera, which is likely the source of the water intrusion.</p>
 <br>
-<p>The idea is that bamboo skewers will be placed in the holes, and the force of the bags will be distributed across them. By putting them at an angle allows many bags to fit in a smaller footprint.</p>
-<br>
-<div>
-<br><img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 30%;" src="/posts/diy-bag-holder/final.png"/></img><br>    
+<div style="align-contents: center; text-align: center;">
+    <br>
+    <img 
+        onclick="window.location.href=this.src;" 
+        style="display: block; margin-left: auto; margin-right: auto; width: 100%;" 
+        src="/posts/01-27-25/PCB3D.png"
+        alt="Unable to load image. Please refresh.">
+    </img>
+    <sub>3D Model of the 2025 Float PCB rendering.</sub>
+    <br>
 </div>
+<br><br>
+<div style="align-contents: center; text-align: center; display:flex;">
+    <br>
+    <img 
+        onclick="window.location.href=this.src;" 
+        style="display: block; margin-left: auto; margin-right: auto; width: 48%; height: 100%;" 
+        src="/posts/01-27-25/scheme.png"
+        alt="Unable to load image. Please refresh.">
+    </img>
+    <img 
+        onclick="window.location.href=this.src;" 
+        style="display: block; margin-left: auto; margin-right: auto; width: 48%; height: 100%;" 
+        src="/posts/01-27-25/board.png"
+        alt="Unable to load image. Please refresh.">
+    </img>
+    <br>
+</div>
+<sub>The 2025 Float PCB schematic (left). The 2025 Float PCB layout (right).</sub>
+<br><br>
+<p>Near the end of the week, I spent some time during a teacher&rsquo;s absence in lecture hall to work on the Float for the 2025 MATE ROV Competition. The 2024 board for the float was completely oversized, and the electronics were not configured or used in a particularly robust manner. This above redesign is a base model that can be further tweaked to tailor to the software and the layout of the float once the hardware is finished. This board will be milled on our in-shop Bantam Tools PCB mills, and once solid, will be sent to be made professionally. Once made professionally, it will have a sleek looking design with our company logo and some text on the board. Then, the mounting holes will fit into the float and make allow it to screw together to form a rigid design.</p>
+<p>Although this board is not fully functional and ready to be manufactured, it sets the stage for a super modular design that accomodates for any future updates or changes that may be made to the float electronics. For example, this new revision contains a fourth connector (bottom right in the right picture) that will be used for connecting a rotary encoder to the float&rsquo;s motor. This will make it easy to track where the motor is, at all times.</p>
 <br>
-
+<div style="align-contents: center; text-align: center;">
+    <br>
+    <img 
+        onclick="window.location.href=this.src;" 
+        style="display: block; margin-left: auto; margin-right: auto; width: 100%;" 
+        src="/posts/01-27-25/56.png"
+        alt="Unable to load image. Please refresh.">
+    </img>
+    <sub>3D Model of the 2025 Float</sub>
+    <br>
+</div>
+<br><br>
         <hr>
         <div style="display: block; padding: 10px;">
           <img style="height: 30px; width: 30px;" id="counter" src=""></img>
