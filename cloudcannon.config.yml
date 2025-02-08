@@ -1,0 +1,80 @@
+collections_config:
+  '01_20_25':
+    path: content/posts/01-20-25
+    name: 01 20 25
+    icon: 10k
+  '01_27_25':
+    path: content/posts/01-27-25
+    name: 01 27 25
+    icon: '123'
+  '1_13_25':
+    path: content/posts/1-13-25
+    name: 1 13 25
+    icon: 11mp
+  '1_6_25':
+    path: content/posts/1-6-25
+    name: 1 6 25
+    icon: '123'
+  '12_16_24':
+    path: content/posts/12-16-24
+    name: 12 16 24
+    icon: 11mp
+  diy_bag_holder:
+    path: content/posts/diy-bag-holder
+    name: Diy Bag Holder
+    icon: diamond
+  diy_psu_mod:
+    path: content/posts/diy-psu-mod
+    name: Diy Psu Mod
+    icon: dialpad
+  gui_over_ssh:
+    path: content/posts/gui-over-ssh
+    name: Gui Over Ssh
+    icon: auto_graph
+  noaa_ocean_exploration:
+    path: content/posts/NOAA-Ocean-Exploration
+    name: Noaa Ocean Exploration
+    icon: data_exploration
+  rpi_cv2:
+    path: content/posts/rpi-cv2
+    name: Rpi Cv2
+    icon: pinch
+  uv_5_r_audio_pc:
+    path: content/posts/UV5R-audio-pc
+    name: Uv 5 R Audio Pc
+    icon: radio
+  vnc_oci:
+    path: content/posts/vnc-oci
+    name: Vnc Oci
+    icon: anchor
+  data:
+    path: data
+    name: Data
+    icon: data_usage
+    disable_url: true
+    disable_add: true
+    disable_add_folder: true
+    disable_file_actions: true
+paths:
+  static: static
+  uploads: static/uploads
+timezone: America/New_York
+markdown:
+  engine: commonmark
+  options:
+    gfm: true
+    linkify: false
+    table: false
+    strikethrough: false
+    subscript: false
+    superscript: false
+    heading_ids: false
+    breaks: false
+    xhtml: false
+    attributes: false
+    typographer: false
+    treat_indentation_as_code: true
+_snippets_imports:
+  hugo:
+    exclude:
+      - hugo_instagram
