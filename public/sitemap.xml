@@ -2,120 +2,111 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:8080/</loc>
+    <loc>https://www.mileshilliard.com/</loc>
     <lastmod>2025-02-07T07:25:53-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/pool/</loc>
+    <loc>https://www.mileshilliard.com/tags/pool/</loc>
     <lastmod>2025-02-07T07:25:53-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/posts/</loc>
+    <loc>https://www.mileshilliard.com/posts/</loc>
     <lastmod>2025-02-07T07:25:53-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/posts/02-03-25/</loc>
+    <loc>https://www.mileshilliard.com/posts/02-03-25/</loc>
     <lastmod>2025-02-07T07:25:53-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/robotics-blog/</loc>
+    <loc>https://www.mileshilliard.com/tags/robotics-blog/</loc>
     <lastmod>2025-02-07T07:25:53-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/rov/</loc>
+    <loc>https://www.mileshilliard.com/tags/rov/</loc>
     <lastmod>2025-02-07T07:25:53-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/</loc>
+    <loc>https://www.mileshilliard.com/tags/</loc>
     <lastmod>2025-02-07T07:25:53-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/hardware/</loc>
+    <loc>https://www.mileshilliard.com/tags/hardware/</loc>
     <lastmod>2025-01-30T16:37:55-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/posts/01-27-25/</loc>
+    <loc>https://www.mileshilliard.com/posts/01-27-25/</loc>
     <lastmod>2025-01-30T16:37:55-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/posts/01-20-25/</loc>
+    <loc>https://www.mileshilliard.com/posts/01-20-25/</loc>
     <lastmod>2025-01-23T16:37:13-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/software/</loc>
+    <loc>https://www.mileshilliard.com/tags/software/</loc>
     <lastmod>2025-01-23T16:37:13-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/3d-printing/</loc>
+    <loc>https://www.mileshilliard.com/tags/3d-printing/</loc>
     <lastmod>2025-01-19T13:03:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/posts/diy-psu-mod/</loc>
+    <loc>https://www.mileshilliard.com/posts/diy-psu-mod/</loc>
     <lastmod>2025-01-19T13:03:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/posts/1-13-25/</loc>
+    <loc>https://www.mileshilliard.com/posts/1-13-25/</loc>
     <lastmod>2025-01-13T13:03:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/posts/1-6-25/</loc>
+    <loc>https://www.mileshilliard.com/posts/1-6-25/</loc>
     <lastmod>2025-01-06T13:03:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/posts/gui-over-ssh/</loc>
+    <loc>https://www.mileshilliard.com/posts/gui-over-ssh/</loc>
     <lastmod>2025-01-03T13:03:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/rpi/</loc>
+    <loc>https://www.mileshilliard.com/tags/rpi/</loc>
     <lastmod>2025-01-03T13:03:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/ssh/</loc>
+    <loc>https://www.mileshilliard.com/tags/ssh/</loc>
     <lastmod>2025-01-03T13:03:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/posts/diy-bag-holder/</loc>
-    <lastmod>2025-01-01T13:03:04-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:8080/tags/cad/</loc>
-    <lastmod>2025-01-01T13:03:04-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:8080/tags/diy/</loc>
-    <lastmod>2025-01-01T13:03:04-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:8080/posts/12-16-24/</loc>
+    <loc>https://www.mileshilliard.com/posts/12-16-24/</loc>
     <lastmod>2024-12-16T13:03:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/posts/uv5r-audio-pc/</loc>
+    <loc>https://www.mileshilliard.com/posts/uv5r-audio-pc/</loc>
     <lastmod>2024-11-24T10:28:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/cw/</loc>
+    <loc>https://www.mileshilliard.com/tags/cw/</loc>
     <lastmod>2024-11-24T10:28:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/ham/</loc>
+    <loc>https://www.mileshilliard.com/tags/ham/</loc>
     <lastmod>2024-11-24T10:28:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/radio/</loc>
+    <loc>https://www.mileshilliard.com/tags/radio/</loc>
     <lastmod>2024-11-24T10:28:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/uv5r/</loc>
+    <loc>https://www.mileshilliard.com/tags/uv5r/</loc>
     <lastmod>2024-11-24T10:28:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/posts/rpi-cv2/</loc>
+    <loc>https://www.mileshilliard.com/posts/rpi-cv2/</loc>
     <lastmod>2024-09-07T13:03:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/opencv/</loc>
+    <loc>https://www.mileshilliard.com/tags/opencv/</loc>
     <lastmod>2024-09-07T13:03:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/ai/</loc>
+    <loc>https://www.mileshilliard.com/tags/ai/</loc>
     <lastmod>2024-08-28T13:03:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/posts/noaa-ocean-exploration/</loc>
+    <loc>https://www.mileshilliard.com/posts/noaa-ocean-exploration/</loc>
     <lastmod>2024-08-28T13:03:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/noaa/</loc>
+    <loc>https://www.mileshilliard.com/tags/noaa/</loc>
     <lastmod>2024-08-28T13:03:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/robotics/</loc>
+    <loc>https://www.mileshilliard.com/tags/robotics/</loc>
     <lastmod>2024-08-28T13:03:04-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/posts/vnc-oci/</loc>
+    <loc>https://www.mileshilliard.com/posts/vnc-oci/</loc>
     <lastmod>2024-04-25T16:58:51+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/oci/</loc>
+    <loc>https://www.mileshilliard.com/tags/oci/</loc>
     <lastmod>2024-04-25T16:58:51+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/oracle-cloud/</loc>
+    <loc>https://www.mileshilliard.com/tags/oracle-cloud/</loc>
     <lastmod>2024-04-25T16:58:51+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/server/</loc>
+    <loc>https://www.mileshilliard.com/tags/server/</loc>
     <lastmod>2024-04-25T16:58:51+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/vnc/</loc>
+    <loc>https://www.mileshilliard.com/tags/vnc/</loc>
     <lastmod>2024-04-25T16:58:51+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/categories/</loc>
+    <loc>https://www.mileshilliard.com/categories/</loc>
   </url>
 </urlset>
