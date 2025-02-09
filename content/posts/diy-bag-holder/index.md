@@ -3,7 +3,7 @@
     date: 2025-01-01T13:03:04-04:00
     tags: ['DIY', 'Hardware', '3D printing', 'CAD']
     image: 'bags.webp'
-    draft: true
+    draft: false
 ---
 
 Paper bags are great. They are much more sustainable than their plastic counterparts and they are reusable and recyclable. I often keep or collect these bags because they have so many uses. 
