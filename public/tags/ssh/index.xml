@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SSH on Miles Hilliard</title>
-    <link>https://www.mileshilliard.com/tags/ssh/</link>
+    <link>http://localhost:8080/tags/ssh/</link>
     <description>Recent content in SSH on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Jan 2025 13:03:04 -0400</lastBuildDate>
-    <atom:link href="https://www.mileshilliard.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:8080/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GUI over SSH with X11</title>
-      <link>https://www.mileshilliard.com/posts/gui-over-ssh/</link>
+      <link>http://localhost:8080/posts/gui-over-ssh/</link>
       <pubDate>Fri, 03 Jan 2025 13:03:04 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/gui-over-ssh/</guid>
+      <guid>http://localhost:8080/posts/gui-over-ssh/</guid>
       <description>SSH is awesome, but your options when trying to run a GUI application are a bit limited, especially on headless computers. Luckily there are a few ways to go about handling this problem, even if your computer has no monitor directly connected to it.&#xA;SSH into the machine First of all, you need to ssh into your machine to get everything set up. Now you have a couple options. Some people may have a display (be it a full monitor, a TV screen, a touch display, etc) and others may have nothing it all.</description>
     </item>
     <item>
       <title>Connecting to Oracle Cloud servers with VNC</title>
-      <link>https://www.mileshilliard.com/posts/vnc-oci/</link>
+      <link>http://localhost:8080/posts/vnc-oci/</link>
       <pubDate>Thu, 25 Apr 2024 16:58:51 +0300</pubDate>
-      <guid>https://www.mileshilliard.com/posts/vnc-oci/</guid>
+      <guid>http://localhost:8080/posts/vnc-oci/</guid>
       <description>Oracle Cloud is a cloud computing service offered by Oracle Corporation. It provides a range of cloud services, including:&#xA;Infrastructure as a Service (IaaS): This includes virtual machines, storage, and networking resources. Platform as a Service (PaaS): Offers tools for developing, managing, and deploying applications, including databases, application development, and integration services. Software as a Service (SaaS): Provides ready-to-use software applications hosted in the cloud, such as enterprise resource planning (ERP), human capital management (HCM), and customer relationship management (CRM) applications.</description>
     </item>
   </channel>
