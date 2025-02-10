@@ -2,7 +2,7 @@
     title: 'Installing OpenCV on RPi in 2024'
     date: 2024-09-07T13:03:04-04:00
     tags: ['RPi', 'OpenCV', 'Software']
-    image: 'index.png'
+    image: 'index.jpg'
     draft: false
 ---
 
