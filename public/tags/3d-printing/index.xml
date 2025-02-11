@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3d-Printing on Miles Hilliard</title>
-    <link>http://localhost:8080/tags/3d-printing/</link>
+    <link>https://www.mileshilliard.com/tags/3d-printing/</link>
     <description>Recent content in 3d-Printing on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Jan 2025 13:03:04 -0400</lastBuildDate>
-    <atom:link href="http://localhost:8080/tags/3d-printing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.mileshilliard.com/tags/3d-printing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DIY Power Supply (PSU) Interface</title>
-      <link>http://localhost:8080/posts/diy-psu-mod/</link>
+      <link>https://www.mileshilliard.com/posts/diy-psu-mod/</link>
       <pubDate>Sun, 19 Jan 2025 13:03:04 -0400</pubDate>
-      <guid>http://localhost:8080/posts/diy-psu-mod/</guid>
+      <guid>https://www.mileshilliard.com/posts/diy-psu-mod/</guid>
       <description>I have had this cheap 12V switching power supply that (claims) to be able to deliver 30 amps. It is a common power supply type, and are commonly used in consumer applications, especially in the LED lighting industry. In fact, the exact same model can be found mounted on my Creality Ender 3 3D printer.&#xA;Background Personally, I find these power supplies perfect for many use cases, especially when one considers their pricepoint.</description>
     </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 1/13/25</title>
-      <link>http://localhost:8080/posts/1-13-25/</link>
+      <link>https://www.mileshilliard.com/posts/1-13-25/</link>
       <pubDate>Mon, 13 Jan 2025 13:03:04 -0400</pubDate>
-      <guid>http://localhost:8080/posts/1-13-25/</guid>
+      <guid>https://www.mileshilliard.com/posts/1-13-25/</guid>
       <description>The lightbox has been finished! I designed the acrylic and manufactured it on our laser engraver/cutter. The end result was better than expected, although I had to condense (shorten) the acrylic overall to meet the max acrylic dimensions of 70 square cm.&#xA;After the transparent acrylic was finished, I screwed it into the lightbox and &amp;ldquo;force fit&amp;rdquo; everything together as designed. Luckily my tolerances and dimensions matched perfectly.&#xA;The acrylic had to be custom designed to fit the screw holes and the box geometry.</description>
     </item>
     <item>
       <title>Bag Holder Design</title>
-      <link>http://localhost:8080/posts/diy-bag-holder/</link>
+      <link>https://www.mileshilliard.com/posts/diy-bag-holder/</link>
       <pubDate>Wed, 01 Jan 2025 13:03:04 -0400</pubDate>
-      <guid>http://localhost:8080/posts/diy-bag-holder/</guid>
+      <guid>https://www.mileshilliard.com/posts/diy-bag-holder/</guid>
       <description>Paper bags are great. They are much more sustainable than their plastic counterparts and they are reusable and recyclable. I often keep or collect these bags because they have so many uses.&#xA;The issue I have is that I don&amp;rsquo;t have a good place to put them. At the moment, they are stored behind my recycling bin, being propped up. When I take out the recycling they all fall down and make a mess.</description>
     </item>
   </channel>
