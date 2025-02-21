@@ -409,8 +409,10 @@ Click the Default Security List link. For example <a href="https://sntx.dev/">De
 <p><img src="https://content.instructables.com/FMI/TLFQ/LZ8FI2RY/FMITLFQLZ8FI2RY.png?auto=webp&amp;frame=1&amp;width=1024&amp;fit=bounds&amp;md=083c90968662776d295b9290acc85181" alt="VNCDESKTOP"></p>
 
         <hr>
-        <div style="display: block; padding: 10px;">
-          <img style="height: 30px; width: 30px;" id="counter" src=""></img>
+        <div style="display: flex; padding: 10px; gap: 10px;">
+          <h1 id="counter">0</h1>
+          <br>
+          <p>Views</p>
         </div>
       </div>
       <script>
@@ -426,7 +428,13 @@ Click the Default Security List link. For example <a href="https://sntx.dev/">De
       }
       const hash=hashURLPath();
       console.log("generated hash: ", hash);
-      document.getElementById('counter').src = `https://smallcounter.com/count.php?c_style=1&id=${hash}`;
+      fetch(`https://countapi.mileshilliard.com/api/v1/hit/miles-hugo-blog-${hash}`)
+        .then(response => response.json())
+        .then(data => {
+          console.log('Fetched data:', data);
+          document.getElementById('counter').innerHTML = data.value;
+        })
+        .catch(error => console.error('Error fetching data:', error));
       </script>
       <hr>
       <div class="bg-gray-50 px-8 py-10 rounded-md post-content">
