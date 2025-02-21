@@ -1,12 +1,20 @@
 title = "Latest work"
 [[project]]
+  title = "Count API"
+  text = [
+    "CountAPI.xyz is no longer with us unfortunately. I for one heavily relied on this API and it functionality in a great number of my programming projects. After some research, I found that there was no ideal alternative. Most cost more than I was willing to pay, so I set out to create my own. For free!",
+    "countapi.mileshilliard.com is my attempt at a relative-replica of the OG countapi.xyz. By reading the documentation and formatting of how the interface and endpoints functioned, I recreated my own using a Redis databse and a Vercel serverless script. Although performance may not quite match the original countapi, the minor dip shouldn't be noticeable in everyday applications.",
+    "I intend this API to be free indefinitely. If it gains any traction, I will most likely need to upgrade to a different redis database, but until then, enjoy!",
+    "All documentation can be found on the homepage of the API (link below) and includes formatted examples to get you started in any programming language.",]
+  link = "https://countapi.mileshilliard.com"
+
+[[project]]
   title = "HAM Radio License"
   text = [
     "As of 11/23/2024, I am a registered HAM radio operator. This means I can use technology that nobody has even thought about since WWII.",
     "HAM radio is a dying art, and I beleive it should be revived. The whole concept of communication without internet or networks or cables is fascinating, and still very important. Although HAM radio is now no longer as common as it once was, it can still be a necessity for some. People still rely on it as a form of communication (and entertainment) in less urbanized areas, and more recently, it has had an impact on natural disaster relief.",
     "With growing interests in RF and the world of analog modes, I am learning about various technologies, both analog and digital, including CW (morse code), SSTV (slow-scan television), RTTY, et al.",
-    "73,",
-    "KC1VTJ"]
+    "73 de KC1VTJ"]
   link = "/tags/ham/"
 
 [[project]]

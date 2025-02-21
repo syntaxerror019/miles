@@ -153,14 +153,15 @@ document.addEventListener("DOMContentLoaded", () => {
           </a>
         </li>
       
+      <li class="px-5">|</li>
       <li class="px-5">
-        <button class="button-no-bg" onclick="(localStorage.setItem('dark-mode', document.getElementById('dark-mode-css') ? 'disabled' : 'enabled'), document.getElementById('dark-mode-css') ? document.getElementById('dark-mode-css').remove() : document.head.appendChild(Object.assign(document.createElement('link'), { id: 'dark-mode-css', rel: 'stylesheet', href: '/css/dark-mode.css' })))">Toggle Theme</button>
+        <button class="button-no-bg" style="font-size: 150%;" onclick="(localStorage.setItem('dark-mode', document.getElementById('dark-mode-css') ? 'disabled' : 'enabled'), document.getElementById('dark-mode-css') ? document.getElementById('dark-mode-css').remove() : document.head.appendChild(Object.assign(document.createElement('link'), { id: 'dark-mode-css', rel: 'stylesheet', href: '/css/dark-mode.css' })))">◐</button>
       </li>
       
         <li class="px-5">
           <a href="https://ko-fi.com/sntxdev" target="_blank">
             <button
-              class="px-10 py-4 bg-white hover:bg-gray-600 hover:text-white rounded-lg font-normal text-base transition duration-300">
+              class="px-5 py-2 bg-white hover:bg-gray-600 hover:text-white rounded-lg font-normal text-base transition duration-300">
               Support me
             </button>
           </a>
@@ -170,7 +171,7 @@ document.addEventListener("DOMContentLoaded", () => {
   </div>
 
   <div class="block lg:hidden mt-2">
-    <button @click="mobileMenu = true">
+    <button id="hamburger" @click="mobileMenu = true">
       <i class="bx bx-menu text-3xl"></i>
     </button>
   </div>
@@ -193,7 +194,7 @@ document.addEventListener("DOMContentLoaded", () => {
             title="Miles Hilliard"
             target="_self"
             class="cursor-pointer font-normal text-base">
-            Home
+            ꞏ Home
           </a>
         </li>
         <br>
@@ -205,7 +206,7 @@ document.addEventListener("DOMContentLoaded", () => {
             title="See robotics-only posts."
             target="_self"
             class="cursor-pointer font-normal text-base">
-            Robotics Posts
+            ꞏ Robotics Posts
           </a>
         </li>
         <br>
@@ -217,20 +218,21 @@ document.addEventListener("DOMContentLoaded", () => {
             title="See all my latest posts"
             target="_self"
             class="cursor-pointer font-normal text-base">
-            Blog
+            ꞏ Blog
           </a>
         </li>
         <br>
       
+      <li class="px-5">&nbsp;</li>
       <li class="px-5">
-        <button class="button-no-bg" onclick="(localStorage.setItem('dark-mode', document.getElementById('dark-mode-css') ? 'disabled' : 'enabled'), document.getElementById('dark-mode-css') ? document.getElementById('dark-mode-css').remove() : document.head.appendChild(Object.assign(document.createElement('link'), { id: 'dark-mode-css', rel: 'stylesheet', href: '/css/dark-mode.css' })))">Toggle Theme</button>
+         <button class="button-no-bg" style="font-size: 150%;" onclick="(localStorage.setItem('dark-mode', document.getElementById('dark-mode-css') ? 'disabled' : 'enabled'), document.getElementById('dark-mode-css') ? document.getElementById('dark-mode-css').remove() : document.head.appendChild(Object.assign(document.createElement('link'), { id: 'dark-mode-css', rel: 'stylesheet', href: '/css/dark-mode.css' })))">◐</button>
       </li>
-      <br><br>
+      <li class="px-5">&nbsp;</li>
       
         <li class="px-5">
           <a href="https://ko-fi.com/sntxdev" target="_blank">
             <button
-              class="px-10 py-4 bg-white hover:bg-gray-600 hover:text-white rounded-lg font-normal text-base transition duration-300">
+              class="px-5 py-2 bg-white hover:bg-gray-600 hover:text-white rounded-lg font-normal text-base transition duration-300">
               Support me
             </button>
           </a>
@@ -311,7 +313,7 @@ document.addEventListener("DOMContentLoaded", () => {
     </div>
     <div class="md:flex lg:space-x-5 xl:space-x-10 items-center py-2">
       <div class="text-lg xl:text-xl text-center font-light p-2 md:p-10">
-        A budding engineer with a love for problem-solving and design, consistently applying technical skills to real-world projects in robotics, electronics, and programming.
+        An aspiring engineer with a love for problem-solving and design, consistently applying technical skills to real-world projects in robotics, electronics, and programming.
       </div>
       <div
         class="text-5xl sm:text-7xl lg:text-8xl xl:text-9xl text-gray-600 text-center md:text-right font-poppins font-semibold py-5 md:py-0">
@@ -321,7 +323,7 @@ document.addEventListener("DOMContentLoaded", () => {
   </div>
 </div>
 <div class="text-lg xl:text-xl text-center font-light p-2 md:p-10">
-  I am an electrical engineering student with an evergrowing passion for programming, artificial intelligence, and robotic autonomy. As a high school student, I work as the electrical hardware lead to design, create, and test innovative ROVs and profiling floats for the annual MATE ROV Competition.
+  I am a student with an expanding passion for programming, artificial intelligence, and robotic autonomy. As a high school student, I work as the electrical hardware lead to design, create, and test innovative ROVs and profiling floats for the annual MATE ROV Competition.
 </div>
 
       </section>
@@ -587,6 +589,32 @@ document.addEventListener("DOMContentLoaded", () => {
 
   <div class="mb-9 px-7 p-5 sm:p-9 lg:px-6 xl:px-9 border-b-2 border-gray-300 last:border-b-0 text-gray-600">
     <div>
+      <h3 class="mb-4 font-light text-3xl">Count API</h3>
+      
+        <p class="md:pl-10 py-2 text-xl font-light">
+          CountAPI.xyz is no longer with us unfortunately. I for one heavily relied on this API and it functionality in a great number of my programming projects. After some research, I found that there was no ideal alternative. Most cost more than I was willing to pay, so I set out to create my own. For free!
+        </p>
+      
+        <p class="md:pl-10 py-2 text-xl font-light">
+          countapi.mileshilliard.com is my attempt at a relative-replica of the OG countapi.xyz. By reading the documentation and formatting of how the interface and endpoints functioned, I recreated my own using a Redis databse and a Vercel serverless script. Although performance may not quite match the original countapi, the minor dip shouldn&#39;t be noticeable in everyday applications.
+        </p>
+      
+        <p class="md:pl-10 py-2 text-xl font-light">
+          I intend this API to be free indefinitely. If it gains any traction, I will most likely need to upgrade to a different redis database, but until then, enjoy!
+        </p>
+      
+        <p class="md:pl-10 py-2 text-xl font-light">
+          All documentation can be found on the homepage of the API (link below) and includes formatted examples to get you started in any programming language.
+        </p>
+      
+    </div>
+    <div class="mt-5">
+      <a href="https://countapi.mileshilliard.com" target="_blank" class="text-blue-500 hover:underline">https://countapi.mileshilliard.com</a>
+    </div>
+  </div>
+
+  <div class="mb-9 px-7 p-5 sm:p-9 lg:px-6 xl:px-9 border-b-2 border-gray-300 last:border-b-0 text-gray-600">
+    <div>
       <h3 class="mb-4 font-light text-3xl">HAM Radio License</h3>
       
         <p class="md:pl-10 py-2 text-xl font-light">
@@ -602,11 +630,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </p>
       
         <p class="md:pl-10 py-2 text-xl font-light">
-          73,
-        </p>
-      
-        <p class="md:pl-10 py-2 text-xl font-light">
-          KC1VTJ
+          73 de KC1VTJ
         </p>
       
     </div>
