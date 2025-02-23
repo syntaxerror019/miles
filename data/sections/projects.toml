@@ -1,4 +1,14 @@
 title = "Latest work"
+
+[[project]]
+  title = "OpenWebRX+ WebSDR"
+  text = [
+    "I built OpenWebRX+ from source on my Raspberry Zero 2W in hopes of making a local, power efficient, compact, (portable?) web-sdr to share the local airwaves with my friends.",
+    "It runs with a simple USB power adapter, but I plan on making it solar powered in the near future.",
+    "The actual heavy-lifting is done my the famous RTL-SDR. It is capable of receiving a wide range of frequencies, and I have set up an appropriate list of ranges on the software to support almost any kind of usage.",
+    ]
+  link = "https://websdr.mileshilliard.com"
+
 [[project]]
   title = "Count API"
   text = [
