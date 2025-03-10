@@ -6,8 +6,22 @@
     <description>Recent content in Radio on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Nov 2024 10:28:04 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 09 Mar 2025 17:54:10 -0400</lastBuildDate>
     <atom:link href="http://localhost:8080/tags/radio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Antenna</title>
+      <link>http://localhost:8080/posts/antenna/</link>
+      <pubDate>Sun, 09 Mar 2025 17:54:10 -0400</pubDate>
+      <guid>http://localhost:8080/posts/antenna/</guid>
+      <description>When I bought an upgrade from my baofeng UV5R (ANYTONE AT-778UV), I figured a new antenna set-up was in store.&#xA;My base station antenna is a Diamond X50, attached to a custom mast.&#xA;This setup was a heck of a lot better than the rubber duck on my handheld, but because it was only about 8ft. from the ground, the environment and houses nearby would block both TX and RX signals significantly.</description>
+    </item>
+    <item>
+      <title>HAM License!</title>
+      <link>http://localhost:8080/posts/anytone778/</link>
+      <pubDate>Thu, 06 Mar 2025 19:43:42 -0400</pubDate>
+      <guid>http://localhost:8080/posts/anytone778/</guid>
+      <description>I got my HAM Radio License!&#xA;I am now a registered HAM radio operator as KC1VTJ&#xA;Hope to hear you on the air,&#xA;73</description>
+    </item>
     <item>
       <title>Baofeng UV5R DIY direct to computer audio cable</title>
       <link>http://localhost:8080/posts/uv5r-audio-pc/</link>

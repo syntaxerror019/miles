@@ -2,19 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:8080/tags/antenna/</loc>
+    <lastmod>2025-03-09T17:54:10-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/posts/antenna/</loc>
+    <lastmod>2025-03-09T17:54:10-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/tags/ham/</loc>
+    <lastmod>2025-03-09T17:54:10-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/tags/hardware/</loc>
+    <lastmod>2025-03-09T17:54:10-04:00</lastmod>
+  </url><url>
     <loc>http://localhost:8080/</loc>
-    <lastmod>2025-02-28T13:37:00-05:00</lastmod>
+    <lastmod>2025-03-09T17:54:10-04:00</lastmod>
   </url><url>
     <loc>http://localhost:8080/posts/</loc>
-    <lastmod>2025-02-28T13:37:00-05:00</lastmod>
+    <lastmod>2025-03-09T17:54:10-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/tags/radio/</loc>
+    <lastmod>2025-03-09T17:54:10-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/tags/</loc>
+    <lastmod>2025-03-09T17:54:10-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/posts/anytone778/</loc>
+    <lastmod>2025-03-06T19:43:42-04:00</lastmod>
   </url><url>
     <loc>http://localhost:8080/posts/02-24-25/</loc>
     <lastmod>2025-02-28T13:37:00-05:00</lastmod>
   </url><url>
     <loc>http://localhost:8080/tags/robotics-blog/</loc>
-    <lastmod>2025-02-28T13:37:00-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:8080/tags/</loc>
     <lastmod>2025-02-28T13:37:00-05:00</lastmod>
   </url><url>
     <loc>http://localhost:8080/tags/pool/</loc>
@@ -25,9 +43,6 @@
   </url><url>
     <loc>http://localhost:8080/tags/rov/</loc>
     <lastmod>2025-02-07T07:25:53-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:8080/tags/hardware/</loc>
-    <lastmod>2025-01-30T16:37:55-05:00</lastmod>
   </url><url>
     <loc>http://localhost:8080/posts/01-27-25/</loc>
     <lastmod>2025-01-30T16:37:55-05:00</lastmod>
@@ -75,12 +90,6 @@
     <lastmod>2024-11-24T10:28:04-04:00</lastmod>
   </url><url>
     <loc>http://localhost:8080/tags/cw/</loc>
-    <lastmod>2024-11-24T10:28:04-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:8080/tags/ham/</loc>
-    <lastmod>2024-11-24T10:28:04-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:8080/tags/radio/</loc>
     <lastmod>2024-11-24T10:28:04-04:00</lastmod>
   </url><url>
     <loc>http://localhost:8080/tags/uv5r/</loc>

@@ -6,8 +6,15 @@
     <description>Recent content on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Feb 2025 13:37:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 09 Mar 2025 17:54:10 -0400</lastBuildDate>
     <atom:link href="http://localhost:8080/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Antenna</title>
+      <link>http://localhost:8080/posts/antenna/</link>
+      <pubDate>Sun, 09 Mar 2025 17:54:10 -0400</pubDate>
+      <guid>http://localhost:8080/posts/antenna/</guid>
+      <description>When I bought an upgrade from my baofeng UV5R (ANYTONE AT-778UV), I figured a new antenna set-up was in store.&#xA;My base station antenna is a Diamond X50, attached to a custom mast.&#xA;This setup was a heck of a lot better than the rubber duck on my handheld, but because it was only about 8ft. from the ground, the environment and houses nearby would block both TX and RX signals significantly.</description>
+    </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 02/24/25</title>
       <link>http://localhost:8080/posts/02-24-25/</link>
@@ -84,6 +91,13 @@
       <pubDate>Sun, 24 Nov 2024 10:28:04 -0400</pubDate>
       <guid>http://localhost:8080/posts/uv5r-audio-pc/</guid>
       <description>With my new HAM radio license in the books, I bought the Baofeng UV5R as my first HT. Between its low-cost and various features, I think its been a great radio to start out with. With an upgraded antenna (almost not optional) and a larger battery bank, I&amp;rsquo;ve found the radio to be a pretty solid unit. Unfortunately, there is no direct way to plug in the radio&amp;rsquo;s speaker and mic jacks to a computer soundcard to transmit and receive sounds to and from my PC, but with a simple cable modification, this can be done.</description>
+    </item>
+    <item>
+      <title>HAM License!</title>
+      <link>http://localhost:8080/posts/anytone778/</link>
+      <pubDate>Sat, 23 Nov 2024 19:43:42 -0400</pubDate>
+      <guid>http://localhost:8080/posts/anytone778/</guid>
+      <description>I got my HAM Radio License!&#xA;I am now a registered HAM radio operator as KC1VTJ&#xA;Hope to hear you on the air,&#xA;73</description>
     </item>
     <item>
       <title>Installing OpenCV on RPi in 2024</title>

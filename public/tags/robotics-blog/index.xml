@@ -13,7 +13,7 @@
       <link>http://localhost:8080/posts/02-24-25/</link>
       <pubDate>Fri, 28 Feb 2025 13:37:00 -0500</pubDate>
       <guid>http://localhost:8080/posts/02-24-25/</guid>
-      <description>This week I locked in and spent a good chunk of time identifying the reasoning behind the mysterious crashing phenomenon we have been experiencing for over a year and a half in the ROV.&#xA;In the past, the main control computer (RPi 5) was experiencing power interruption issues due to the massive current draw of the 8 thrusters. Because of the low dropout voltage in the 5 volt regulator, we found that adding some capacitange along these output lines helped smooth out any wild ripples.</description>
+      <description>This week I locked in and spent a good chunk of time identifying the reasoning behind the mysterious crashing phenomenon we have been experiencing for over a year and a half in the ROV.&#xA;Raspberry Pi 5 Problems In the past, the main control computer (RPi 5) was experiencing power interruption issues due to the massive current draw of the 8 thrusters. Because of the low dropout voltage in the 5 volt regulator, we found that adding some capacitange along these output lines helped smooth out any wild ripples.</description>
     </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 02/03/25</title>
