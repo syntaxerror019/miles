@@ -2,7 +2,7 @@
 title: 'Robotics & Engineering - Week of 02/24/25'
 date: 2025-02-28T13:37:00-0500
 tags: ['robotics-blog']
-image: 'phone2.jpg'
+image: 'phone2.webp'
 draft: false
 ---
 
@@ -35,13 +35,13 @@ Ultimately, I ended up replacing the faulty one, and it all worked perfectly. I 
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
-        src="/posts/02-24-25/chip.png">
+        src="/posts/02-24-25/chip.webp">
     </img>
     <br>
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
-        src="/posts/02-24-25/reg.jpg">
+        src="/posts/02-24-25/reg.webp">
     </img>
 </div>
 <sub>The SOP packaged SMD optocoupler (left). The new 5v regulator (right).</sub>
@@ -64,13 +64,13 @@ We wanted the whole thing to be made out of parts that Mr. Christy was throwing 
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
-        src="/posts/02-24-25/sidewow.jpg">
+        src="/posts/02-24-25/sidewow.webp">
     </img>
     <br>
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
-        src="/posts/02-24-25/topomg.jpg">
+        src="/posts/02-24-25/topomg.webp">
     </img>
 </div>
 <sub>Stack of shields (left). Layed out boards (right).</sub>
@@ -91,18 +91,18 @@ Inside is, well, a machine room. It has some really ginormous transformers that 
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 33%;" 
-        src="/posts/02-24-25/uh.jpg">
+        src="/posts/02-24-25/uh.webp">
     </img>
     <br>
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 33%;" 
-        src="/posts/02-24-25/phone1.jpg">
+        src="/posts/02-24-25/phone1.webp">
     </img>
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 33%;" 
-        src="/posts/02-24-25/phone2.jpg">
+        src="/posts/02-24-25/phone2.webp">
     </img>
 </div>
 <sub>Giant engine, with cool battery array on the floor (left). A mess of phone lines (center & right).</sub>
