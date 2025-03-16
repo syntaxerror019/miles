@@ -10,6 +10,15 @@ title = "Latest work"
   link = "https://websdr.mileshilliard.com"
 
 [[project]]
+  title = "CW (Morse Code) tools"
+  text = [
+    "Some simple CW tools to help get you into the relm of morse code.",
+    "All tools run with javascript on the front end, and involve no backend server processing whatsoever. There is no data collected, mostly because there is nothing to collect, and no way to collect it!",
+    "Use cases include, but are not limited to: cw practice, pranking friends, creating properly formatted radio beacons, radio testing, and more.",
+    ]
+  link = "https://morse.mileshilliard.com"
+
+[[project]]
   title = "Count API"
   text = [
     "CountAPI.xyz is no longer with us unfortunately. I for one heavily relied on this API and it functionality in a great number of my programming projects. After some research, I found that there was no ideal alternative. Most cost more than I was willing to pay, so I set out to create my own. For free!",
@@ -17,6 +26,15 @@ title = "Latest work"
     "I intend this API to be free indefinitely. If it gains any traction, I will most likely need to upgrade to a different redis database, but until then, enjoy!",
     "All documentation can be found on the homepage of the API (link below) and includes formatted examples to get you started in any programming language.",]
   link = "https://countapi.mileshilliard.com"
+
+[[project]]
+  title = "Callsign lookup"
+  text = [
+    "Look up anybody's callsign to find the registered name, location, expiration, class rank, or FRN behind it!",
+    "Written with a serverless backend, the lookups are fast and efficient- two things the FCC's website is incapable of. The interface is clean and easy to use, with only one input required to create a search.",
+    "Please do note that this site does not have its own database, and relies on a third-party to provide relevant information. As of now, all data comes from www.wt9v.net and is only parsed in a human readable format on this site.",
+    "All data provided here is not owned by me or mileshilliard.com and is already publicly available. There is no guarantee that the information is 100% accurate and/or up-to-date.",]
+  link = "https://ham.mileshilliard.com"
 
 [[project]]
   title = "HAM Radio License"
