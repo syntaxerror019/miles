@@ -6,8 +6,15 @@
     <description>Recent content in Robotics-Blog on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Feb 2025 13:37:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 20 Mar 2025 13:57:43 -0400</lastBuildDate>
     <atom:link href="http://localhost:8080/tags/robotics-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics &amp; Engineering - Week of 03/17/25</title>
+      <link>http://localhost:8080/posts/03-17-25/</link>
+      <pubDate>Thu, 20 Mar 2025 13:57:43 -0400</pubDate>
+      <guid>http://localhost:8080/posts/03-17-25/</guid>
+      <description>The first 2 days of shop this week were spent replacing XT30 connectors on the ROV&amp;rsquo;s power distribution board. There have been connection issues in the past, and I really didn&amp;rsquo;t want this to factor into existing reliability issues.&#xA;On Wednesday, Jonas Wirz and I got the ROV into the pool, however, we had some free time before then and were very productive with it.&#xA;Short-lived gated off area exploration (right).</description>
+    </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 02/24/25</title>
       <link>http://localhost:8080/posts/02-24-25/</link>

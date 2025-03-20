@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:8080/tags/hardware/</loc>
+    <lastmod>2025-03-20T13:57:43-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/</loc>
+    <lastmod>2025-03-20T13:57:43-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/posts/</loc>
+    <lastmod>2025-03-20T13:57:43-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/posts/03-17-25/</loc>
+    <lastmod>2025-03-20T13:57:43-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/tags/robotics-blog/</loc>
+    <lastmod>2025-03-20T13:57:43-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/tags/</loc>
+    <lastmod>2025-03-20T13:57:43-04:00</lastmod>
+  </url><url>
     <loc>http://localhost:8080/tags/antenna/</loc>
     <lastmod>2025-03-09T17:54:10-04:00</lastmod>
   </url><url>
@@ -11,25 +29,10 @@
     <loc>http://localhost:8080/tags/ham/</loc>
     <lastmod>2025-03-09T17:54:10-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/hardware/</loc>
-    <lastmod>2025-03-09T17:54:10-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:8080/</loc>
-    <lastmod>2025-03-09T17:54:10-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:8080/posts/</loc>
-    <lastmod>2025-03-09T17:54:10-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:8080/tags/radio/</loc>
     <lastmod>2025-03-09T17:54:10-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/tags/</loc>
-    <lastmod>2025-03-09T17:54:10-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:8080/posts/02-24-25/</loc>
-    <lastmod>2025-02-28T13:37:00-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:8080/tags/robotics-blog/</loc>
     <lastmod>2025-02-28T13:37:00-05:00</lastmod>
   </url><url>
     <loc>http://localhost:8080/tags/pool/</loc>
