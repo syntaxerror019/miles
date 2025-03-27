@@ -3,33 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:8080/tags/hardware/</loc>
-    <lastmod>2025-03-20T13:57:43-04:00</lastmod>
+    <lastmod>2025-03-27T17:11:23-04:00</lastmod>
   </url><url>
     <loc>http://localhost:8080/</loc>
-    <lastmod>2025-03-20T13:57:43-04:00</lastmod>
+    <lastmod>2025-03-27T17:11:23-04:00</lastmod>
   </url><url>
     <loc>http://localhost:8080/posts/</loc>
-    <lastmod>2025-03-20T13:57:43-04:00</lastmod>
+    <lastmod>2025-03-27T17:11:23-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:8080/posts/03-17-25/</loc>
-    <lastmod>2025-03-20T13:57:43-04:00</lastmod>
+    <loc>http://localhost:8080/posts/03-24-25/</loc>
+    <lastmod>2025-03-27T17:11:23-04:00</lastmod>
   </url><url>
     <loc>http://localhost:8080/tags/robotics-blog/</loc>
-    <lastmod>2025-03-20T13:57:43-04:00</lastmod>
+    <lastmod>2025-03-27T17:11:23-04:00</lastmod>
   </url><url>
     <loc>http://localhost:8080/tags/</loc>
+    <lastmod>2025-03-27T17:11:23-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/posts/foxhunting/</loc>
+    <lastmod>2025-03-23T19:43:42-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/tags/ham/</loc>
+    <lastmod>2025-03-23T19:43:42-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/tags/radio/</loc>
+    <lastmod>2025-03-23T19:43:42-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:8080/posts/03-17-25/</loc>
     <lastmod>2025-03-20T13:57:43-04:00</lastmod>
   </url><url>
     <loc>http://localhost:8080/tags/antenna/</loc>
     <lastmod>2025-03-09T17:54:10-04:00</lastmod>
   </url><url>
     <loc>http://localhost:8080/posts/antenna/</loc>
-    <lastmod>2025-03-09T17:54:10-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:8080/tags/ham/</loc>
-    <lastmod>2025-03-09T17:54:10-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:8080/tags/radio/</loc>
     <lastmod>2025-03-09T17:54:10-04:00</lastmod>
   </url><url>
     <loc>http://localhost:8080/posts/02-24-25/</loc>

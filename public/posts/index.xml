@@ -6,8 +6,22 @@
     <description>Recent content in Posts on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Mar 2025 13:57:43 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 27 Mar 2025 17:11:23 -0400</lastBuildDate>
     <atom:link href="http://localhost:8080/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics &amp; Engineering - Week of 03/24/25</title>
+      <link>http://localhost:8080/posts/03-24-25/</link>
+      <pubDate>Thu, 27 Mar 2025 17:11:23 -0400</pubDate>
+      <guid>http://localhost:8080/posts/03-24-25/</guid>
+      <description>This week, Tim finished his electronics skeleton that he has been working on for the past few weeks. It looks very nice and is completely custom designed, machined, and resin printed. I helped him install it into the ROV, and I can already tell that it will make things significantly easier in terms of debugging and also performance of the overall machine.&#xA;The previous layout consisted of floppy acrylic fingers that held the PCBs in place.</description>
+    </item>
+    <item>
+      <title>First Foxhunt</title>
+      <link>http://localhost:8080/posts/foxhunting/</link>
+      <pubDate>Sun, 23 Mar 2025 19:43:42 -0400</pubDate>
+      <guid>http://localhost:8080/posts/foxhunting/</guid>
+      <description>Over the weekend, me and two of my friends went out foxhunting. On the groups.io page, we found a few local foxes that had been set up. We took the opportunity to drive 30 minutes North to see what we could find!&#xA;Since we all got our radio licenses around the same time, we all purchased the same, budget-friendly HT: the Baofeng UV-5R. We brought along for with us for the endeavor, and an assortment of various antennas- from long whips to little stubbies.</description>
+    </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 03/17/25</title>
       <link>http://localhost:8080/posts/03-17-25/</link>

@@ -27,7 +27,7 @@ On Wednesday, Jonas Wirz and I got the ROV into the pool, however, we had some f
         src="/posts/03-17-25/urban.webp">
     </img>
 </div>
-<sub>Short-lived gated off area exploration (right).
+<sub>Short-lived gated off area exploration (right).</sub>
 
 <br>
 
