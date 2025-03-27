@@ -8,7 +8,7 @@ draft: false
 
 ---
 
-Over the weekend, me and two of my friends went out foxhunting. On the groups.io page, we found a few local foxes that had been set up. We took the opportunity to drive 30 minutes North to see what we could find!
+Over the weekend, two of my friends and I went out foxhunting. On the groups.io page, we found a few local foxes that had been set up. We took the opportunity to drive 30 minutes North to see what we could find!
 
 Since we all got our radio licenses around the same time, we all purchased the same, budget-friendly HT: the Baofeng UV-5R. We brought along for with us for the endeavor, and an assortment of various antennas- from long whips to little stubbies. Funnily, almost all of them were of use to us.
 
