@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hardware on Miles Hilliard</title>
-    <link>http://localhost:8080/tags/hardware/</link>
+    <link>https://www.mileshilliard.com/tags/hardware/</link>
     <description>Recent content in Hardware on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Mar 2025 17:11:23 -0400</lastBuildDate>
-    <atom:link href="http://localhost:8080/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.mileshilliard.com/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Robotics &amp; Engineering - Week of 03/24/25</title>
-      <link>http://localhost:8080/posts/03-24-25/</link>
+      <link>https://www.mileshilliard.com/posts/03-24-25/</link>
       <pubDate>Thu, 27 Mar 2025 17:11:23 -0400</pubDate>
-      <guid>http://localhost:8080/posts/03-24-25/</guid>
+      <guid>https://www.mileshilliard.com/posts/03-24-25/</guid>
       <description>This week, Tim finished his electronics skeleton that he has been working on for the past few weeks. It looks very nice and is completely custom designed, machined, and resin printed. I helped him install it into the ROV, and I can already tell that it will make things significantly easier in terms of debugging and also performance of the overall machine.&#xA;The previous layout consisted of floppy acrylic fingers that held the PCBs in place.</description>
     </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 03/17/25</title>
-      <link>http://localhost:8080/posts/03-17-25/</link>
+      <link>https://www.mileshilliard.com/posts/03-17-25/</link>
       <pubDate>Thu, 20 Mar 2025 13:57:43 -0400</pubDate>
-      <guid>http://localhost:8080/posts/03-17-25/</guid>
+      <guid>https://www.mileshilliard.com/posts/03-17-25/</guid>
       <description>The first 2 days of shop this week were spent replacing XT30 connectors on the ROV&amp;rsquo;s power distribution board. There have been connection issues in the past, and I really didn&amp;rsquo;t want this to factor into existing reliability issues.&#xA;On Wednesday, Jonas Wirz and I got the ROV into the pool, however, we had some free time before then and were very productive with it.&#xA;Short-lived gated off area exploration (right).</description>
     </item>
     <item>
       <title>Antenna</title>
-      <link>http://localhost:8080/posts/antenna/</link>
+      <link>https://www.mileshilliard.com/posts/antenna/</link>
       <pubDate>Sun, 09 Mar 2025 17:54:10 -0400</pubDate>
-      <guid>http://localhost:8080/posts/antenna/</guid>
+      <guid>https://www.mileshilliard.com/posts/antenna/</guid>
       <description>When I bought an upgrade from my baofeng UV5R (ANYTONE AT-778UV), I figured a new antenna set-up was in store.&#xA;My base station antenna is a Diamond X50, attached to a custom mast.&#xA;This setup was a heck of a lot better than the rubber duck on my handheld, but because it was only about 8ft. from the ground, the environment and houses nearby would block both TX and RX signals significantly.</description>
     </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 01/27/25</title>
-      <link>http://localhost:8080/posts/01-27-25/</link>
+      <link>https://www.mileshilliard.com/posts/01-27-25/</link>
       <pubDate>Thu, 30 Jan 2025 16:37:55 -0500</pubDate>
-      <guid>http://localhost:8080/posts/01-27-25/</guid>
+      <guid>https://www.mileshilliard.com/posts/01-27-25/</guid>
       <description>This week consisted of a combination of activities both during shop-time and during robotics club. I spent the majority of my shop time helping my classmates with their light boxes. This included anything from crimping connectors to soldering small parts onto PCBs. I also spent some time optimizing the ROV in terms of performance and reliability, which included setting up a systemd service to automatically start the main ROV software.</description>
     </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 01/20/25</title>
-      <link>http://localhost:8080/posts/01-20-25/</link>
+      <link>https://www.mileshilliard.com/posts/01-20-25/</link>
       <pubDate>Thu, 23 Jan 2025 16:37:13 -0500</pubDate>
-      <guid>http://localhost:8080/posts/01-20-25/</guid>
+      <guid>https://www.mileshilliard.com/posts/01-20-25/</guid>
       <description>This week, I worked on the ROV for the robotics team as I had already completed the lightbox project as shown in the previous post. The robot has been experiencing some reliability issues, and they have something to do with the Raspberry Pi 5 we have onboard. The Pi would suddenly &amp;ldquo;crash&amp;rdquo; (meaning a loss of connection over ssh; ethernet port lights turned off; only red power light was illuminated) without warning.</description>
     </item>
     <item>
       <title>DIY Power Supply (PSU) Interface</title>
-      <link>http://localhost:8080/posts/diy-psu-mod/</link>
+      <link>https://www.mileshilliard.com/posts/diy-psu-mod/</link>
       <pubDate>Sun, 19 Jan 2025 13:03:04 -0400</pubDate>
-      <guid>http://localhost:8080/posts/diy-psu-mod/</guid>
+      <guid>https://www.mileshilliard.com/posts/diy-psu-mod/</guid>
       <description>I have had this cheap 12V switching power supply that (claims) to be able to deliver 30 amps. It is a common power supply type, and are commonly used in consumer applications, especially in the LED lighting industry. In fact, the exact same model can be found mounted on my Creality Ender 3 3D printer.&#xA;Background Personally, I find these power supplies perfect for many use cases, especially when one considers their pricepoint.</description>
     </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 1/13/25</title>
-      <link>http://localhost:8080/posts/1-13-25/</link>
+      <link>https://www.mileshilliard.com/posts/1-13-25/</link>
       <pubDate>Mon, 13 Jan 2025 13:03:04 -0400</pubDate>
-      <guid>http://localhost:8080/posts/1-13-25/</guid>
+      <guid>https://www.mileshilliard.com/posts/1-13-25/</guid>
       <description>The lightbox has been finished! I designed the acrylic and manufactured it on our laser engraver/cutter. The end result was better than expected, although I had to condense (shorten) the acrylic overall to meet the max acrylic dimensions of 70 square cm.&#xA;After the transparent acrylic was finished, I screwed it into the lightbox and &amp;ldquo;force fit&amp;rdquo; everything together as designed. Luckily my tolerances and dimensions matched perfectly.&#xA;The acrylic had to be custom designed to fit the screw holes and the box geometry.</description>
     </item>
     <item>
       <title>Bag Holder Design</title>
-      <link>http://localhost:8080/posts/diy-bag-holder/</link>
+      <link>https://www.mileshilliard.com/posts/diy-bag-holder/</link>
       <pubDate>Wed, 01 Jan 2025 13:03:04 -0400</pubDate>
-      <guid>http://localhost:8080/posts/diy-bag-holder/</guid>
+      <guid>https://www.mileshilliard.com/posts/diy-bag-holder/</guid>
       <description>Paper bags are great. They are much more sustainable than their plastic counterparts and they are reusable and recyclable. I often keep or collect these bags because they have so many uses.&#xA;The issue I have is that I don&amp;rsquo;t have a good place to put them. At the moment, they are stored behind my recycling bin, being propped up. When I take out the recycling they all fall down and make a mess.</description>
     </item>
     <item>
       <title>Baofeng UV5R DIY direct to computer audio cable</title>
-      <link>http://localhost:8080/posts/uv5r-audio-pc/</link>
+      <link>https://www.mileshilliard.com/posts/uv5r-audio-pc/</link>
       <pubDate>Sun, 24 Nov 2024 10:28:04 -0400</pubDate>
-      <guid>http://localhost:8080/posts/uv5r-audio-pc/</guid>
+      <guid>https://www.mileshilliard.com/posts/uv5r-audio-pc/</guid>
       <description>With my new HAM radio license in the books, I bought the Baofeng UV5R as my first HT. Between its low-cost and various features, I think its been a great radio to start out with. With an upgraded antenna (almost not optional) and a larger battery bank, I&amp;rsquo;ve found the radio to be a pretty solid unit. Unfortunately, there is no direct way to plug in the radio&amp;rsquo;s speaker and mic jacks to a computer soundcard to transmit and receive sounds to and from my PC, but with a simple cable modification, this can be done.</description>
     </item>
     <item>
       <title>HAM License!</title>
-      <link>http://localhost:8080/posts/ham/</link>
+      <link>https://www.mileshilliard.com/posts/ham/</link>
       <pubDate>Sat, 23 Nov 2024 19:43:42 -0400</pubDate>
-      <guid>http://localhost:8080/posts/ham/</guid>
+      <guid>https://www.mileshilliard.com/posts/ham/</guid>
       <description>I got my HAM Radio License!&#xA;I am now a registered HAM radio operator as KC1VTJ&#xA;Hope to hear you on the air,&#xA;73</description>
     </item>
   </channel>
