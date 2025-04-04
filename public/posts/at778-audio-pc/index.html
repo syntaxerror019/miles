@@ -287,7 +287,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         <hr>
 <h2 id="introduction">Introduction</h2>
-<p>Today, I will walk you through how to create a cable for your Anytone AT778 or Retevis RT95 ham radio, enabling you to both send and receive digital modes. This post is very similar to my old one on making a <a href="/posts/uv5r-audio-pc/">digital audio cable Baofeng UV5R.</a> Check that out if you have a UV5R. If you want custom cable instructions, just ask and I&rsquo;ll help you out!</p>
+<p>Today, I will walk you through the creation of a cable for your Anytone AT778 or Retevis RT95 ham radio, enabling you to both send and receive digital modes. This post is very similar to my old one, where I made a <a href="/posts/uv5r-audio-pc/">digital audio cable for the Baofeng UV5R.</a> Check that out if you have a UV5R. If you want custom cable instructions, feel free to ask.</p>
 <p>This cable will allow you to both RX and TX any digital mode from your laptop, including (but not limited to)&hellip;</p>
 <ul>
 <li>CW (<a href="https://morse.mileshilliard.com/">Morse Code</a>)</li>
@@ -300,6 +300,7 @@ document.addEventListener("DOMContentLoaded", () => {
 </ul>
 <p>et al.</p>
 <hr>
+<br>
 <h2 id="materials">Materials</h2>
 <p>You&rsquo;ll need the following parts to make this work:</p>
 <ul>
@@ -310,21 +311,21 @@ document.addEventListener("DOMContentLoaded", () => {
 <li>Optional - <a href="https://www.ebay.com/sch/i.html?_nkw=perf+board">Perf/Development PCB board</a></li>
 </ul>
 <hr>
+<br>
 <h2 id="construction">Construction</h2>
-<h3 id="audio--ethernet-cable">Audio &amp; Ethernet Cable</h3>
 <p>Cut the Male-Male 3.5mm audio cable in half and strip the ends of the cable to reveal the 3 wires inside.</p>
 <p>The colors will vary depending on your cable; typical color code is as follows:</p>
 <p><strong>RED -&gt; Right Audio</strong></p>
 <p><strong>BLACK/WHITE -&gt; Left Audio</strong></p>
 <p><strong>EXPOSED WIRE -&gt; Ground/GND</strong></p>
 <p><img src="jackstock.webp" alt="alt text"></p>
-<p>If you are unsure of you situation, use a multimeter in continuity and probe the jack and wires to determine your own cable-specific pinout.</p>
-<p>Basically do the same thing to the ethernet cable. Cut it in half and carefully expose the wires&rsquo; ends inside. If you are using Cat5 cable, then the wiring should be straightforward, as the cables are color coded pretty universally.</p>
+<p>If you are unsure of you situation, use a multimeter in continuity mode and probe the jack and the wires to determine your own cable-specific pinout.</p>
+<p>Do the same thing to the ethernet cable. Cut it in half and carefully expose the wires&rsquo; ends inside. If you are using Cat5 cable, then the wiring should be straightforward, as the cables tend to be color-coded universally.</p>
 <br>
 <h2 id="wire-it-up">Wire it up</h2>
-<p>With your now exposed wires, solder the connections in the appropriate manner as shown in the image below.</p>
+<p>With your now-exposed wires, solder the connections in the appropriate manner as shown in the picture below.</p>
 <p><img src="scheme.webp" alt="alt text"></p>
-<p>You can solder them directly to each other, and wrap the connections in electrial tape or heat shrink, but I prefer cutting a small piece of perf board, and soldering the wires to that. It makes the connections more secure and permanent. Ultimately, this is up to you, and depends on what materials you have available.</p>
+<p>You can solder them directly to each other, and wrap the connections in electrial tape or heat shrink, but I prefer cutting a small piece of perf board and soldering the wires to that. It makes the connections more secure and permanent. Ultimately, this is up to you, and depends on what materials you have at your disposal.</p>
 <div style="display: flex;">
     <img 
         onclick="window.location.href=this.src;" 
