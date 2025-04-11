@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NOAA on Miles Hilliard</title>
-    <link>https://www.mileshilliard.com/tags/noaa/</link>
+    <link>http://localhost:5000/tags/noaa/</link>
     <description>Recent content in NOAA on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Aug 2024 13:03:04 -0400</lastBuildDate>
-    <atom:link href="https://www.mileshilliard.com/tags/noaa/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:5000/tags/noaa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI Meets the Deep: Our Journey to 3rd Place in the 2024 Exploration Challenge</title>
-      <link>https://www.mileshilliard.com/posts/noaa-ocean-exploration/</link>
+      <link>http://localhost:5000/posts/noaa-ocean-exploration/</link>
       <pubDate>Wed, 28 Aug 2024 13:03:04 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/noaa-ocean-exploration/</guid>
+      <guid>http://localhost:5000/posts/noaa-ocean-exploration/</guid>
       <description>With the annual MATE ROV competition all finished up, Sunk Robotics placed 3rd worldwide in terms of robotics, and 9th overall including the marketing and advertising campaigns. A good run indeed. Our robot performed well, although reliability is our priority for next year’s attempt.&#xA;A New Competition Although MATE ROV offers its well-known underwater competition, there are other events they host as well. This year, Matty Harris and I undertook a secondary challenge, known as the 2024 Ocean Exploration Video Challenge (OER) where teams must create custom Artificial Intelligence models that can be used to identify underwater species from a provided video.</description>
     </item>
   </channel>
