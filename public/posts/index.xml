@@ -2,157 +2,171 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Miles Hilliard</title>
-    <link>https://www.mileshilliard.com/posts/</link>
+    <link>http://localhost:5000/posts/</link>
     <description>Recent content in Posts on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Apr 2025 17:11:23 -0400</lastBuildDate>
-    <atom:link href="https://www.mileshilliard.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 May 2025 13:03:04 -0400</lastBuildDate>
+    <atom:link href="http://localhost:5000/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics &amp; Engineering - Week of 5/5/25</title>
+      <link>http://localhost:5000/posts/5-5-25/</link>
+      <pubDate>Mon, 05 May 2025 13:03:04 -0400</pubDate>
+      <guid>http://localhost:5000/posts/5-5-25/</guid>
+      <description>This week, I continued working on the Sumo Bot project. I re-printed the frame and milled another PCB, then soldered all the components together. We will be making two robots for the competition. Likely, the bot will be ready to test and debug early next week.&#xA;Although in the process of printing, I noticed that one of the Fusion 3s wasn&amp;rsquo;t working. Will graciously fixed the jammed extruder on the printer, but it was still having unexpected difficulty when homing the Y axis.</description>
+    </item>
     <item>
       <title>Digital Modes on FM AT778 RT95 Ham Radio</title>
-      <link>https://www.mileshilliard.com/posts/at778-audio-pc/</link>
+      <link>http://localhost:5000/posts/at778-audio-pc/</link>
       <pubDate>Thu, 03 Apr 2025 17:11:23 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/at778-audio-pc/</guid>
+      <guid>http://localhost:5000/posts/at778-audio-pc/</guid>
       <description>Introduction Today, I will walk you through the creation of a cable for your Anytone AT778 or Retevis RT95 ham radio, enabling you to both send and receive digital modes. This post is very similar to my old one, where I made a digital audio cable for the Baofeng UV5R. Check that out if you have a UV5R. If you want custom cable instructions, feel free to ask.&#xA;This cable will allow you to both RX and TX any digital mode from your laptop, including (but not limited to)&amp;hellip;</description>
     </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 03/31/25</title>
-      <link>https://www.mileshilliard.com/posts/03-31-25/</link>
+      <link>http://localhost:5000/posts/03-31-25/</link>
       <pubDate>Thu, 03 Apr 2025 16:23:10 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/03-31-25/</guid>
+      <guid>http://localhost:5000/posts/03-31-25/</guid>
       <description>This week, I made a major software breakthrough on the ROV.&#xA;The IMU will periodically return invalid data, likely due to a faulty sensor. Due to the lack of error handling in the code, the ROV would receive a null value and the enire software system responsible for the control of the ROV would crash and need to be restarted. This bug that I&amp;rsquo;ve been tracking for nearly a month now was resolved by simply implenting some basic catches to detect when these null bits come in, and simply ignore them.</description>
     </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 03/24/25</title>
-      <link>https://www.mileshilliard.com/posts/03-24-25/</link>
+      <link>http://localhost:5000/posts/03-24-25/</link>
       <pubDate>Thu, 27 Mar 2025 17:11:23 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/03-24-25/</guid>
+      <guid>http://localhost:5000/posts/03-24-25/</guid>
       <description>This week, Tim finished his electronics skeleton that he has been working on for the past few weeks. It looks very nice and is completely custom designed, machined, and resin printed. I helped him install it into the ROV, and I can already tell that it will make things significantly easier in terms of debugging and also performance of the overall machine.&#xA;The previous layout consisted of floppy acrylic fingers that held the PCBs in place.</description>
     </item>
     <item>
+      <title>OpenWebRX&#43; WebSDR</title>
+      <link>http://localhost:5000/posts/websdr/</link>
+      <pubDate>Wed, 26 Mar 2025 19:43:42 -0400</pubDate>
+      <guid>http://localhost:5000/posts/websdr/</guid>
+      <description>After messing around with public WebSDRs around the world, I thought it would be a fun project to set my own SDR up. I had an extra RPi 3 laying around (which I later replaced with a Pi 5) but I just needed some way to receive the RF signals.&#xA;A popular option that has high-praise was the RTL-SDR, so I purchased one. In terms of compatability, it works with both Windows and UN*X systems, so the Raspberry Pi should have no issues.</description>
+    </item>
+    <item>
       <title>First Foxhunt</title>
-      <link>https://www.mileshilliard.com/posts/foxhunting/</link>
+      <link>http://localhost:5000/posts/foxhunting/</link>
       <pubDate>Sun, 23 Mar 2025 19:43:42 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/foxhunting/</guid>
+      <guid>http://localhost:5000/posts/foxhunting/</guid>
       <description>Over the weekend, two of my friends and I went out foxhunting. On the groups.io page, we found a few local foxes that had been set up. We took the opportunity to drive 30 minutes North to see what we could find!&#xA;Since we all got our radio licenses around the same time, we all purchased the same, budget-friendly HT: the Baofeng UV-5R. We brought along for with us for the endeavor, and an assortment of various antennas- from long whips to little stubbies.</description>
     </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 03/17/25</title>
-      <link>https://www.mileshilliard.com/posts/03-17-25/</link>
+      <link>http://localhost:5000/posts/03-17-25/</link>
       <pubDate>Thu, 20 Mar 2025 13:57:43 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/03-17-25/</guid>
+      <guid>http://localhost:5000/posts/03-17-25/</guid>
       <description>The first 2 days of shop this week were spent replacing XT30 connectors on the ROV&amp;rsquo;s power distribution board. There have been connection issues in the past, and I really didn&amp;rsquo;t want this to factor into existing reliability issues.&#xA;On Wednesday, Jonas Wirz and I got the ROV into the pool, however, we had some free time before then and were very productive with it.&#xA;Short-lived gated off area exploration (right).</description>
     </item>
     <item>
       <title>Antenna</title>
-      <link>https://www.mileshilliard.com/posts/antenna/</link>
+      <link>http://localhost:5000/posts/antenna/</link>
       <pubDate>Sun, 09 Mar 2025 17:54:10 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/antenna/</guid>
+      <guid>http://localhost:5000/posts/antenna/</guid>
       <description>When I bought an upgrade from my baofeng UV5R (ANYTONE AT-778UV), I figured a new antenna set-up was in store.&#xA;My base station antenna is a Diamond X50, attached to a custom mast.&#xA;This setup was a heck of a lot better than the rubber duck on my handheld, but because it was only about 8ft. from the ground, the environment and houses nearby would block both TX and RX signals significantly.</description>
     </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 02/24/25</title>
-      <link>https://www.mileshilliard.com/posts/02-24-25/</link>
+      <link>http://localhost:5000/posts/02-24-25/</link>
       <pubDate>Fri, 28 Feb 2025 13:37:00 -0500</pubDate>
-      <guid>https://www.mileshilliard.com/posts/02-24-25/</guid>
+      <guid>http://localhost:5000/posts/02-24-25/</guid>
       <description>This week I locked in and spent a good chunk of time identifying the reasoning behind the mysterious crashing phenomenon we have been experiencing for over a year and a half in the ROV.&#xA;Raspberry Pi 5 Problems In the past, the main control computer (RPi 5) was experiencing power interruption issues due to the massive current draw of the 8 thrusters. Because of the low dropout voltage in the 5 volt regulator, we found that adding some capacitange along these output lines helped smooth out any wild ripples.</description>
     </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 02/03/25</title>
-      <link>https://www.mileshilliard.com/posts/02-03-25/</link>
+      <link>http://localhost:5000/posts/02-03-25/</link>
       <pubDate>Fri, 07 Feb 2025 07:25:53 -0500</pubDate>
-      <guid>https://www.mileshilliard.com/posts/02-03-25/</guid>
+      <guid>http://localhost:5000/posts/02-03-25/</guid>
       <description>This week was a bit funky. Not only did I have limited time in shop, but limited time in school overall!&#xA;Our school had a half-day on Wednesday (we get released at noon) and the day after was a snow day.&#xA;Because of these two things, I didn&amp;rsquo;t have a whole lot of time to work on roboticy things.&#xA;This is enough to call a snow day?! Nonetheless, my friends and I ended up getting some work done on the ROV on the days we did have.</description>
     </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 01/27/25</title>
-      <link>https://www.mileshilliard.com/posts/01-27-25/</link>
+      <link>http://localhost:5000/posts/01-27-25/</link>
       <pubDate>Thu, 30 Jan 2025 16:37:55 -0500</pubDate>
-      <guid>https://www.mileshilliard.com/posts/01-27-25/</guid>
+      <guid>http://localhost:5000/posts/01-27-25/</guid>
       <description>This week consisted of a combination of activities both during shop-time and during robotics club. I spent the majority of my shop time helping my classmates with their light boxes. This included anything from crimping connectors to soldering small parts onto PCBs. I also spent some time optimizing the ROV in terms of performance and reliability, which included setting up a systemd service to automatically start the main ROV software.</description>
     </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 01/20/25</title>
-      <link>https://www.mileshilliard.com/posts/01-20-25/</link>
+      <link>http://localhost:5000/posts/01-20-25/</link>
       <pubDate>Thu, 23 Jan 2025 16:37:13 -0500</pubDate>
-      <guid>https://www.mileshilliard.com/posts/01-20-25/</guid>
+      <guid>http://localhost:5000/posts/01-20-25/</guid>
       <description>This week, I worked on the ROV for the robotics team as I had already completed the lightbox project as shown in the previous post. The robot has been experiencing some reliability issues, and they have something to do with the Raspberry Pi 5 we have onboard. The Pi would suddenly &amp;ldquo;crash&amp;rdquo; (meaning a loss of connection over ssh; ethernet port lights turned off; only red power light was illuminated) without warning.</description>
     </item>
     <item>
       <title>DIY Power Supply (PSU) Interface</title>
-      <link>https://www.mileshilliard.com/posts/diy-psu-mod/</link>
+      <link>http://localhost:5000/posts/diy-psu-mod/</link>
       <pubDate>Sun, 19 Jan 2025 13:03:04 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/diy-psu-mod/</guid>
+      <guid>http://localhost:5000/posts/diy-psu-mod/</guid>
       <description>I have had this cheap 12V switching power supply that (claims) to be able to deliver 30 amps. It is a common power supply type, and are commonly used in consumer applications, especially in the LED lighting industry. In fact, the exact same model can be found mounted on my Creality Ender 3 3D printer.&#xA;Background Personally, I find these power supplies perfect for many use cases, especially when one considers their pricepoint.</description>
     </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 1/13/25</title>
-      <link>https://www.mileshilliard.com/posts/1-13-25/</link>
+      <link>http://localhost:5000/posts/1-13-25/</link>
       <pubDate>Mon, 13 Jan 2025 13:03:04 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/1-13-25/</guid>
+      <guid>http://localhost:5000/posts/1-13-25/</guid>
       <description>The lightbox has been finished! I designed the acrylic and manufactured it on our laser engraver/cutter. The end result was better than expected, although I had to condense (shorten) the acrylic overall to meet the max acrylic dimensions of 70 square cm.&#xA;After the transparent acrylic was finished, I screwed it into the lightbox and &amp;ldquo;force fit&amp;rdquo; everything together as designed. Luckily my tolerances and dimensions matched perfectly.&#xA;The acrylic had to be custom designed to fit the screw holes and the box geometry.</description>
     </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 1/6/25</title>
-      <link>https://www.mileshilliard.com/posts/1-6-25/</link>
+      <link>http://localhost:5000/posts/1-6-25/</link>
       <pubDate>Mon, 06 Jan 2025 13:03:04 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/1-6-25/</guid>
+      <guid>http://localhost:5000/posts/1-6-25/</guid>
       <description>While in robotics this week, I continued my work on the lightbox project. This week involved a lot of CAD and 3D printing for me, and ended up taking a bit more time than expected. Generally speaking, I am ahead of schedule so I don&amp;rsquo;t have to worry too much.&#xA;The light box is composed of two main parts that get 3D printed and screwed together. There is the base which is the outer shell and holds the button and power jack.</description>
     </item>
     <item>
       <title>GUI over SSH with X11</title>
-      <link>https://www.mileshilliard.com/posts/gui-over-ssh/</link>
+      <link>http://localhost:5000/posts/gui-over-ssh/</link>
       <pubDate>Fri, 03 Jan 2025 13:03:04 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/gui-over-ssh/</guid>
+      <guid>http://localhost:5000/posts/gui-over-ssh/</guid>
       <description>SSH is awesome, but your options when trying to run a GUI application are a bit limited, especially on headless computers. Luckily there are a few ways to go about handling this problem, even if your computer has no monitor directly connected to it.&#xA;SSH into the machine First of all, you need to ssh into your machine to get everything set up. Now you have a couple options. Some people may have a display (be it a full monitor, a TV screen, a touch display, etc) and others may have nothing it all.</description>
     </item>
     <item>
       <title>Bag Holder Design</title>
-      <link>https://www.mileshilliard.com/posts/diy-bag-holder/</link>
+      <link>http://localhost:5000/posts/diy-bag-holder/</link>
       <pubDate>Wed, 01 Jan 2025 13:03:04 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/diy-bag-holder/</guid>
+      <guid>http://localhost:5000/posts/diy-bag-holder/</guid>
       <description>Paper bags are great. They are much more sustainable than their plastic counterparts and they are reusable and recyclable. I often keep or collect these bags because they have so many uses.&#xA;The issue I have is that I don&amp;rsquo;t have a good place to put them. At the moment, they are stored behind my recycling bin, being propped up. When I take out the recycling they all fall down and make a mess.</description>
     </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 12/16/24</title>
-      <link>https://www.mileshilliard.com/posts/12-16-24/</link>
+      <link>http://localhost:5000/posts/12-16-24/</link>
       <pubDate>Mon, 16 Dec 2024 13:03:04 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/12-16-24/</guid>
+      <guid>http://localhost:5000/posts/12-16-24/</guid>
       <description>During my time in the Robotics Shop 5th and 6th period this week, I made significant headway on the lightbox project. For my lightbox, I will be making a transparent &amp;ldquo;EXIT&amp;rdquo; sign that you frequently see in modern office buildings. These signs are very expensive and can be found online for hundreds of dollars. My plan is to make it for much less. The most expensive component to the project would be the acrylic, which can be found for about 10 dollars for an appropriate size.</description>
     </item>
     <item>
       <title>Baofeng UV5R DIY direct to computer audio cable</title>
-      <link>https://www.mileshilliard.com/posts/uv5r-audio-pc/</link>
+      <link>http://localhost:5000/posts/uv5r-audio-pc/</link>
       <pubDate>Sun, 24 Nov 2024 10:28:04 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/uv5r-audio-pc/</guid>
+      <guid>http://localhost:5000/posts/uv5r-audio-pc/</guid>
       <description>With my new HAM radio license in the books, I bought the Baofeng UV5R as my first HT. Between its low-cost and various features, I think its been a great radio to start out with. With an upgraded antenna (almost not optional) and a larger battery bank, I&amp;rsquo;ve found the radio to be a pretty solid unit. Unfortunately, there is no direct way to plug in the radio&amp;rsquo;s speaker and mic jacks to a computer soundcard to transmit and receive sounds to and from my PC, but with a simple cable modification, this can be done.</description>
     </item>
     <item>
       <title>HAM License!</title>
-      <link>https://www.mileshilliard.com/posts/ham/</link>
+      <link>http://localhost:5000/posts/ham/</link>
       <pubDate>Sat, 23 Nov 2024 19:43:42 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/ham/</guid>
+      <guid>http://localhost:5000/posts/ham/</guid>
       <description>I got my HAM Radio License!&#xA;I am now a registered HAM radio operator as KC1VTJ&#xA;Hope to hear you on the air,&#xA;73</description>
     </item>
     <item>
       <title>Installing OpenCV on RPi in 2024</title>
-      <link>https://www.mileshilliard.com/posts/rpi-cv2/</link>
+      <link>http://localhost:5000/posts/rpi-cv2/</link>
       <pubDate>Sat, 07 Sep 2024 13:03:04 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/rpi-cv2/</guid>
+      <guid>http://localhost:5000/posts/rpi-cv2/</guid>
       <description>Introduction Between all the various tutorials online, there is no straight way to installing OpenCV on a RPI&amp;hellip;&#xA;Issue&amp;rsquo;s I have encountered personally include but are not limited to the following:&#xA;Building from source issues Various rare errors Garbage tutorials So in this simple guide, I have documented my installation of OpenCV on my Raspberry Pi, Model 3 B+&#xA;Other models should be quite similar.&#xA;Requirements For this project, I used a Raspberry Pi 3 B+ running Ubuntu Server 20.</description>
     </item>
     <item>
       <title>AI Meets the Deep: Our Journey to 3rd Place in the 2024 Exploration Challenge</title>
-      <link>https://www.mileshilliard.com/posts/noaa-ocean-exploration/</link>
+      <link>http://localhost:5000/posts/noaa-ocean-exploration/</link>
       <pubDate>Wed, 28 Aug 2024 13:03:04 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/noaa-ocean-exploration/</guid>
+      <guid>http://localhost:5000/posts/noaa-ocean-exploration/</guid>
       <description>With the annual MATE ROV competition all finished up, Sunk Robotics placed 3rd worldwide in terms of robotics, and 9th overall including the marketing and advertising campaigns. A good run indeed. Our robot performed well, although reliability is our priority for next year’s attempt.&#xA;A New Competition Although MATE ROV offers its well-known underwater competition, there are other events they host as well. This year, Matty Harris and I undertook a secondary challenge, known as the 2024 Ocean Exploration Video Challenge (OER) where teams must create custom Artificial Intelligence models that can be used to identify underwater species from a provided video.</description>
     </item>
     <item>
       <title>Connecting to Oracle Cloud servers with VNC</title>
-      <link>https://www.mileshilliard.com/posts/vnc-oci/</link>
+      <link>http://localhost:5000/posts/vnc-oci/</link>
       <pubDate>Thu, 25 Apr 2024 16:58:51 +0300</pubDate>
-      <guid>https://www.mileshilliard.com/posts/vnc-oci/</guid>
+      <guid>http://localhost:5000/posts/vnc-oci/</guid>
       <description>Oracle Cloud is a cloud computing service offered by Oracle Corporation. It provides a range of cloud services, including:&#xA;Infrastructure as a Service (IaaS): This includes virtual machines, storage, and networking resources. Platform as a Service (PaaS): Offers tools for developing, managing, and deploying applications, including databases, application development, and integration services. Software as a Service (SaaS): Provides ready-to-use software applications hosted in the cloud, such as enterprise resource planning (ERP), human capital management (HCM), and customer relationship management (CRM) applications.</description>
     </item>
   </channel>

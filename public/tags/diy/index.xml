@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DIY on Miles Hilliard</title>
-    <link>https://www.mileshilliard.com/tags/diy/</link>
+    <link>http://localhost:5000/tags/diy/</link>
     <description>Recent content in DIY on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Jan 2025 13:03:04 -0400</lastBuildDate>
-    <atom:link href="https://www.mileshilliard.com/tags/diy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:5000/tags/diy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bag Holder Design</title>
-      <link>https://www.mileshilliard.com/posts/diy-bag-holder/</link>
+      <link>http://localhost:5000/posts/diy-bag-holder/</link>
       <pubDate>Wed, 01 Jan 2025 13:03:04 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/diy-bag-holder/</guid>
+      <guid>http://localhost:5000/posts/diy-bag-holder/</guid>
       <description>Paper bags are great. They are much more sustainable than their plastic counterparts and they are reusable and recyclable. I often keep or collect these bags because they have so many uses.&#xA;The issue I have is that I don&amp;rsquo;t have a good place to put them. At the moment, they are stored behind my recycling bin, being propped up. When I take out the recycling they all fall down and make a mess.</description>
     </item>
   </channel>
