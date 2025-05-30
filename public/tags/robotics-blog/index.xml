@@ -6,8 +6,15 @@
     <description>Recent content in Robotics-Blog on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 May 2025 13:03:04 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 29 May 2025 18:08:43 -0400</lastBuildDate>
     <atom:link href="https://www.mileshilliard.com/tags/robotics-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics &amp; Engineering - Week of 05/26/25</title>
+      <link>https://www.mileshilliard.com/posts/05-26-25/</link>
+      <pubDate>Thu, 29 May 2025 18:08:43 -0400</pubDate>
+      <guid>https://www.mileshilliard.com/posts/05-26-25/</guid>
+      <description>This week involved an assortment of work on various projects. With the seniors gone, the entire school felt a lot quieter. Luckily, I inherited one of the best spec. PCs in the shop from one of the seniors which will be great for when I get to working on the golf-cart&amp;rsquo;s AI autonomy system! I&amp;rsquo;m working on dual-booting it with Linux + Windows 11.&#xA;I also printed and installed the new dashboard panel for the golf cart which will display statistics regarding battery level, range, voltage, and alerts.</description>
+    </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 5/5/25</title>
       <link>https://www.mileshilliard.com/posts/5-5-25/</link>

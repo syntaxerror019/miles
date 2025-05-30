@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.mileshilliard.com/</loc>
+    <lastmod>2025-05-29T18:08:43-04:00</lastmod>
+  </url><url>
+    <loc>https://www.mileshilliard.com/posts/</loc>
+    <lastmod>2025-05-29T18:08:43-04:00</lastmod>
+  </url><url>
+    <loc>https://www.mileshilliard.com/posts/05-26-25/</loc>
+    <lastmod>2025-05-29T18:08:43-04:00</lastmod>
+  </url><url>
+    <loc>https://www.mileshilliard.com/tags/robotics-blog/</loc>
+    <lastmod>2025-05-29T18:08:43-04:00</lastmod>
+  </url><url>
+    <loc>https://www.mileshilliard.com/tags/</loc>
+    <lastmod>2025-05-29T18:08:43-04:00</lastmod>
+  </url><url>
     <loc>https://www.mileshilliard.com/tags/3d-printing/</loc>
     <lastmod>2025-05-27T21:47:28-04:00</lastmod>
   </url><url>
@@ -14,19 +29,7 @@
     <loc>https://www.mileshilliard.com/tags/hardware/</loc>
     <lastmod>2025-05-27T21:47:28-04:00</lastmod>
   </url><url>
-    <loc>https://www.mileshilliard.com/</loc>
-    <lastmod>2025-05-27T21:47:28-04:00</lastmod>
-  </url><url>
-    <loc>https://www.mileshilliard.com/posts/</loc>
-    <lastmod>2025-05-27T21:47:28-04:00</lastmod>
-  </url><url>
-    <loc>https://www.mileshilliard.com/tags/</loc>
-    <lastmod>2025-05-27T21:47:28-04:00</lastmod>
-  </url><url>
     <loc>https://www.mileshilliard.com/posts/5-5-25/</loc>
-    <lastmod>2025-05-05T13:03:04-04:00</lastmod>
-  </url><url>
-    <loc>https://www.mileshilliard.com/tags/robotics-blog/</loc>
     <lastmod>2025-05-05T13:03:04-04:00</lastmod>
   </url><url>
     <loc>https://www.mileshilliard.com/posts/at778-audio-pc/</loc>
