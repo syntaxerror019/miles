@@ -6,8 +6,15 @@
     <description>Recent content on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Jun 2025 17:49:05 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 12 Jun 2025 21:11:09 -0400</lastBuildDate>
     <atom:link href="https://www.mileshilliard.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics &amp; Engineering - Week of 06/09/25</title>
+      <link>https://www.mileshilliard.com/posts/06-09-25/</link>
+      <pubDate>Thu, 12 Jun 2025 21:11:09 -0400</pubDate>
+      <guid>https://www.mileshilliard.com/posts/06-09-25/</guid>
+      <description>This week, I spent most of shop time working with the golf cart. The new battery arrived so we put it in place, and we gave it a quick test-drive even though not all batteries were balanced yet. We finally charged all batteries and got them to each be within 0.2 volts of each other which will allow us to connect the equalizer modules. Hopefully this will prevent us from ruining another 300 dollar lead acid battery!</description>
+    </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 06/02/25</title>
       <link>https://www.mileshilliard.com/posts/06-02-25/</link>

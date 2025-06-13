@@ -2,7 +2,7 @@
     title: 'Robotics & Engineering - Week of 5/5/25'
     date: 2025-05-05T13:03:04-04:00
     tags: ['robotics-blog']
-    image: 'will.webp'
+    image: 'overall.webp'
     draft: false
 ---
 
