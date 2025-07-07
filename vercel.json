@@ -4,7 +4,7 @@
     {
       "src": "/posts/.*\\.(webp|png|jpg|jpeg|gif|svg)",
       "status": 404,
-      "dest": "/img/miles-logo.png"
+      "dest": "/img/nope-not-here.png"
     }
   ]
 }

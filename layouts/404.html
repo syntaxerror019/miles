@@ -1,9 +1,13 @@
 {{ define "main" }}
-  <h1>404 Not Found</h1>
-  <p>The page you requested cannot be found.</p>
-  <p>
-    <button href="{{ .Site.Home.RelPermalink }}">
-      Return to the home page
-    </button>
-  </p>
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 60vh; text-align: center;">
+    <h1>404 Not Found</h1>
+    <p>Something is fishy ngl.</p>
+    <p>
+        <a href="{{ .Site.Home.RelPermalink }}">
+            <button>
+                Return to the home page
+            </button>
+        </a>
+    </p>
+</div>
 {{ end }}
