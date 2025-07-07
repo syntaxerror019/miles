@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "src": "/posts/(.*)\\.(webp|png|jpg|jpeg|gif|svg)",
+      "has": [{ "type": "missing", "value": "/posts/$1.$2" }],
+      "status": 200,
+      "dest": "/img/miles-logo.png"
+    },
+    { "handle": "filesystem" }
+  ]
+}
