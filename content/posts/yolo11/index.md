@@ -107,7 +107,7 @@ Here are some of the ones that I used for training. Please keep in mind that the
 </div> 
 
 If you would like to use my functional dataset, you may download it here (train/val images & train/val labels) (.zip):
-<a href="/public/files/eraser.zip"><i class="fa fa-download"></i> Download</a>
+<a href="/files/eraser.zip"><i class="fa fa-download"></i> Download</a>
 
 ---
 
