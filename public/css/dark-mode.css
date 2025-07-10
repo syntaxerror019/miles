@@ -13,6 +13,18 @@
       background-color: #171717;
       color: #e0e0e0;
     }
+
+    code:not([class]):not([id]) {     
+      background-color: #272822;
+    }
+
+    blockquote p {
+      font-style: italic;
+    }
+
+    blockquote {
+      background-color: #1c1d17 !important;
+    }
   
     .text-gray-500 {
         color: #aaaaaa;
@@ -31,7 +43,7 @@
     }
 
     .post-content p {
-        color: #e0e0e0 !important;
+        color: #e0e0e0;
     }
 
     .post-content li {

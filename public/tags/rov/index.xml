@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rov on Miles Hilliard</title>
-    <link>http://localhost:1313/tags/rov/</link>
+    <link>https://www.mileshilliard.com/tags/rov/</link>
     <description>Recent content in Rov on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 07 Feb 2025 07:25:53 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/rov/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.mileshilliard.com/tags/rov/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Robotics &amp; Engineering - Week of 02/03/25</title>
-      <link>http://localhost:1313/posts/02-03-25/</link>
+      <link>https://www.mileshilliard.com/posts/02-03-25/</link>
       <pubDate>Fri, 07 Feb 2025 07:25:53 -0500</pubDate>
-      <guid>http://localhost:1313/posts/02-03-25/</guid>
+      <guid>https://www.mileshilliard.com/posts/02-03-25/</guid>
       <description>This week was a bit funky. Not only did I have limited time in shop, but limited time in school overall!&#xA;Our school had a half-day on Wednesday (we get released at noon) and the day after was a snow day.&#xA;Because of these two things, I didn&amp;rsquo;t have a whole lot of time to work on roboticy things.&#xA;This is enough to call a snow day?! Nonetheless, my friends and I ended up getting some work done on the ROV on the days we did have.</description>
     </item>
   </channel>
