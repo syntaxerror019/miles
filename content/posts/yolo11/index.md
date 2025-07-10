@@ -2,7 +2,7 @@
 title: 'How to: Ultralytics YOLOv11 - Training Your Own AI Model'
 date: 2025-07-10T10:37:15-0400
 tags: ['yolo', 'software']
-image: 'header.png'
+image: 'head.webp'
 draft: false
 ---
 
@@ -21,7 +21,7 @@ In this hands-on tutorial, you'll discover just how easy it is to train a custom
 <br>
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 100%; height: auto;" src="/posts/yolov11/head.webp"/></img>                                                                     
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 100%; height: auto;" src="/posts/yolov11/header.png"/></img>                                                                     
     <br>    
 </div> 
 <br>
