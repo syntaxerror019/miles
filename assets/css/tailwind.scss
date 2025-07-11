@@ -84,12 +84,13 @@
     }
 
     pre {
-      @apply px-5 rounded-md my-5;
+     @apply px-5 rounded-md my-5 overflow-x-auto whitespace-pre bg-gray-100;
     }
 
     pre code {
-      @apply bg-transparent;
+      @apply bg-transparent text-3xl font-mono;
     }
+
     blockquote {
       @apply border-l-4 border-gray-500 bg-gray-100 p-2 my-5;
     }

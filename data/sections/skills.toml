@@ -2,36 +2,36 @@ title = "Don't measure your skills in percentages"
 
 [[skill]]
   title = "Underwater Robotics"
-  text  = "Experience with hardware on underwater ROVs and Vertically Profiling Floats along with custom PCB design. Two years of qualified engineering with Sunk Robotics. Capable of designing custom schematics and boards for robotics."
+  text  = "Hands on experience with hardware and software on underwater ROVs and Vertically Profiling Floats along with custom PCB design."
   icon  = "bx-water"
   link  = "https://sunkrobotics.com/"
 
 [[skill]]
   title = "MCUs & SBCs"
-  text  = "Skilled in advanced usage of various makes and models of MCU and SBCs, including ARM SoC and ATMEGA. Knowledge in Libre Computer AML-S905 boards for modular, lightweight, and efficient solutions."
+  text  = "Skilled in advanced usage of various makes and models of MCU and SBCs, including ARM SoC, ATMEL chips, and ESPRESSIF chips."
   icon  = "bx-microchip"
   link  = "/tags/rpi/"
 
 [[skill]]
   title = "Front-end & Back-end"
-  text  = "Proficient in Python and C++, along with growing skills in JavaScript, CSS, and .NET languages. Various projects, utilizing front-end static pages, back-end APIs, and full-stack developments, both online, offline, and non-networked."
-  icon  = "bx-code-block"
+  text  = "Proficient in Python and C++, along with growing skills in JavaScript, CSS, and .NET languages. Familiar with front-end and back-end programming."
+  icon  = "bx-code-alt"
   link  = "/tags/software/"
 
 [[skill]]
   title = "Renewable Energy"
-  text  = "Experimental tests in solar energy for operating powerful computing servers and smaller-scale microcomputers. Familiarity with micro wind turbine systems for residential applications, including installation, distribution, and monitoring."
+  text  = "Research and development in solar and micro-wind turbine energy systems for small-scale processors optimizing efficiency."
   icon  = "bx-leaf"
   link  = "/tags/energy/"
 
 [[skill]]
   title = "Artificial Intelligence"
-  text  = "Involvement in multiple artificial intelligence projects, including MATE ROV: NOAA Ocean Exploration Video challenge (Placed 3rd worldwide). Adequate experience with YOLO and SSMD for fast, effective, and efficient object identifying, tracking, and recognition."
+  text  = "Involvement in several artificial intelligence projects, including MATE ROV: NOAA Ocean Exploration Video challenge (Placed 3rd worldwide). Adequate experience with YOLO and SSMD."
   link  = "/tags/noaa/"
   icon  = "bx-bot"
 
 [[skill]]
   title = "RF, Radios & Antennas"
-  text  = "Growing knowledge in radio frequency electronics. Interest in analog & digital communication modes such as CW (morse code), SSTV (slow-scan television) and FT8. A passionate DIY radio enthusiast. A licensed HAM radio operator."
+  text  = "Expanding knowledge in radio frequency technology, including analog & digital communication modes. A licensed HAM radio operator."
   icon  = "bx-radio" 
   link  = "/tags/ham"
