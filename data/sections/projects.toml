@@ -1,11 +1,20 @@
 title = "Latest work"
 
 [[project]]
+  title = "URL Shortener"
+  text = [
+    "An ultra-simple URL shortener designed from scratch with no bells-and-whistles. The basics to do exactly what you need and nothing more. A super basic web UI makes accessibility a breeze for anybody",
+    "The service is serverless running with Vercel infrastructure, and utilizes a Redis DB to handle all memory requirements. These optimizations make response time minimal keeping things running smoothly and efficiently.",
+    "Along with an easy-to-use UI, my URL shortener provides a generous API that is documented and easy to implement into any of your own programming projects, all whilst remaining free."
+    ]
+  link = "https://sntx.dev"
+
+[[project]]
   title = "OpenWebRX+ WebSDR"
   text = [
     "I built OpenWebRX+ from source on my Raspberry Zero 2W in hopes of making a local, power efficient, compact, (portable?) web-sdr to share the local airwaves with my friends.",
     "It runs with a simple USB power adapter, but I plan on making it solar powered in the near future.",
-    "The actual heavy-lifting is done my the famous RTL-SDR. It is capable of receiving a wide range of frequencies, and I have set up an appropriate list of ranges on the software to support almost any kind of usage.",
+    "The actual heavy-lifting is done by the famous RTL-SDR. It is capable of receiving a wide range of frequencies, and I have set up an appropriate list of ranges on the software to support almost any kind of usage.",
     ]
   link = "https://websdr.mileshilliard.com"
 
@@ -21,7 +30,7 @@ title = "Latest work"
 [[project]]
   title = "Count API"
   text = [
-    "CountAPI.xyz is no longer with us unfortunately. I for one heavily relied on this API and it functionality in a great number of my programming projects. After some research, I found that there was no ideal alternative. Most cost more than I was willing to pay, so I set out to create my own. For free!",
+    "CountAPI.xyz is no longer with us unfortunately. I, for one, heavily relied on this API and it functionality in various projects. After some research, I found that there was no ideal alternative. Most cost more than I was willing to pay, so I set out to create my own. For free!",
     "countapi.mileshilliard.com is my attempt at a relative-replica of the OG countapi.xyz. By reading the documentation and formatting of how the interface and endpoints functioned, I recreated my own using a Redis databse and a Vercel serverless script. Although performance may not quite match the original countapi, the minor dip shouldn't be noticeable in everyday applications.",
     "I intend this API to be free indefinitely. If it gains any traction, I will most likely need to upgrade to a different redis database, but until then, enjoy!",
     "All documentation can be found on the homepage of the API (link below) and includes formatted examples to get you started in any programming language.",]
