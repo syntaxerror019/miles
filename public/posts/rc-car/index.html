@@ -2,7 +2,7 @@
 <html
   lang="en-us"
   dir="ltr">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
 <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
 <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
@@ -274,15 +274,295 @@ document.addEventListener("DOMContentLoaded", () => {
   <i class="bx bx-purchase-tag-alt text-gray-500 h-4"></i>
   
     
-    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/diy" aria-label="diy">diy</a>
+    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="http://localhost:1313/tags/diy" aria-label="diy">diy</a>
   
     
-    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/hardware" aria-label="hardware">hardware</a>
+    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="http://localhost:1313/tags/hardware" aria-label="hardware">hardware</a>
   
 </div>
 
 
-        <hr>
+        
+      
+
+      
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+
+      <hr>
 <p>I inherited a LaTraxx (Traxxas) Prerunner RC Car from a friend as a gift to fix. The car would power on and the receiver would connect, allowing the steering servo to move, however the car would not roll. It had been sitting in their basement for years unused, causing the NiMH battery to be extremely discharged. After charging and discharging it repeatedly, I was able to regain sufficient capacity and it worked fine, however I ended up replacing it altogether later on.</p>
 <p>To fix the main issue, I needed to find out why the car wasn&rsquo;t driving even after receiving commands from the 2.4Ghz receiver (which it was, as I ended up scoping the lines)</p>
 <p>I came to the conclusion that the &ldquo;ESC&rdquo; (not a real ESC technically) was blown. This part (<a href="https://www.amazon.com/Traxxas-3045R-Electronic-Control-Waterproof/dp/B00QYZKOWO">Traxxas 3045R</a>) is in charge to converting the 2s voltages from the battery down to ~6 volts for the servo. It also interpreted the servo PWM signals from the receiver, and converted them to the appropriate logic for the motor driver to spin the driving motor. All this is impressively packaged into a small little device, but I found it not repairable due to the fact that it was fully potted in some kind of epoxy from the manufacturer.</p>
@@ -367,6 +647,9 @@ document.addEventListener("DOMContentLoaded", () => {
 </div>
 <br><br>
 
+      
+
+
         <hr>
         <div style="display: flex; padding: 10px; gap: 10px;">
           <h1 id="counter">0</h1>
@@ -375,34 +658,43 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
         <a style="font-size: 10px; font-weight: bold;" href="https://countapi.mileshilliard.com">Get your own free counter!</a>
       </div>
+
       <script>
         function hashURLPath() {
           const path = window.location.pathname;
-          console.log("path: ", path);
           let hash = 0;
           for (let i = 0; i < path.length; i++) {
               const char = path.charCodeAt(i);
-              hash = (hash * 31 + char) >>> 0; 
+              hash = (hash * 31 + char) >>> 0;
           }
           return hash;
-      }
-      const hash=hashURLPath();
-      console.log("generated hash: ", hash);
-      fetch(`https://countapi.mileshilliard.com/api/v1/hit/miles-hugo-blog-${hash}`)
-        .then(response => response.json())
-        .then(data => {
-          console.log('Fetched data:', data);
-          document.getElementById('counter').innerHTML = data.value;
-        })
-        .catch(error => console.error('Error fetching data:', error));
+        }
+        const hash = hashURLPath();
+        fetch(`https://countapi.mileshilliard.com/api/v1/hit/miles-hugo-blog-${hash}`)
+          .then(response => response.json())
+          .then(data => {
+            document.getElementById('counter').innerHTML = data.value;
+          })
+          .catch(error => console.error('Error fetching data:', error));
       </script>
+
       <hr>
       <div class="bg-gray-50 px-8 py-10 rounded-md post-content">
         <h1>Leave any questions or comments here</h1>
         
         <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
         <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
-        <script type="text/javascript" id="hcb">   if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24sXRfCQ2ZmeM2z6.jSTA9W0"+"&opts=16798&num=10&ts=1732584427302");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})();   </script>
+        <script type="text/javascript" id="hcb">
+          if(!window.hcb_user){hcb_user={};} 
+          (function(){
+            var s=document.createElement("script"),
+                l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"),
+                h="https://www.htmlcommentbox.com";
+            s.setAttribute("type","text/javascript");
+            s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24sXRfCQ2ZmeM2z6.jSTA9W0"+"&opts=16798&num=10&ts=1732584427302");
+            if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);
+          })();
+        </script>
         
       </div>
     </div>
