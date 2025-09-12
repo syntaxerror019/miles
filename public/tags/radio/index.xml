@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Radio on Miles Hilliard</title>
-    <link>http://localhost:1313/tags/radio/</link>
+    <link>https://www.mileshilliard.com/tags/radio/</link>
     <description>Recent content in Radio on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 03 Apr 2025 17:11:23 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/radio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.mileshilliard.com/tags/radio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Digital Modes on FM AT778 RT95 Ham Radio</title>
-      <link>http://localhost:1313/posts/at778-audio-pc/</link>
+      <link>https://www.mileshilliard.com/posts/at778-audio-pc/</link>
       <pubDate>Thu, 03 Apr 2025 17:11:23 -0400</pubDate>
-      <guid>http://localhost:1313/posts/at778-audio-pc/</guid>
+      <guid>https://www.mileshilliard.com/posts/at778-audio-pc/</guid>
       <description>Introduction Today, I will walk you through the creation of a cable for your Anytone AT778 or Retevis RT95 ham radio, enabling you to both send and receive digital modes. This post is very similar to my old one, where I made a digital audio cable for the Baofeng UV5R. Check that out if you have a UV5R. If you want custom cable instructions, feel free to ask.&#xA;This cable will allow you to both RX and TX any digital mode from your laptop, including (but not limited to)&amp;hellip;</description>
     </item>
     <item>
       <title>First Foxhunt</title>
-      <link>http://localhost:1313/posts/foxhunting/</link>
+      <link>https://www.mileshilliard.com/posts/foxhunting/</link>
       <pubDate>Sun, 23 Mar 2025 19:43:42 -0400</pubDate>
-      <guid>http://localhost:1313/posts/foxhunting/</guid>
+      <guid>https://www.mileshilliard.com/posts/foxhunting/</guid>
       <description>Over the weekend, two of my friends and I went out foxhunting. On the groups.io page, we found a few local foxes that had been set up. We took the opportunity to drive 30 minutes North to see what we could find!&#xA;Since we all got our radio licenses around the same time, we all purchased the same, budget-friendly HT: the Baofeng UV-5R. We brought along for with us for the endeavor, and an assortment of various antennas- from long whips to little stubbies.</description>
     </item>
     <item>
       <title>Antenna</title>
-      <link>http://localhost:1313/posts/antenna/</link>
+      <link>https://www.mileshilliard.com/posts/antenna/</link>
       <pubDate>Sun, 09 Mar 2025 17:54:10 -0400</pubDate>
-      <guid>http://localhost:1313/posts/antenna/</guid>
+      <guid>https://www.mileshilliard.com/posts/antenna/</guid>
       <description>When I bought an upgrade from my baofeng UV5R (ANYTONE AT-778UV), I figured a new antenna set-up was in store.&#xA;My base station antenna is a Diamond X50, attached to a custom mast.&#xA;This setup was a heck of a lot better than the rubber duck on my handheld, but because it was only about 8ft. from the ground, the environment and houses nearby would block both TX and RX signals significantly.</description>
     </item>
     <item>
       <title>Baofeng UV5R DIY direct to computer audio cable</title>
-      <link>http://localhost:1313/posts/uv5r-audio-pc/</link>
+      <link>https://www.mileshilliard.com/posts/uv5r-audio-pc/</link>
       <pubDate>Sun, 24 Nov 2024 10:28:04 -0400</pubDate>
-      <guid>http://localhost:1313/posts/uv5r-audio-pc/</guid>
+      <guid>https://www.mileshilliard.com/posts/uv5r-audio-pc/</guid>
       <description>With my new HAM radio license in the books, I bought the Baofeng UV5R as my first HT. Between its low-cost and various features, I think its been a great radio to start out with. With an upgraded antenna (almost not optional) and a larger battery bank, I&amp;rsquo;ve found the radio to be a pretty solid unit. Unfortunately, there is no direct way to plug in the radio&amp;rsquo;s speaker and mic jacks to a computer soundcard to transmit and receive sounds to and from my PC, but with a simple cable modification, this can be done.</description>
     </item>
     <item>
       <title>HAM License!</title>
-      <link>http://localhost:1313/posts/ham/</link>
+      <link>https://www.mileshilliard.com/posts/ham/</link>
       <pubDate>Sat, 23 Nov 2024 19:43:42 -0400</pubDate>
-      <guid>http://localhost:1313/posts/ham/</guid>
+      <guid>https://www.mileshilliard.com/posts/ham/</guid>
       <description>I got my HAM Radio License!&#xA;I am now a registered HAM radio operator as KC1VTJ&#xA;Hope to hear you on the air,&#xA;73</description>
     </item>
   </channel>
