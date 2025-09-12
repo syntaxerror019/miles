@@ -6,8 +6,15 @@
     <description>Recent content in Robotics-Blog on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Sep 2025 17:55:22 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 11 Sep 2025 21:47:57 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/robotics-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics &amp; Engineering - Week of 09/08/25</title>
+      <link>http://localhost:1313/posts/09-08-25/</link>
+      <pubDate>Thu, 11 Sep 2025 21:47:57 -0400</pubDate>
+      <guid>http://localhost:1313/posts/09-08-25/</guid>
+      <description>In shop this week, I spent a good amount of time helping my friends with their own projects. I spent time helping Tim get his blog website completely overhauled. Ultimately Andrew and I convinced him to use Hugo which is far superior in every way to Wordpress.&#xA;There was some trouble figuring out how to deploy his site to vercel (we never got it fully deployed) so for this week at least, he will continue to put his blog posts on his old website at https://timmyhunt.</description>
+    </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 09/01/25</title>
       <link>http://localhost:1313/posts/09-01-25/</link>
