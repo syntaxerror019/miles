@@ -49,7 +49,7 @@ And lastly, the shop was trying to get rid of filament from 3D printers we no lo
 
 Instead of throwing it out, I decided to create a shop ebay page to make some money. Most, if not all of the filament shown is brand new, still in package with the silica gel. It has been stored in a cool and dry environment its entire life. If you would like to purchase one or more of these specialty filaments for your own printers, we have over 50% off on these spools. Feel free to contact me for more information, or if you are local, check Facebook Marketplace to see for yourself!
 
-As of now, this is what is listed and avaiable:
+As of now, this is what is listed and available:
 
 <br>
 
