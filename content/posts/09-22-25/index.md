@@ -2,7 +2,7 @@
 title: 'Robotics & Engineering - Week of 09/22/25'
 date: 2025-09-26T07:22:24-0400
 tags: ['robotics-blog']
-image: ''
+image: 'connecting.webp'
 draft: false
 ---
 
@@ -53,7 +53,7 @@ We quickly realized we needed to sand the bus bars' corners down in order to pre
  <div style="display:flex">  
     <br>
         <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%; height: auto;" src="/posts/09-22-25/sanding.webp"/></img>    
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%; height: auto;" src="/posts/09-22-25/together.webp"/></img>                                                                          
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%; height: auto;" src="/posts/09-22-25/connecting.webp"/></img>                                                                          
     <br>    
 </div> 
 
