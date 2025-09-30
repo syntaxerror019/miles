@@ -1,7 +1,7 @@
 ---
 title: 'DIY RC-Car Electronics'
 date: 2025-07-01T07:25:53-0500
-tags: ['diy', 'hardware']
+tags: ['diy', 'hardware', 'rpi']
 image: 'car.webp'
 draft: false
 ---
@@ -12,7 +12,7 @@ I inherited a LaTraxx (Traxxas) Prerunner RC Car from a friend as a gift to fix.
 
 To fix the main issue, I needed to find out why the car wasn't driving even after receiving commands from the 2.4Ghz receiver (which it was, as I ended up scoping the lines)
 
-I came to the conclusion that the "ESC" (not a real ESC technically) was blown. This part ([Traxxas 3045R](https://www.amazon.com/Traxxas-3045R-Electronic-Control-Waterproof/dp/B00QYZKOWO)) is in charge to converting the 2s voltages from the battery down to ~6 volts for the servo. It also interpreted the servo PWM signals from the receiver, and converted them to the appropriate logic for the motor driver to spin the driving motor. All this is impressively packaged into a small little device, but I found it not repairable due to the fact that it was fully potted in some kind of epoxy from the manufacturer.
+I came to the conclusion that the "ESC" (not a traditional ESC really) was blown. This part ([Traxxas 3045R](https://www.amazon.com/Traxxas-3045R-Electronic-Control-Waterproof/dp/B00QYZKOWO)) is in charge to converting the 2s voltages from the battery down to ~6 volts for the servo. It also interpreted the servo PWM signals from the receiver, and converted them to the appropriate logic for the motor driver to spin the driving motor. All this is impressively packaged into a small little device, but I found it not repairable due to the fact that it was fully potted in some kind of epoxy from the manufacturer.
 
 The price of these ESC ranges, but I found them no lower than 70 USD from the manufacturer's site. I was still determined to get the car working, so I decided to make my own.
 
