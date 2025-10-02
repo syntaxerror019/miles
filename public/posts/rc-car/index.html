@@ -2,7 +2,7 @@
 <html
   lang="en-us"
   dir="ltr">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=5000&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
 <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
 <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
@@ -274,10 +274,13 @@ document.addEventListener("DOMContentLoaded", () => {
   <i class="bx bx-purchase-tag-alt text-gray-500 h-4"></i>
   
     
-    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/diy" aria-label="diy">diy</a>
+    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="http://localhost:5000/tags/diy" aria-label="diy">diy</a>
   
     
-    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/hardware" aria-label="hardware">hardware</a>
+    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="http://localhost:5000/tags/hardware" aria-label="hardware">hardware</a>
+  
+    
+    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="http://localhost:5000/tags/rpi" aria-label="rpi">rpi</a>
   
 </div>
 
@@ -565,7 +568,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <hr>
 <p>I inherited a LaTraxx (Traxxas) Prerunner RC Car from a friend as a gift to fix. The car would power on and the receiver would connect, allowing the steering servo to move, however the car would not roll. It had been sitting in their basement for years unused, causing the NiMH battery to be extremely discharged. After charging and discharging it repeatedly, I was able to regain sufficient capacity and it worked fine, however I ended up replacing it altogether later on.</p>
 <p>To fix the main issue, I needed to find out why the car wasn&rsquo;t driving even after receiving commands from the 2.4Ghz receiver (which it was, as I ended up scoping the lines)</p>
-<p>I came to the conclusion that the &ldquo;ESC&rdquo; (not a real ESC technically) was blown. This part (<a href="https://www.amazon.com/Traxxas-3045R-Electronic-Control-Waterproof/dp/B00QYZKOWO">Traxxas 3045R</a>) is in charge to converting the 2s voltages from the battery down to ~6 volts for the servo. It also interpreted the servo PWM signals from the receiver, and converted them to the appropriate logic for the motor driver to spin the driving motor. All this is impressively packaged into a small little device, but I found it not repairable due to the fact that it was fully potted in some kind of epoxy from the manufacturer.</p>
+<p>I came to the conclusion that the &ldquo;ESC&rdquo; (not a traditional ESC really) was blown. This part (<a href="https://www.amazon.com/Traxxas-3045R-Electronic-Control-Waterproof/dp/B00QYZKOWO">Traxxas 3045R</a>) is in charge to converting the 2s voltages from the battery down to ~6 volts for the servo. It also interpreted the servo PWM signals from the receiver, and converted them to the appropriate logic for the motor driver to spin the driving motor. All this is impressively packaged into a small little device, but I found it not repairable due to the fact that it was fully potted in some kind of epoxy from the manufacturer.</p>
 <p>The price of these ESC ranges, but I found them no lower than 70 USD from the manufacturer&rsquo;s site. I was still determined to get the car working, so I decided to make my own.</p>
 <br>
 <div style="display: flex;">
