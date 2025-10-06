@@ -1,7 +1,7 @@
 title = "Latest work"
 
 [[project]]
-  title = "redis-webui"
+  title = "redis-webui - 2025"
   text = [
     "redis-webui is an easy-to-use, open source, web based Redis DB client. Simply log into your server, and gain read-only access to your server remotely, from any device anywhere in the world.",
     "Open source helps to build trust with users, as they know that their credentials are not logged nor stored at any point along the way, including during logging in and interacting.",
@@ -10,7 +10,7 @@ title = "Latest work"
   link = "https://redis.mileshilliard.com/"
 
 [[project]]
-  title = "URL Shortener"
+  title = "URL Shortener - 2025"
   text = [
     "An ultra-simple URL shortener designed from scratch with no bells-and-whistles. The basics to do exactly what you need and nothing more. A super basic web UI makes accessibility a breeze for anybody",
     "The service is serverless running with Vercel infrastructure, and utilizes a Redis DB to handle all memory requirements. These optimizations make response time minimal keeping things running smoothly and efficiently.",
@@ -19,7 +19,7 @@ title = "Latest work"
   link = "https://sntx.dev"
 
 [[project]]
-  title = "OpenWebRX+ WebSDR"
+  title = "OpenWebRX+ WebSDR - 2024"
   text = [
     "I built OpenWebRX+ from source on my Raspberry Zero 2W in hopes of making a local, power efficient, compact, (portable?) web-sdr to share the local airwaves with my friends.",
     "It runs with a simple USB power adapter, but I plan on making it solar powered in the near future.",
@@ -28,7 +28,7 @@ title = "Latest work"
   link = "https://websdr.mileshilliard.com"
 
 [[project]]
-  title = "CW (Morse Code) tools"
+  title = "CW (Morse Code) tools - 2024"
   text = [
     "Some simple CW tools to help get you into the relm of morse code.",
     "All tools run with javascript on the front end, and involve no backend server processing whatsoever. There is no data collected, mostly because there is nothing to collect, and no way to collect it!",
@@ -37,7 +37,7 @@ title = "Latest work"
   link = "https://morse.mileshilliard.com"
 
 [[project]]
-  title = "Count API"
+  title = "Count API - 2024"
   text = [
     "CountAPI.xyz is no longer with us unfortunately. I, for one, heavily relied on this API and it functionality in various projects. After some research, I found that there was no ideal alternative. Most cost more than I was willing to pay, so I set out to create my own. For free!",
     "countapi.mileshilliard.com is my attempt at a relative-replica of the OG countapi.xyz. By reading the documentation and formatting of how the interface and endpoints functioned, I recreated my own using a Redis databse and a Vercel serverless script. Although performance may not quite match the original countapi, the minor dip shouldn't be noticeable in everyday applications.",
@@ -46,7 +46,7 @@ title = "Latest work"
   link = "https://countapi.mileshilliard.com"
 
 [[project]]
-  title = "Callsign lookup"
+  title = "Callsign lookup - 2024"
   text = [
     "Look up anybody's callsign to find the registered name, location, expiration, class rank, or FRN behind it!",
     "Written with a serverless backend, the lookups are fast and efficient- two things the FCC's website is incapable of. The interface is clean and easy to use, with only one input required to create a search.",
@@ -55,7 +55,7 @@ title = "Latest work"
   link = "https://ham.mileshilliard.com"
 
 [[project]]
-  title = "HAM Radio License"
+  title = "HAM Radio License - 2024"
   text = [
     "As of 11/23/2024, I am a registered HAM radio operator. This means I can use technology that nobody has even thought about since WWII.",
     "HAM radio is a dying art, and I beleive it should be revived. The whole concept of communication without internet or networks or cables is fascinating, and still very important. Although HAM radio is now no longer as common as it once was, it can still be a necessity for some. People still rely on it as a form of communication (and entertainment) in less urbanized areas, and more recently, it has had an impact on natural disaster relief.",
@@ -64,7 +64,7 @@ title = "Latest work"
   link = "/tags/ham/"
 
 [[project]]
-  title = "Sunk Robotics"
+  title = "Sunk Robotics - 2023"
   text = [
     "Sunk Robotics, a high school, student run, robotics team that operates out of Medford Vocational Technical High School, in Medford, Massachusetts.",
     "'Since our founding in November of 2021, Sunk Robotics has developed multiple underwater engineering solutions. Our current lineup includes: STEVE ROV, JENA Float, and our new vehicle for the 2024 season, JONA ROV.'",
@@ -72,7 +72,7 @@ title = "Latest work"
   link = "https://sunkrobotics.com/"
 
 [[project]]
-  title = "Github Package Manager (GHPM)"
+  title = "Github Package Manager (GHPM) - 2023"
   text = [
     "'GHPM was developed to address various challenges encountered by GitHub users. We achieve this by focusing on the client side of the GitHub interface. Instead of using the standard git clone command, we leverage the Git framework to ensure a standardized and efficient repository download process. Upon successfully obtaining the repository, our system offers invaluable support for building and configuring it through our integrated Dependency Manager (DM) and, most notably, our Entry Point Detection (EPD) feature.'",
     "Between mid 2022 and to late 2023, I helped develop and test the Microsoft Windows side of the software, to ensure compatible and reliable usage across platforms.",
@@ -81,7 +81,7 @@ title = "Latest work"
   link = "https://github.com/smoke-wolf/GitHub-Package-Manager"
   
 [[project]]
-  title = "WordBot"
+  title = "WordBot - 2022"
   text = [
     "Utilizing advanced websocket and SocketIO communication, WordBot was created for multiplayer competitions on the popular word game, BombParty, by Sparklin Labs (JKLM.FUN). With consistent improvements being made, WordBot was dubbed an 'Official JKLM Bot.'",
     "As a side-mission, WordBot was developed to be run efficiently on SBCs that can be easily powered strictly from solar energy by utilizing three 100W solar panels. With this, WordBot was the first carbon-neutral bot to be hosted with JKLM.FUN infrastructure.",
@@ -90,7 +90,7 @@ title = "Latest work"
   link = "https://wordbot.sntx.dev"
   
 [[project]]
-  title = "Digits of Pi"
+  title = "Digits of Pi - 2022"
   text = [
     "As a fun project, I decided to create a simple algorithm to calculate any amount of pi to the Nth digit. By running this script on a small VPS for multiple weeks, many digits of Pi were generated and recorded. Initially with over 5 million digits of pi calculated, the calculations were saved. Due to an unforeseen file corruption error, only 3 million digits were saved properly. By this time, I decided to end the project here.",
     "During the calculation process, anybody could watch the digits being generated live by viewing the dedicated website. At this point, it serves as an archive and reference point for the 3 million digits of pi.",
