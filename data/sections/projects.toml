@@ -1,6 +1,15 @@
 title = "Latest work"
 
 [[project]]
+  title = "redis-webui"
+  text = [
+    "redis-webui is an easy-to-use, open source, web based Redis DB client. Simply log into your server, and gain read-only access to your server remotely, from any device anywhere in the world.",
+    "Open source helps to build trust with users, as they know that their credentials are not logged nor stored at any point along the way, including during logging in and interacting.",
+    "Features including 'pagination' prevent loading all keys at once, which is particularly important for large DBs that may contain thousands of keys. Also, with a human interface, all statistics can be seen visually making interacting easier than ever."
+    ]
+  link = "https://redis.mileshilliard.com/"
+
+[[project]]
   title = "URL Shortener"
   text = [
     "An ultra-simple URL shortener designed from scratch with no bells-and-whistles. The basics to do exactly what you need and nothing more. A super basic web UI makes accessibility a breeze for anybody",
