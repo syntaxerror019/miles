@@ -18,7 +18,13 @@ logo  = "img/miles-logo.png"
   description = "See all my latest posts"
   link        = "/posts"
   target      = "_self"
-  
+
+[[menu]]
+  text        = "My CV"
+  description = "Check out my CV"
+  link        = "/files/cv.pdf"
+  target      = "_self"
+
 [button]
   enabled = true
   text    = "Support me"
