@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yolo on Miles Hilliard</title>
-    <link>http://localhost:1313/tags/yolo/</link>
+    <link>https://www.mileshilliard.com/tags/yolo/</link>
     <description>Recent content in Yolo on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 10 Jul 2025 10:37:15 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/yolo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.mileshilliard.com/tags/yolo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to: Ultralytics YOLOv11 - Training Your Own AI Model</title>
-      <link>http://localhost:1313/posts/yolo11/</link>
+      <link>https://www.mileshilliard.com/posts/yolo11/</link>
       <pubDate>Thu, 10 Jul 2025 10:37:15 -0400</pubDate>
-      <guid>http://localhost:1313/posts/yolo11/</guid>
+      <guid>https://www.mileshilliard.com/posts/yolo11/</guid>
       <description>Introduction. Introducing Ultralytics YOLO11, the latest version of the acclaimed real-time object detection and image segmentation model. YOLO11 is built on cutting-edge advancements in deep learning and computer vision, offering unparalleled performance in terms of speed and accuracy. Its streamlined design makes it suitable for various applications and easily adaptable to different hardware platforms, from edge devices to cloud APIs. Read more&amp;hellip;&#xA;Although there are abundant tutorials on how to set up YOLO and train your own model, most are very case by case and are not applicable to all users.</description>
     </item>
   </channel>
