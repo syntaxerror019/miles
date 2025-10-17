@@ -90,10 +90,12 @@ Finally, (big reveal) everything worked out and I gave it a successful test driv
 
 <br>
 <div style="display:flex; justify-content: center;">  
-    <video width="50%" controls muted style="margin: 0 auto;">
-        <source src="/posts/10-13-25/demo.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <iframe width="315" height="560"
+src="https://www.youtube.com/shorts/1Zkl4FTI4CM"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
 </div>
 <br>
 
