@@ -18,8 +18,8 @@ In order to provide power to it, I had to wire it through an unused fuse port le
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/10-20-25/image.png"/></img>     
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/10-20-25/fuse.webp"/></img>     
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/10-20-25/image.png"/></img>     
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/10-20-25/fuse.webp"/></img>     
     <br>    
 </div> 
 
@@ -35,7 +35,7 @@ On Wednesday, particularly after school, we drove the golf cart all around for o
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/10-20-25/wild.jpg"/></img>        
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/10-20-25/wild.jpg"/></img>        
     <br>    
 </div> 
 
@@ -51,7 +51,7 @@ I think I will be able to simply discharge the batteries and they might shrink b
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/10-20-25/topdown.jpg"/></img>         
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/10-20-25/topdown.jpg"/></img>         
     <br>    
 </div> 
 
