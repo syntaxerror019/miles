@@ -20,9 +20,9 @@ logo  = "img/miles-logo.png"
   target      = "_self"
 
 [[menu]]
-  text        = "My CV"
-  description = "Check out my CV"
-  link        = "/files/cv.pdf"
+  text        = "Status Page"
+  description = "View in-demand service status."
+  link        = "https://uptime.mileshilliard.com/"
   target      = "_self"
 
 [button]

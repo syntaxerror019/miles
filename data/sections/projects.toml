@@ -1,6 +1,15 @@
 title = "Latest work"
 
 [[project]]
+  title = "(2025) The Neural Times"
+  text = [
+    "The Neural Times is a website that utilizes AI to post satirical renditions of current events from global news sources.",
+    "By utilizing a locally-run LLM (via ollama), the AI creates a satirical spin-off of the original article and comes up with a cover image prompt. This prompt is then fed into a Stable Diffusion model (also running locally) which in turn generates the cover art for the article. After this, everything is pushed to GitHub and available live via the Vercel page.",
+    "This project was done not only to see how funny AI can be, but to also observe potential political biases these models may have when given both left leaning and right leaning news articles to work with."
+    ]
+  link = "https://news.sntx.dev"
+
+[[project]]
   title = "(2025) redis-webui"
   text = [
     "redis-webui is an easy-to-use, open source, web based Redis DB client. Simply log into your server, and gain read-only access to your server remotely, from any device anywhere in the world.",
