@@ -22,7 +22,7 @@ logo  = "img/miles-logo.png"
 [[menu]]
   text        = "Status Page"
   description = "View in-demand service status."
-  link        = "https://uptime.mileshilliard.com/"
+  link        = "https://uptime.mileshilliard.com/status/uptime"
   target      = "_self"
 
 [button]
