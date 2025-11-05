@@ -2,7 +2,7 @@
 title: 'Ham Radio Antenna Mount (Diamond x50)'
 date: 2025-11-04T21:41:29-0500
 tags: ['ham', 'radio', 'hardware', 'antenna']
-image: 'finished.webp'
+image: 'wire2.webp'
 draft: false
 ---
 
