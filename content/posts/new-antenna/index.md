@@ -20,8 +20,8 @@ To start, I took the old mast down and took the antenna bracket off. Afterward, 
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/11-03-25/before.webp"/></img>   
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/11-03-25/tracing.webp"/></img>      
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/new-antenna/before.webp"/></img>   
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/new-antenna/tracing.webp"/></img>      
     <br>    
 </div> 
 
@@ -37,8 +37,8 @@ I also then added some screws that would be used to attach the bracket to the fa
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/11-03-25/panel.webp"/></img>   
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/11-03-25/pre-screwed.webp"/></img>      
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/new-antenna/panel.webp"/></img>   
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/new-antenna/pre-screwed.webp"/></img>      
     <br>    
 </div> 
 
@@ -52,8 +52,8 @@ I had to get on top of our office in this crawl-space that had so much fiberglas
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/11-03-25/attic.webp"/></img>   
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/11-03-25/cable.webp"/></img>      
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/new-antenna/attic.webp"/></img>   
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/new-antenna/cable.webp"/></img>      
     <br>    
 </div> 
 
@@ -65,15 +65,15 @@ Now that the cable was routed and ready to be connected to the antenna once moun
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/11-03-25/setup-wide.webp"/></img>   
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/11-03-25/screwing.webp"/></img>      
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/new-antenna/setup-wide.webp"/></img>   
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/new-antenna/screwing.webp"/></img>      
     <br>    
 </div> 
 <br>
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 65%; height: auto;" src="/posts/11-03-25/selfie.webp"/></img>   
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 33%; height: auto;" src="/posts/11-03-25/barely.webp"/></img>      
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 65%; height: auto;" src="/posts/new-antenna/selfie.webp"/></img>   
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 33%; height: auto;" src="/posts/new-antenna/barely.webp"/></img>      
     <br>    
 </div> 
 
@@ -86,7 +86,7 @@ Now that the cable was routed and ready to be connected to the antenna once moun
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 10%;" 
-        src="/posts/11-03-25/x50.webp">
+        src="/posts/new-antenna/x50.webp">
     </img>
     <div style="padding: 30px; width: 90%;">
         As you can see in the fourth photo, there were only a few inches that the bracket had above the roof-line. 
@@ -110,8 +110,8 @@ This was pretty easy, as I had all the infrastructure I needed in place. It was 
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/11-03-25/wire.webp"/></img>   
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/11-03-25/wire2.webp"/></img>      
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/new-antenna/wire.webp"/></img>   
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/new-antenna/wire2.webp"/></img>      
     <br>    
 </div> 
 
@@ -121,8 +121,8 @@ This was pretty easy, as I had all the infrastructure I needed in place. It was 
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/11-03-25/finishing.webp"/></img>   
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/11-03-25/finished.webp"/></img>      
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/new-antenna/finishing.webp"/></img>   
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/new-antenna/finished.webp"/></img>      
     <br>    
 </div> 
 
