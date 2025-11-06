@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Antenna on Miles Hilliard</title>
-    <link>https://www.mileshilliard.com/tags/antenna/</link>
+    <link>http://localhost:5000/tags/antenna/</link>
     <description>Recent content in Antenna on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Nov 2025 21:41:29 -0500</lastBuildDate>
-    <atom:link href="https://www.mileshilliard.com/tags/antenna/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:5000/tags/antenna/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ham Radio Antenna Mount (Diamond x50)</title>
-      <link>https://www.mileshilliard.com/posts/11-03-25/</link>
+      <link>http://localhost:5000/posts/new-antenna/</link>
       <pubDate>Tue, 04 Nov 2025 21:41:29 -0500</pubDate>
-      <guid>https://www.mileshilliard.com/posts/11-03-25/</guid>
+      <guid>http://localhost:5000/posts/new-antenna/</guid>
       <description>I figured today, which was a day off from school due to local voting, would be a great time to re-do my ham radio antenna setup and change my base station location. Honestly, I haven&amp;rsquo;t touched my radio very much lately, mainly because of the workload from school along with other projects I have been working on. The other issue is that the radio is located in my basement which is not the most enjoyable place to endure long QSOs.</description>
     </item>
     <item>
       <title>Antenna</title>
-      <link>https://www.mileshilliard.com/posts/antenna/</link>
+      <link>http://localhost:5000/posts/antenna/</link>
       <pubDate>Sun, 09 Mar 2025 17:54:10 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/antenna/</guid>
+      <guid>http://localhost:5000/posts/antenna/</guid>
       <description>When I bought an upgrade from my baofeng UV5R (ANYTONE AT-778UV), I figured a new antenna set-up was in store.&#xA;My base station antenna is a Diamond X50, attached to a custom mast.&#xA;This setup was a heck of a lot better than the rubber duck on my handheld, but because it was only about 8ft. from the ground, the environment and houses nearby would block both TX and RX signals significantly.</description>
     </item>
   </channel>
