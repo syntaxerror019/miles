@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Nov 2025 15:19:47 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 13 Nov 2025 18:09:48 -0500</lastBuildDate>
     <atom:link href="https://www.mileshilliard.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics &amp; Engineering - Week of 11/10/25</title>
+      <link>https://www.mileshilliard.com/posts/11-10-25/</link>
+      <pubDate>Thu, 13 Nov 2025 18:09:48 -0500</pubDate>
+      <guid>https://www.mileshilliard.com/posts/11-10-25/</guid>
+      <description>This week was extremely CAD heavy for me, with a mix of projects that I ended up working on both during shop time, after school during robotics, and at home as well.&#xA;But on a more interesting topic, Jonas and I got the steering working on the Ford Think automatically. In the previous year, his brother installed a large motor and chain to steer the wheels electrically. This was only done in a quick test, so we wanted to make sure it would still work for us.</description>
+    </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 11/03/25</title>
       <link>https://www.mileshilliard.com/posts/11-03-25x2/</link>

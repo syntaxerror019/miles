@@ -2,12 +2,12 @@
 <html
   lang="en-us"
   dir="ltr">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=5000&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8" />
 <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
 <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
 
-<title>OpenWebRX&#43; WebSDR | Miles Hilliard</title>
+<title>Robotics &amp; Engineering - Week of 11/10/25 | Miles Hilliard</title>
 
 <link rel="stylesheet" href="/css/tailwind.css" />
 
@@ -279,11 +279,11 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="bg-gray-50 px-8 py-10 rounded-md post-content">
         <img
           class="rounded-md mb-4 w-full"
-          src="/posts/websdr//yay.webp"
-          alt="OpenWebRX&#43; WebSDR"
-          title="OpenWebRX&#43; WebSDR" />
+          src="/posts/11-10-25//header.gif"
+          alt="Robotics &amp; Engineering - Week of 11/10/25"
+          title="Robotics &amp; Engineering - Week of 11/10/25" />
           
-        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">OpenWebRX&#43; WebSDR</h1>
+        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Robotics &amp; Engineering - Week of 11/10/25</h1>
         
 
 
@@ -291,12 +291,12 @@ document.addEventListener("DOMContentLoaded", () => {
 <div class="flex items-center">
   <div class="my-2 flex whitespace-nowrap items-center">
     <i class="bx bx-calendar text-gray-500 h-5"></i>
-    <span class="text-gray-500 text-sm mx-1"><time datetime="2025-03-26T19:43:42-04:00">March 26, 2025</time></span>
+    <span class="text-gray-500 text-sm mx-1"><time datetime="2025-11-13T18:09:48-05:00">November 13, 2025</time></span>
   </div>
   <div class="m-2 text-base flex whitespace-nowrap items-center">
     <i class="bx bx-time-five text-gray-500"></i>
     <span class="text-gray-500 text-sm mx-1 h-5">
-      2
+      3
       minutes
     </span>
   </div>
@@ -305,10 +305,7 @@ document.addEventListener("DOMContentLoaded", () => {
   <i class="bx bx-purchase-tag-alt text-gray-500 h-4"></i>
   
     
-    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="http://localhost:5000/tags/ham" aria-label="ham">ham</a>
-  
-    
-    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="http://localhost:5000/tags/radio" aria-label="radio">radio</a>
+    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/robotics-blog" aria-label="robotics-blog">robotics-blog</a>
   
 </div>
 
@@ -594,15 +591,69 @@ document.addEventListener("DOMContentLoaded", () => {
       
 
       <hr>
-<p>After messing around with public WebSDRs around the world, I thought it would be a fun project to set my own SDR up. I had an extra RPi 3 laying around (which I later replaced with a Pi 5) but I just needed some way to receive the RF signals.</p>
-<p>A popular option that has high-praise was the RTL-SDR, so I purchased one. In terms of compatability, it works with both Windows and UN*X systems, so the Raspberry Pi should have no issues.</p>
-<p>I burned Raspberry Pi OS Lite 64-bit onto my SD card, and booted up the Pi. After SSH&rsquo;ing into it, I followed the instructions found here (<a href="https://github.com/0xAF/openwebrxplus"><a href="https://github.com/0xAF/openwebrxplus">https://github.com/0xAF/openwebrxplus</a></a>) to get the system up and running.</p>
-<p>I found that there were a few settings that I ended up changing that made the whole thing a whole lot better:</p>
+<p>This week was extremely CAD heavy for me, with a mix of projects that I ended up working on both during shop time, after school during robotics, and at home as well.</p>
+<p>But on a more interesting topic, <a href="https://jonaswirz.wordpress.com/">Jonas</a> and I got the steering working on the Ford Think automatically. In the previous year, his brother installed a large motor and chain to steer the wheels electrically. This was only done in a quick test, so we wanted to make sure it would still work for us.</p>
+<p>Originally we tried a standard 5A, 12V power supply, but it just couldn&rsquo;t deliver the amperage for the big chunker. We then stole the ROV power supply which can deliver 3x as much current. This worked great!</p>
+<br>
+<video style="display: block; margin-left: auto; margin-right: auto; width: 40%; height: auto;" controls>
+    <source  src="/posts/11-10-25/steering.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<br>
+<p>Also while I was working in Fusion 360, I gave some thought to a PCB that I have been putting off designing for a few weeks now. This board is for the Ford Think dashboard. The original dashboards (which are now very expensive) were smashed a few years ago when the golf carts were vandalized. For the past few weeks, I have been slowly picking away at a new design for the dashboard (mostly in terms of electronics) for monitoring the batteries, along with an RFID system used to authenticate and ID the driver.</p>
+<p>Although started a while ago, I finished up the dashboard face plate. The simple design has a space for the TFT display to sit, along with two labeled holes for the Enable and Mode switches. It also includes a rectangular cutout designed to house a neopixel strip. They will provide basic status indication and they glow through the plastic at the front for a clean look that is only noticeable when turned ON.</p>
+<br>
+ <div style="display:flex">  
+    <br>
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;" src="/posts/11-10-25/gc1.png"/></img>    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;" src="/posts/11-10-25/gc2.png"/></img>    
+    <br>    
+</div> 
+<br>
+<p>The PCB for this setup is not done yet, and is still pretty messy. This is version one which I have already assembled and tested on a breadboard. The functionality is simple:</p>
 <ul>
-<li>The first one was the maximum client connections. Set this depending on your hardware. I found my RPi 3 could handle 2 clients comfortably, whereas 3 was a stretch.</li>
-<li>The next was the client timeout. Because I planned on making this a public SDR, available to anybody, I wanted to make sure people wouldn&rsquo;t abuse it. This timeout is important as it prevents people from connecting to the server, and tying it up for hours or even days. A generous time limit I found was an hour. You could go higher depending on your expected clients and generosity.</li>
-<li>The final important setting is about the general SDR information, including QTH (location), elevation, antenna type, hardware setup, etc. This makes finding your SDR a whole lot easier for other people.</li>
+<li>10k &amp; 150k ohm voltage divider: Reading battery voltage.</li>
+<li>128x160 TFT display: Live updates and notifications to the driver.</li>
+<li>RFID Scanner: Used to authenticate and identify the driver (will be useful when autonomous mostly)</li>
+<li>Relay &amp; External Outputs: To enable/ disable driving functionality programmatically.</li>
+<li>UART Ports: For future communication in a decentralized modular system.</li>
 </ul>
+<br>
+ <div style="display:flex">  
+    <br>
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: auto;" src="/posts/11-10-25/schematic.png"/></img>    
+    <br>    
+</div> 
+<br>
+<p>After this, I figured I would crank out a few more CAD related projects while I was sitting down.</p>
+<p>In my parent&rsquo;s car, the handle that releases the rear seats to fold down has been broken. We usually use a stick to push on a little contact where the lever would be present normally. It only broke because the spring in it is extremely strong and it the plastic was very old and brittle. I took the assembly off the seat and looked at it closely.</p>
+<br>
+ <div style="display:flex">  
+    <br>
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 40%; height: auto;" src="/posts/11-10-25/porsche.jpg"/></img>    
+    <br>    
+</div> 
+<br>
+<p>I then made a sketch with dimensions on paper first of the exact handle. Once done with that, I transferred things over to Fusion 360, where I optimized the design slightly to reduce filament usage etc. The handle itself is designed in a way that makes it difficult to replicate digitally. I ended up watching a few tutorials on how to use tools, but I learned quite a bit in the process!</p>
+<div style="display:flex; justify-content:center; gap:20px;">
+    <div style="
+    width:40%; 
+    height:500px; 
+    background-image:url('/posts/11-10-25/cayenne1.png');
+    background-size:200%;   /* zoom */
+    background-position:center; 
+    background-repeat:no-repeat;">
+</div>
+    <div style="
+    width:60%; 
+    height:500px; 
+    background-image:url('/posts/11-10-25/cayenne2.png');
+    background-size:170%;   /* zoom */
+    background-position:center; 
+    background-repeat:no-repeat;">
+</div>
+</div>
+<p>Now, the only thing I have left to do is print it out in PETG and make sure my tolerances are correct for my Ender 3!</p>
 
       
 
