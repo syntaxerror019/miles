@@ -6,8 +6,15 @@
     <description>Recent content in Hardware on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Nov 2025 21:41:29 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 15 Nov 2025 21:41:29 -0500</lastBuildDate>
     <atom:link href="https://www.mileshilliard.com/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QRP Pixie Radio</title>
+      <link>https://www.mileshilliard.com/posts/qrp-pixie/</link>
+      <pubDate>Sat, 15 Nov 2025 21:41:29 -0500</pubDate>
+      <guid>https://www.mileshilliard.com/posts/qrp-pixie/</guid>
+      <description>When I saw this Pixie QRP radio for 10 bucks online, I thought it would be a fun little project to try out to get into the world of HF. I wasn&amp;rsquo;t expecting much from it, considering its price, but given that it would be some more soldering practice, I gave it a shot.&#xA;There were no documents included in the kit, so I had to do some research and reverse engineering to assemble it properly.</description>
+    </item>
     <item>
       <title>Ham Radio Antenna Mount (Diamond x50)</title>
       <link>https://www.mileshilliard.com/posts/new-antenna/</link>
