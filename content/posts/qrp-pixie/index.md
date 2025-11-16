@@ -129,3 +129,13 @@ The last step was to add the acrylic case to protect everything. I personally th
 </div> 
 
 <br>
+
+After this, it's ready to go!
+
+I found that in order to get any real results, you need either a proper 40m antenna (dipole, EFHW, etc) or (for rx anyways) a long wire connected to the antenna pin, and another wire connected to something grounded (copper water pipe, etc). After messing around, I was able to get a whole bunch of local AM interference, so I will need to do some mods or make a high pass filter for it to eliminate the AM broadcast. 
+
+This project would make a pretty cool beacon too. It will put out a few hundred mW which is perfect for a CW beacon. 
+
+I might make another post about optimizing the pixie to eliminate noise and make the RX filtering circuitry better. 
+
+73 de KC1VTJ
