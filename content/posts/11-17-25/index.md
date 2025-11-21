@@ -2,7 +2,7 @@
 title: 'Robotics & Engineering - Week of 11/17/25'
 date: 2025-11-21T07:46:47-0500
 tags: ['robotics-blog']
-image: ''
+image: 'pcbtop.jpg'
 draft: false
 ---
 
