@@ -6,8 +6,15 @@
     <description>Recent content in Robotics-Blog on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Nov 2025 18:09:48 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 21 Nov 2025 07:46:47 -0500</lastBuildDate>
     <atom:link href="https://www.mileshilliard.com/tags/robotics-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics &amp; Engineering - Week of 11/17/25</title>
+      <link>https://www.mileshilliard.com/posts/11-17-25/</link>
+      <pubDate>Fri, 21 Nov 2025 07:46:47 -0500</pubDate>
+      <guid>https://www.mileshilliard.com/posts/11-17-25/</guid>
+      <description>This week I spent a good portion of time milling out and working on the PCB for the Ford Think. The PCB has a TFT display for the control and battery information, along with an RFID tag scanner for authentication (to prevent unwanted sophomore operation&amp;hellip;)&#xA;The board came out nicely, but it had a few minor issues including the fact that the board was milled over an existing hole in the PCB board, which messed up a few of the traces that needed some post-manufacturing work with some wire and precise soldering.</description>
+    </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 11/10/25</title>
       <link>https://www.mileshilliard.com/posts/11-10-25/</link>

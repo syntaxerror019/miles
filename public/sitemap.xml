@@ -2,16 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.mileshilliard.com/</loc>
+    <lastmod>2025-11-21T07:46:47-05:00</lastmod>
+  </url><url>
+    <loc>https://www.mileshilliard.com/posts/</loc>
+    <lastmod>2025-11-21T07:46:47-05:00</lastmod>
+  </url><url>
+    <loc>https://www.mileshilliard.com/posts/11-17-25/</loc>
+    <lastmod>2025-11-21T07:46:47-05:00</lastmod>
+  </url><url>
+    <loc>https://www.mileshilliard.com/tags/robotics-blog/</loc>
+    <lastmod>2025-11-21T07:46:47-05:00</lastmod>
+  </url><url>
+    <loc>https://www.mileshilliard.com/tags/</loc>
+    <lastmod>2025-11-21T07:46:47-05:00</lastmod>
+  </url><url>
     <loc>https://www.mileshilliard.com/tags/ham/</loc>
     <lastmod>2025-11-15T21:41:29-05:00</lastmod>
   </url><url>
     <loc>https://www.mileshilliard.com/tags/hardware/</loc>
-    <lastmod>2025-11-15T21:41:29-05:00</lastmod>
-  </url><url>
-    <loc>https://www.mileshilliard.com/</loc>
-    <lastmod>2025-11-15T21:41:29-05:00</lastmod>
-  </url><url>
-    <loc>https://www.mileshilliard.com/posts/</loc>
     <lastmod>2025-11-15T21:41:29-05:00</lastmod>
   </url><url>
     <loc>https://www.mileshilliard.com/posts/qrp-pixie/</loc>
@@ -20,13 +29,7 @@
     <loc>https://www.mileshilliard.com/tags/radio/</loc>
     <lastmod>2025-11-15T21:41:29-05:00</lastmod>
   </url><url>
-    <loc>https://www.mileshilliard.com/tags/</loc>
-    <lastmod>2025-11-15T21:41:29-05:00</lastmod>
-  </url><url>
     <loc>https://www.mileshilliard.com/posts/11-10-25/</loc>
-    <lastmod>2025-11-13T18:09:48-05:00</lastmod>
-  </url><url>
-    <loc>https://www.mileshilliard.com/tags/robotics-blog/</loc>
     <lastmod>2025-11-13T18:09:48-05:00</lastmod>
   </url><url>
     <loc>https://www.mileshilliard.com/posts/11-03-25x2/</loc>
