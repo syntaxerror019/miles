@@ -8,7 +8,7 @@ draft: false
 
 ---
 
-## Inro
+## Intro
 
 As Artificial Intelligence expands and continues to get more and more involved in aspects of daily life, it is only a matter of time until it gets involved in mainstream news feeds... so I sped things up and did it myself.
 

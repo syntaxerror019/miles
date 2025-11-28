@@ -6,8 +6,15 @@
     <description>Recent content in Robotics-Blog on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Nov 2025 07:46:47 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 28 Nov 2025 16:39:40 -0500</lastBuildDate>
     <atom:link href="https://www.mileshilliard.com/tags/robotics-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cashier? Learn PLU Codes Easily!</title>
+      <link>https://www.mileshilliard.com/posts/learn-plu-easily/</link>
+      <pubDate>Fri, 28 Nov 2025 16:39:40 -0500</pubDate>
+      <guid>https://www.mileshilliard.com/posts/learn-plu-easily/</guid>
+      <description>PLU Codes are super hard to remember, especially if you are a new cashier at your local supermarket like me.&#xA;Although most modern systems include a lookup utility to help you look up codes when you can&amp;rsquo;t remember them, it can be super time consuming and annoying to both you and the customer.&#xA;With a little research, I found few resources to help study these codes. Most people I have talked to, including my coworkers, say that memorization comes with time.</description>
+    </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 11/17/25</title>
       <link>https://www.mileshilliard.com/posts/11-17-25/</link>
