@@ -1,6 +1,15 @@
 title = "Latest work"
 
 [[project]]
+  title = "(2025) PressPost"
+  text = [
+    "Introducing, the World's Simplest Blog where you can share your thoughts, journals, or even your random midnight epiphanies.",
+    "With the bare-minimum configuration, anyone (yes anybody) can get your own blog site up and running within 30 seconds. Give it a try today, regardless of your technical abilities.",
+    "No email, no signup headaches. Just write and PressPost!"
+    ]
+  link = "https://presspost.sntx.dev"
+
+[[project]]
   title = "(2025) The Neural Times"
   text = [
     "The Neural Times is a website that utilizes AI to post satirical renditions of current events from global news sources.",
