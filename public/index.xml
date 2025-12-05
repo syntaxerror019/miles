@@ -6,8 +6,15 @@
     <description>Recent content on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Nov 2025 16:39:40 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 15:26:22 -0500</lastBuildDate>
     <atom:link href="https://www.mileshilliard.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics &amp; Engineering - Week of 12/01/25</title>
+      <link>https://www.mileshilliard.com/posts/12-01-25/</link>
+      <pubDate>Thu, 04 Dec 2025 15:26:22 -0500</pubDate>
+      <guid>https://www.mileshilliard.com/posts/12-01-25/</guid>
+      <description>This week during my time in shop, I began a new task on the Ford Think&amp;hellip; AI.&#xA;Jonas has been focused on the LiDAR aspect of the autonomous navigation system, and I have been focused on the camera system&#xA;The idea of doing a combination of both LiDAR and camera&amp;rsquo;s as inputs to our final AI system we think has significant advantages over simply using cameras as the inputs, like Tesla does on their vehicles.</description>
+    </item>
     <item>
       <title>Cashier? Learn PLU Codes Easily!</title>
       <link>https://www.mileshilliard.com/posts/learn-plu-easily/</link>
