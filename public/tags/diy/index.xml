@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Diy on Miles Hilliard</title>
-    <link>http://localhost:1313/tags/diy/</link>
+    <link>https://www.mileshilliard.com/tags/diy/</link>
     <description>Recent content in Diy on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Jul 2025 07:25:53 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/diy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.mileshilliard.com/tags/diy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DIY RC-Car Electronics</title>
-      <link>http://localhost:1313/posts/rc-car/</link>
+      <link>https://www.mileshilliard.com/posts/rc-car/</link>
       <pubDate>Tue, 01 Jul 2025 07:25:53 -0500</pubDate>
-      <guid>http://localhost:1313/posts/rc-car/</guid>
+      <guid>https://www.mileshilliard.com/posts/rc-car/</guid>
       <description>I inherited a LaTraxx (Traxxas) Prerunner RC Car from a friend as a gift to fix. The car would power on and the receiver would connect, allowing the steering servo to move, however the car would not roll. It had been sitting in their basement for years unused, causing the NiMH battery to be extremely discharged. After charging and discharging it repeatedly, I was able to regain sufficient capacity and it worked fine, however I ended up replacing it altogether later on.</description>
     </item>
     <item>
       <title>Bag Holder Design</title>
-      <link>http://localhost:1313/posts/diy-bag-holder/</link>
+      <link>https://www.mileshilliard.com/posts/diy-bag-holder/</link>
       <pubDate>Wed, 01 Jan 2025 13:03:04 -0400</pubDate>
-      <guid>http://localhost:1313/posts/diy-bag-holder/</guid>
+      <guid>https://www.mileshilliard.com/posts/diy-bag-holder/</guid>
       <description>Paper bags are great. They are much more sustainable than their plastic counterparts and they are reusable and recyclable. I often keep or collect these bags because they have so many uses.&#xA;The issue I have is that I don&amp;rsquo;t have a good place to put them. At the moment, they are stored behind my recycling bin, being propped up. When I take out the recycling they all fall down and make a mess.</description>
     </item>
   </channel>
