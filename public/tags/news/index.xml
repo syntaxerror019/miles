@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on Miles Hilliard</title>
-    <link>https://www.mileshilliard.com/tags/news/</link>
+    <link>http://localhost:1313/tags/news/</link>
     <description>Recent content in News on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Nov 2025 16:03:54 -0500</lastBuildDate>
-    <atom:link href="https://www.mileshilliard.com/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Neural Times - Can AI be funny?</title>
-      <link>https://www.mileshilliard.com/posts/ai-news/</link>
+      <link>http://localhost:1313/posts/ai-news/</link>
       <pubDate>Fri, 28 Nov 2025 16:03:54 -0500</pubDate>
-      <guid>https://www.mileshilliard.com/posts/ai-news/</guid>
+      <guid>http://localhost:1313/posts/ai-news/</guid>
       <description>Intro As Artificial Intelligence expands and continues to get more and more involved in aspects of daily life, it is only a matter of time until it gets involved in mainstream news feeds&amp;hellip; so I sped things up and did it myself.&#xA;Introducing The Neural Times, your &amp;ldquo;Only source of news, curated daily&amp;rdquo;&#xA;The Neural Times is uses locally run Large Language Models (LLMs) and locally run Stable Diffusion (for image generation) to create satirical takes on current events worldwide.</description>
     </item>
   </channel>
