@@ -1,0 +1,770 @@
+<!doctype html>
+<html
+  lang="en-us"
+  dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
+
+<title>Robotics &amp; Engineering - Week of 01/05/26 | Miles Hilliard</title>
+
+<link rel="stylesheet" href="/css/tailwind.css" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;600&display=swap"
+  rel="stylesheet" />
+
+<meta property="og:title" content="Miles Hilliard | Robotics & Engineering | MVTHS Blog" />
+
+<meta property="og:locale" content="en_US" />
+
+<meta property="og:url" content="//" />
+
+<meta
+  name="description"
+  content="Miles Hilliard's website and blog!" />
+
+<meta name="theme-color" content="#5540af" />
+
+<meta property="og:site_name" content="Miles was here :)" />
+
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "tk6oxle613");
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<link rel="icon" href="/img/default-favicon_hu8d258ab55b6d0b5dfecbad37f235c98d_876415_32x0_resize_box_3.png" />
+
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    if (localStorage.getItem("dark-mode") === "enabled") {
+        document.head.appendChild(Object.assign(document.createElement('link'), { id: 'dark-mode-css', rel: 'stylesheet', href: '/css/dark-mode.css' }));
+    }
+});
+</script>
+
+
+
+
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+
+
+
+
+
+  </head>
+  <body :class="{ 'overflow-hidden max-h-screen': mobileMenu }" class="relative" x-data="{ mobileMenu: false }">
+    <div id="main" class="relative max-w-screen-xl mx-auto px-5">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+<div class="flex items-center justify-between py-5">
+  <div class="flex items-center">
+    <a href="/">
+      <img src="/img/miles-logo.png" class="py-5 w-10 lg:w-14 min-w-10" alt="mileshilliard" title="mileshilliard" />
+    </a>
+    <a href="/">
+      <h1 class="text-lg lg:text-xl px-2 lg:px-3 font-medium">mileshilliard</h1>
+    </a>
+  </div>
+  <div class="hidden lg:block">
+    <ul class="flex items-center">
+      
+        <li class="px-5">
+          <a
+            href="/"
+            alt="Miles Hilliard"
+            title="Miles Hilliard"
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            Home
+          </a>
+        </li>
+      
+        <li class="px-5">
+          <a
+            href="/posts"
+            alt="See all my latest posts"
+            title="See all my latest posts"
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            Blog
+          </a>
+        </li>
+      
+        <li class="px-5">
+          <a
+            href="/tags/robotics-blog/"
+            alt="See robotics-only posts."
+            title="See robotics-only posts."
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            Robotics Posts
+          </a>
+        </li>
+      
+        <li class="px-5">
+          <a
+            href="https://uptime.mileshilliard.com/status/uptime"
+            alt="View in-demand service status."
+            title="View in-demand service status."
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            Status Page
+          </a>
+        </li>
+      
+      <li class="px-5">|</li>
+      <li class="px-5">
+        <button class="button-no-bg" style="font-size: 150%;" onclick="(localStorage.setItem('dark-mode', document.getElementById('dark-mode-css') ? 'disabled' : 'enabled'), document.getElementById('dark-mode-css') ? document.getElementById('dark-mode-css').remove() : document.head.appendChild(Object.assign(document.createElement('link'), { id: 'dark-mode-css', rel: 'stylesheet', href: '/css/dark-mode.css' })))">◐</button>
+      </li>
+      
+        <li class="px-5">
+          <a href="https://ko-fi.com/sntxdev" target="_blank">
+            <button
+              class="px-5 py-2 bg-white hover:bg-gray-600 hover:text-white rounded-lg font-normal text-base transition duration-300">
+              Support me
+            </button>
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="block lg:hidden mt-2">
+    <button id="hamburger" @click="mobileMenu = true">
+      <i class="bx bx-menu text-3xl"></i>
+    </button>
+  </div>
+</div>
+
+
+<div
+  class="pointer-events-none fixed inset-0 min-h-screen bg-black bg-opacity-75 opacity-0 lg:hidden"
+  :class="{ 'opacity-100 pointer-events-auto': mobileMenu }">
+  <div class="absolute right-0 min-h-screen bg-gray-200 py-5 px-10 w-2/3 sm:w-1/3">
+    <button class="absolute top-0 right-0 mt-9 mr-4" @click="mobileMenu = false">
+      <i class="bx bx-x text-4xl"></i>
+    </button>
+    <ul class="mt-12 flex flex-col">
+      
+        <li class="px-5">
+          <a
+            href="/"
+            alt="Miles Hilliard"
+            title="Miles Hilliard"
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            ꞏ Home
+          </a>
+        </li>
+        <br>
+      
+        <li class="px-5">
+          <a
+            href="/posts"
+            alt="See all my latest posts"
+            title="See all my latest posts"
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            ꞏ Blog
+          </a>
+        </li>
+        <br>
+      
+        <li class="px-5">
+          <a
+            href="/tags/robotics-blog/"
+            alt="See robotics-only posts."
+            title="See robotics-only posts."
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            ꞏ Robotics Posts
+          </a>
+        </li>
+        <br>
+      
+        <li class="px-5">
+          <a
+            href="https://uptime.mileshilliard.com/status/uptime"
+            alt="View in-demand service status."
+            title="View in-demand service status."
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            ꞏ Status Page
+          </a>
+        </li>
+        <br>
+      
+      <li class="px-5">&nbsp;</li>
+      <li class="px-5">
+         <button class="button-no-bg" style="font-size: 150%;" onclick="(localStorage.setItem('dark-mode', document.getElementById('dark-mode-css') ? 'disabled' : 'enabled'), document.getElementById('dark-mode-css') ? document.getElementById('dark-mode-css').remove() : document.head.appendChild(Object.assign(document.createElement('link'), { id: 'dark-mode-css', rel: 'stylesheet', href: '/css/dark-mode.css' })))">◐</button>
+      </li>
+      <li class="px-5">&nbsp;</li>
+      
+        <li class="px-5">
+          <a href="https://ko-fi.com/sntxdev" target="_blank">
+            <button
+              class="px-5 py-2 bg-white hover:bg-gray-600 hover:text-white rounded-lg font-normal text-base transition duration-300">
+              Support me
+            </button>
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+
+      <main>
+        
+  <div class="container max-w-screen-xl mx-auto px-4">
+    <div class="grid grid-cols-1 gap-6">
+      <div class="bg-gray-50 px-8 py-10 rounded-md post-content">
+        <img
+          class="rounded-md mb-4 w-full"
+          src="/posts/01-05-26//done.webp"
+          alt="Robotics &amp; Engineering - Week of 01/05/26"
+          title="Robotics &amp; Engineering - Week of 01/05/26" />
+          
+        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Robotics &amp; Engineering - Week of 01/05/26</h1>
+        
+
+
+
+<div class="flex items-center">
+  <div class="my-2 flex whitespace-nowrap items-center">
+    <i class="bx bx-calendar text-gray-500 h-5"></i>
+    <span class="text-gray-500 text-sm mx-1"><time datetime="2026-01-08T21:42:30-05:00">January 8, 2026</time></span>
+  </div>
+  <div class="m-2 text-base flex whitespace-nowrap items-center">
+    <i class="bx bx-time-five text-gray-500"></i>
+    <span class="text-gray-500 text-sm mx-1 h-5">
+      3
+      minutes
+    </span>
+  </div>
+</div>
+<div class="my-2 flex whitespace-nowrap items-center">
+  <i class="bx bx-purchase-tag-alt text-gray-500 h-4"></i>
+  
+    
+    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/robotics-blog" aria-label="robotics-blog">robotics-blog</a>
+  
+</div>
+
+
+        
+      
+
+      
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+
+      <hr>
+<p>Over the winter break, I downloaded the <a href="https://eurocity-dataset.tudelft.nl/">EuroCity Persons Dataset</a> and began to re-train our golf-cart AI YOLO model. This dataset was suggested to me by <a href="https://www.mattyharris.net/">Matty Harris</a> but you need a specific education account to download it. Luckily, he provided his account and I was able to grab a copy.</p>
+<p>The dataset is nearly 60GB of over 200,000 annotations. I had to convert the provided JSON annotations for each file to individual text files in a YOLO compatible format.</p>
+<p>This was luckily not too difficult to do, considering that the format of YOLO images are pretty straightforward, and the provided JSON files had all the necessary data.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">walkbjects</span>(obj_list, img_w, img_h, labels):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> obj <span style="color:#f92672">in</span> obj_list:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#e6db74">&#34;identity&#34;</span> <span style="color:#f92672">in</span> obj <span style="color:#f92672">and</span> all(k <span style="color:#f92672">in</span> obj <span style="color:#66d9ef">for</span> k <span style="color:#f92672">in</span> [<span style="color:#e6db74">&#34;x0&#34;</span>, <span style="color:#e6db74">&#34;y0&#34;</span>, <span style="color:#e6db74">&#34;x1&#34;</span>, <span style="color:#e6db74">&#34;y1&#34;</span>]):
+</span></span><span style="display:flex;"><span>            cls_id <span style="color:#f92672">=</span> get_class_id(obj[<span style="color:#e6db74">&#34;identity&#34;</span>])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            x0, y0, x1, y1 <span style="color:#f92672">=</span> obj[<span style="color:#e6db74">&#34;x0&#34;</span>], obj[<span style="color:#e6db74">&#34;y0&#34;</span>], obj[<span style="color:#e6db74">&#34;x1&#34;</span>], obj[<span style="color:#e6db74">&#34;y1&#34;</span>]
+</span></span><span style="display:flex;"><span>            w <span style="color:#f92672">=</span> x1 <span style="color:#f92672">-</span> x0
+</span></span><span style="display:flex;"><span>            h <span style="color:#f92672">=</span> y1 <span style="color:#f92672">-</span> y0
+</span></span><span style="display:flex;"><span>            cx <span style="color:#f92672">=</span> x0 <span style="color:#f92672">+</span> w <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>            cy <span style="color:#f92672">=</span> y0 <span style="color:#f92672">+</span> h <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            labels<span style="color:#f92672">.</span>append((
+</span></span><span style="display:flex;"><span>                cls_id,
+</span></span><span style="display:flex;"><span>                cx <span style="color:#f92672">/</span> img_w,
+</span></span><span style="display:flex;"><span>                cy <span style="color:#f92672">/</span> img_h,
+</span></span><span style="display:flex;"><span>                w <span style="color:#f92672">/</span> img_w,
+</span></span><span style="display:flex;"><span>                h <span style="color:#f92672">/</span> img_h
+</span></span><span style="display:flex;"><span>            ))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> obj<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;children&#34;</span>):
+</span></span><span style="display:flex;"><span>            walk_objects(obj[<span style="color:#e6db74">&#34;children&#34;</span>], img_w, img_h, labels)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> split <span style="color:#f92672">in</span> SPLITS:
+</span></span><span style="display:flex;"><span>    split_dir <span style="color:#f92672">=</span> ROOT <span style="color:#f92672">/</span> split
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> json_file <span style="color:#f92672">in</span> split_dir<span style="color:#f92672">.</span>glob(<span style="color:#e6db74">&#34;*.json&#34;</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">with</span> open(json_file, <span style="color:#e6db74">&#34;r&#34;</span>) <span style="color:#66d9ef">as</span> f:
+</span></span><span style="display:flex;"><span>            data <span style="color:#f92672">=</span> json<span style="color:#f92672">.</span>load(f)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        img_w <span style="color:#f92672">=</span> data[<span style="color:#e6db74">&#34;imagewidth&#34;</span>]
+</span></span><span style="display:flex;"><span>        img_h <span style="color:#f92672">=</span> data[<span style="color:#e6db74">&#34;imageheight&#34;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        labels <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>        walk_objects(data<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;children&#34;</span>, []), img_w, img_h, labels)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        yolo_file <span style="color:#f92672">=</span> json_file<span style="color:#f92672">.</span>with_suffix(<span style="color:#e6db74">&#34;.txt&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">with</span> open(yolo_file, <span style="color:#e6db74">&#34;w&#34;</span>) <span style="color:#66d9ef">as</span> out:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> l <span style="color:#f92672">in</span> labels:
+</span></span><span style="display:flex;"><span>                out<span style="color:#f92672">.</span>write(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>l[<span style="color:#ae81ff">0</span>]<span style="color:#e6db74">}</span><span style="color:#e6db74"> </span><span style="color:#e6db74">{</span>l[<span style="color:#ae81ff">1</span>]<span style="color:#e6db74">:</span><span style="color:#e6db74">.6f</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> </span><span style="color:#e6db74">{</span>l[<span style="color:#ae81ff">2</span>]<span style="color:#e6db74">:</span><span style="color:#e6db74">.6f</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> </span><span style="color:#e6db74">{</span>l[<span style="color:#ae81ff">3</span>]<span style="color:#e6db74">:</span><span style="color:#e6db74">.6f</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> </span><span style="color:#e6db74">{</span>l[<span style="color:#ae81ff">4</span>]<span style="color:#e6db74">:</span><span style="color:#e6db74">.6f</span><span style="color:#e6db74">}</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span></code></pre></div><p>This function allows you to simply pass the arguments provided in each json file, and it will output the corresponding annotations.</p>
+<p>I remotely trained the model for just under 26 hours. This yielded a new PyTorch mode; file.</p>
+<p>Testing it on our control software was pretty promising.</p>
+<p><img src="/posts/01-05-26/ai.webp" alt="test model results"></p>
+<p>We drove the golf cart around a little bit to test it, which was very successful. However, I found that the batteries are now discharging under small loads very easily. Additionally, the charger would finish &ldquo;charging&rdquo; the batteries within under an hour which is way less than it should.</p>
+<p>After some digging, the BMS was not balancing the cells at all. One of the cells was 0.2v overcharged (over the safe limit). I do believe that the charger was triggering due to this single cell bringing up the average voltage of the pack way higher than it should be.</p>
+<p>I tried to figure out how to interface the BMS with the UART box again, but I couldn&rsquo;t figure out.</p>
+<p>In the datasheet of the BMS I found this&hellip;</p>
+<p><img src="/posts/01-05-26/notsupport.webp" alt="test model results"></p>
+<p>So we purchased the RS485 version of the connection link. This hopefully will eliminate any problems with communication.</p>
+<p>On Tuesday, a large bulk order of several PCB designs from China arrived in the mail. One of those was mine. This board will be the brain of the golf-cart.</p>
+<p><img src="/posts/01-05-26/basepcb.webp" alt="test model results"></p>
+<p><img src="/posts/01-05-26/espnofit.webp" alt="test model results"></p>
+<p>As shown above, the ESP doesn&rsquo;t quite fit. This is because I chose the wrong footprint for the ESP when designing the board. The good news, is we ordered the correct ESP boards.</p>
+<p>Regardless, I began to solder all the parts that would actually fit.</p>
+<p><img src="/posts/01-05-26/soldering.webp" alt="test model results"></p>
+<p>I got the basic parts, like the 7805 and other passive components installed. Now, the only thing for this down the road will be the ESP soldering and prorgamming for the entire system.</p>
+<p><img src="/posts/01-05-26/donesolder.webp" alt="test model results"></p>
+<p><img src="/posts/01-05-26/done.webp" alt="test model results"></p>
+<p>Next week, I will work more on the PCB and try to figure out the critical problem with the golf-cart&rsquo;s power issues.</p>
+
+      
+
+
+        <hr>
+        <div style="display: flex; padding: 10px; gap: 10px;">
+          <h1 id="counter">0</h1>
+          <br>
+          <p>Views</p>
+        </div>
+        <a style="font-size: 10px; font-weight: bold;" href="https://countapi.mileshilliard.com">Get your own free counter!</a>
+      </div>
+
+      <script>
+        function hashURLPath() {
+          const path = window.location.pathname;
+          let hash = 0;
+          for (let i = 0; i < path.length; i++) {
+              const char = path.charCodeAt(i);
+              hash = (hash * 31 + char) >>> 0;
+          }
+          return hash;
+        }
+        const hash = hashURLPath();
+        fetch(`https://countapi.mileshilliard.com/api/v1/hit/miles-hugo-blog-${hash}`)
+          .then(response => response.json())
+          .then(data => {
+            document.getElementById('counter').innerHTML = data.value;
+          })
+          .catch(error => console.error('Error fetching data:', error));
+      </script>
+
+      <hr>
+      <div class="bg-gray-50 px-8 py-10 rounded-md post-content">
+        <h1>Leave any questions or comments here</h1>
+        
+        <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+        <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+        <script type="text/javascript" id="hcb">
+          if(!window.hcb_user){hcb_user={};} 
+          (function(){
+            var s=document.createElement("script"),
+                l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"),
+                h="https://www.htmlcommentbox.com";
+            s.setAttribute("type","text/javascript");
+            s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24sXRfCQ2ZmeM2z6.jSTA9W0"+"&opts=16798&num=10&ts=1732584427302");
+            if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);
+          })();
+        </script>
+        
+      </div>
+    </div>
+  </div>
+
+      </main>
+      <footer>
+        
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+<div class=" text-center">
+  <div class="flex flex-wrap items-center justify-center">
+    
+      
+      
+        <a href="https://github.com/syntaxerror019/" target="_blank" class="p-5"><i class="bx bxl-github text-3xl"></i></a>
+      
+    
+      
+      
+        <a href="https://wa.me/7815397451/" target="_blank" class="p-5"><i class="bx bxl-whatsapp text-3xl"></i></a>
+      
+    
+      
+      
+        <a href="https://www.instagram.com/miles.hilliard/" target="_blank" class="p-5"><i class="bx bxl-instagram text-3xl"></i></a>
+      
+    
+      
+      
+        <a href="https://www.linkedin.com/in/miles-hilliard-347766374/" target="_blank" class="p-5"><i class="bx bxl-linkedin text-3xl"></i></a>
+      
+    
+  </div>
+</div>
+
+
+
+
+<div class="pb-5 text-center text-lg font-light">
+  <div title="hugo-porto v0.1.7">
+    © 2025 Miles Hilliard. All Wrongs Reserved.
+  </div>
+</div>
+
+      </footer>
+    </div>
+  </body>
+</html>
