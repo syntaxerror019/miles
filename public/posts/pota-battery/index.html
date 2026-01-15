@@ -1,0 +1,770 @@
+<!doctype html>
+<html
+  lang="en-us"
+  dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
+
+<title>DIY POTA &amp; SOTA Battery | Miles Hilliard</title>
+
+<link rel="stylesheet" href="/css/tailwind.css" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;600&display=swap"
+  rel="stylesheet" />
+
+<meta property="og:title" content="Miles Hilliard | Robotics & Engineering | MVTHS Blog" />
+
+<meta property="og:locale" content="en_US" />
+
+<meta property="og:url" content="//" />
+
+<meta
+  name="description"
+  content="Miles Hilliard's website and blog!" />
+
+<meta name="theme-color" content="#5540af" />
+
+<meta property="og:site_name" content="Miles was here :)" />
+
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "tk6oxle613");
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<link rel="icon" href="/img/default-favicon_hu8d258ab55b6d0b5dfecbad37f235c98d_876415_32x0_resize_box_3.png" />
+
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    if (localStorage.getItem("dark-mode") === "enabled") {
+        document.head.appendChild(Object.assign(document.createElement('link'), { id: 'dark-mode-css', rel: 'stylesheet', href: '/css/dark-mode.css' }));
+    }
+});
+</script>
+
+
+
+
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+
+
+
+
+
+  </head>
+  <body :class="{ 'overflow-hidden max-h-screen': mobileMenu }" class="relative" x-data="{ mobileMenu: false }">
+    <div id="main" class="relative max-w-screen-xl mx-auto px-5">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+<div class="flex items-center justify-between py-5">
+  <div class="flex items-center">
+    <a href="/">
+      <img src="/img/miles-logo.png" class="py-5 w-10 lg:w-14 min-w-10" alt="mileshilliard" title="mileshilliard" />
+    </a>
+    <a href="/">
+      <h1 class="text-lg lg:text-xl px-2 lg:px-3 font-medium">mileshilliard</h1>
+    </a>
+  </div>
+  <div class="hidden lg:block">
+    <ul class="flex items-center">
+      
+        <li class="px-5">
+          <a
+            href="/"
+            alt="Miles Hilliard"
+            title="Miles Hilliard"
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            Home
+          </a>
+        </li>
+      
+        <li class="px-5">
+          <a
+            href="/posts"
+            alt="See all my latest posts"
+            title="See all my latest posts"
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            Blog
+          </a>
+        </li>
+      
+        <li class="px-5">
+          <a
+            href="/tags/robotics-blog/"
+            alt="See robotics-only posts."
+            title="See robotics-only posts."
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            Robotics Posts
+          </a>
+        </li>
+      
+        <li class="px-5">
+          <a
+            href="https://uptime.mileshilliard.com/status/uptime"
+            alt="View in-demand service status."
+            title="View in-demand service status."
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            Status Page
+          </a>
+        </li>
+      
+      <li class="px-5">|</li>
+      <li class="px-5">
+        <button class="button-no-bg" style="font-size: 150%;" onclick="(localStorage.setItem('dark-mode', document.getElementById('dark-mode-css') ? 'disabled' : 'enabled'), document.getElementById('dark-mode-css') ? document.getElementById('dark-mode-css').remove() : document.head.appendChild(Object.assign(document.createElement('link'), { id: 'dark-mode-css', rel: 'stylesheet', href: '/css/dark-mode.css' })))">◐</button>
+      </li>
+      
+        <li class="px-5">
+          <a href="https://ko-fi.com/sntxdev" target="_blank">
+            <button
+              class="px-5 py-2 bg-white hover:bg-gray-600 hover:text-white rounded-lg font-normal text-base transition duration-300">
+              Support me
+            </button>
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="block lg:hidden mt-2">
+    <button id="hamburger" @click="mobileMenu = true">
+      <i class="bx bx-menu text-3xl"></i>
+    </button>
+  </div>
+</div>
+
+
+<div
+  class="pointer-events-none fixed inset-0 min-h-screen bg-black bg-opacity-75 opacity-0 lg:hidden"
+  :class="{ 'opacity-100 pointer-events-auto': mobileMenu }">
+  <div class="absolute right-0 min-h-screen bg-gray-200 py-5 px-10 w-2/3 sm:w-1/3">
+    <button class="absolute top-0 right-0 mt-9 mr-4" @click="mobileMenu = false">
+      <i class="bx bx-x text-4xl"></i>
+    </button>
+    <ul class="mt-12 flex flex-col">
+      
+        <li class="px-5">
+          <a
+            href="/"
+            alt="Miles Hilliard"
+            title="Miles Hilliard"
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            ꞏ Home
+          </a>
+        </li>
+        <br>
+      
+        <li class="px-5">
+          <a
+            href="/posts"
+            alt="See all my latest posts"
+            title="See all my latest posts"
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            ꞏ Blog
+          </a>
+        </li>
+        <br>
+      
+        <li class="px-5">
+          <a
+            href="/tags/robotics-blog/"
+            alt="See robotics-only posts."
+            title="See robotics-only posts."
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            ꞏ Robotics Posts
+          </a>
+        </li>
+        <br>
+      
+        <li class="px-5">
+          <a
+            href="https://uptime.mileshilliard.com/status/uptime"
+            alt="View in-demand service status."
+            title="View in-demand service status."
+            target="_self"
+            class="cursor-pointer font-normal text-base">
+            ꞏ Status Page
+          </a>
+        </li>
+        <br>
+      
+      <li class="px-5">&nbsp;</li>
+      <li class="px-5">
+         <button class="button-no-bg" style="font-size: 150%;" onclick="(localStorage.setItem('dark-mode', document.getElementById('dark-mode-css') ? 'disabled' : 'enabled'), document.getElementById('dark-mode-css') ? document.getElementById('dark-mode-css').remove() : document.head.appendChild(Object.assign(document.createElement('link'), { id: 'dark-mode-css', rel: 'stylesheet', href: '/css/dark-mode.css' })))">◐</button>
+      </li>
+      <li class="px-5">&nbsp;</li>
+      
+        <li class="px-5">
+          <a href="https://ko-fi.com/sntxdev" target="_blank">
+            <button
+              class="px-5 py-2 bg-white hover:bg-gray-600 hover:text-white rounded-lg font-normal text-base transition duration-300">
+              Support me
+            </button>
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+
+      <main>
+        
+  <div class="container max-w-screen-xl mx-auto px-4">
+    <div class="grid grid-cols-1 gap-6">
+      <div class="bg-gray-50 px-8 py-10 rounded-md post-content">
+        <img
+          class="rounded-md mb-4 w-full"
+          src="/posts/pota-battery//cover.webp"
+          alt="DIY POTA &amp; SOTA Battery"
+          title="DIY POTA &amp; SOTA Battery" />
+          
+        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">DIY POTA &amp; SOTA Battery</h1>
+        
+
+
+
+<div class="flex items-center">
+  <div class="my-2 flex whitespace-nowrap items-center">
+    <i class="bx bx-calendar text-gray-500 h-5"></i>
+    <span class="text-gray-500 text-sm mx-1"><time datetime="2026-01-15T16:33:36-05:00">January 15, 2026</time></span>
+  </div>
+  <div class="m-2 text-base flex whitespace-nowrap items-center">
+    <i class="bx bx-time-five text-gray-500"></i>
+    <span class="text-gray-500 text-sm mx-1 h-5">
+      3
+      minutes
+    </span>
+  </div>
+</div>
+<div class="my-2 flex whitespace-nowrap items-center">
+  <i class="bx bx-purchase-tag-alt text-gray-500 h-4"></i>
+  
+    
+    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/ham" aria-label="ham">ham</a>
+  
+    
+    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/hardware" aria-label="hardware">hardware</a>
+  
+    
+    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/radio" aria-label="radio">radio</a>
+  
+</div>
+
+
+        
+      
+
+      
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+      
+
+      <p>Ever since I got my <a href="https://www.bing.com/images/search?q=USDX%2b&amp;form=HDRSC3&amp;first=1">USDX+ QRP Radio</a> I have needed some way to reliably power it.</p>
+<p>Originally, I started with a random 12v wall wart that I found from an old router. I saw that it could deliver 3A so I thought it would have been the perfect match&hellip; but I was wrong</p>
+<p>The USDX+ has an SDR receiver and is very prone to interference (not just RF but power line noise too) which I found very noticeable on my trip to AZ. Despite that, I still made my first CW contacts!!! I also didn&rsquo;t have an antenna tuner, which made using my EFHW a little harder than I originally anticipated. (I bought an ATU-100 kit that I will make a post about assembling and mods,etc.shortly on)</p>
+<p>My plan is to bring this radio (and soon the tuner as well) with me when I take trips/vacations/hikes mostly to places where there is no easy way to get power. There are existing solutions, like portable lithium batteries that are perfect for this type of thing, but I really don&rsquo;t need any more batteries in my inventory.</p>
+<p>I decided to model my system around the cheap and readily available <a href="https://www.amazon.com/Mighty-Max-Battery-ML5-12-Rechargeable/dp/B079ZCJYP3?th=1">MIGHTY MAX 12v SLA 5 AH battery</a>. I decided against lithium for several reasons but the biggest one being because I don&rsquo;t actually have great 18650 cells for this project at the moment, and I have 5 of these SLA batteries laying around.</p>
+<p>To start, I designed everything in Fusion 360 to be 3D printed.</p>
+<br>
+ <div style="display:flex">  
+    <br>
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/pota-battery/cad.png"/></img>                                                                      
+    <br>    
+</div> 
+<br>
+<p>Then, I sent everything over to my Ender 3 to be done overnight, which greeted me with nicely printed parts the next morning.</p>
+<br>
+ <div style="display:flex">  
+    <br>
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;" src="/posts/pota-battery/case.webp"/></img>                                                                      
+    <br>    
+</div> 
+<br>
+<p>Next, I installed the voltage and amperage display, along with the main power switch to the front panel, which pushed into place very nicely. I think I have mastered the tolerances for my printer 😎.</p>
+<br>
+ <div style="display:flex">  
+    <br>
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/pota-battery/face.webp"/></img>  
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;" src="/posts/pota-battery/faceback.webp"/></img>                                                                      
+    <br>    
+</div> 
+<br>
+<p>Both my USDX+ radio and the ATU-100 utilize rear mounted barrel jacks. They are pretty standard, but I needed to make sure that my power bank would be able to directly connect to them without needing sketchy cables or several adapters. I didn&rsquo;t want the only connector on the power bank to be barrel jacks, so I decided to go with XT-60 connectors. I personally use these connectors a ton. They are reliable, rated for high current, and cheap. I then made a simple adapter to split the XT-60 connector into two barrel jacks for my radio and tuner.</p>
+<br>
+ <div style="display:flex">  
+    <br>
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;" src="/posts/pota-battery/barrel.webp"/></img>                                                                  
+    <br>    
+</div> 
+<br>
+<p>Now, for the moment of truth, its time to slide the battery into the case&hellip; It didn&rsquo;t quite fit on the first attempt, so I had to do some strategic sanding (both on the battery and the case). This was enough to shave off the fraction of a millimeter that was holding it up from going in smoothly. After this, I began to wire everything together inside. The connections were pretty simple.</p>
+<br>
+ <div style="display:flex">  
+    <br>
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 33%; height: auto;" src="/posts/pota-battery/insertbattery.webp"/></img>  
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 33%; height: auto;" src="/posts/pota-battery/wiring1.webp"/></img>     
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 33%; height: auto;" src="/posts/pota-battery/wiring2.webp"/></img>                                                                      
+    <br>    
+</div> 
+<br>
+<p>With a little bit of pressure, everything fit together! No reprints needed.</p>
+<br>
+ <div style="display:flex">  
+    <br>
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;" src="/posts/pota-battery/done2.webp"/></img>  
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/pota-battery/withradio.webp"/></img>                                                                      
+    <br>    
+</div> 
+<br>
+      
+
+
+        <hr>
+        <div style="display: flex; padding: 10px; gap: 10px;">
+          <h1 id="counter">0</h1>
+          <br>
+          <p>Views</p>
+        </div>
+        <a style="font-size: 10px; font-weight: bold;" href="https://countapi.mileshilliard.com">Get your own free counter!</a>
+      </div>
+
+      <script>
+        function hashURLPath() {
+          const path = window.location.pathname;
+          let hash = 0;
+          for (let i = 0; i < path.length; i++) {
+              const char = path.charCodeAt(i);
+              hash = (hash * 31 + char) >>> 0;
+          }
+          return hash;
+        }
+        const hash = hashURLPath();
+        fetch(`https://countapi.mileshilliard.com/api/v1/hit/miles-hugo-blog-${hash}`)
+          .then(response => response.json())
+          .then(data => {
+            document.getElementById('counter').innerHTML = data.value;
+          })
+          .catch(error => console.error('Error fetching data:', error));
+      </script>
+
+      <hr>
+      <div class="bg-gray-50 px-8 py-10 rounded-md post-content">
+        <h1>Leave any questions or comments here</h1>
+        
+        <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+        <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+        <script type="text/javascript" id="hcb">
+          if(!window.hcb_user){hcb_user={};} 
+          (function(){
+            var s=document.createElement("script"),
+                l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"),
+                h="https://www.htmlcommentbox.com";
+            s.setAttribute("type","text/javascript");
+            s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24sXRfCQ2ZmeM2z6.jSTA9W0"+"&opts=16798&num=10&ts=1732584427302");
+            if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);
+          })();
+        </script>
+        
+      </div>
+    </div>
+  </div>
+
+      </main>
+      <footer>
+        
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+<div class=" text-center">
+  <div class="flex flex-wrap items-center justify-center">
+    
+      
+      
+        <a href="https://github.com/syntaxerror019/" target="_blank" class="p-5"><i class="bx bxl-github text-3xl"></i></a>
+      
+    
+      
+      
+        <a href="https://wa.me/7815397451/" target="_blank" class="p-5"><i class="bx bxl-whatsapp text-3xl"></i></a>
+      
+    
+      
+      
+        <a href="https://www.instagram.com/miles.hilliard/" target="_blank" class="p-5"><i class="bx bxl-instagram text-3xl"></i></a>
+      
+    
+      
+      
+        <a href="https://www.linkedin.com/in/miles-hilliard-347766374/" target="_blank" class="p-5"><i class="bx bxl-linkedin text-3xl"></i></a>
+      
+    
+  </div>
+</div>
+
+
+
+
+<div class="pb-5 text-center text-lg font-light">
+  <div title="hugo-porto v0.1.7">
+    © 2025 Miles Hilliard. All Wrongs Reserved.
+  </div>
+</div>
+
+      </footer>
+    </div>
+  </body>
+</html>
