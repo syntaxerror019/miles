@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows on Miles Hilliard</title>
-    <link>https://www.mileshilliard.com/tags/windows/</link>
+    <link>http://localhost:5000/tags/windows/</link>
     <description>Recent content in Windows on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 23 Jul 2025 10:37:15 -0400</lastBuildDate>
-    <atom:link href="https://www.mileshilliard.com/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:5000/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Upgrade to Windows 11 Even If Your PC is &#34;Unsupported&#34; - Secure Boot is NOT Required!</title>
-      <link>https://www.mileshilliard.com/posts/windows-11/</link>
+      <link>http://localhost:5000/posts/windows-11/</link>
       <pubDate>Wed, 23 Jul 2025 10:37:15 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/windows-11/</guid>
+      <guid>http://localhost:5000/posts/windows-11/</guid>
       <description>Although I much prefer Linux, I do need Microsoft Windows for Fusion 360 along with a few other windows-only softwares.&#xA;Fusion 360 will be no longer supporting Windows 10, so I figured an upgrade was in store, however, I was met with some requirement deficiencies according to Microsoft:&#xA;These requirements were instated just for Windows 11, as Windows 10 (and previous versions) still have no mention of these necessities.</description>
     </item>
   </channel>
