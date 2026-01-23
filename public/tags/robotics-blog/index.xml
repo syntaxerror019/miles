@@ -6,8 +6,15 @@
     <description>Recent content in Robotics-Blog on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Jan 2026 16:33:36 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jan 2026 10:47:25 -0500</lastBuildDate>
     <atom:link href="https://www.mileshilliard.com/tags/robotics-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics &amp; Engineering - Week of 01/19/26</title>
+      <link>https://www.mileshilliard.com/posts/01-19-26/</link>
+      <pubDate>Fri, 23 Jan 2026 10:47:25 -0500</pubDate>
+      <guid>https://www.mileshilliard.com/posts/01-19-26/</guid>
+      <description>This week was a very short week, due to MLK day and a professional development day for the teachers.&#xA;Nonetheless, there was still plenty of time to break things.&#xA;In two days, Jonas and I managed to set back our progress on the golf cart by over 6 months. The first issue we discovered was that one of the batteries was shorted to the frame ground. Although not immediately dangerous, it increases the risk of shorting the entire LiFePO4 battery pack.</description>
+    </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 01/12/26</title>
       <link>https://www.mileshilliard.com/posts/01-12-26/</link>
