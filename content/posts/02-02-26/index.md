@@ -57,14 +57,4 @@ An unexpected short that somehow was made from both +86v and -86v from both term
 
 This severely damaged one of the batteries visibly, and possibly the other 23 but I really hope not. 
 
-<br>
-
- <div style="display:flex">  
-    <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/02-02-26/burn.jpg"/></img>                                                                             
-    <br>    
-</div> 
-
-<br>
-
 I had ordered two more of these cells a few weeks prior in case something like this were to happen, so next week, we will hopefully be able to drill, tap, and install the new battery in the golf cart and fix any short circuits!
