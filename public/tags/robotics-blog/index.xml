@@ -6,8 +6,15 @@
     <description>Recent content in Robotics-Blog on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Jan 2026 20:35:37 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 07:21:13 -0500</lastBuildDate>
     <atom:link href="https://www.mileshilliard.com/tags/robotics-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics &amp; Engineering - Week of 02/02/26</title>
+      <link>https://www.mileshilliard.com/posts/02-02-26/</link>
+      <pubDate>Fri, 06 Feb 2026 07:21:13 -0500</pubDate>
+      <guid>https://www.mileshilliard.com/posts/02-02-26/</guid>
+      <description>This week felt very similar to the last few. One step forward, two steps back.&#xA;Although we received the new and improved [https://www.amazon.com/dp/B0DL349YSV/ref=twister_B0GFD4MFG5?_encoding=UTF8&amp;amp;th=1](Daly Smart BMS) rated for 300A and automatic active cell balancing, we still managed to mess things up.&#xA;To begin the week, Jonas and I reinstalled the new battery (replacing the one that was damaged last week) which required more physical labor than expected. Originally, we thought we could push the new battery in, but the minor swelling from the other cells made it extremely difficult to fit them.</description>
+    </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 01/26/26</title>
       <link>https://www.mileshilliard.com/posts/01-26-26/</link>
