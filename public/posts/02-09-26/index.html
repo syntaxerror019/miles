@@ -2,12 +2,12 @@
 <html
   lang="en-us"
   dir="ltr">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=5000&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8" />
 <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
 <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
 
-<title>OpenWebRX&#43; WebSDR | Miles Hilliard</title>
+<title>Robotics &amp; Engineering - Week of 02/09/26 | Miles Hilliard</title>
 
 <link rel="stylesheet" href="/css/tailwind.css" />
 
@@ -279,11 +279,11 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="bg-gray-50 px-8 py-10 rounded-md post-content">
         <img
           class="rounded-md mb-4 w-full"
-          src="/posts/websdr//yay.webp"
-          alt="OpenWebRX&#43; WebSDR"
-          title="OpenWebRX&#43; WebSDR" />
+          src="/posts/02-09-26//light.webp"
+          alt="Robotics &amp; Engineering - Week of 02/09/26"
+          title="Robotics &amp; Engineering - Week of 02/09/26" />
           
-        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">OpenWebRX&#43; WebSDR</h1>
+        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Robotics &amp; Engineering - Week of 02/09/26</h1>
         
 
 
@@ -291,12 +291,12 @@ document.addEventListener("DOMContentLoaded", () => {
 <div class="flex items-center">
   <div class="my-2 flex whitespace-nowrap items-center">
     <i class="bx bx-calendar text-gray-500 h-5"></i>
-    <span class="text-gray-500 text-sm mx-1"><time datetime="2025-03-26T19:43:42-04:00">March 26, 2025</time></span>
+    <span class="text-gray-500 text-sm mx-1"><time datetime="2026-02-12T19:38:07-05:00">February 12, 2026</time></span>
   </div>
   <div class="m-2 text-base flex whitespace-nowrap items-center">
     <i class="bx bx-time-five text-gray-500"></i>
     <span class="text-gray-500 text-sm mx-1 h-5">
-      2
+      3
       minutes
     </span>
   </div>
@@ -305,10 +305,7 @@ document.addEventListener("DOMContentLoaded", () => {
   <i class="bx bx-purchase-tag-alt text-gray-500 h-4"></i>
   
     
-    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="http://localhost:5000/tags/ham" aria-label="ham">ham</a>
-  
-    
-    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="http://localhost:5000/tags/radio" aria-label="radio">radio</a>
+    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/robotics-blog" aria-label="robotics-blog">robotics-blog</a>
   
 </div>
 
@@ -594,15 +591,43 @@ document.addEventListener("DOMContentLoaded", () => {
       
 
       <hr>
-<p>After messing around with public WebSDRs around the world, I thought it would be a fun project to set my own SDR up. I had an extra RPi 3 laying around (which I later replaced with a Pi 5) but I just needed some way to receive the RF signals.</p>
-<p>A popular option that has high-praise was the RTL-SDR, so I purchased one. In terms of compatability, it works with both Windows and UN*X systems, so the Raspberry Pi should have no issues.</p>
-<p>I burned Raspberry Pi OS Lite 64-bit onto my SD card, and booted up the Pi. After SSH&rsquo;ing into it, I followed the instructions found here (<a href="https://github.com/0xAF/openwebrxplus"><a href="https://github.com/0xAF/openwebrxplus">https://github.com/0xAF/openwebrxplus</a></a>) to get the system up and running.</p>
-<p>I found that there were a few settings that I ended up changing that made the whole thing a whole lot better:</p>
-<ul>
-<li>The first one was the maximum client connections. Set this depending on your hardware. I found my RPi 3 could handle 2 clients comfortably, whereas 3 was a stretch.</li>
-<li>The next was the client timeout. Because I planned on making this a public SDR, available to anybody, I wanted to make sure people wouldn&rsquo;t abuse it. This timeout is important as it prevents people from connecting to the server, and tying it up for hours or even days. A generous time limit I found was an hour. You could go higher depending on your expected clients and generosity.</li>
-<li>The final important setting is about the general SDR information, including QTH (location), elevation, antenna type, hardware setup, etc. This makes finding your SDR a whole lot easier for other people.</li>
-</ul>
+<p>Finally, a week without damage!</p>
+<p>This week was a commitment to get the broken battery out, new battery in, and BMS balancing everything safely.</p>
+<p>Although we have said this the past 3 weeks, this week we were determined to get things done without issues.</p>
+<p>To start off the week, we had to identify what was making the BMS and batteries upset in the first place. To do this, I read voltage between the battery terminals (+/-) and the frame of the entire golf cart. I immediately noticed that the negative pole on the batteries were connected to the frame, which is bad. We already knew this, but I confirmed that the 80 volt battery system is <em>supposed</em> to be electrically isolated from everything.</p>
+<p>To trace the problem to its root, I started probing. Long story short, I traced things back to a small PCB I made not too long ago (in a recent blog post) responsible for generating a tone as our backup alarm. It had tied the inverter GND and logic level GND wires together resulting in an unwanted connection. I snipped this wire and the short went away, but I wasn&rsquo;t convinced that this was the problem. The wires used were way too thin to be carrying the damaging current that was clearly flowing when the old battery cell blew up last week.</p>
+<p>I decided to disconnect the golf cart negative wire before proceeding. This is how the BMS was configured last week:</p>
+<br>
+ <div style="display:flex">  
+    <br>
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: auto;" src="/posts/02-09-26/wired.webp"/></img>                                                                           
+    <br>    
+</div> 
+<br>
+<p>By Tuesday, I had drilled and tapped yet another prismatic cell to be the replacement, and on Wednesday, <a href="https://jonaswirz.wordpress.com/">Jonas</a> and I got it hooked up (externally) to the rest of the cells in the battery</p>
+<p>This was done because <a href="https://jonaswirz.wordpress.com/">Jonas</a> thought that maybe the frame was shorting to the external metal casing of the cell, which is possible. We ended up powering it up shortly after, and too our surprise, everything worked great!</p>
+<br>
+ <div style="display:flex">  
+    <br>
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;" src="/posts/02-09-26/external.webp"/></img>    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/02-09-26/light.webp"/></img>                                                                           
+    <br>    
+</div> 
+<br>
+<p>The green light on the BMS indicates that it is actively balancing the cells and everything is within spec!</p>
+<p>Once we confirmed that everything worked externally, <a href="https://jonaswirz.wordpress.com/">Jonas</a> and I carefully re-installed the battery into the rack and attached the copper bus bars as well. Additionally, I reconnected the golf-cart negative wires (both motor negative and logic negative) to the BMS&rsquo; P- terminal as mentioned on the datasheet. However, before powering it up again, I did a final check to ensure that there was no voltage difference between the metal frame and the batteries. Upon probing with the multimeter on VDC, we noticed that the voltage would quickly read ~30v and then drop rapidly to about 2v and then would kind of hang around 0.3-0.9v which makes no sense.</p>
+<p>I&rsquo;m not sure if this is some sort of capacitive coupling or what, but I really want to figure it out before I reconnect the BMS for a final power-on test.</p>
+<p>On the bright side however, I got the DALY BMS app on my phone and was able to configure, manage, and monitor all the cells in real time which is awesome!</p>
+<p>The BMS shows each individual cell&rsquo;s voltage, along with how it is actively balancing them. An orange arrow pointing up next to a cell number means it is receiving charge, and a green arrow pointing down means that cell is delivering charge. Pretty fun to see it in action.</p>
+<br>
+ <div style="display:flex">  
+    <br>
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/02-09-26/wires.webp"/></img>    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 35%; height: auto;" src="/posts/02-09-26/app.webp"/></img>                                                                           
+    <br>    
+</div> 
+<br>
+<p>So even though we are now one step closer to preparing the golf cart, there is still more to do so that we can ensure that our battery system is foolproof and won&rsquo;t need to be torn apart again in a few months for repair or modifications&hellip;</p>
 
       
 
