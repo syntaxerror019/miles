@@ -114,4 +114,4 @@ title = "Latest work"
     "During the calculation process, anybody could watch the digits being generated live by viewing the dedicated website. At this point, it serves as an archive and reference point for the 3 million digits of pi.",
     "Downloadable versions of one, two, and three million digits are available on GitHub and on the website."
   ]
-  link = "https://pi.sntx.dev/"
+  link = "https://github.com/syntaxerror019/pi"
