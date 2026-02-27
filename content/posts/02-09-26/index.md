@@ -2,7 +2,7 @@
 title: 'Robotics & Engineering - Week of 02/09/26 - 02/23/26'
 date: 2026-02-12T19:38:07-0500
 tags: ['robotics-blog']
-image: 'light.webp'
+image: 'code.png'
 draft: false
 ---
 
@@ -84,7 +84,7 @@ BeamNG.tech also provides LiDARs, sonars, camera feeds, ultrasonic sensing, and 
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: auto;" src="/posts/02-09-26/code.webp"/></img>                                                                           
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;" src="/posts/02-09-26/code.png"/></img>                                                                           
     <br>    
 </div> 
 
@@ -102,15 +102,17 @@ After this, I decided to do it again out of acrylic. I was aware that using this
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/02-09-26/cbcut.webp"/></img>    
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 35%; height: auto;" src="/posts/02-09-26/poc.webp"/></img>                                                                           
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/02-09-26/cbcut.webp"/></img>    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;" src="/posts/02-09-26/poc.webp"/></img>                                                                           
     <br>    
 </div> 
 
+<br>
+
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/02-09-26/cutout.webp"/></img>    
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 35%; height: auto;" src="/posts/02-09-26/final.webp"/></img>                                                                           
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/02-09-26/cutout.webp"/></img>    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;" src="/posts/02-09-26/final.webp"/></img>                                                                           
     <br>    
 </div> 
 
@@ -124,8 +126,8 @@ I had already tried powering it up which worked fine, so I thought it was time t
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/02-09-26/seats.webp"/></img>    
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 35%; height: auto;" src="/posts/02-09-26/charging.webp"/></img>                                                                           
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/02-09-26/seats.webp"/></img>    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;" src="/posts/02-09-26/charging.webp"/></img>                                                                           
     <br>    
 </div> 
 
