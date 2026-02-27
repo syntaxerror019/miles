@@ -94,6 +94,8 @@ BeamNG.tech also provides LiDARs, sonars, camera feeds, ultrasonic sensing, and 
 
 <br>
 
+Back to the physical golf cart...
+
 Jonas and I were commited to get it up and running before Thursday, so we stayed after to finish things up. After confronting our built up trauma for about 30 minutes, we made last electrical connection. This completely energized everything in the golf cart and there were no sparks!
 
 It wasn't until Thursday that I realized we put the connections on the battery terminals inverted. Electrically, this isn't a problem, but it did prevent our 3D printed battery terinal protectors from fitting. This wasn't the worst thing in the world in my opinion, as they weren't great to begin with. 
