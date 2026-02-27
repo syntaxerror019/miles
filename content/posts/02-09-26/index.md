@@ -10,7 +10,9 @@ draft: false
 
 Finally, a few weeks without damage! This post contains content spanning across a few weeks of time.
 
-# Week 02/09/26
+---
+
+## Week 02/09/26
 
 This week  (02/09/26) was a commitment to get the broken battery out, new battery in, and BMS balancing everything safely.
 
@@ -70,7 +72,9 @@ The BMS shows each individual cell's voltage, along with how it is actively bala
 
 So even though we are now one step closer to preparing the golf cart, there is still more to do so that we can ensure that our battery system is foolproof and won't need to be torn apart again in a few months...
 
-# Week 02/23/2026
+---
+
+## Week 02/23/2026
 
 Once again, we had more snowdays. Coming back on Wednesday, I had had plenty of time to consider potential problems with the wiring. 
 
