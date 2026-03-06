@@ -2,7 +2,7 @@
 title: 'Robotics & Engineering - Week of 03/02/26'
 date: 2026-03-05T23:34:31-0500
 tags: ['robotics-blog']
-image: ''
+image: 'charge-thick-battery.webp'
 draft: false
 ---
 
