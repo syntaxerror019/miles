@@ -6,8 +6,15 @@
     <description>Recent content in Robotics-Blog on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Feb 2026 19:38:07 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 23:34:31 -0500</lastBuildDate>
     <atom:link href="https://www.mileshilliard.com/tags/robotics-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics &amp; Engineering - Week of 03/02/26</title>
+      <link>https://www.mileshilliard.com/posts/03-02-26/</link>
+      <pubDate>Thu, 05 Mar 2026 23:34:31 -0500</pubDate>
+      <guid>https://www.mileshilliard.com/posts/03-02-26/</guid>
+      <description>This week I decided to get some professional advice for the Golf Cart. Luckily, Mr. Christy has a friend and master of all electronics engineering and alumn from MIT.&#xA;He graciously came over to the shop on Wednesday to look at the battery system on the Golf Cart and helped me get a better grasp on what could be happening with the cells and lack balancing.&#xA;I learned that by charging each cell individually up to their 100% SOC (3.</description>
+    </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 02/09/26 - 02/23/26</title>
       <link>https://www.mileshilliard.com/posts/02-09-26/</link>
