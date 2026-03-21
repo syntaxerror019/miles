@@ -1,7 +1,7 @@
 title = "Latest work"
 
 [[project]]
-  title = "scanlan"
+  title = "(2026) scanlan"
   text = [
     "Scanlan is a lightweight CLI tool for discovering devices on your local network.",
     "Unlike nmap, it requires zero arguments and zero configuration. Just run scanlan and get a clean table of every device on your subnet, complete with hostnames, MAC addresses, and vendor names.",
