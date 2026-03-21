@@ -1,6 +1,15 @@
 title = "Latest work"
 
 [[project]]
+  title = "scanlan"
+  text = [
+    "Scanlan is a lightweight CLI tool for discovering devices on your local network.",
+    "Unlike nmap, it requires zero arguments and zero configuration. Just run scanlan and get a clean table of every device on your subnet, complete with hostnames, MAC addresses, and vendor names.",
+    "Written in pure Python with no dependencies, it's available on PyPI and works across Linux, macOS, and Windows."
+  ]
+  link = "https://pypi.org/project/scanlan/"
+
+[[project]]
   title = "(2025) PressPost"
   text = [
     "Introducing, the World's Simplest Blog where you can share your thoughts, journals, or even your random midnight epiphanies.",
