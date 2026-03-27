@@ -7,7 +7,7 @@
 <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
 <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
 
-<title>Robotics &amp; Engineering - Week of 03/16/26 | Miles Hilliard</title>
+<title>Robotics &amp; Engineering - Week of 03/16/26 &amp; -3/23/26 | Miles Hilliard</title>
 
 <link rel="stylesheet" href="/css/tailwind.css" />
 
@@ -283,10 +283,10 @@ document.addEventListener("DOMContentLoaded", () => {
         <img
           class="rounded-md mb-4 w-full"
           src="/posts/03-16-26//yooo.webp"
-          alt="Robotics &amp; Engineering - Week of 03/16/26"
-          title="Robotics &amp; Engineering - Week of 03/16/26" />
+          alt="Robotics &amp; Engineering - Week of 03/16/26 &amp; -3/23/26"
+          title="Robotics &amp; Engineering - Week of 03/16/26 &amp; -3/23/26" />
           
-        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Robotics &amp; Engineering - Week of 03/16/26</h1>
+        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Robotics &amp; Engineering - Week of 03/16/26 &amp; -3/23/26</h1>
         
 
 
@@ -299,7 +299,7 @@ document.addEventListener("DOMContentLoaded", () => {
   <div class="m-2 text-base flex whitespace-nowrap items-center">
     <i class="bx bx-time-five text-gray-500"></i>
     <span class="text-gray-500 text-sm mx-1 h-5">
-      3
+      5
       minutes
     </span>
   </div>
@@ -594,6 +594,8 @@ document.addEventListener("DOMContentLoaded", () => {
       
 
       <hr>
+<p>This blog contains two weeks of work, as I never ended up presenting it on Friday like usual.</p>
+<h1 id="week-of-031626">Week of 03/16/26</h1>
 <p>This week was extremely short for me. I was only in shop for two days.</p>
 <p>Monday I was welcomed with some errors on my PC complaining about BitLocker which had apparently encrypted my entire hard drive and refused to let me use it without some magic key.</p>
 <p>I spent a solid period attempting to bypass this restriction with some advice from <a href="https://andrewhuang.vercel.app/">Andrew</a>, but I realized I could obtain the magic key it wanted from my Microsoft account. After logging in, I found where it had created a special token to be used that could decrypt my hard drive.</p>
@@ -639,7 +641,51 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>The Pi&rsquo;s job is to keep a persistent &ldquo;black box&rdquo; style log of everything BMS related. This will make going back to pinpoint future BMS or battrey related faults much easier and more efficient!</p>
 <p>The UI now looks pretty awesome, and the RPi hosts its own WiFi AP. This means it can be tapped into with any device from anywhere nearby (no internet required) and can be monitored! A good web ui really brings things together.</p>
 <p>And before I left shop on Wednesday, I had Mr. Christy order 6 more of the prismatic cells&hellip; JIC</p>
-
+<br>
+<hr>
+<br>
+<h1 id="week-of-032326">Week of 03/23/26</h1>
+<p>This week, a lot of progress on the golf cart was made.</p>
+<p><a href="https://jonaswirz.wordpress.com/">Jonas</a> and I worked to get a display installed, which will serve as our custom dashboard. This will be hooked up the the Raspberry Pi SBC that will be onboard the golf cart. This module will be responsibe for recording all info and data in a blackbox log. This includes battery info (BMS status, cell voltage, current, temp, etc.) along with other stats like steering position and throttle percentage.</p>
+<p>The hope is that this will make debugging future issues much easier. The Pi&rsquo;s other job is to delegate commands coming from the central computer (Jetson Drive PX2 from Nvidia) to the individual modules to control the hardware-level components.</p>
+<p>To do this, <a href="https://jonaswirz.wordpress.com/">Jonas</a> designed and printed out a 3D mount for the display. Later, he water jet cut a piece of steel to sit on the dashboard that will mount to it.</p>
+<p>I then painted the parts separately to help match the color (it was especially ugly otherwise)</p>
+<br>
+ <div style="display:flex">  
+    <br>
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%; height: auto;" src="/posts/03-16-26/painting-mount.webp"/></img>  
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%; height: auto;" src="/posts/03-16-26/painting-plate.webp"/></img>                                                                        
+    <br>    
+</div> 
+<br>
+<p>Once everything dried, I drilled holes in the steel plate and mountd everything up.</p>
+<br>
+ <div style="display:flex">  
+    <br>
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%; height: auto;" src="/posts/03-16-26/plate-ready.webp"/></img>  
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%; height: auto;" src="/posts/03-16-26/mounted.webp"/></img>                                                                        
+    <br>    
+</div> 
+<br>
+<p>After mounting it up and powering the display with a 12v power cable (coming from the 72v to 12v converter that we installed) we rolled the whole vehicle outside in the bright sun and hooked up a laptop via HDMI to see how it would look.</p>
+<br>
+ <div style="display:flex">  
+    <br>
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/03-16-26/outside.webp"/></img>                                                                      
+    <br>    
+</div> 
+<br>
+<p>Unfortunately, something I overlooked, was the polarization of the display. We mounted the whole thing upside down so that the cables could come out the top, but this caused the whole screen to look very dark. If you look from down low, it looks great, but from up high, its almost invisible. When you are in the driver&rsquo;s seat, it&rsquo;s okay. If it is a problem down the road, we will fix it. For now, it will stay as is.</p>
+<p>Finally, I 3D printed a case for the RPI that allowed it to be mounted to the inside of the golf cart&rsquo;s dashboard. Additionally, I helped <a href="https://jonaswirz.wordpress.com/">Jonas</a> make a breakout board that sits on top of the RPI as a shield. This will make connecting sensors and powering devices with the pi much easier down the road.</p>
+<p>All in all, I think it looks pretty good. Next week, I will be getting the software for the dashboard all sorted out&hellip; So stay tuned!</p>
+<br>
+ <div style="display:flex">  
+    <br>
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%; height: auto;" src="/posts/03-16-26/rpi-1.webp"/></img>  
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%; height: auto;" src="/posts/03-16-26/alldone.webp"/></img>                                                                        
+    <br>    
+</div> 
+<br>
       
 
 

@@ -1,5 +1,5 @@
 ---
-title: 'Robotics & Engineering - Week of 03/16/26'
+title: 'Robotics & Engineering - Week of 03/16/26 & -3/23/26'
 date: 2026-03-18T18:38:51-0400
 tags: ['robotics-blog']
 image: 'yooo.webp'
@@ -7,6 +7,10 @@ draft: false
 ---
 
 ---
+
+This blog contains two weeks of work, as I never ended up presenting it on Friday like usual.
+
+# Week of 03/16/26
 
 This week was extremely short for me. I was only in shop for two days.
 
@@ -78,3 +82,74 @@ The Pi's job is to keep a persistent "black box" style log of everything BMS rel
 The UI now looks pretty awesome, and the RPi hosts its own WiFi AP. This means it can be tapped into with any device from anywhere nearby (no internet required) and can be monitored! A good web ui really brings things together.
 
 And before I left shop on Wednesday, I had Mr. Christy order 6 more of the prismatic cells... JIC
+
+<br>
+
+---
+
+<br>
+
+# Week of 03/23/26
+
+This week, a lot of progress on the golf cart was made.
+
+Jonas and I worked to get a display installed, which will serve as our custom dashboard. This will be hooked up the the Raspberry Pi SBC that will be onboard the golf cart. This module will be responsibe for recording all info and data in a blackbox log. This includes battery info (BMS status, cell voltage, current, temp, etc.) along with other stats like steering position and throttle percentage.
+
+The hope is that this will make debugging future issues much easier. The Pi's other job is to delegate commands coming from the central computer (Jetson Drive PX2 from Nvidia) to the individual modules to control the hardware-level components.
+
+To do this, Jonas designed and printed out a 3D mount for the display. Later, he water jet cut a piece of steel to sit on the dashboard that will mount to it.
+
+I then painted the parts separately to help match the color (it was especially ugly otherwise)
+
+<br>
+
+ <div style="display:flex">  
+    <br>
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%; height: auto;" src="/posts/03-16-26/painting-mount.webp"/></img>  
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%; height: auto;" src="/posts/03-16-26/painting-plate.webp"/></img>                                                                        
+    <br>    
+</div> 
+
+<br>
+
+Once everything dried, I drilled holes in the steel plate and mountd everything up.
+
+<br>
+
+ <div style="display:flex">  
+    <br>
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%; height: auto;" src="/posts/03-16-26/plate-ready.webp"/></img>  
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%; height: auto;" src="/posts/03-16-26/mounted.webp"/></img>                                                                        
+    <br>    
+</div> 
+
+<br>
+
+After mounting it up and powering the display with a 12v power cable (coming from the 72v to 12v converter that we installed) we rolled the whole vehicle outside in the bright sun and hooked up a laptop via HDMI to see how it would look.
+
+<br>
+
+ <div style="display:flex">  
+    <br>
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/03-16-26/outside.webp"/></img>                                                                      
+    <br>    
+</div> 
+
+<br>
+
+Unfortunately, something I overlooked, was the polarization of the display. We mounted the whole thing upside down so that the cables could come out the top, but this caused the whole screen to look very dark. If you look from down low, it looks great, but from up high, its almost invisible. When you are in the driver's seat, it's okay. If it is a problem down the road, we will fix it. For now, it will stay as is.
+
+Finally, I 3D printed a case for the RPI that allowed it to be mounted to the inside of the golf cart's dashboard. Additionally, I helped Jonas make a breakout board that sits on top of the RPI as a shield. This will make connecting sensors and powering devices with the pi much easier down the road. 
+
+All in all, I think it looks pretty good. Next week, I will be getting the software for the dashboard all sorted out... So stay tuned!
+
+<br>
+
+ <div style="display:flex">  
+    <br>
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%; height: auto;" src="/posts/03-16-26/rpi-1.webp"/></img>  
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%; height: auto;" src="/posts/03-16-26/alldone.webp"/></img>                                                                        
+    <br>    
+</div> 
+
+<br>
