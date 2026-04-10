@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Mar 2026 18:38:51 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 19:11:39 -0400</lastBuildDate>
     <atom:link href="https://www.mileshilliard.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics &amp; Engineering - Week of 04/06/26</title>
+      <link>https://www.mileshilliard.com/posts/04-06-26/</link>
+      <pubDate>Thu, 09 Apr 2026 19:11:39 -0400</pubDate>
+      <guid>https://www.mileshilliard.com/posts/04-06-26/</guid>
+      <description>This week I shifted gears a bit, and moved away from the golf cart project. I really felt like I needed a break from the battery system and all that has been going on for a week, so I decided to pick up another quick project to finish in the week.&#xA;Originally, I started by working on a STM32 breakout board for Alachie and BOBROV (read more on the sunk robotics page).</description>
+    </item>
     <item>
       <title>Robotics &amp; Engineering - Week of 03/16/26 &amp; -3/23/26</title>
       <link>https://www.mileshilliard.com/posts/03-16-26/</link>
