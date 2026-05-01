@@ -283,6 +283,57 @@ document.addEventListener("DOMContentLoaded", () => {
       
       
       <div class="bg-gray-50 px-8 py-10 rounded-md">
+        <a href="/posts/11-17-25/">
+          <img
+            class="rounded-md mb-4"
+            src="/posts/11-17-25//pcbtop.jpg"
+            alt="Robotics &amp; Engineering - Week of 11/17/25"
+            title="Robotics &amp; Engineering - Week of 11/17/25" />
+        </a>
+        <div class="relative">
+          <a href="/posts/11-17-25/">
+            <h2 class="font-medium text-gray-700 text-xl relative z-10">Robotics &amp; Engineering - Week of 11/17/25</h2>
+          </a>
+        </div>
+        
+
+
+
+<div class="flex items-center">
+  <div class="my-2 flex whitespace-nowrap items-center">
+    <i class="bx bx-calendar text-gray-500 h-5"></i>
+    <span class="text-gray-500 text-sm mx-1"><time datetime="2025-11-21T07:46:47-05:00">November 21, 2025</time></span>
+  </div>
+  <div class="m-2 text-base flex whitespace-nowrap items-center">
+    <i class="bx bx-time-five text-gray-500"></i>
+    <span class="text-gray-500 text-sm mx-1 h-5">
+      2
+      minutes
+    </span>
+  </div>
+</div>
+<div class="my-2 flex whitespace-nowrap items-center">
+  <i class="bx bx-purchase-tag-alt text-gray-500 h-4"></i>
+  
+    
+    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/robotics-blog" aria-label="robotics-blog">robotics-blog</a>
+  
+</div>
+
+        <div class="post-card">
+          This week I spent a good portion of time milling out and working on the PCB for the Ford Think. The PCB has a TFT display for the control and battery information, along with an RFID tag scanner for authentication (to prevent unwanted sophomore operation&hellip;)
+The board came out nicely, but it had a few minor issues including the fact that the board was milled over an existing hole in the PCB board, which messed up a few of the traces that needed some post-manufacturing work with some wire and precise soldering.
+          <div class="block text-right mt-4 font-light text-lg">
+            <a href="/posts/11-17-25/" class="text-blue-500">Read more...</a>
+          </div>
+        </div>
+      </div>
+
+      
+      
+
+      
+      <div class="bg-gray-50 px-8 py-10 rounded-md">
         <a href="/posts/11-10-25/">
           <img
             class="rounded-md mb-4"
@@ -1054,60 +1105,6 @@ I also printed and installed the new dashboard panel for the golf cart which wil
 Although in the process of printing, I noticed that one of the Fusion 3s wasn&rsquo;t working. Will graciously fixed the jammed extruder on the printer, but it was still having unexpected difficulty when homing the Y axis.
           <div class="block text-right mt-4 font-light text-lg">
             <a href="/posts/5-5-25/" class="text-blue-500">Read more...</a>
-          </div>
-        </div>
-      </div>
-
-      
-      
-
-      
-      <div class="bg-gray-50 px-8 py-10 rounded-md">
-        <a href="/posts/03-31-25/">
-          <img
-            class="rounded-md mb-4"
-            src="/posts/03-31-25//image.webp"
-            alt="Robotics &amp; Engineering - Week of 03/31/25"
-            title="Robotics &amp; Engineering - Week of 03/31/25" />
-        </a>
-        <div class="relative">
-          <a href="/posts/03-31-25/">
-            <h2 class="font-medium text-gray-700 text-xl relative z-10">Robotics &amp; Engineering - Week of 03/31/25</h2>
-          </a>
-        </div>
-        
-
-
-
-<div class="flex items-center">
-  <div class="my-2 flex whitespace-nowrap items-center">
-    <i class="bx bx-calendar text-gray-500 h-5"></i>
-    <span class="text-gray-500 text-sm mx-1"><time datetime="2025-04-03T16:23:10-04:00">April 3, 2025</time></span>
-  </div>
-  <div class="m-2 text-base flex whitespace-nowrap items-center">
-    <i class="bx bx-time-five text-gray-500"></i>
-    <span class="text-gray-500 text-sm mx-1 h-5">
-      1
-      minute
-    </span>
-  </div>
-</div>
-<div class="my-2 flex whitespace-nowrap items-center">
-  <i class="bx bx-purchase-tag-alt text-gray-500 h-4"></i>
-  
-    
-    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/robotics-blog" aria-label="robotics-blog">robotics-blog</a>
-  
-    
-    <a class="text-blue-500 hover:underline text-sm mx-1 h-5" href="https://www.mileshilliard.com/tags/software" aria-label="software">software</a>
-  
-</div>
-
-        <div class="post-card">
-          This week, I made a major software breakthrough on the ROV.
-The IMU will periodically return invalid data, likely due to a faulty sensor. Due to the lack of error handling in the code, the ROV would receive a null value and the enire software system responsible for the control of the ROV would crash and need to be restarted. This bug that I&rsquo;ve been tracking for nearly a month now was resolved by simply implenting some basic catches to detect when these null bits come in, and simply ignore them.
-          <div class="block text-right mt-4 font-light text-lg">
-            <a href="/posts/03-31-25/" class="text-blue-500">Read more...</a>
           </div>
         </div>
       </div>
