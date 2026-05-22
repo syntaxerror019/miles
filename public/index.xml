@@ -16,6 +16,13 @@
       <description>This week was very exciting, as we got the golf cart put back together and working! Although the batteries still don&amp;rsquo;t seem like they are at 100%, they were good enough for us to drive around for a good long while!&#xA;As you can see in the photo below, the charger is charging the batteries properly (unlike how it had various results leading to various states of charge amongst cells).</description>
     </item>
     <item>
+      <title>Install &amp; Set Up Cloudflare Tunnels on Linux (cloudflared)</title>
+      <link>https://www.mileshilliard.com/posts/setting-up-cloudflared/</link>
+      <pubDate>Thu, 21 May 2026 16:11:56 -0400</pubDate>
+      <guid>https://www.mileshilliard.com/posts/setting-up-cloudflared/</guid>
+      <description>Cloudflare Tunnels (cloudflared) is a free service provided through Cloudflare that can establish a connection (or a direct tunnel) from within your local network to Cloudflare (and thus the public web)&#xA;It&amp;rsquo;s a convenient and secure way to set up a bridge between a local server and a public facing domain without a bunch of config or coding, and its a much safer and easier-to-maintain alternative to opening a port on your router.</description>
+    </item>
+    <item>
       <title>Robotics &amp; Engineering - Week of 05/11/26</title>
       <link>https://www.mileshilliard.com/posts/05-11-26/</link>
       <pubDate>Thu, 14 May 2026 20:04:20 -0400</pubDate>
