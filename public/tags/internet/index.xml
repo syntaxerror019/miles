@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Internet on Miles Hilliard</title>
-    <link>https://www.mileshilliard.com/tags/internet/</link>
+    <link>http://localhost:1313/tags/internet/</link>
     <description>Recent content in Internet on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 21 May 2026 16:11:56 -0400</lastBuildDate>
-    <atom:link href="https://www.mileshilliard.com/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/internet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install &amp; Set Up Cloudflare Tunnels on Linux (cloudflared)</title>
-      <link>https://www.mileshilliard.com/posts/setting-up-cloudflared/</link>
+      <link>http://localhost:1313/posts/setting-up-cloudflared/</link>
       <pubDate>Thu, 21 May 2026 16:11:56 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/posts/setting-up-cloudflared/</guid>
+      <guid>http://localhost:1313/posts/setting-up-cloudflared/</guid>
       <description>Cloudflare Tunnels (cloudflared) is a free service provided through Cloudflare that can establish a connection (or a direct tunnel) from within your local network to Cloudflare (and thus the public web)&#xA;It&amp;rsquo;s a convenient and secure way to set up a bridge between a local server and a public facing domain without a bunch of config or coding, and its a much safer and easier-to-maintain alternative to opening a port on your router.</description>
     </item>
   </channel>
