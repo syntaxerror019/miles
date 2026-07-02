@@ -6,8 +6,17 @@
     <description>Recent content in software on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 16:11:56 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 12:26:54 -0400</lastBuildDate>
     <atom:link href="https://www.mileshilliard.com/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating Custom Fonts for the MAX7219</title>
+      <link>https://www.mileshilliard.com/posts/max7219-custom-fonts-ttf/</link>
+      <pubDate>Thu, 02 Jul 2026 12:26:54 -0400</pubDate>
+      <guid>https://www.mileshilliard.com/posts/max7219-custom-fonts-ttf/</guid>
+      <description>You may have seen those cool fonts some people use on their MAX7219 displays, well now you can create your own custom fonts for your MAX7219 displays!
+Without some additional software, the only fonts you can use are the ones included in the library you are using. While there are a good variety of fonts available, they may not always be what you are looking for.
+In the case of MD_PAROLA (common C++ based library for the MAX7219), the fonts are compiled into the program.</description>
+    </item>
     <item>
       <title>Install &amp; Set Up Cloudflare Tunnels on Linux (cloudflared)</title>
       <link>https://www.mileshilliard.com/posts/setting-up-cloudflared/</link>

@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jun 2026 12:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 12:26:54 -0400</lastBuildDate>
     <atom:link href="https://www.mileshilliard.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>arduino</title>
+      <link>https://www.mileshilliard.com/tags/arduino/</link>
+      <pubDate>Thu, 02 Jul 2026 12:26:54 -0400</pubDate>
+      <guid>https://www.mileshilliard.com/tags/arduino/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>python</title>
+      <link>https://www.mileshilliard.com/tags/python/</link>
+      <pubDate>Thu, 02 Jul 2026 12:26:54 -0400</pubDate>
+      <guid>https://www.mileshilliard.com/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>software</title>
+      <link>https://www.mileshilliard.com/tags/software/</link>
+      <pubDate>Thu, 02 Jul 2026 12:26:54 -0400</pubDate>
+      <guid>https://www.mileshilliard.com/tags/software/</guid>
+      <description></description>
+    </item>
     <item>
       <title>robotics-blog</title>
       <link>https://www.mileshilliard.com/tags/robotics-blog/</link>
@@ -34,13 +55,6 @@
       <link>https://www.mileshilliard.com/tags/rpi/</link>
       <pubDate>Thu, 21 May 2026 16:11:56 -0400</pubDate>
       <guid>https://www.mileshilliard.com/tags/rpi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>software</title>
-      <link>https://www.mileshilliard.com/tags/software/</link>
-      <pubDate>Thu, 21 May 2026 16:11:56 -0400</pubDate>
-      <guid>https://www.mileshilliard.com/tags/software/</guid>
       <description></description>
     </item>
     <item>
