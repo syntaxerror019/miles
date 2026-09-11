@@ -2,16 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.mileshilliard.com/</loc>
+    <lastmod>2026-09-10T21:52:44-04:00</lastmod>
+  </url><url>
+    <loc>https://www.mileshilliard.com/posts/</loc>
+    <lastmod>2026-09-10T21:52:44-04:00</lastmod>
+  </url><url>
+    <loc>https://www.mileshilliard.com/posts/09-07-26/</loc>
+    <lastmod>2026-09-10T21:52:44-04:00</lastmod>
+  </url><url>
+    <loc>https://www.mileshilliard.com/tags/robotics-blog/</loc>
+    <lastmod>2026-09-10T21:52:44-04:00</lastmod>
+  </url><url>
+    <loc>https://www.mileshilliard.com/tags/</loc>
+    <lastmod>2026-09-10T21:52:44-04:00</lastmod>
+  </url><url>
     <loc>https://www.mileshilliard.com/tags/arduino/</loc>
     <lastmod>2026-07-02T12:26:54-04:00</lastmod>
   </url><url>
     <loc>https://www.mileshilliard.com/posts/max7219-custom-fonts-ttf/</loc>
-    <lastmod>2026-07-02T12:26:54-04:00</lastmod>
-  </url><url>
-    <loc>https://www.mileshilliard.com/</loc>
-    <lastmod>2026-07-02T12:26:54-04:00</lastmod>
-  </url><url>
-    <loc>https://www.mileshilliard.com/posts/</loc>
     <lastmod>2026-07-02T12:26:54-04:00</lastmod>
   </url><url>
     <loc>https://www.mileshilliard.com/tags/python/</loc>
@@ -20,13 +29,7 @@
     <loc>https://www.mileshilliard.com/tags/software/</loc>
     <lastmod>2026-07-02T12:26:54-04:00</lastmod>
   </url><url>
-    <loc>https://www.mileshilliard.com/tags/</loc>
-    <lastmod>2026-07-02T12:26:54-04:00</lastmod>
-  </url><url>
     <loc>https://www.mileshilliard.com/posts/06-15-26/</loc>
-    <lastmod>2026-06-15T12:00:00-04:00</lastmod>
-  </url><url>
-    <loc>https://www.mileshilliard.com/tags/robotics-blog/</loc>
     <lastmod>2026-06-15T12:00:00-04:00</lastmod>
   </url><url>
     <loc>https://www.mileshilliard.com/posts/06-01-26/</loc>

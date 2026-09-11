@@ -6,8 +6,18 @@
     <description>Recent content in Posts on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jul 2026 12:26:54 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 21:52:44 -0400</lastBuildDate>
     <atom:link href="https://www.mileshilliard.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics &amp; Engineering - Week of 09/07/26</title>
+      <link>https://www.mileshilliard.com/posts/09-07-26/</link>
+      <pubDate>Thu, 10 Sep 2026 21:52:44 -0400</pubDate>
+      <guid>https://www.mileshilliard.com/posts/09-07-26/</guid>
+      <description>The first post of senior year! I am excited, as I know this year will be loaded with lots of exciting work!!
+If you recall from the end of last year, I got the new battery system installed and functional before school let out&amp;hellip;
+On Monday, I just charged the battery fully to make sure that there wouldn&amp;rsquo;t be any potential issues around battery maintenance.
+After doing so, everything seemed to work just as I left it!</description>
+    </item>
     <item>
       <title>Creating Custom Fonts for the MAX7219</title>
       <link>https://www.mileshilliard.com/posts/max7219-custom-fonts-ttf/</link>
