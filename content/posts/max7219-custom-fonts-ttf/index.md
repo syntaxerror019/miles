@@ -45,7 +45,7 @@ To install, git clone the repo, install requirements, run the script, and you ar
 ```bash
 git clone https://github.com/syntaxerror019/max7219-fonts
 pip install -r requirements.txt
-Example: python3 main.py -o fonts/eight-bit-dragon.otf -e fonts_h/eight_bit.h -n eight_bit_font
+python3 main.py -o fonts/eight-bit-dragon.otf -e fonts_h/eight_bit.h -n eight_bit_font
 ```
 
 -o for the input file (TTF, OTF)
