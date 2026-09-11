@@ -2,7 +2,7 @@
 title: 'Robotics & Engineering - Week of 09/07/26'
 date: 2026-09-10T21:52:44-0400
 tags: ['robotics-blog']
-image: 'jonas.webp'
+image: 'jns.webp'
 draft: false
 ---
 
