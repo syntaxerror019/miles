@@ -32,7 +32,7 @@ As a first trial run with it (manually, to check the battery) Jonas and I took t
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/09-07-26/jonas.webp"/></img>                                                                
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/09-07-26/jns.webp"/></img>                                                                
     <br>    
 </div> 
 
