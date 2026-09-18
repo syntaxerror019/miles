@@ -2,6 +2,7 @@ backend:
   name: github
   repo: syntaxerror019/miles
   branch: main
+  auth_methods: [token]
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
