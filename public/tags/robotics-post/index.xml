@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>robotics-post on Miles Hilliard</title>
+    <link>https://www.mileshilliard.com/tags/robotics-post/</link>
+    <description>Recent content in robotics-post on Miles Hilliard</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Sep 2026 23:59:00 -0400</lastBuildDate>
+    <atom:link href="https://www.mileshilliard.com/tags/robotics-post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics week 9/14/26</title>
+      <link>https://www.mileshilliard.com/posts/robotics-week-9-14-26/</link>
+      <pubDate>Thu, 17 Sep 2026 23:59:00 -0400</pubDate>
+      <guid>https://www.mileshilliard.com/posts/robotics-week-9-14-26/</guid>
+      <description>Hey does this even work?</description>
+    </item>
+  </channel>
+</rss>
