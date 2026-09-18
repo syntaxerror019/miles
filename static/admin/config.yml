@@ -13,6 +13,9 @@ collections:
     folder: "content/posts"
     create: true
     slug: "{{slug}}"
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
     summary: "{{title}} — {{date}}"
     format: "yaml-frontmatter"
     fields:
