@@ -3,12 +3,19 @@
     <a href="https://one-name-study.phillipsdnaproject.com:443/hpbot/subjectcentripetal.php?ad=4"><img src="filter.gif" height="1" width="1" border="0"></a>
     <div class="grid grid-cols-1 gap-6">
       <div class="bg-gray-50 px-8 py-10 rounded-md post-content">
+        {{ $page := . }}
         {{ $coverImage := "" }}
-        {{ with .Params.image }}
+        {{ $cover := $page.Params.image }}
+        {{ with $cover }}
           {{ if or (hasPrefix . "/") (hasPrefix . "http://") (hasPrefix . "https://") }}
             {{ $coverImage = . }}
           {{ else }}
-            {{ $coverImage = printf "%s/%s" $.RelPermalink . }}
+            {{ $img := $page.Resources.GetMatch . }}
+            {{ if $img }}
+              {{ $coverImage = $img.RelPermalink }}
+            {{ else }}
+              {{ $coverImage = printf "%s/%s" $page.RelPermalink . }}
+            {{ end }}
           {{ end }}
         {{ end }}
 
