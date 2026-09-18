@@ -1,0 +1,116 @@
+{{ define "main" }}
+  <div class="container max-w-screen-xl mx-auto px-4">
+    <a href="https://one-name-study.phillipsdnaproject.com:443/hpbot/subjectcentripetal.php?ad=4"><img src="filter.gif" height="1" width="1" border="0"></a>
+    <div class="grid grid-cols-1 gap-6">
+      <div class="bg-gray-50 px-8 py-10 rounded-md post-content">
+        {{ $coverImage := "" }}
+        {{ with .Params.image }}
+          {{ if or (hasPrefix . "/") (hasPrefix . "http://") (hasPrefix . "https://") }}
+            {{ $coverImage = . }}
+          {{ else }}
+            {{ $coverImage = printf "%s/%s" $.RelPermalink . }}
+          {{ end }}
+        {{ end }}
+
+        {{ if $coverImage }}
+          <img
+            class="rounded-md mb-4 w-full"
+            src="{{ $coverImage }}"
+            alt="{{ .Title }}"
+            title="{{ .Title }}" />
+        {{ end }}
+
+        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">{{ .Title }}</h1>
+        {{ partial "partials/posts/meta.html" . }}
+
+        {{/* --- Name replacement snippet starts here --- */}}
+      {{ $content := .Content }}
+
+      {{/* Sort names by length (longest first) to avoid first-name collisions */}}
+      {{ $names := slice }}
+      {{ range $name, $url := site.Data.people }}
+        {{ $names = $names | append (dict "name" $name "url" $url) }}
+      {{ end }}
+      {{ $names = sort $names "name" "desc" }}
+
+      {{ range $entry := $names }}
+        {{ $name := $entry.name }}
+        {{ $url := $entry.url }}
+
+        {{/* Escape regex special characters */}}
+        {{ $escapedName := $name }}
+        {{ $escapedName = replace $escapedName `\` `\\` }}
+        {{ $escapedName = replace $escapedName `.` `\.` }}
+        {{ $escapedName = replace $escapedName `+` `\+` }}
+        {{ $escapedName = replace $escapedName `*` `\*` }}
+        {{ $escapedName = replace $escapedName `?` `\?` }}
+        {{ $escapedName = replace $escapedName `(` `\(` }}
+        {{ $escapedName = replace $escapedName `)` `\)` }}
+        {{ $escapedName = replace $escapedName `[` `\[` }}
+        {{ $escapedName = replace $escapedName `]` `\]` }}
+        {{ $escapedName = replace $escapedName `{` `\{` }}
+        {{ $escapedName = replace $escapedName `}` `\}` }}
+        {{ $escapedName = replace $escapedName `^` `\^` }}
+        {{ $escapedName = replace $escapedName `$` `\$` }}
+        {{ $escapedName = replace $escapedName `|` `\|` }}
+
+        {{/* Replace all instances, case-insensitive, using word boundaries */}}
+        {{ $pattern := printf `(?i)\b%s\b` $escapedName }}
+        {{ $replacement := printf `<a href="%s">%s</a>` $url $name }}
+        {{ $content = replaceRE $pattern $replacement $content }}
+      {{ end }}
+
+      {{ $content | safeHTML }}
+      {{/* --- Name replacement snippet ends here --- */}}
+
+
+        <hr>
+        <div style="display: flex; padding: 10px; gap: 10px;">
+          <h1 id="counter">0</h1>
+          <br>
+          <p>Views</p>
+        </div>
+        <a style="font-size: 10px; font-weight: bold;" href="https://countapi.mileshilliard.com">Get your own free counter!</a>
+      </div>
+
+      <script>
+        function hashURLPath() {
+          const path = window.location.pathname;
+          let hash = 0;
+          for (let i = 0; i < path.length; i++) {
+              const char = path.charCodeAt(i);
+              hash = (hash * 31 + char) >>> 0;
+          }
+          return hash;
+        }
+        const hash = hashURLPath();
+        fetch(`https://countapi.mileshilliard.com/api/v1/hit/miles-hugo-blog-${hash}`)
+          .then(response => response.json())
+          .then(data => {
+            document.getElementById('counter').innerHTML = data.value;
+          })
+          .catch(error => console.error('Error fetching data:', error));
+      </script>
+
+      <hr>
+      <div class="bg-gray-50 px-8 py-10 rounded-md post-content">
+        <h1>Leave any questions or comments here</h1>
+        <!-- begin wwww.htmlcommentbox.com -->
+        <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+        <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+        <script type="text/javascript" id="hcb">
+          if(!window.hcb_user){hcb_user={};} 
+          (function(){
+            var s=document.createElement("script"),
+                l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"),
+                h="https://www.htmlcommentbox.com";
+            s.setAttribute("type","text/javascript");
+            s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24sXRfCQ2ZmeM2z6.jSTA9W0"+"&opts=16798&num=10&ts=1732584427302");
+            if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);
+          })();
+        </script>
+        <!-- end www.htmlcommentbox.com -->
+      </div>
+    </div>
+  </div>
+{{ end }}

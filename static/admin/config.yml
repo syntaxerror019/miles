@@ -1,6 +1,7 @@
 backend:
-  name: git-gateway
-  branch: main  # Set the branch that you'll be working with
+  name: github
+  repo: syntaxerror019/miles
+  branch: main
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
@@ -11,6 +12,12 @@ collections:
     folder: "content/posts"
     create: true
     slug: "{{slug}}"
+    summary: "{{title}} — {{date}}"
+    format: "yaml-frontmatter"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZZ" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Cover Image", name: "image", widget: "image", required: false }
+      - { label: "Draft (hide from site)", name: "draft", widget: "boolean", default: false }
+      - { label: "Body", name: "body", widget: "markdown" }
