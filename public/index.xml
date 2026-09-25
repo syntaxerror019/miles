@@ -6,8 +6,17 @@
     <description>Recent content on Miles Hilliard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Sep 2026 23:59:00 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 22:46:25 -0400</lastBuildDate>
     <atom:link href="https://www.mileshilliard.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robotics &amp; Engineering - Week of 09/21 - It is remote controlled!</title>
+      <link>https://www.mileshilliard.com/posts/09-21-26/</link>
+      <pubDate>Thu, 24 Sep 2026 22:46:25 -0400</pubDate>
+      <guid>https://www.mileshilliard.com/posts/09-21-26/</guid>
+      <description>This week in shop, I was very productive.
+I spent time working on both the ROV and the golf cart, which both had a lot done to them, especially on Thursday which is our new afterschool club day.
+In terms of the golf cart, the control system has been revamped&amp;hellip; Instead of using a Metro Mini microcontroller, we are using an ESP32 which is capable of better hardware control. This means we can more accurately read the rotary encoder (with dedicated interrupt pins) and the PPM signal for the radio receiver simultaneously without interference.</description>
+    </item>
     <item>
       <title>Robotics week 9/14/26 Hi!</title>
       <link>https://www.mileshilliard.com/posts/robotics-week-9-14-26/</link>
