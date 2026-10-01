@@ -1,0 +1,38 @@
+{{ define "main" }}
+  {{/* Default data */}}
+  {{ $sections := slice
+    (dict "id" "hero" "enabled" true "weight" 1 )
+    (dict "id" "skills" "enabled" true "weight" 2 )
+    (dict "id" "experience" "enabled" true "weight" 3 )
+    (dict "id" "education" "enabled" true "weight" 4 )
+    (dict "id" "projects" "enabled" true "weight" 5 )
+    (dict "id" "testimonials" "enabled" true "weight" 6 )
+  }}
+
+  {{/* Custom data from configuration file */}}
+  {{ with site.Data.home }}
+    {{ $sections = slice }}
+    {{ if .section }}{{ $sections = .section }}{{ end }}
+  {{ end }}
+
+  {{ range sort $sections ".weight" }}
+    {{ if .enabled }}
+      <section id="{{ .id }}">
+        {{ partial (printf "sections/%s.html" (replace (lower .id) " " "-")) . }}
+      </section>
+      <!-- GOOGLE ADSENSE 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6464376326468911"
+crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-6464376326468911"
+data-ad-slot="8418899737"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+ END GOOGLE ADSENSE -->
+    {{ end }}
+  {{ end }}
+{{ end }}
