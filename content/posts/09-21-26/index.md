@@ -21,9 +21,7 @@ The new radio controller is a major upgrade and will allow a much easier way to 
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/09-21-26/bb.webp"/></img>
-
-    <br>    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/09-21-26/bb.webp"/></img><br>    
 </div> 
 
 <br>
