@@ -1,13 +1,5 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "curl -fsSL \"https://github.com/gohugoio/hugo/releases/download/v0.120.4/hugo_extended_0.120.4_linux-amd64.tar.gz\" | tar -xz && ./hugo",
-  "outputDirectory": "public",
-  "routes": [
-    { "handle": "filesystem" },
-    {
-      "src": "/posts/.*\\.(webp|png|jpg|jpeg|gif|svg)",
-      "status": 404,
-      "dest": "/img/nope-not-here.png"
-    }
-  ]
+  "outputDirectory": "public"
 }
