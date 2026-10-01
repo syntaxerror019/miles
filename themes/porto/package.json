@@ -1,0 +1,39 @@
+{
+  "name": "hugo-porto",
+  "version": "0.1.7",
+  "description": "The personal portfolio theme for Hugo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugo-porto/theme.git"
+  },
+  "keywords": [
+    "portfolio",
+    "resume",
+    "projects",
+    "minimalist",
+    "responsive",
+    "customizable",
+    "google analytics",
+    "tailwinds css"
+  ],
+  "author": "Andrew Molyuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugo-porto/theme/issues"
+  },
+  "homepage": "https://github.com/hugo-porto/theme#readme",
+  "devDependencies": {
+    "husky": "^9.0.11",
+    "prettier": "^3.3.2",
+    "prettier-plugin-go-template": "^0.0.15"
+  },
+  "dependencies": {
+    "autoprefixer": "10.4.19",
+    "postcss": "8.4.38",
+    "postcss-cli": "11.0.0",
+    "tailwindcss": "3.4.4"
+  },
+  "scripts": {
+    "prepare": "husky"
+  }
+}
