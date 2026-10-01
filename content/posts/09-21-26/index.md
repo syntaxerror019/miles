@@ -23,10 +23,7 @@ The new radio controller is a major upgrade and will allow a much easier way to 
     <br>
         <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/09-21-26/bb.webp"/></img>
 
-                                                                     
-    <br>
-
-<sub>The board was changed from an Adafruit Metro Mini to an ESP32 as it had better interrupt handlers and support</sub>    
+    <br>    
 </div> 
 
 <br>
