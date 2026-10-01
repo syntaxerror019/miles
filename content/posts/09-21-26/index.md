@@ -1,14 +1,15 @@
 ---
-title: 'Robotics & Engineering - Week of 09/21 - It is remote controlled!'
-date: 2026-09-24T22:46:25-0400
-tags: ['robotics-blog']
-image: 'playback.jpg'
+title: Robotics & Engineering - Week of 09/21 - It is remote controlled!
+date: 2026-09-24T22:46:00-0400
+tags:
+  - robotics-blog
+image: playback.jpg
 draft: false
 ---
 
----
+***
 
-This week in shop, I was very productive.
+This week in shop, I was very productive. 
 
 I spent time working on both the ROV and the golf cart, which both had a lot done to them, especially on Thursday which is our new afterschool club day.
 
@@ -20,7 +21,9 @@ The new radio controller is a major upgrade and will allow a much easier way to 
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/09-21-26/bb.webp"/></img>                                                                     
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/09-21-26/bb.webp"/></img>
+
+<sub>The board was changed from an Adafruit Metro Mini to an ESP32 as it had better interrupt handlers.                                                                     
     <br>    
 </div> 
 
@@ -46,7 +49,6 @@ The following demo was not possible last week. If Jonas was in any other positio
 <br>
 
 I also worked on the ROV's board design and recruited Benji by basically just forcing him to figure out why my BOM file wasn't matching what JLCPCB wanted. He eventually figured out it needed to be in a specific format and was kind enough to fix it for me. Additionally, there were some issues with my "pick n place" file which tells JLCPCB where each component should be placed on the board and its orientation.
-
 
 <br>
 
