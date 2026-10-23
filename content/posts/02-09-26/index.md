@@ -2,7 +2,7 @@
 title: 'Robotics & Engineering - Week of 02/09/26 - 02/23/26'
 date: 2026-02-12T19:38:07-0500
 tags: ['robotics-blog']
-image: 'code.png'
+image: 'code.webp'
 draft: false
 ---
 
@@ -88,7 +88,7 @@ BeamNG.tech also provides LiDARs, sonars, camera feeds, ultrasonic sensing, and 
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;" src="/posts/02-09-26/code.png"/></img>                                                                           
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;" src="/posts/02-09-26/code.webp"/></img>                                                                           
     <br>    
 </div> 
 

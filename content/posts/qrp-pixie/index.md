@@ -26,8 +26,8 @@ There were no documents included in the kit, so I had to do some research and re
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/qrp-pixie/image.png"/></img>     
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/qrp-pixie/schematic.png"/></img>                                                                    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/qrp-pixie/image.webp"/></img>     
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/qrp-pixie/schematic.webp"/></img>                                                                    
     <br>    
 </div> 
 

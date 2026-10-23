@@ -21,7 +21,7 @@ In this hands-on tutorial, you'll discover just how easy it is to train a custom
 <br>
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 100%; height: auto;" src="/posts/yolov11/header.png"/></img>                                                                     
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 100%; height: auto;" src="/posts/yolo11/header.webp"/></img>                                                                     
     <br>    
 </div> 
 <br>
@@ -67,7 +67,7 @@ your-project-folder/
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 100%; height: auto;" src="/posts/yolov11/cwd.webp"/></img>                                                                     
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 100%; height: auto;" src="/posts/yolo11/cwd.webp"/></img>                                                                     
     <br>    
 </div> 
 <br>
@@ -99,10 +99,10 @@ Here are some of the ones that I used for training. Please keep in mind that the
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 23%; height: auto;" src="/posts/yolov11/train1.webp"/></img>    
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 23%; height: auto;" src="/posts/yolov11/train2.webp"/></img>   
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 23%; height: auto;" src="/posts/yolov11/train3.webp"/></img>    
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 23%; height: auto;" src="/posts/yolov11/train4.webp"/></img>                                                                  
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 23%; height: auto;" src="/posts/yolo11/train1.webp"/></img>    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 23%; height: auto;" src="/posts/yolo11/train2.webp"/></img>   
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 23%; height: auto;" src="/posts/yolo11/train3.webp"/></img>    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 23%; height: auto;" src="/posts/yolo11/train4.webp"/></img>                                                                  
     <br>    
 </div> 
 
@@ -160,7 +160,7 @@ Once you have the images and the annotations, you can put them into one folder. 
 <br>
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 100%; height: auto;" src="/posts/yolov11/annotations.webp"/></img>                                                                     
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 100%; height: auto;" src="/posts/yolo11/annotations.webp"/></img>                                                                     
     <br>    
 </div> 
 <br>
@@ -251,15 +251,15 @@ My results were far from perfect:
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/yolov11/results.webp"/></img>    
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 35%; height: auto;" src="/posts/yolov11/F1_curve.webp"/></img>                                                            
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/yolo11/results.webp"/></img>    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 35%; height: auto;" src="/posts/yolo11/F1_curve.webp"/></img>                                                            
     <br>    
 </div> 
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 47%; height: auto;" src="/posts/yolov11/train_batch0.webp"/></img>    
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 47%; height: auto;" src="/posts/yolov11/train_batch1.webp"/></img>                                                            
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 47%; height: auto;" src="/posts/yolo11/train_batch0.webp"/></img>    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 47%; height: auto;" src="/posts/yolo11/train_batch1.webp"/></img>                                                            
     <br>    
 </div> 
        
@@ -318,7 +318,7 @@ python3 demo.py
 <br>
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 100%; height: auto;" src="/posts/yolov11/yay.webp"/></img>                                                                     
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 100%; height: auto;" src="/posts/yolo11/yay.webp"/></img>                                                                     
     <br>    
 </div> 
 <br>

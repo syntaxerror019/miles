@@ -2,7 +2,7 @@
 title: 'Install & Set Up Cloudflare Tunnels on Linux (cloudflared)'
 date: 2026-05-21T16:11:56-0400
 tags: ['software', 'linux', 'internet', 'rpi']
-image: 'image.png'
+image: 'image.webp'
 draft: false
 ---
 
@@ -59,7 +59,7 @@ cloudflared tunnel create somenamefortunnel
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/setting-up-cloudflared/tunnel.png"/></img>                                                                         
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/setting-up-cloudflared/tunnel.webp"/></img>                                                                         
     <br>    
 </div> 
 
@@ -93,7 +93,7 @@ The ingress section is responsible for exactly where and how you want the incomi
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/setting-up-cloudflared/demo.png"/></img>                                                                         
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/setting-up-cloudflared/demo.webp"/></img>                                                                         
     <br>    
 </div> 
 

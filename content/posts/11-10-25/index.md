@@ -2,7 +2,7 @@
 title: 'Robotics & Engineering - Week of 11/10/25'
 date: 2025-11-13T18:09:48-0500
 tags: ['robotics-blog']
-image: 'header.gif'
+image: 'header.webp'
 draft: false
 ---
 
@@ -33,8 +33,8 @@ Although started a while ago, I finished up the dashboard face plate. The simple
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;" src="/posts/11-10-25/gc1.png"/></img>    
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;" src="/posts/11-10-25/gc2.png"/></img>    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;" src="/posts/11-10-25/gc1.webp"/></img>    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;" src="/posts/11-10-25/gc2.webp"/></img>    
     <br>    
 </div> 
 
@@ -52,7 +52,7 @@ The PCB for this setup is not done yet, and is still pretty messy. This is versi
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: auto;" src="/posts/11-10-25/schematic.png"/></img>    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: auto;" src="/posts/11-10-25/schematic.webp"/></img>    
     <br>    
 </div> 
 
@@ -66,7 +66,7 @@ In my parent's car, the handle that releases the rear seats to fold down has bee
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 40%; height: auto;" src="/posts/11-10-25/porsche.jpg"/></img>    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 40%; height: auto;" src="/posts/11-10-25/porsche.webp"/></img>    
     <br>    
 </div> 
 
@@ -78,7 +78,7 @@ I then made a sketch with dimensions on paper first of the exact handle. Once do
     <div style="
     width:40%; 
     height:500px; 
-    background-image:url('/posts/11-10-25/cayenne1.png');
+    background-image:url('/posts/11-10-25/cayenne1.webp');
     background-size:200%;   /* zoom */
     background-position:center; 
     background-repeat:no-repeat;">
@@ -86,7 +86,7 @@ I then made a sketch with dimensions on paper first of the exact handle. Once do
     <div style="
     width:60%; 
     height:500px; 
-    background-image:url('/posts/11-10-25/cayenne2.png');
+    background-image:url('/posts/11-10-25/cayenne2.webp');
     background-size:170%;   /* zoom */
     background-position:center; 
     background-repeat:no-repeat;">

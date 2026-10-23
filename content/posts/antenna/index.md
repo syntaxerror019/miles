@@ -23,13 +23,13 @@ This setup was a heck of a lot better than the rubber duck on my handheld, but b
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
-        src="/posts/03-03-25/originalantenna.webp">
+        src="/posts/antenna/originalantenna.webp">
     </img>
     <br>
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
-        src="/posts/03-03-25/diamond.webp">
+        src="/posts/antenna/diamond.webp">
     </img>
 </div>
 <sub>The old mast and antenna, taken down (left). The Diamond x50 (right).</sub>
@@ -45,7 +45,7 @@ By using some more hose clamps and some generic slotted angle bar, I was able to
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 90%;" 
-        src="/posts/03-03-25/image.webp">
+        src="/posts/antenna/image.webp">
     </img>
 </div>
 
@@ -64,13 +64,13 @@ After I got it to the railing I planned to attach it to, I utilized more trusty 
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
-        src="/posts/03-03-25/glory.webp">
+        src="/posts/antenna/glory.webp">
     </img>
     <br>
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
-        src="/posts/03-03-25/glorybutdaytime.webp">
+        src="/posts/antenna/glorybutdaytime.webp">
     </img>
 </div>
 <sub>The antenna right after securing it (left). Checking on it the next day (right).</sub>
@@ -90,13 +90,13 @@ If, for some odd reason, the hoseclamps holding the mast were to undo, it would 
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
-        src="/posts/03-03-25/lookup.webp">
+        src="/posts/antenna/lookup.webp">
     </img>
     <br>
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
-        src="/posts/03-03-25/lookupextreme.webp">
+        src="/posts/antenna/lookupextreme.webp">
     </img>
 </div>
 
@@ -110,7 +110,7 @@ I tuned into a traffic net...
 
 <div style="display: flex; justify-content: center;">
     <video width="30%" controls>
-        <source src="/posts/03-03-25/output.mp4" type="video/mp4">
+        <source src="/posts/antenna/output.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </div>
@@ -130,19 +130,19 @@ I also experimented with some SSTV transmissions and receptions with it, which d
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 30%;" 
-        src="/posts/03-03-25/head.webp">
+        src="/posts/antenna/head.webp">
     </img>
     <br>
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 30%;" 
-        src="/posts/03-03-25/old.webp">
+        src="/posts/antenna/old.webp">
     </img>
     <br>
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 30%;" 
-        src="/posts/03-03-25/bw.webp">
+        src="/posts/antenna/bw.webp">
     </img>
     <br>
 </div>

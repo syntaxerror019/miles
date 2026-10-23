@@ -2,7 +2,7 @@
     title: 'Robotics & Engineering - Week of 1/6/25'
     date: 2025-01-06T13:03:04-04:00
     tags: ['robotics-blog']
-    image: 'base_assembled.jpg'
+    image: 'base_assembled.webp'
     draft: false
 ---
 
@@ -16,24 +16,24 @@ The second part is an "insert" that goes into the first piece. It's role is to h
 
 <div style="display:   flex">                                                                                                                          
 <br>
-<img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 30%; height: auto; " src="/posts/1-6-25/base.png"/></img> 
+<img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 30%; height: auto; " src="/posts/1-6-25/base.webp"/></img> 
 
-<img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 30%; height: auto;" src="/posts/1-6-25/insert.png"/></img> 
+<img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 30%; height: auto;" src="/posts/1-6-25/insert.webp"/></img> 
 
-<img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 30%; height: auto;" src="/posts/1-6-25/full.png"/></img>                                                                         
+<img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 30%; height: auto;" src="/posts/1-6-25/full.webp"/></img>                                                                         
  <br>    
  </div>   
 
 Unfortunately, during the first attempt at printing the parts, the model unstuck from the bed (due to poor adhesion) and made a bit of a spaghetti mess over-night.
 
-<div style="display: flex;">                     <br>                                                                                                                            <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 30%;" src="/posts/1-6-25/lol.jpg"/></img>  
-<img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%;" src="/posts/1-6-25/un-lol.jpg"/></img>                                                                         
+<div style="display: flex;">                     <br>                                                                                                                            <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 30%;" src="/posts/1-6-25/lol.webp"/></img>  
+<img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%;" src="/posts/1-6-25/un-lol.webp"/></img>                                                                         
  <br>    
  </div>   
 <br>
 <br>
-<div style="display: flex;">                     <br>                                                                                                                            <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%;" src="/posts/1-6-25/power.jpg"/></img>  
-<img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%;" src="/posts/1-6-25/switch.jpg"/></img>                                                                         
+<div style="display: flex;">                     <br>                                                                                                                            <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%;" src="/posts/1-6-25/power.webp"/></img>  
+<img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%;" src="/posts/1-6-25/switch.webp"/></img>                                                                         
  <br>    
  </div>   
  <br>

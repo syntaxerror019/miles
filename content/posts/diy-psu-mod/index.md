@@ -2,7 +2,7 @@
     title: 'DIY Power Supply (PSU) Interface'
     date: 2025-01-19T13:03:04-04:00
     tags: ['hardware', '3d-printing']
-    image: 'finalized.jpg'
+    image: 'finalized.webp'
     draft: false
 ---
 
@@ -46,12 +46,12 @@ First off, download the <a href="https://www.thingiverse.com/thing:6919496">3D m
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
-        src="/posts/diy-psu-mod/box.jpg">
+        src="/posts/diy-psu-mod/box.webp">
     </img>
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
-        src="/posts/diy-psu-mod/showcase.jpg">
+        src="/posts/diy-psu-mod/showcase.webp">
     </img>
 </div>
 
@@ -72,12 +72,12 @@ Afterwards, connect the respective wires to the screw terminals on the power sup
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
-        src="/posts/diy-psu-mod/wiring.jpg">
+        src="/posts/diy-psu-mod/wiring.webp">
     </img>
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
-        src="/posts/diy-psu-mod/wired.jpg">
+        src="/posts/diy-psu-mod/wired.webp">
     </img>
 </div>
 
@@ -94,7 +94,7 @@ Before assembling everything with your screws, I would highly recommend you chec
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 400px;" 
-        src="/posts/diy-psu-mod/voltage_adjust.jpg">
+        src="/posts/diy-psu-mod/voltage_adjust.webp">
     </img>
 </div>
 
@@ -113,17 +113,17 @@ And now, you are done! Plug it in and try it out!
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 30%;" 
-        src="/posts/diy-psu-mod/screw1.jpg">
+        src="/posts/diy-psu-mod/screw1.webp">
     </img>
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 30%;" 
-        src="/posts/diy-psu-mod/screw2.jpg">
+        src="/posts/diy-psu-mod/screw2.webp">
     </img>
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 30%;" 
-        src="/posts/diy-psu-mod/finalized.jpg">
+        src="/posts/diy-psu-mod/finalized.webp">
     </img>
 </div>
 <br>
@@ -132,11 +132,11 @@ And now, you are done! Plug it in and try it out!
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
-        src="/posts/diy-psu-mod/testing.jpg">
+        src="/posts/diy-psu-mod/testing.webp">
     </img>
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
-        src="/posts/diy-psu-mod/psu.jpg">
+        src="/posts/diy-psu-mod/psu.webp">
     </img>
 </div>

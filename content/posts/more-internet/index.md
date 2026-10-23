@@ -2,7 +2,7 @@
 title: 'Bypass MAC Limitations For Unlimited Free WiFi on Planes'
 date: 2025-12-31T18:14:05-0500
 tags: ['robotics-blog']
-image: 'ad.png'
+image: 'ad.webp'
 draft: false
 ---
 
@@ -14,7 +14,7 @@ Although I don't travel by plane frequently, usually it is for very long trips. 
 
 For those who are not aware, simply refreshing the page or trying to get another 20 minutes from the captive portal doesn't work. This is because the backend server is aware of the device and knows if you have already requested for 20 minutes of free service. However, if you grab another device (latop, tablet, etc.) and try again, it will grant you another 20 minutes.
 
-![alt text](image.png)
+![alt text](image.webp)
 
 Learn more about MAC addresses <a href="https://tecadmin.net/media-access-control-address/">here</a>
 
@@ -32,7 +32,7 @@ Obviously, the system applied varies between every airline and system behind it.
 
 ## Bypassing the limitation
 
-![alt text](ready.png)
+![alt text](ready.webp)
 
 Although it is hard to know the system applied, there are a few tricks you can try to get around their limit of free WiFi to get yourself unlimited WiFi throughout your entire flight.
 
@@ -98,7 +98,7 @@ sudo ip link set wlp1s0 up
 
 Now, connect back to the WiFi network (aainflight.com on American Airlines for me) and try to get another 20 minutes of WiFi. Chances are, the server will see you as a new device and grant you more time! Run the `macchanger` command shown above every time you run out of internet and you're good to go.
 
-![alt text](working.png)
+![alt text](working.webp)
 
 To make this a bit easier, I made the following shell file to automate everything:
 
@@ -127,7 +127,7 @@ Now, you can run:
 ```
 (Replace with your file)
 
-![alt text](image-1.png)
+![alt text](image-1.webp)
 
 I found that this worked very reliably on both my flights on American Airlines, however if you are still encountering issues on your airline, try changing your browser setup additionally.
 

@@ -3,7 +3,7 @@
 title: 'Baofeng UV5R DIY direct to computer audio cable'
 date: 2024-11-24T10:28:04-04:00
 tags: ['HAM', 'Radio', 'Hardware', 'UV5R', 'CW']
-image: 'final-setup.jpeg'
+image: 'final-setup.webp'
 draft: false
 
 ---
@@ -16,7 +16,7 @@ Alternatively, if you plan on using the earpiece or aren't in the mood to destro
 
 <div>
     <b style="padding: 10px; font-weight: 900;">Headset jack pinout</b>
-    <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%;" src="/posts/uv5r-audio-pc/wiring.jpg"/></img>
+    <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%;" src="/posts/uv5r-audio-pc/wiring.webp"/></img>
     <br>
 </div>
 
@@ -25,8 +25,8 @@ I ended up putting a JST connector on the end of the audio lines to make it a li
 <div>
     <b style="padding: 10px; font-weight: 900;">Final prototype board</b>
     <div style="display: flex; gap: 10px;">
-        <img onclick="window.location.href=this.src;" style="width: 50%;" src="/posts/uv5r-audio-pc/board.jpeg"/>
-        <img onclick="window.location.href=this.src;" style="width: 50%;" src="/posts/uv5r-audio-pc/annotated-board.jpg"/>
+        <img onclick="window.location.href=this.src;" style="width: 50%;" src="/posts/uv5r-audio-pc/board.webp"/>
+        <img onclick="window.location.href=this.src;" style="width: 50%;" src="/posts/uv5r-audio-pc/annotated-board.webp"/>
     </div>
     <br>
 </div>
@@ -41,37 +41,37 @@ With this, the final product was born!
 
 <div>
     <b style="padding: 10px; font-weight: 900;">Final product!</b>
-    <img onclick="window.location.href=this.src;" style="display: block; width: 50%;" src="/posts/uv5r-audio-pc/box.jpeg"/></img>
+    <img onclick="window.location.href=this.src;" style="display: block; width: 50%;" src="/posts/uv5r-audio-pc/box.webp"/></img>
     <br>
 </div>
 
 <div>
     <b style="padding: 10px; font-weight: 900;">Box with the lid off</b>
-    <img onclick="window.location.href=this.src;" style="display: block; width: 50%;" src="/posts/uv5r-audio-pc/box-dis.jpeg"/></img>
+    <img onclick="window.location.href=this.src;" style="display: block; width: 50%;" src="/posts/uv5r-audio-pc/box-dis.webp"/></img>
     <br>
 </div>
 
 <div>
     <b style="padding: 10px; font-weight: 900;">Finalized circuit schematic</b>
-    <img onclick="window.location.href=this.src;" style="display: block; width: 50%;" src="/posts/uv5r-audio-pc/schematic.png"/></img>
+    <img onclick="window.location.href=this.src;" style="display: block; width: 50%;" src="/posts/uv5r-audio-pc/schematic.webp"/></img>
     <br>
 </div>
 
 <div>
     <b style="padding: 10px; font-weight: 900;">Working decoding CW</b>
-    <img onclick="window.location.href=this.src;" style="display: block; width: 50%;" src="/posts/uv5r-audio-pc/working.jpeg"/></img>
+    <img onclick="window.location.href=this.src;" style="display: block; width: 50%;" src="/posts/uv5r-audio-pc/working.webp"/></img>
     <br>
 </div>
 
 <div>
     <b style="padding: 10px; font-weight: 900;">Final setup in terms of wiring</b>
-    <img onclick="window.location.href=this.src;" style="display: block; width: 50%;" src="/posts/uv5r-audio-pc/final-setup.jpeg"/></img>
+    <img onclick="window.location.href=this.src;" style="display: block; width: 50%;" src="/posts/uv5r-audio-pc/final-setup.webp"/></img>
     <br>
 </div>
 
 <div>
     <b style="padding: 10px; font-weight: 900;">Baofeng UV-5R Radio</b>
-    <img onclick="window.location.href=this.src;" style="display: block; width: 50%;" src="/posts/uv5r-audio-pc/radio.jpeg"/></img>
+    <img onclick="window.location.href=this.src;" style="display: block; width: 50%;" src="/posts/uv5r-audio-pc/radio.webp"/></img>
     <br>
 </div>
 

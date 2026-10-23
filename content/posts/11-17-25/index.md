@@ -2,7 +2,7 @@
 title: 'Robotics & Engineering - Week of 11/17/25'
 date: 2025-11-21T07:46:47-0500
 tags: ['robotics-blog']
-image: 'pcbtop.jpg'
+image: 'pcbtop.webp'
 draft: false
 ---
 
@@ -14,8 +14,8 @@ This week I spent a good portion of time milling out and working on the PCB for 
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;" src="/posts/11-17-25/tft.jpg"/></img>    
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/11-17-25/nfc.jpg"/></img>    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;" src="/posts/11-17-25/tft.webp"/></img>    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 49%; height: auto;" src="/posts/11-17-25/nfc.webp"/></img>    
     <br>    
 </div> 
 
@@ -29,9 +29,9 @@ I then transferred everything from my working breadboard example to the PCB and 
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 33%; height: auto;" src="/posts/11-17-25/breadboard.jpg"/></img>    
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 33%; height: auto;" src="/posts/11-17-25/pcbtop.jpg"/></img>  
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 33%; height: auto;" src="/posts/11-17-25/pcbbottom.jpg"/></img>    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 33%; height: auto;" src="/posts/11-17-25/breadboard.webp"/></img>    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 33%; height: auto;" src="/posts/11-17-25/pcbtop.webp"/></img>  
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 33%; height: auto;" src="/posts/11-17-25/pcbbottom.webp"/></img>    
     <br>    
 </div> 
 
@@ -47,7 +47,7 @@ With the help of Tim, we made a metal enclosure that the relay to sit in while w
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/11-17-25/pot.jpg"/></img>    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/11-17-25/pot.webp"/></img>    
 </div> 
 
 <br>

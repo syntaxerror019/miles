@@ -3,7 +3,7 @@ title: Robotics & Engineering - Week of 09/21 - It is remote controlled!
 date: 2026-09-24T22:46:00-0400
 tags:
   - robotics-blog
-image: playback.jpg
+image: playback.webp
 draft: false
 ---
 

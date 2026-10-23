@@ -12,7 +12,7 @@ This week, I continued working on the Sumo Bot project. I re-printed the frame a
 
 <div style="display:   flex">  
 <br>
-<img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%; height: auto; " src="/posts/5-5-25/wheel.png"/></img>                                                                      
+<img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%; height: auto; " src="/posts/5-5-25/wheel.webp"/></img>                                                                      
  <br>    
  </div>  
 

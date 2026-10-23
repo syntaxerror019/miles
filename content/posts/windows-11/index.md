@@ -57,7 +57,7 @@ Then right-click on the **Windows 10 ISO**, click Mount, and copy all the conten
 <div style="display:flex">  
     <br>
         <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 35%; height: auto;" src="/posts/windows-11/mount.webp"/></img>  
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/windows-11/copy.gif"/></img>                                                        
+        <video autoplay loop muted playsinline style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/windows-11/copy.mp4"></video>                                                        
     <br>    
 </div>
 

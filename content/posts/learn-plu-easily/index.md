@@ -2,7 +2,7 @@
 title: 'Cashier? Learn PLU Codes Easily!'
 date: 2025-11-28T16:39:40-0500
 tags: ['robotics-blog']
-image: 'image.png'
+image: 'image.webp'
 draft: false
 ---
 
@@ -20,7 +20,7 @@ Now, practicing PLU codes is easier than ever. So far, I have found repetition t
 
 With flash-card based questions, you can study codes at lightning speed, at any time. Waiting for the bus? Start studying! Turn every opportunity into a time to practice.
 
-![alt text](demo.png)
+![alt text](demo.webp)
 
 With an easy-to-use interface, studying suddenly becomes easier than ever. No sign up or anything required.
 
@@ -28,6 +28,6 @@ Need a quick way to look up a certain PLU, Produce Category, Commodity, or Varie
 
 The database used in this project was provided by <a href="https://www.ifpsglobal.com/">The International Federation for Produce Standards (IFPS)</a>, where the data is curated and kept up-to-date with all PLUs at major grocery stores.
 
-![alt text](sheet.png)
+![alt text](sheet.webp)
 
 With more quiz-based practices coming up in the future, you can practice identifying PLU codes based on item images amongst other features.

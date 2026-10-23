@@ -2,7 +2,7 @@
     title: 'Robotics & Engineering - Week of 1/13/25'
     date: 2025-01-13T13:03:04-04:00
     tags: ['robotics-blog', 'hardware', '3d-printing']
-    image: 'IMG_2426.gif'
+    image: 'IMG_2426.webp'
     draft: false
 ---
 
@@ -24,12 +24,12 @@ The PDF found below is ready to use. Simply utilize the "split by color" tool to
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 30%;" 
-        src="/posts/1-13-25/overall.jpg">
+        src="/posts/1-13-25/overall.webp">
     </img>
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 60%;" 
-        src="/posts/1-13-25/closeup.jpg">
+        src="/posts/1-13-25/closeup.webp">
     </img>
     <br>
 </div>
@@ -38,6 +38,6 @@ The PDF found below is ready to use. Simply utilize the "split by color" tool to
 <iframe src="/posts/1-13-25/layout.pdf" width="100%" height="600px"></iframe>
 
 <div>
-    <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; transform: rotate(270deg);" src="/posts/1-13-25/IMG_2428.gif"/></img>
+    <video autoplay loop muted playsinline style="display: block; margin-left: auto; margin-right: auto; width: 50%; transform: rotate(270deg);" src="/posts/1-13-25/IMG_2428.mp4"></video>
     <br>
 </div>

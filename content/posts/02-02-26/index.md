@@ -2,7 +2,7 @@
 title: 'Robotics & Engineering - Week of 02/02/26'
 date: 2026-02-06T07:21:13-0500
 tags: ['robotics-blog']
-image: 'burn.jpg'
+image: 'burn.webp'
 draft: false
 ---
 
@@ -16,7 +16,7 @@ Although we received the new and improved [https://www.amazon.com/dp/B0DL349YSV/
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/02-02-26/bms.png"/></img>                                                                          
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/02-02-26/bms.webp"/></img>                                                                          
     <br>    
 </div> 
 
@@ -30,8 +30,8 @@ We then got a bit more proactive and tried standing on them, and ultimately sett
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%; height: auto;" src="/posts/02-02-26/push1.jpg"/></img>     
-                <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%; height: auto;" src="/posts/02-02-26/push2.jpg"/></img>                                                                          
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%; height: auto;" src="/posts/02-02-26/push1.webp"/></img>     
+                <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 45%; height: auto;" src="/posts/02-02-26/push2.webp"/></img>                                                                          
     <br>    
 </div> 
 
@@ -43,9 +43,9 @@ Then, I connected things up to the BMS, including all 24 balance leads to each a
 
  <div style="display:flex">  
     <br>
-            <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 33%; height: auto;" src="/posts/02-02-26/balance.jpg"/></img>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 33%; height: auto;" src="/posts/02-02-26/battery.jpg"/></img>     
-                <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 33%; height: auto;" src="/posts/02-02-26/installed.jpg"/></img>                                                                          
+            <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 33%; height: auto;" src="/posts/02-02-26/balance.webp"/></img>
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 33%; height: auto;" src="/posts/02-02-26/battery.webp"/></img>     
+                <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 33%; height: auto;" src="/posts/02-02-26/installed.webp"/></img>                                                                          
     <br>    
 </div> 
 

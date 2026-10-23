@@ -30,7 +30,7 @@ If you don't want to make a custom font, then you can simply search and download
 
 [Eight Bit Dragon](https://www.dafont.com/eight-bit-dragon.font)
 
-![example of font from dafont](image-2.png)
+![example of font from dafont](image-2.webp)
 
 MD_PAROLA does not support custom fonts out of the box, so we will need to use a script to convert the font to a format that MD_PAROLA can use. 
 
@@ -58,7 +58,7 @@ Open up Arduino IDE and click on Sketch > Add file... > your_font_name.h
 
 This will create a secondary tab in your Arduino IDE that looks like this:
 
-![header file example](image-3.png)
+![header file example](image-3.webp)
 
 In your main program, add the code found in the `arduino_example` > `example.ino` folder in the repo you cloned! 
 

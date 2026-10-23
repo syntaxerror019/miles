@@ -29,7 +29,7 @@ To me, it looks like a regular USB-UART Serial cable, but after using the [Adafr
  <div style="display:flex">  
     <br>
         <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 40%; height: auto;" src="/posts/09-29-25/uart.webp"/></img>  
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 57%; height: auto;" src="/posts/09-29-25/image.png"/></img>                                                                     
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 57%; height: auto;" src="/posts/09-29-25/image.webp"/></img>                                                                     
     <br>    
 </div> 
 
@@ -43,7 +43,7 @@ The good news is that it is very highly configurable and it provides plenty of s
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 75%; height: auto;" src="/posts/09-29-25/image-1.png"/></img>                                                                     
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 75%; height: auto;" src="/posts/09-29-25/image-1.webp"/></img>                                                                     
     <br>    
 </div> 
 
@@ -59,7 +59,7 @@ This is the device that will sit on the spring year round and record data from t
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;" src="/posts/09-29-25/bottom.png"/></img>                                                                     
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto;" src="/posts/09-29-25/bottom.webp"/></img>                                                                     
     <br>    
 </div> 
 

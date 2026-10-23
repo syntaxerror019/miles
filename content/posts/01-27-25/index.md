@@ -2,7 +2,7 @@
 title: 'Robotics & Engineering - Week of 01/27/25'
 date: 2025-01-30T16:37:55-0500
 tags: ['robotics-blog', 'hardware']
-image: 'board.png'
+image: 'board.webp'
 draft: false
 ---
 
@@ -16,7 +16,7 @@ This week consisted of a combination of activities both during shop-time and dur
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
-        src="/posts/01-27-25/greasing-tube.jpg"
+        src="/posts/01-27-25/greasing-tube.webp"
         alt="Unable to load image. Please refresh.">
     </img>
     <sub>Greasing the tube in hopes of eliminating leakage.</sub>
@@ -40,7 +40,7 @@ In terms of performance, we found no issues. The only thing I noticed was that t
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 48%;" 
-        src="/posts/01-27-25/tim-doing-a-thing.jpeg"
+        src="/posts/01-27-25/tim-doing-a-thing.webp"
         alt="Unable to load image. Please refresh.">
     </img>
     <br>
@@ -56,7 +56,7 @@ After concluding our tests, we focused the rest of the day on identifying the ca
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 100%;" 
-        src="/posts/01-27-25/PCB3D.png"
+        src="/posts/01-27-25/PCB3D.webp"
         alt="Unable to load image. Please refresh.">
     </img>
     <sub>3D Model of the 2025 Float PCB rendering.</sub>
@@ -68,13 +68,13 @@ After concluding our tests, we focused the rest of the day on identifying the ca
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 48%; height: 100%;" 
-        src="/posts/01-27-25/scheme.png"
+        src="/posts/01-27-25/scheme.webp"
         alt="Unable to load image. Please refresh.">
     </img>
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 48%; height: 100%;" 
-        src="/posts/01-27-25/board.png"
+        src="/posts/01-27-25/board.webp"
         alt="Unable to load image. Please refresh.">
     </img>
     <br>
@@ -92,7 +92,7 @@ Although this board is not fully functional and ready to be manufactured, it set
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 100%;" 
-        src="/posts/01-27-25/56.png"
+        src="/posts/01-27-25/56.webp"
         alt="Unable to load image. Please refresh.">
     </img>
     <sub>3D Model of the 2025 Float</sub>

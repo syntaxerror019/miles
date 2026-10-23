@@ -50,7 +50,7 @@ While I was sending emails, I shot a couple around to a few of my EE friends. I 
 
 Next week (or maybe even this Friday) I'll send it off to JLCPCB to be manufactured and assembled.
 
-![pcb](image.png)
+![pcb](image.webp)
 
 Once that comes back in the mail, I will be finally able to test thruster & ESC combo control with the thrusters Tim has been mounting to the ROV itself! I'll need the help of Alachie on the software side of things however.
 

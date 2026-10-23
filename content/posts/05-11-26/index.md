@@ -26,7 +26,7 @@ In the photo below, you can clearly see the difference between the sanded/ clean
 
 Additionally, when I put the bars back on, I will be applying a super thin layer of DeoxIT anti-oxidization solution that will hopefully help. The idea is to put on a small amount and then wipe it off. You don't want this to insulate the copper and the battery terminals, so you must be careful when applying it. The idea is that it creates a small barrier that oxygen and moisture cannot penetrate, while keeping metal-on-metal contact ensuring the best electrical connection. This is critical in battery packs that have extremely high discharge current requirements like this one. A layer too thick would prevent spike contact resistance leading to voltage drop and heat. The DeoxIT also fills in any tiny microscopic voids in the bus bar or the battery terminal.
 
-![DeoxIT](image.png)
+![DeoxIT](image.webp)
 
 Each bar got it's own special treatment. After being removed from the battery pack, they were laid out in order. Next, I sanded them with aggressive sandpaper to get most of the grim and inconsistencies off the bar. This gives them a shiny finish. After this, I use 2K grit paper which is much softer on the bar and leaves it with a much smoother finish (fewer gaps or ridges that could cause uneven connection of the bars). Finally, I use 90% Isopropyl Alcohol to clean them from dust, oil, and whatever else kind of residue they have.
 

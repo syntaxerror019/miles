@@ -2,7 +2,7 @@
 title: 'Robotics & Engineering - Week of 04/06/26'
 date: 2026-04-09T19:11:39-0400
 tags: ['robotics-blog']
-image: 'board.png'
+image: 'board.webp'
 draft: false
 ---
 
@@ -20,7 +20,7 @@ On Monday, I started the schematic for the board. This ultimately went through s
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 80%; height: auto;" src="/posts/04-06-26/schema.png"/></img>                                                                           
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 80%; height: auto;" src="/posts/04-06-26/schema.webp"/></img>                                                                           
     <br>    
 </div> 
 
@@ -128,7 +128,7 @@ There will be more to come when the boards arrive for sure!!
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/04-06-26/board.png"/></img>                                                                           
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/04-06-26/board.webp"/></img>                                                                           
     <br>    
 </div> 
 
@@ -138,7 +138,7 @@ There will be more to come when the boards arrive for sure!!
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: auto;" src="/posts/04-06-26/jlc.png"/></img>                                                                          
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: auto;" src="/posts/04-06-26/jlc.webp"/></img>                                                                          
     <br>    
 </div> 
 

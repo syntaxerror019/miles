@@ -2,7 +2,7 @@
 title: 'Robotics & Engineering - Week of 01/20/25'
 date: 2025-01-23T16:37:13-0500
 tags: ['robotics-blog', 'software', 'hardware']
-image: 'rov.jpg'
+image: 'rov.webp'
 draft: false
 ---
 
@@ -22,12 +22,12 @@ The power distribution board (PDB) is a bit of a mess at the moment due to the h
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
-        src="/posts/01-20-25/electronics.jpg">
+        src="/posts/01-20-25/electronics.webp">
     </img>
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
-        src="/posts/01-20-25/index.jpg">
+        src="/posts/01-20-25/index.webp">
     </img>
     <br>
 </div>
@@ -45,7 +45,7 @@ To my surprise, I found the ROV working reliably the next day. There had been no
     <img 
         onclick="window.location.href=this.src;" 
         style="display: block; margin-left: auto; margin-right: auto; width: 60%;" 
-        src="/posts/01-20-25/rov.jpg">
+        src="/posts/01-20-25/rov.webp">
     </img>
     <br>
 </div>

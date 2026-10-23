@@ -2,7 +2,7 @@
     title: 'Connecting to Oracle Cloud servers with VNC'
     date: 2024-04-25T16:58:51+03:00
     tags: ['Oracle Cloud', 'VNC', 'SSH', 'OCI', 'Server']
-    image: 'index.png'
+    image: 'index.webp'
     draft: false
 ---
 **Oracle Cloud** is a cloud computing service offered by Oracle Corporation. It provides a range of cloud services, including:

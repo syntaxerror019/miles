@@ -2,7 +2,7 @@
 title: 'Robotics & Engineering - Week of 01/19/26'
 date: 2026-01-23T10:47:25-0500
 tags: ['robotics-blog']
-image: 'head.jpg'
+image: 'head.webp'
 draft: false
 ---
 

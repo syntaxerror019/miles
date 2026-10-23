@@ -18,7 +18,7 @@ I opened things up and the parts looked way smaller than I expected them to be. 
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 55%; height: auto;" src="/posts/04-27-26/image.png"/></img>                                                                           
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 55%; height: auto;" src="/posts/04-27-26/image.webp"/></img>                                                                           
     <br>    
 </div> 
 

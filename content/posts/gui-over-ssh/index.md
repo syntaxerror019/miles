@@ -2,7 +2,7 @@
     title: 'GUI over SSH with X11'
     date: 2025-01-03T13:03:04-04:00
     tags: ['ssh', 'rpi', 'software']
-    image: 'index.png'
+    image: 'index.webp'
     draft: false
 ---
 

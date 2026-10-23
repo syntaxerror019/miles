@@ -2,7 +2,7 @@
 title: 'Robotics & Engineering - 2025-2026 Year-End Summary'
 date: 2026-06-15T12:00:00-0400
 tags: ['robotics-blog']
-image: 'image.png'
+image: 'image.webp'
 draft: false
 ---
 

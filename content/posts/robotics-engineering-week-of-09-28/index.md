@@ -3,7 +3,7 @@ title: Robotics & Engineering - Week of 09/28
 date: 2026-10-01T15:56:00-0400
 tags:
   - robotics-blog
-image: gc_web-ezgif.com-cut.gif
+image: gc_web-ezgif.com-cut.webp
 draft: false
 ---
 
@@ -36,8 +36,8 @@ The response from the command `$ACCEL` which reads the current acceleration set 
 
 On Wednesday, Jonas and I were driving the car when it suddenly stopped responding to steering commands and started steering full right. This was pretty scary, but we quickly discovered that our rotary encoder had seized up completely and was impossible to rotate. I think that some dust got inside and did internal damage to it. Granted, it was designed for something experiencing a lot less mechanical stress, like a thermostat dial.
 
-![](encoder.jpg)
+![](encoder.webp)
 
 At the end of the day, Jonas and I settled on this new encoder which is IP65 and will be much better suited for our application in the dirt and rain this will be driving through. Additionally, it makes 600 pulses per revolution compared to the 24 of the old one! This will make it much more accurate and precise when steering!
 
-![](new-encoder.jpg)
+![](new-encoder.webp)

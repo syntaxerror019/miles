@@ -22,7 +22,7 @@ To start, I designed everything in Fusion 360 to be 3D printed.
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/pota-battery/cad.png"/></img>                                                                      
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/pota-battery/cad.webp"/></img>                                                                      
     <br>    
 </div> 
 

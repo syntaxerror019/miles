@@ -2,7 +2,7 @@
 title: 'Robotics & Engineering - Week of 01/12/26'
 date: 2026-01-15T16:33:36-0500
 tags: ['robotics-blog']
-image: 'image.png'
+image: 'image.webp'
 draft: false
 ---
 
@@ -20,7 +20,7 @@ With the help of Jonas, we got the hardware setup complete in about one period. 
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/01-12-26/image.png"/></img>                                                                          
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/01-12-26/image.webp"/></img>                                                                          
     <br>    
 </div> 
 
@@ -35,7 +35,7 @@ After getting frustrated with how some libraries weren't compatible on this ESP,
  <div style="display:flex">  
     <br>
         <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 30%; height: auto;" src="https://cdn.mileshilliard.com/blog-cdn/1.15.26/esp-done.webp"/></img>    
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/01-12-26/scope.png"/></img>                                                                          
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: auto;" src="/posts/01-12-26/scope.webp"/></img>                                                                          
     <br>    
 </div> 
 

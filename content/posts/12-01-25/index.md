@@ -2,7 +2,7 @@
 title: 'Robotics & Engineering - Week of 12/01/25'
 date: 2025-12-04T15:26:22-0500
 tags: ['robotics-blog']
-image: 'train_batch0.jpg'
+image: 'train_batch0.webp'
 draft: false
 ---
 
@@ -49,12 +49,12 @@ This sample contains photos of people, signs, and vehicles.
 <br>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
-    <div style="width: 30%; margin: 1%;"><img onclick="window.location.href=this.src;" style="width: 100%; height: auto;" src="/posts/12-01-25/1.jpg"/></div>
-    <div style="width: 30%; margin: 1%;"><img onclick="window.location.href=this.src;" style="width: 100%; height: auto;" src="/posts/12-01-25/2.jpg"/></div>
-    <div style="width: 30%; margin: 1%;"><img onclick="window.location.href=this.src;" style="width: 100%; height: auto;" src="/posts/12-01-25/3.jpg"/></div>
-    <div style="width: 30%; margin: 1%;"><img onclick="window.location.href=this.src;" style="width: 100%; height: auto;" src="/posts/12-01-25/5.jpg"/></div>
-    <div style="width: 30%; margin: 1%;"><img onclick="window.location.href=this.src;" style="width: 100%; height: auto;" src="/posts/12-01-25/6.jpg"/></div>
-    <div style="width: 30%; margin: 1%;"><img onclick="window.location.href=this.src;" style="width: 100%; height: auto;" src="/posts/12-01-25/7.jpg"/></div>
+    <div style="width: 30%; margin: 1%;"><img onclick="window.location.href=this.src;" style="width: 100%; height: auto;" src="/posts/12-01-25/1.webp"/></div>
+    <div style="width: 30%; margin: 1%;"><img onclick="window.location.href=this.src;" style="width: 100%; height: auto;" src="/posts/12-01-25/2.webp"/></div>
+    <div style="width: 30%; margin: 1%;"><img onclick="window.location.href=this.src;" style="width: 100%; height: auto;" src="/posts/12-01-25/3.webp"/></div>
+    <div style="width: 30%; margin: 1%;"><img onclick="window.location.href=this.src;" style="width: 100%; height: auto;" src="/posts/12-01-25/5.webp"/></div>
+    <div style="width: 30%; margin: 1%;"><img onclick="window.location.href=this.src;" style="width: 100%; height: auto;" src="/posts/12-01-25/6.webp"/></div>
+    <div style="width: 30%; margin: 1%;"><img onclick="window.location.href=this.src;" style="width: 100%; height: auto;" src="/posts/12-01-25/7.webp"/></div>
 </div>
 
 <br>
@@ -71,7 +71,7 @@ The parameters fed into the model to train are as follows, and are represented i
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/12-01-25/image.png"/></img>    
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: auto;" src="/posts/12-01-25/image.webp"/></img>    
     <br>    
 </div> 
 
@@ -89,7 +89,7 @@ The results of the brief training can be seen in visualizations below:
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: auto;" src="/posts/12-01-25/train_batch0.jpg"/></img>  
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: auto;" src="/posts/12-01-25/train_batch0.webp"/></img>  
     <br> 
 </div> 
 
@@ -98,7 +98,7 @@ The results of the brief training can be seen in visualizations below:
 
  <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: auto;" src="/posts/12-01-25/labels.jpg"/></img>  
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: auto;" src="/posts/12-01-25/labels.webp"/></img>  
     <br> 
 </div> 
 

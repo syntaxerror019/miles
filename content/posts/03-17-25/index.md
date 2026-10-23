@@ -15,11 +15,11 @@ On Wednesday, Jonas Wirz and I got the ROV into the pool, however, we had some f
 <br>
 
 <div style="display: flex;">
-    <img 
-        onclick="window.location.href=this.src;" 
+    <video 
+        autoplay loop muted playsinline 
         style="display: block; margin-left: auto; margin-right: auto; width: 45%;" 
-        src="/posts/03-17-25/duh.gif">
-    </img>
+        src="/posts/03-17-25/duh.mp4">
+    </video>
     <br>
     <img 
         onclick="window.location.href=this.src;" 
@@ -78,11 +78,11 @@ Ultimately, we plan on putting the LiDAR sensors on the autonomous golf-cart pro
 <br>
 
 <div style="display: flex;">
-    <img 
-        onclick="window.location.href=this.src;" 
+    <video 
+        autoplay loop muted playsinline 
         style="display: block; width: 70%;" 
-        src="/posts/03-17-25/offroad.gif">
-    </img>
+        src="/posts/03-17-25/offroad.mp4">
+    </video>
 </div>
 <sub>Can AI do <i>that?</i></sub>
 <br>

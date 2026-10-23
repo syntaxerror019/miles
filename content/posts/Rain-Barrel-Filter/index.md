@@ -16,7 +16,7 @@ I started this project by sketching out some possible ideas on paper. This saved
 
 <div style="display:flex">  
     <br>
-        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: auto;" src="/posts/rain-barrel-filter/CAD.png"/></img>                                                        
+        <img onclick="window.location.href=this.src;" style="display: block; margin-left: auto; margin-right: auto; width: 90%; height: auto;" src="/posts/rain-barrel-filter/CAD.webp"/></img>                                                        
     <br>    
 </div>
 

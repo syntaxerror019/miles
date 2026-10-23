@@ -2,7 +2,7 @@
 title: 'The Neural Times - Can AI be funny?'
 date: 2025-11-28T16:03:54-0500
 tags: ['software', 'ai', 'news']
-image: 'image.png'
+image: 'image.webp'
 draft: false
 ---
 
@@ -93,11 +93,11 @@ The AI receives inputs from several websites spanning all across the political s
 
 Other's have done comprehensive studies in and around this topic, including [www.eurekalert.org](https://www.eurekalert.org) of which this graph comes from:
 
-![alt text](bias.png)
+![alt text](bias.webp)
 
 The models used/ tested/ under current testing by The Neural Times include the following self-hosted models from ollama:
 
-![alt text](tested.png)
+![alt text](tested.webp)
 
 The experimentation I am doing is still not complete, as I haven't collected enough data to make any significant plots or graphs to help digest any bias present in the AI's writing, but that day will come down the road. For now, the more exposure the models have to writing, the more accurate my conclusions can be.
 
