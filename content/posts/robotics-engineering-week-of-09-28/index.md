@@ -3,6 +3,7 @@ title: Robotics & Engineering - Week of 09/28
 date: 2026-10-01T15:56:00-0400
 tags:
   - robotics-blog
+  - slam
 image: gc_web-ezgif.com-cut.webp
 draft: false
 ---

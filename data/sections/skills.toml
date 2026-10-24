@@ -1,37 +1,43 @@
-title = "Don't measure your skills in percentages"
+title = "Engineering Beyond the Classroom"
 
 [[skill]]
   title = "Underwater Robotics"
-  text  = "Hands on experience with hardware and software on underwater ROVs and Vertically Profiling Floats along with custom PCB design."
+  text  = "Lead electrical engineering for a competitive MATE ROV team, designing custom PCBs and embedded systems and integrating hardware and software for underwater vehicles. Team experience includes regional wins and international championship competition."
   icon  = "bx-water"
   link  = "https://sunkrobotics.com/"
 
 [[skill]]
-  title = "MCUs & SBCs"
-  text  = "Skilled in advanced usage of various makes and models of MCU and SBCs, including ARM SoC, ATMEL chips, and ESPRESSIF chips."
+  title = "Embedded Systems & Electronics Engineering"
+  text  = "Build analog electronics circuits including oscillators and logic for ham radio. PCBs for microcontrollers and single-board computers, including custom firmware, sensor interfaces, and hardware-software integration for applied robotics projects."
   icon  = "bx-microchip"
-  link  = "/tags/rpi/"
+  link  = "/tags/hardware/"
 
 [[skill]]
-  title = "Front-end & Back-end"
-  text  = "Proficient in Python and C++, along with growing skills in JavaScript, CSS, and .NET languages. Familiar with front-end and back-end programming."
+  title = "Autonomous Systems & Perception"
+  text  = "Work on autonomous vehicle systems using LiDAR, SLAM, and computer vision (YOLOv11) to support environmental perception, mapping, and localization. MVTHS is developing a self-driving Robo-Taxi with a donated Ford Think! Neighbor and LiDAR donated by VECNA Robotics"
+  icon  = "bx-car"
+  link  = "/tags/slam/"
+
+#[[skill]]
+#  title = "Computer Vision & Machine Learning"
+#  text  = "Developed a custom YOLOv8 model to detect brittle stars in underwater footage, achieving over 90% detection accuracy and placing 3rd in the 2024 MATE ROV Ocean Exploration Video Challenge."
+#  icon  = "bx-bot"
+#  link  = "/tags/noaa/"
+
+[[skill]]
+  title = "Programming & Systems Integration"
+  text  = "Use Python and C/C++ to connect software with physical systems, troubleshoot complex behavior, and develop tools for embedded and robotics projects."
   icon  = "bx-code-alt"
   link  = "/tags/software/"
 
 [[skill]]
-  title = "Renewable Energy"
-  text  = "Research and development in solar and micro-wind turbine energy systems for small-scale processors optimizing efficiency."
+  title = "Amateur Radio & Communications"
+  text  = "Licensed amateur radio operator exploring RF systems, antennas, and analog and digital communication modes, with practical interests in field operation and radio-based data links."
+  icon  = "bx-radio"
+  link  = "/tags/ham/"
+
+[[skill]]
+  title = "Renewable Energy Projects"
+  text  = "Explore small-scale solar and wind energy systems, investigating how generation, power electronics, and efficiency affect practical embedded and electronics applications."
   icon  = "bx-leaf"
-  link  = "/tags/energy/"
-
-[[skill]]
-  title = "Artificial Intelligence"
-  text  = "Involvement in several artificial intelligence projects, including MATE ROV: NOAA Ocean Exploration Video challenge (Placed 3rd worldwide). Adequate experience with YOLO and SSMD."
-  link  = "/tags/noaa/"
-  icon  = "bx-bot"
-
-[[skill]]
-  title = "RF, Radios & Antennas"
-  text  = "Expanding knowledge in radio frequency technology, including analog & digital communication modes. A licensed HAM radio operator."
-  icon  = "bx-radio" 
-  link  = "/tags/ham"
+  link  = "https://www.youtube.com/watch?v=DYjLA9w7hLY&t=42s"

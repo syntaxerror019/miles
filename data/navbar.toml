@@ -20,13 +20,13 @@ logo  = "img/miles-logo.png"
   target      = "_self"
 
 [[menu]]
-  text        = "Status Page"
+  text        = "Service Status Page"
   description = "View in-demand service status."
   link        = "https://uptime.mileshilliard.com/status/uptime"
   target      = "_self"
 
 [button]
   enabled = true
-  text    = "Support me"
-  link    = "https://ko-fi.com/sntxdev"
+  text    = "See My CV"
+  link    = "/personal/CV_Miles_Hilliard.pdf"
   target  = "_blank"

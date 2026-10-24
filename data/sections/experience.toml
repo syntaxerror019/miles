@@ -1,20 +1,30 @@
 # The list of companies
+
 [[company]]
   name = "Sunk Robotics"
   date = "2024 - present"
-  role = "Electrical Engineering Head"
+  role = "Head of Electrical Engineering"
   text = [
-    "This year, Sunk Robotics aims to place in the MATE ROV World Championship once again, keeping the tradition afloat!",
-    "With the use of new hardware, and more advanced technologies, I am reworking many hardware aspects of the robot to increase reliability and maneuverability for the pilot, and operators involved. With the reconstitution of the control board isolation, JONA ROV will be less susceptible to high-frequency EMF radiation, improving the sensitive electronic operation under various loads."]
+    "Company lead for a competitive MATE ROV team, coordinating electronics development, system integration, and troubleshooting for an underwater remotely operated vehicle.",
+    "Design and develop complex custom PCBs and embedded systems for JONA ROV, focusing on reliable hardware integration, electromagnetic interference isolation, and consistent operation under demanding power loads. Work across hardware and software to improve system reliability and pilot control."
+  ]
 
 [[company]]
-  name = "MATE ROV"
-  date = "2024"
-  role = "Software Engineer"
+  name = "Autonomous Golf Cart Project"
+  date = "2025 - present"
+  role = "Autonomy & Perception Engineer"
   text = [
-    "'The MATE ROV Competition is excited to partner with NOAA Ocean Exploration again this year to offer up this challenge to students from around the world!'",
-    "By training a custom YOLO v8 model on the underwater starfish species known as the Brittle Star, Matty Harris and I were able to successfully achieve more than 90% detection accuracy with various underwater videos showcasing the species.",
-    "With a fully functioning artificial Convolutional Neural Network (CNN) to be submitted, we placed third overall in the 2024 Ocean Exploration Video Challenge hosted by MATE ROV."
+    "Develop perception and navigation capabilities for an autonomous golf cart using LiDAR, simultaneous localization and mapping (SLAM), and computer vision.",
+    "Work on integrating sensor data and perception software to support environmental mapping, localization, and autonomous navigation in real-world environments."
+  ]
+
+[[company]]
+  name = "MATE ROV Ocean Exploration Video Challenge"
+  date = "2024"
+  role = "Computer Vision Engineer"
+  text = [
+    "Developed a custom YOLOv8 object-detection model with Matty Harris to identify brittle stars in underwater video footage, training and evaluating the model on videos captured in varied underwater conditions.",
+    "Achieved over 90% detection accuracy and placed 3rd overall in the 2024 Ocean Exploration Video Challenge, applying computer vision and machine learning to marine science and underwater exploration."
   ]
 
 [[company]]
@@ -22,6 +32,7 @@
   date = "2023 - 2024"
   role = "Electrical Engineer"
   text = [
-    "Sunk Robotics transferred and re-designed aspects from STEVE ROV to the more modern and robust JONA ROV. Thanks to our devoted team and funding from our sponsors, we were able to achieve first place in the regional competition, and ninth place overall in the MATE ROV World Championship while placing third in terms of robotics.",
-    "The custom PCB layouts required additional work and configuring to create a successful, near drop-in replacement, for JONA ROV. The creation of the new JENA Float began in 2023, with a finalized product scoring highest in the MATE ROV World Championship in 2024.",
+    "Helped transition Sunk Robotics from STEVE ROV to JONA ROV, redesigning and adapting electrical hardware for a more modern vehicle. Developed custom PCB layouts and replacement electronics to integrate updated systems with existing hardware.",
+    "Contributed to a vehicle that placed 1st at the regional competition, 9th overall at the MATE ROV World Championship, and 3rd in the robotics category. Also contributed to the development of JENA Float, a custom buoyancy component that received top marks at the 2024 World Championship."
   ]
+

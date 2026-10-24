@@ -1,4 +1,4 @@
-title = "Latest work"
+title = "Past projects"
 
 [[project]]
   title = "(2026) scanlan"
@@ -12,9 +12,9 @@ title = "Latest work"
 [[project]]
   title = "(2025) PressPost"
   text = [
-    "Introducing, the World's Simplest Blog where you can share your thoughts, journals, or even your random midnight epiphanies.",
+    "Introducing, the World's Simplest Blog where you can share your anything!",
     "With the bare-minimum configuration, anyone (yes anybody) can get your own blog site up and running within 30 seconds. Give it a try today, regardless of your technical abilities.",
-    "No email, no signup headaches. Just write and PressPost!"
+    "No email, no signup headaches. Just write and Press Post!"
     ]
   link = "https://presspost.sntx.dev"
 
@@ -23,25 +23,26 @@ title = "Latest work"
   text = [
     "The Neural Times is a website that utilizes AI to post satirical renditions of current events from global news sources.",
     "By utilizing a locally-run LLM (via ollama), the AI creates a satirical spin-off of the original article and comes up with a cover image prompt. This prompt is then fed into a Stable Diffusion model (also running locally) which in turn generates the cover art for the article. After this, everything is pushed to GitHub and available live via the Vercel page.",
-    "This project was done not only to see how funny AI can be, but to also observe potential political biases these models may have when given both left leaning and right leaning news articles to work with."
+    "This project was done not only to see how funny AI can be, but to also observe potential political biases various LLM models may have."
     ]
   link = "https://news.sntx.dev"
 
-[[project]]
-  title = "(2025) redis-webui"
-  text = [
-    "redis-webui is an easy-to-use, open source, web based Redis DB client. Simply log into your server, and gain read-only access to your server remotely, from any device anywhere in the world.",
-    "Open source helps to build trust with users, as they know that their credentials are not logged nor stored at any point along the way, including during logging in and interacting.",
-    "Features including 'pagination' prevent loading all keys at once, which is particularly important for large DBs that may contain thousands of keys. Also, with a human interface, all statistics can be seen visually making interacting easier than ever."
-    ]
-  link = "https://redis.mileshilliard.com/"
+
+#[[project]]
+#  title = "(2025) redis-webui"
+#  text = [
+#   "redis-webui is an easy-to-use, open source, web based Redis DB client.",
+#   "Open source helps to build trust with users, as they know that their credentials are not logged nor stored at any point along the way, including during logging in and interacting.",
+#    "Features including 'pagination' prevent loading all keys at once, which is particularly important for large DBs that may contain thousands of keys. Also, with a human interface, all statistics can be seen visually making interacting easier than ever."
+#   ]
+#  link = "https://redis.mileshilliard.com/"
 
 [[project]]
   title = "(2025) URL Shortener"
   text = [
-    "An ultra-simple URL shortener designed from scratch with no bells-and-whistles. The basics to do exactly what you need and nothing more. A super basic web UI makes accessibility a breeze for anybody",
-    "The service is serverless running with Vercel infrastructure, and utilizes a Redis DB to handle all memory requirements. These optimizations make response time minimal keeping things running smoothly and efficiently.",
-    "Along with an easy-to-use UI, my URL shortener provides a generous API that is documented and easy to implement into any of your own programming projects, all whilst remaining free."
+    "An ultra-simple URL shortener designed from scratch with no bells-and-whistles.",
+    "The service is serverless running with Vercel infrastructure, and utilizes a Redis DB to handle all memory requirements efficiently.",
+    "it Provides a generous API that is documented and easy to implement into any of your own programming projects, all whilst remaining free."
     ]
   link = "https://sntx.dev"
 
@@ -50,7 +51,7 @@ title = "Latest work"
   text = [
     "I built OpenWebRX+ from source on my Raspberry Zero 2W in hopes of making a local, power efficient, compact, (portable?) web-sdr to share the local airwaves with my friends.",
     "It runs with a simple USB power adapter, but I plan on making it solar powered in the near future.",
-    "The actual heavy-lifting is done by the famous RTL-SDR. It is capable of receiving a wide range of frequencies, and I have set up an appropriate list of ranges on the software to support almost any kind of usage.",
+    "The actual heavy-lifting is done by the RTL-SDR v3. It is capable of receiving a wide range of frequencies, and I have set up an appropriate list of ranges on the software to support almost any kind of usage.",
     ]
   link = "https://websdr.mileshilliard.com"
 
@@ -58,8 +59,7 @@ title = "Latest work"
   title = "(2024) CW (Morse Code) tools"
   text = [
     "Some simple CW tools to help get you into the relm of morse code.",
-    "All tools run with javascript on the front end, and involve no backend server processing whatsoever. There is no data collected, mostly because there is nothing to collect, and no way to collect it!",
-    "Use cases include, but are not limited to: cw practice, pranking friends, creating properly formatted radio beacons, radio testing, and more.",
+    "All tools run with javascript on the front end, and involve no backend server processing whatsoever.",
     ]
   link = "https://morse.mileshilliard.com"
 
@@ -73,19 +73,17 @@ title = "Latest work"
   link = "https://countapi.mileshilliard.com"
 
 [[project]]
-  title = "(2024) Callsign lookup"
+  title = "(2024) Amateur Radio Callsign Lookup"
   text = [
     "Look up anybody's callsign to find the registered name, location, expiration, class rank, or FRN behind it!",
     "Written with a serverless backend, the lookups are fast and efficient- two things the FCC's website is incapable of. The interface is clean and easy to use, with only one input required to create a search.",
-    "Please do note that this site does not have its own database, and relies on a third-party to provide relevant information. As of now, all data comes from www.wt9v.net and is only parsed in a human readable format on this site.",
-    "All data provided here is not owned by me or mileshilliard.com and is already publicly available. There is no guarantee that the information is 100% accurate and/or up-to-date.",]
+  ]
   link = "https://ham.mileshilliard.com"
 
 [[project]]
   title = "(2024) HAM Radio License"
   text = [
-    "As of 11/23/2024, I am a registered HAM radio operator. This means I can use technology that nobody has even thought about since WWII.",
-    "HAM radio is a dying art, and I beleive it should be revived. The whole concept of communication without internet or networks or cables is fascinating, and still very important. Although HAM radio is now no longer as common as it once was, it can still be a necessity for some. People still rely on it as a form of communication (and entertainment) in less urbanized areas, and more recently, it has had an impact on natural disaster relief.",
+    "As of 11/23/2024, I am a registered HAM radio operator.",
     "With growing interests in RF and the world of analog modes, I am learning about various technologies, both analog and digital, including CW (morse code), SSTV (slow-scan television), RTTY, et al.",
     "73 de KC1VTJ"]
   link = "/tags/ham/"
@@ -111,7 +109,7 @@ title = "Latest work"
   title = "(2022) WordBot"
   text = [
     "Utilizing advanced websocket and SocketIO communication, WordBot was created for multiplayer competitions on the popular word game, BombParty, by Sparklin Labs (JKLM.FUN). With consistent improvements being made, WordBot was dubbed an 'Official JKLM Bot.'",
-    "As a side-mission, WordBot was developed to be run efficiently on SBCs that can be easily powered strictly from solar energy by utilizing three 100W solar panels. With this, WordBot was the first carbon-neutral bot to be hosted with JKLM.FUN infrastructure.",
+    "As a side-mission, WordBot was developed to be run efficiently on SBCs that can be easily powered from solar energy by utilizing three 100W solar panels.",
     "With more than 3 complete overhauls in terms of software and hardware, WordBot has been constantly improving- with new and more advanced hardware and optimized software."
   ]
   link = "https://wordbot.sntx.dev"
@@ -119,8 +117,6 @@ title = "Latest work"
 [[project]]
   title = "(2022) Digits of Pi"
   text = [
-    "As a fun project, I decided to create a simple algorithm to calculate any amount of pi to the Nth digit. By running this script on a small VPS for multiple weeks, many digits of Pi were generated and recorded. Initially with over 5 million digits of pi calculated, the calculations were saved. Due to an unforeseen file corruption error, only 3 million digits were saved properly. By this time, I decided to end the project here.",
-    "During the calculation process, anybody could watch the digits being generated live by viewing the dedicated website. At this point, it serves as an archive and reference point for the 3 million digits of pi.",
-    "Downloadable versions of one, two, and three million digits are available on GitHub and on the website."
+    "As a fun project and to learn more about Python, I decided to create a simple algorithm to calculate any amount of pi to the Nth digit. The code was run on a small VPS for multiple weeks. ",
   ]
   link = "https://github.com/syntaxerror019/pi"

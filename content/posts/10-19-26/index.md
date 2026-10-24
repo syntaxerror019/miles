@@ -1,7 +1,7 @@
 ---
 title: 'Robotics & Engineering - Week of 10/19/26'
 date: 2026-10-22T23:41:41-0400
-tags: ['robotics-blog']
+tags: ['robotics-blog', 'slam']
 image: 'rov_and_me_in_pool.webp'
 draft: false
 ---
