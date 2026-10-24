@@ -14,9 +14,9 @@ logo  = "img/miles-logo.png"
   target      = "_self"
 
 [[menu]]
-  text        = "Robotics Posts"
-  description = "See robotics-only posts."
-  link        = "/tags/robotics-blog/"
+  text        = "My GitHub"
+  description = "Check out my projects (like this website) on GitHub"
+  link        = "https://github.com/syntaxerror019"
   target      = "_self"
 
 [[menu]]
