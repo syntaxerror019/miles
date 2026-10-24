@@ -1,11 +1,11 @@
 title = "mileshilliard"
 logo  = "img/miles-logo.png"
 
-[[menu]]
-  text        = "Home"
-  description = "Miles Hilliard"
-  link        = "/"
-  target      = "_self"
+# [[menu]]
+#  text        = "Home"
+#  description = "Miles Hilliard"
+#  link        = "/"
+#  target      = "_self"
 
 [[menu]]
   text        = "Blog"
@@ -14,13 +14,13 @@ logo  = "img/miles-logo.png"
   target      = "_self"
 
 [[menu]]
-  text        = "My GitHub"
+  text        = "GitHub"
   description = "Check out my projects (like this website) on GitHub"
   link        = "https://github.com/syntaxerror019"
   target      = "_self"
 
 [[menu]]
-  text        = "Service Status Page"
+  text        = "Uptime"
   description = "View in-demand service status."
   link        = "https://uptime.mileshilliard.com/status/uptime"
   target      = "_self"
