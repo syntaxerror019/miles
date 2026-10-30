@@ -27,7 +27,7 @@ title = "Don't measure your skills in percentages"
 [[skill]]
   title = "Artificial Intelligence"
   text  = "Involvement in several artificial intelligence projects, including MATE ROV: NOAA Ocean Exploration Video challenge (Placed 3rd worldwide). Adequate experience with YOLO and SSMD."
-  link  = "/tags/cv/"
+  link  = "/tags/noaa/"
   icon  = "bx-bot"
 
 [[skill]]
