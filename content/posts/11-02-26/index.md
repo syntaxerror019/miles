@@ -79,6 +79,7 @@ The map is about 2 weeks old, which means some things have changes (different ca
 </div>
 
 <br>
+
 Now that the car reliably localizes itself, I will need to work on the following:
 
 * Synchronizing the camera & lidar data so it is fed to ROS2 at the same time.
