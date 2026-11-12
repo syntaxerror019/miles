@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FlyLink Sim Setup</title>
+<style>
+:root{--bg:#f4f5f7;--card:#fff;--tx:#1b1f24;--mu:#6b7380;--ac:#d9322b;--bd:#dde1e6;--ok:#1a8f4c;--bar:#e4e7ec;color-scheme:light dark}
+@media(prefers-color-scheme:dark){:root{--bg:#14161a;--card:#1e2128;--tx:#e8eaed;--mu:#9aa0a8;--bd:#2c3038;--bar:#2b2f37}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.5 system-ui,sans-serif;padding-bottom:70px}
+header{display:flex;gap:10px;align-items:center;padding:12px 16px;background:var(--card);border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:5}
+header b{font-size:17px;margin-right:auto}
+main{max-width:900px;margin:0 auto;padding:16px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px;margin-bottom:14px}
+h2,h3{margin:0 0 8px}
+p{margin:6px 0}.mu{color:var(--mu);font-size:13px}
+button,select,input{font:inherit;color:inherit}
+button{border:1px solid var(--bd);background:var(--card);border-radius:8px;padding:7px 14px;cursor:pointer}
+button.pri{background:var(--ac);border-color:var(--ac);color:#fff;font-weight:600}
+select,input[type=number]{background:var(--bg);border:1px solid var(--bd);border-radius:6px;padding:4px 6px}
+input[type=number]{width:74px}
+.pill{font-size:12px;padding:3px 10px;border-radius:99px;background:var(--bar)}
+.pill.g{background:var(--ok);color:#fff}.pill.r{background:var(--ac);color:#fff}
+.need,.tab{display:none}body.on .need{display:block}body.on #hello{display:none}.tab.act{display:block}
+nav{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+nav button.act{background:var(--tx);color:var(--bg)}
+.row{display:flex;align-items:center;gap:10px;margin:6px 0}
+.row span{width:84px}.row b{width:46px;text-align:right;font-variant-numeric:tabular-nums;font-weight:500}
+.bar{position:relative;height:12px;background:var(--bar);border-radius:6px;overflow:hidden;flex:1}
+.bar i{position:absolute;top:0;bottom:0;left:0;width:0;background:var(--ac)}
+.bar.c::after{content:"";position:absolute;left:50%;top:0;bottom:0;width:2px;background:var(--mu);opacity:.5}
+.dot{width:14px;height:14px;border-radius:50%;background:var(--bar);display:inline-block}.dot.on{background:var(--ok)}
+.dots{display:flex;gap:14px;flex-wrap:wrap}.dots div{text-align:center;font-size:12px}
+.scr{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:13px}
+td,th{padding:4px 6px;border-bottom:1px solid var(--bd);text-align:left;white-space:nowrap}
+.warn{border-color:var(--ac)}
+#sb{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:2px solid var(--ac);padding:12px 16px;display:none;align-items:center;gap:12px;z-index:6}
+#sb.show{display:flex}#sb span{margin-right:auto}
+#toast{position:fixed;left:50%;top:70px;transform:translateX(-50%);background:var(--ok);color:#fff;padding:9px 16px;border-radius:8px;opacity:0;pointer-events:none;transition:.2s;z-index:9;max-width:90%}
+#toast.show{opacity:1}#toast.bad{background:var(--ac)}
+footer{text-align:center;color:var(--mu);font-size:13px;padding:8px 16px 24px}footer a{color:inherit}
+</style></head><body>
+<header><b>FlyLink Sim</b><span id="lk" class="pill"></span><span id="st" class="pill">Not connected</span><button id="cb" class="pri">Connect</button></header>
+<main>
+<div id="nos" class="card warn" style="display:none">This page needs <b>Chrome or Edge on a computer</b>. Safari, Firefox and phones can't talk to USB devices.</div>
+<div id="hello" class="card"><h2>Welcome 👋</h2>
+<ol><li>Plug your FlyLink Sim into your computer.</li><li>Click <b>Connect</b> and pick it in the popup (it may be called <i>Arduino Leonardo</i> or <i>FlyLink Sim</i>).</li><li>Follow the steps. Changes work instantly, and one click saves them.</li></ol>
+<button class="pri" onclick="conn()">Connect my FlyLink Sim</button></div>
+
+<div class="need">
+<nav><button data-tab="easy" class="act">Setup</button><button data-tab="axes">Sticks (advanced)</button><button data-tab="btns">Switches (advanced)</button><button data-tab="dev">Settings</button></nav>
+
+<section class="tab act" id="t-easy">
+<div class="card"><h3>1 · Wiggle your sticks</h3><p>Switch your radio on and move each stick. The bar should follow the stick. If one goes the wrong way, tick <b>Reverse</b>.</p><div id="sticks"></div></div>
+<div class="card"><h3>2 · Calibrate</h3><p id="calmsg">This teaches your FlyLink Sim how far your sticks really move, so full stick means full stick in your sim.</p><button id="calb" class="pri">Start calibration</button></div>
+<div class="card"><h3>3 · Check your switches</h3><p>Flip your switches. A dot should light up for each one that's on.</p><div id="sw" class="dots"></div></div>
+<div class="card"><h3>4 · Save</h3><button class="pri" onclick="save()">Save</button><p class="mu">Done! Launch your sim and calibrate the new controller there too.</p></div>
+</section>
+
+
+<section class="tab" id="t-axes"><div class="card"><h3>Sticks &amp; axes</h3>
+<p class="mu">FlyLink Sim shows up as a joystick with 8 axes. Choose which radio channel drives each one. <b>Min / Center / Max</b> are the pulse widths your radio sends (calibration fills these in). <b>Deadband</b> ignores tiny movement around centre. <b>Expo</b> softens the middle (positive) or sharpens it (negative). <b>If signal lost</b> is what the sim sees when the radio disconnects (-32767 to 32767, throttle should be -32767).</p>
+<div class="scr"><table id="at"></table></div></div></section>
+
+<section class="tab" id="t-btns"><div class="card"><h3>Switches → buttons</h3>
+<p class="mu">A button presses when its channel passes a level (1500 is the middle). For a 3-position switch: <b>Above 1750</b> = top, <b>Below 1250</b> = bottom, <b>Middle 250</b> = centre. <b>Toggle</b> makes a push-style switch behave like on/off.</p>
+<div class="scr"><table id="bt"></table></div></div></section>
+
+<section class="tab" id="t-dev"><div class="card"><h3>Your FlyLink Sim</h3><p id="info" class="mu"></p><p>Frames received: <b id="fr">-</b></p>
+<div class="row"><span style="width:170px">Signal-loss timeout (ms)</span><input type="number" data-t="g" data-k="to" min="20" max="2000"></div>
+<div class="row"><span style="width:170px">Light mode</span><select data-t="g" data-k="lm"><option value="0">Status patterns</option><option value="1">Glow follows throttle</option><option value="2">Off</option></select></div>
+<div class="row"><span style="width:170px">Light brightness</span><input type="range" data-t="g" data-k="lb" min="0" max="255"></div>
+<p><button onclick="cmd('IDENT')">Flash the light (find this device)</button></p></div>
+<div class="card"><h3>Backup &amp; reset</h3><p>
+<button id="exp">Download settings</button> <label class="pri" style="display:inline-block;padding:7px 14px;border-radius:8px;cursor:pointer">Load settings file<input id="imp" type="file" accept=".json" hidden></label>
+<button onclick="reload()">Undo unsaved changes</button> <button onclick="factory()">Factory reset</button></p></div></section>
+</div></main>
+<footer>FlyLink Sim · <a href="https://example.com/flylink-sim" target="_blank" rel="noopener">Project page</a> · © 2026 Miles Hilliard. All rights reserved.</footer>
+<div id="sb"><span>Changes are active but not saved yet.</span><button class="pri" onclick="save()">Save</button></div>
+<div id="toast"></div>
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const NM=['Roll','Pitch','Throttle','Yaw','Axis 5','Axis 6','Axis 7','Axis 8'],enc=new TextEncoder(),tm={};
+let port,wr,rd,cfg,cur=null,q=Promise.resolve(),dirty=false,cal=0,mn,mx,busy=false,ch=Array(16).fill(1500),on=false;
+const sleep=t=>new Promise(r=>setTimeout(r,t));
+function toast(m,bad){const t=$('#toast');t.textContent=m;t.className='show'+(bad?' bad':'');clearTimeout(toast.t);toast.t=setTimeout(()=>t.className='',3500)}
+function upd(){$('#sb').classList.toggle('show',dirty&&on)}
+
+/* ---------- serial ---------- */
+function cmd(s){
+  if(!wr)return Promise.resolve({ok:false,lines:[],err:'ERR no device'});
+  const p=q.then(()=>new Promise(res=>{
+    const c={lines:[],res};cur=c;
+    wr.write(enc.encode(s+'\n')).catch(()=>{});
+    setTimeout(()=>{if(cur===c){cur=null;res({ok:false,lines:c.lines,err:'ERR timeout'})}},2000)}));
+  q=p.catch(()=>{});return p}
+function onLine(l){
+  const k=l[0];
+  if(k=='L'&&l[1]==' '){const p=l.split(' ');ch=p.slice(2).map(Number);liveCh(p[1]=='1');return}
+  if(k=='O'&&l[1]==' '){const p=l.split(' ');liveOut(p.slice(1,9).map(Number),parseInt(p[9],16)||0);return}
+  if(!cur)return;
+  if(l=='OK'||l.startsWith('ERR')){const c=cur;cur=null;c.res({ok:l=='OK',lines:c.lines,err:l})}else cur.lines.push(l)}
+async function readLoop(){
+  const dec=new TextDecoder();let buf='';
+  try{rd=port.readable.getReader();
+    for(;;){const{value,done}=await rd.read();if(done)break;buf+=dec.decode(value,{stream:true});
+      let i;while((i=buf.indexOf('\n'))>=0){const l=buf.slice(0,i).trim();buf=buf.slice(i+1);if(l)onLine(l)}}
+  }catch(e){}finally{try{rd.releaseLock()}catch(e){}}
+  if(on)gone()}
+async function conn(){
+  if(busy)return;
+  try{if(!port)port=await navigator.serial.requestPort();await open()}
+  catch(e){if(e.name!='NotFoundError')toast('Could not connect: '+e.message+' (is another app using it?)',1);port=null;busy=false}}
+async function open(){
+  busy=true;
+  await port.open({baudRate:115200});await port.setSignals({dataTerminalReady:true});
+  wr=port.writable.getWriter();readLoop();await sleep(200);
+  const r=await cmd('HELLO');
+  if(!r.ok||!/FLYLINK/.test(r.lines[0]||'')){toast("That isn't a FlyLink Sim. Pick another device.",1);await drop();busy=false;return}
+  $('#info').textContent=r.lines[0];await loadCfg();await cmd('LIVE 1');
+  on=true;document.body.classList.add('on');$('#st').textContent='Connected';$('#st').className='pill g';$('#cb').textContent='Disconnect';busy=false;upd()}
+async function drop(){
+  try{await rd.cancel()}catch(e){}
+  try{wr.releaseLock()}catch(e){}
+  await sleep(60);try{await port.close()}catch(e){}
+  wr=null;gone()}
+function gone(){on=false;wr=null;document.body.classList.remove('on');$('#st').textContent='Not connected';$('#st').className='pill';$('#lk').textContent='';$('#lk').className='pill';$('#cb').textContent='Connect';upd()}
+$('#cb').onclick=()=>on?drop():conn();
+if(!('serial' in navigator)){$('#nos').style.display='block';$('#hello').style.display='none';$('#cb').style.display='none'}
+else{
+  navigator.serial.getPorts().then(p=>{if(p.length==1){port=p[0];open().catch(()=>{busy=false})}});
+  navigator.serial.addEventListener('connect',e=>{if(!on&&!busy){port=e.target;open().catch(()=>{busy=false})}});
+  navigator.serial.addEventListener('disconnect',()=>{if(on)gone();port=null})}
+
+/* ---------- config ---------- */
+async function loadCfg(keep){
+  const r=await cmd('GET');if(!r.ok){toast('Could not read the settings.',1);return}
+  cfg={g:{},a:[],b:[]};
+  for(const l of r.lines){const n=l.slice(2).split(' ').map(Number);
+    if(l[0]=='G')cfg.g={p:n[0],to:n[1],lm:n[2],lb:n[3]};
+    if(l[0]=='A')cfg.a[n[0]]={s:n[1],f:n[2],mn:n[3],ct:n[4],mx:n[5],dd:n[6],ex:n[7],fs:n[8]};
+    if(l[0]=='B')cfg.b[n[0]]={s:n[1],m:n[2],t:n[3],f:n[4]}}
+  fill();if(!keep){dirty=false;upd()}}
+function fill(){
+  if(!cfg)return;
+  $$('[data-t]').forEach(e=>{const d=e.dataset,o=d.t=='g'?cfg.g:cfg[d.t][+d.i],v=o[d.k];
+    if(d.bit)e.checked=!!(v&+d.bit);else e.value=v});
+}
+function push(t,i){dirty=true;upd();clearTimeout(tm[t+i]);tm[t+i]=setTimeout(()=>send1(t,i),150)}
+async function send1(t,i){
+  let s;
+  if(t=='g'){const g=cfg.g;s=`G ${g.p} ${g.to} ${g.lm} ${g.lb}`}
+  else if(t=='a'){const a=cfg.a[i];s=`A ${i} ${a.s} ${a.f} ${a.mn} ${a.ct} ${a.mx} ${a.dd} ${a.ex} ${a.fs}`}
+  else{const b=cfg.b[i];s=`B ${i} ${b.s} ${b.m} ${b.t} ${b.f}`}
+  const r=await cmd(s);
+  if(!r.ok){toast('FlyLink Sim rejected that value ('+r.err.slice(4)+'). I put the old one back.',1);await loadCfg(true)}}
+document.addEventListener('change',e=>{
+  const d=e.target.dataset;if(!d.t)return;
+  const o=d.t=='g'?cfg.g:cfg[d.t][+d.i];let v=e.target.type=='checkbox'?e.target.checked:+e.target.value;
+  if(d.bit){const b=+d.bit;o[d.k]=v?(o[d.k]|b):(o[d.k]&~b)}else o[d.k]=v;
+  push(d.t,d.i)});
+async function save(){
+  const r=await cmd('SAVE');
+  if(r.ok){dirty=false;upd();toast('Saved ✓')}else toast('Save failed: '+r.err,1)}
+async function reload(){await cmd('LOAD');await loadCfg();toast('Back to the last saved settings')}
+async function factory(){
+  if(!confirm('Reset everything to factory settings?'))return;
+  await cmd('DEFAULTS');await loadCfg(true);dirty=true;upd();toast('Factory settings loaded. Press Save to keep them.')}
+$('#exp').onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(cfg,null,1)],{type:'application/json'}));a.download='flylink-sim-settings.json';a.click()};
+$('#imp').onchange=async e=>{
+  const f=e.target.files[0];if(!f)return;
+  try{const c=JSON.parse(await f.text());if(!c.g||c.a.length!=8||c.b.length!=32)throw 0;
+    cfg=c;fill();push('g');c.a.forEach((_,i)=>push('a',i));c.b.forEach((_,i)=>push('b',i));toast('Settings loaded. Press Save to keep them.')}
+  catch(x){toast("That isn't a valid settings file.",1)}
+  e.target.value=''};
+window.onbeforeunload=e=>{if(dirty&&on)e.preventDefault()};
+
+/* ---------- calibration ---------- */
+function msg(t,b){$('#calmsg').textContent=t;if(b)$('#calb').textContent=b}
+$('#calb').onclick=()=>{
+  if(cal==0){cal=1;mn=Array(16).fill(3000);mx=Array(16).fill(0);
+    msg('Move BOTH sticks to every corner and around the edges a few times, and flip every switch. Press the button when finished.','I moved everything')}
+  else if(cal==1){cal=2;msg('Now let go of the sticks so they spring to centre, and put the throttle stick all the way DOWN. Then press the button.','Sticks are centred')}
+  else{cal=0;const bad=[];
+    for(let i=0;i<4;i++){const a=cfg.a[i],s=a.s;if(s>15)continue;
+      const lo=mn[s]+4,hi=mx[s]-4;if(hi-lo<300){bad.push(NM[i]);continue}
+      let c=i==2?Math.round((lo+hi)/2):ch[s];c=Math.max(lo+100,Math.min(hi-100,c));
+      Object.assign(a,{mn:lo,mx:hi,ct:c});push('a',i)}
+    fill();msg(bad.length?'I did not see enough movement on: '+bad.join(', ')+'. Please try again.':'Calibration complete ✓ Remember to Save (step 4).','Calibrate again')}};
+
+/* ---------- build UI ---------- */
+const srcSel=(t,i,k)=>`<select data-t="${t}" data-i="${i}" data-k="${k}"><option value="255">Unused</option>${[...Array(16)].map((_,c)=>`<option value="${c}">CH${c+1}</option>`).join('')}</select>`;
+const num=(t,i,k,w)=>`<input type="number" data-t="${t}" data-i="${i}" data-k="${k}"${w?` style="width:${w}px"`:''}>`;
+const chk=(t,i,k,b)=>`<input type="checkbox" data-t="${t}" data-i="${i}" data-k="${k}" data-bit="${b}">`;
+$('#sticks').innerHTML=[0,1,2,3].map(i=>`<div class="row"><span>${NM[i]}</span><div class="bar c"><i data-ob="${i}"></i></div><label>${chk('a',i,'f',1)} Reverse</label></div>`).join('');
+$('#sw').innerHTML=[...Array(8)].map((_,i)=>`<div><span class="dot" data-bd="${i}"></span><br>Switch ${i+1}</div>`).join('');
+$('#at').innerHTML='<tr><th>Axis</th><th>Input</th><th>Reverse</th><th>Min</th><th>Center</th><th>Max</th><th>Deadband</th><th>Expo</th><th>If signal lost</th></tr>'+
+  NM.map((n,i)=>`<tr><td>${i+1}. ${n}</td><td>${srcSel('a',i,'s')}</td><td>${chk('a',i,'f',1)}</td><td>${num('a',i,'mn')}</td><td>${num('a',i,'ct')}</td><td>${num('a',i,'mx')}</td><td>${num('a',i,'dd',56)}</td><td>${num('a',i,'ex',56)}</td><td>${num('a',i,'fs',84)}</td></tr>`).join('');
+$('#bt').innerHTML='<tr><th>#</th><th>Input</th><th>Presses when channel is</th><th>Level</th><th>Invert</th><th>Toggle</th><th>Now</th></tr>'+
+  [...Array(32)].map((_,i)=>`<tr><td>${i+1}</td><td>${srcSel('b',i,'s')}</td><td><select data-t="b" data-i="${i}" data-k="m"><option value="0">Never (off)</option><option value="1">Above</option><option value="2">Below</option><option value="3">Near middle (±)</option></select></td><td>${num('b',i,'t')}</td><td>${chk('b',i,'f',1)}</td><td>${chk('b',i,'f',2)}</td><td><span class="dot" data-bd="${i}"></span></td></tr>`).join('');
+$$('nav button').forEach(b=>b.onclick=()=>{
+  $$('nav button').forEach(x=>x.classList.toggle('act',x==b));
+  $$('.tab').forEach(t=>t.classList.toggle('act',t.id=='t-'+b.dataset.tab))});
+
+/* ---------- live display ---------- */
+const cb=$$('[data-cb]'),cn=$$('[data-cn]'),ob=$$('[data-ob]'),bd=$$('[data-bd]');
+function liveCh(ok){
+  const l=$('#lk');l.textContent=ok?'Radio connected':'No radio signal: switch your radio on';l.className='pill '+(ok?'g':'r');
+  cb.forEach((e,i)=>{const v=ch[i]||1500;e.style.width=Math.max(0,Math.min(100,(v-1000)/10))+'%';cn[i].textContent=v});
+  if(cal==1)for(let i=0;i<14;i++){if(ch[i]<mn[i])mn[i]=ch[i];if(ch[i]>mx[i])mx[i]=ch[i]}}
+function liveOut(a,m){
+  ob.forEach(e=>{const v=a[+e.dataset.ob]||0,w=Math.abs(v)/32767*50;e.style.width=w+'%';e.style.left=(v<0?50-w:50)+'%'});
+  bd.forEach(e=>e.classList.toggle('on',((m>>>+e.dataset.bd)&1)==1))}
+setInterval(async()=>{
+  if(!on||!$('#t-dev').classList.contains('act'))return;
+  const r=await cmd('STATUS'),p=(r.lines[0]||'').split(' ');
+  if(p[0]=='S')$('#fr').textContent=p[2]+' good, '+p[3]+' bad'},2000);
+</script></body></html>
